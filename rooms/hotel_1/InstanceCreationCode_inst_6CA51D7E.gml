@@ -1,0 +1,1 @@
+text = "I mean like, bro. You'll probably be able to enter this gate soon, but not now bro. The dude behind this gate hasn't yet, so i'd reccomend not caring too much for now."

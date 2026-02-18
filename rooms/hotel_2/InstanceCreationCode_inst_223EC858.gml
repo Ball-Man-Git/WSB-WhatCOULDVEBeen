@@ -1,0 +1,1 @@
+text = "Sorry bro. Uhh milton's SUPPOSED to be behind this gate, but he isn't here yet, so yeah."

@@ -969,6 +969,7 @@
     {"name":"Sprite64_1","order":590,"path":"sprites/Sprite64_1/Sprite64_1.yy",},
     {"name":"Sprite64","order":591,"path":"sprites/Sprite64/Sprite64.yy",},
     {"name":"Sprite65","order":592,"path":"sprites/Sprite65/Sprite65.yy",},
+    {"name":"thisidiot","order":1,"path":"sprites/thisidiot/thisidiot.yy",},
     {"name":"tilespr_hub","order":593,"path":"sprites/tilespr_hub/tilespr_hub.yy",},
     {"name":"tilespr_monolith","order":594,"path":"sprites/tilespr_monolith/tilespr_monolith.yy",},
     {"name":"tilespr_secret","order":595,"path":"sprites/tilespr_secret/tilespr_secret.yy",},

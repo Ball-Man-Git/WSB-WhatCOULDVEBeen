@@ -1048,6 +1048,7 @@
     {"id":{"name":"Sprite64_1","path":"sprites/Sprite64_1/Sprite64_1.yy",},},
     {"id":{"name":"Sprite64","path":"sprites/Sprite64/Sprite64.yy",},},
     {"id":{"name":"Sprite65","path":"sprites/Sprite65/Sprite65.yy",},},
+    {"id":{"name":"thisidiot","path":"sprites/thisidiot/thisidiot.yy",},},
     {"id":{"name":"tilespr_hub","path":"sprites/tilespr_hub/tilespr_hub.yy",},},
     {"id":{"name":"tilespr_hub2","path":"sprites/tilespr_hub2/tilespr_hub2.yy",},},
     {"id":{"name":"tilespr_monolith","path":"sprites/tilespr_monolith/tilespr_monolith.yy",},},

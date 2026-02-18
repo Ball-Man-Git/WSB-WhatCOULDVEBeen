@@ -1,0 +1,1 @@
+camera.zoom = 1.05

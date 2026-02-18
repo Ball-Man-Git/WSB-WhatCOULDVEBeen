@@ -1,0 +1,1 @@
+FMODevent_oneshot("event:/Sfx/Player/yay", obj_screensizer.displayWidth / 2, obj_screensizer.displayHeight / 2);

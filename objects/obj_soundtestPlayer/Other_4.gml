@@ -1,0 +1,12 @@
+array_push(songs, new add_song("event:/Music/Soundtest/stormsover", "Wake Me Up Later - Internetty Spaghetti", 125));
+array_push(songs, new add_song("event:/Music/Soundtest/hub1", "Welcome Back - Varies", 105));
+array_push(songs, new add_song("event:/Music/Soundtest/tutorial", "Canned Air and RAM Dreams - Varies", 200));
+array_push(songs, new add_song("event:/Music/Soundtest/wayback", "Through Troubled Waters - Internetty Spaghetti, Varies", 110));
+array_push(songs, new add_song("event:/Music/Soundtest/shellcity", "Beggars Cant Be Choosers - Internetty Spaghetti", 130));
+array_push(songs, new add_song("event:/Music/Soundtest/fruitcup", "We Are People of The Universe - Mildrux, Varies", 112));
+array_push(songs, new add_song("event:/Music/Soundtest/escape", "Good Mourning! - Internetty Spaghetti, Mildrux", 160));
+array_push(songs, new add_song("event:/Music/Soundtest/lap", "Raise The Roof (Feat. Peebuttnudder) - Mildrux, Varies", 195));
+array_push(songs, new add_song("event:/Music/Soundtest/miltontheme", "The Mole from Underground - Varies, Mildrux", 94));
+array_push(songs, new add_song("event:/Music/Soundtest/miltonwayback", "Through The Ashes - Varies", 104));
+array_push(songs, new add_song("event:/Music/Soundtest/miltonescape", "YOOHOO! DEMOLITION CREW! - Internetty Spaghetti, Ball Man", 160));
+array_push(songs, new add_song("event:/Music/Soundtest/credits", "Our Vacations End - Mildrux", 103));

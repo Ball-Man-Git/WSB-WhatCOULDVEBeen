@@ -1,0 +1,11 @@
+transfoPass = [];
+array_push(transfoPass, UnknownEnum.Value_38);
+array_push(transfoPass, UnknownEnum.Value_39);
+array_push(transfoPass, UnknownEnum.Value_40);
+array_push(transfoPass, UnknownEnum.Value_42);
+array_push(transfoPass, UnknownEnum.Value_43);
+array_push(transfoPass, UnknownEnum.Value_46);
+array_push(transfoPass, UnknownEnum.Value_45);
+image_speed = 0.35;
+idlesnd = FMODcreate_event("event:/Sfx/General/Enemy/Cabbit/idle");
+FMODSet3dPos(idlesnd, x, y);

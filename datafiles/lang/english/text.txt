@@ -55,7 +55,7 @@
   "roomname_hotel_1":"guilty pleasure",
 
   "dialog_milton1_1_MT": "HEY!",
-  "dialog_milton1_2_MT": "Let me set some DAMN ground rules for you",
+  "dialog_milton1_2_MT": "Let me set some DAMN ground rules for you.",
   "dialog_milton1_1_MR": "ok.",
   "dialog_milton1_3_MT": "Numero Uno:",
   "dialog_milton1_4_MT": "IM BETTER THAN YOU!",

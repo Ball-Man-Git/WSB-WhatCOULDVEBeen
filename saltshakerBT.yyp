@@ -936,6 +936,7 @@
     {"id":{"name":"spr_roomname","path":"sprites/spr_roomname/spr_roomname.yy",},},
     {"id":{"name":"spr_secretColors","path":"sprites/spr_secretColors/spr_secretColors.yy",},},
     {"id":{"name":"spr_skateboardAim","path":"sprites/spr_skateboardAim/spr_skateboardAim.yy",},},
+    {"id":{"name":"spr_skatenic_idle","path":"sprites/spr_skatenic_idle/spr_skatenic_idle.yy",},},
     {"id":{"name":"spr_skatenic_mach3","path":"sprites/spr_skatenic_mach3/spr_skatenic_mach3.yy",},},
     {"id":{"name":"spr_skatenicdmg","path":"sprites/spr_skatenicdmg/spr_skatenicdmg.yy",},},
     {"id":{"name":"spr_slapstar","path":"sprites/spr_slapstar/spr_slapstar.yy",},},

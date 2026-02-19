@@ -1,0 +1,1 @@
+text = "Damn bro, it's getting close to the end of my shift bro. I sorta just want to go home and get to bed bro"

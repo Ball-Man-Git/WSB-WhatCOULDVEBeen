@@ -292,6 +292,7 @@
     {"id":{"name":"mangrove_secret2","path":"rooms/mangrove_secret2/mangrove_secret2.yy",},},
     {"id":{"name":"mangrove_secret3","path":"rooms/mangrove_secret3/mangrove_secret3.yy",},},
     {"id":{"name":"mangrove_treasure","path":"rooms/mangrove_treasure/mangrove_treasure.yy",},},
+    {"id":{"name":"milkshek_1","path":"rooms/milkshek_1/milkshek_1.yy",},},
     {"id":{"name":"rank_room","path":"rooms/rank_room/rank_room.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"serverMenuShit","path":"rooms/serverMenuShit/serverMenuShit.yy",},},
@@ -1144,6 +1145,7 @@
     {"roomId":{"name":"characterSelect","path":"rooms/characterSelect/characterSelect.yy",},},
     {"roomId":{"name":"hotel_2","path":"rooms/hotel_2/hotel_2.yy",},},
     {"roomId":{"name":"hotel_3","path":"rooms/hotel_3/hotel_3.yy",},},
+    {"roomId":{"name":"milkshek_1","path":"rooms/milkshek_1/milkshek_1.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

@@ -229,6 +229,7 @@
     {"name":"mangrove_secret2","order":37,"path":"rooms/mangrove_secret2/mangrove_secret2.yy",},
     {"name":"mangrove_secret3","order":38,"path":"rooms/mangrove_secret3/mangrove_secret3.yy",},
     {"name":"mangrove_treasure","order":39,"path":"rooms/mangrove_treasure/mangrove_treasure.yy",},
+    {"name":"milkshek_1","order":73,"path":"rooms/milkshek_1/milkshek_1.yy",},
     {"name":"rank_room","order":40,"path":"rooms/rank_room/rank_room.yy",},
     {"name":"rm_intro","order":41,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"serverMenuShit","order":42,"path":"rooms/serverMenuShit/serverMenuShit.yy",},

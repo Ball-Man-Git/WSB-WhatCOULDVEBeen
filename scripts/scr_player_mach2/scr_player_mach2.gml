@@ -44,7 +44,7 @@ function scr_player_mach2()
 		}
 		else
 		{
-			        movespeed = max(movespeed, 16);
+			        movespeed = max(movespeed, 14);
         flash = true;
         state = UnknownEnum.Value_4;
         
@@ -98,7 +98,7 @@ function scr_player_mach2()
 		}
 				else
 		{
-			        movespeed = max(movespeed, 16);
+			        movespeed = max(movespeed, 14);
         flash = true;
         state = UnknownEnum.Value_4;
         
@@ -129,7 +129,7 @@ function scr_player_mach2()
     
     if (movespeed >= 12 && grounded)
     {
-        movespeed = max(movespeed, character != UnknownEnum.Value_2 ? 12 : 16);
+        movespeed = max(movespeed, character != UnknownEnum.Value_2 ? 12 : 14);
         flash = true;
         state = UnknownEnum.Value_4;
         
@@ -227,7 +227,7 @@ function scr_player_mach2()
     }
 	if sprite_index == spr_player_mach2 && character == UnknownEnum.Value_2
 	{
-		        movespeed = max(movespeed, 16);
+		        movespeed = max(movespeed, 14);
         flash = true;
         state = UnknownEnum.Value_4;
         

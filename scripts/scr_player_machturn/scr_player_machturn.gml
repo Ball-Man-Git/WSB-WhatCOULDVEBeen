@@ -82,7 +82,7 @@ function scr_player_machturn()
         {
             xscale *= -1;
 			if character == UnknownEnum.Value_2
-			movespeed = 16
+			movespeed = 14
 			else
             movespeed = 12;
             state = UnknownEnum.Value_4;

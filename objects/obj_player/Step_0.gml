@@ -4,7 +4,7 @@ if (FMODevent_isplaying(soundsOk))
 if (FMODevent_isplaying(soundsLaugh))
     FMODSet3dPos(soundsLaugh, x, y);
 
-var _insta = sprite_index == spr_milton_dive || state == UnknownEnum.Value_48 || state == UnknownEnum.Value_4 || state == UnknownEnum.Value_42 || state == UnknownEnum.Value_46 || state == UnknownEnum.Value_45 || state == UnknownEnum.Value_43 || state == UnknownEnum.Value_36 || (state == UnknownEnum.Value_6 && sprite_index == spr_player_mach3turn) || state == UnknownEnum.Value_13 || state == UnknownEnum.Value_26 || state == UnknownEnum.Value_19 || state == UnknownEnum.Value_18 || state == UnknownEnum.Value_29 || state == UnknownEnum.Value_38 || state == UnknownEnum.Value_39 || state == UnknownEnum.Value_40;
+var _insta = sprite_index == spr_milton_dive || state == UnknownEnum.Value_48 || state == UnknownEnum.Value_4 || state == UnknownEnum.Value_42 || state == UnknownEnum.Value_46 || state == UnknownEnum.Value_45 || state == UnknownEnum.Value_43 || state == UnknownEnum.Value_36 || (state == UnknownEnum.Value_6 && sprite_index == sprites.mach3turn) || state == UnknownEnum.Value_13 || state == UnknownEnum.Value_26 || state == UnknownEnum.Value_19 || state == UnknownEnum.Value_18 || state == UnknownEnum.Value_29 || state == UnknownEnum.Value_38 || state == UnknownEnum.Value_39 || state == UnknownEnum.Value_40;
 instakill = _insta;
 
 if (hitstun.is == false)

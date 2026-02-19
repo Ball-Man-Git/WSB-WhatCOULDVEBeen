@@ -5,7 +5,7 @@ function scr_player_buzzsaw()
     hsp = movespeed * xscale;
     
     if (movespeed > 14)
-        movespeed = isErnie ? 14 : 14;
+        movespeed = 14;
     
     var move = key_right + key_left;
     buffers.afterimageBlur = approach(buffers.afterimageBlur, 0, 1);
@@ -70,7 +70,7 @@ function scr_player_buzzsaw()
         create_particleStatic(spr_grabcloud, x, y, xscale, 1);
         
         if (movespeed < 13)
-            movespeed = isErnie ? 14 : 13;
+            movespeed = isErnie ? 14.5 : 13;
         
         state = UnknownEnum.Value_4;
         jumpstop = true;

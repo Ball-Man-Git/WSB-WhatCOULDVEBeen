@@ -16,7 +16,10 @@ switch (scene)
 		instance_destroy(obj_speedlines)
         
         with (inst_1D559AD8)
+		{
             sprite_index = spr_milton_idle;
+			image_speed = 0.35
+		}
         
         scene++;
         break;

@@ -14,14 +14,14 @@ switch (scene)
             xscale = 1;
         }
         
-        with (inst_7B35B4A2)
+        with (inst_1D559AD8)
             sprite_index = spr_milton_idle;
         
         scene++;
         break;
     
     case 1:
-        with (inst_7B35B4A2)
+        with (inst_1D559AD8)
         {
             x = approach(x, obj_player.x + 192, 12);
             
@@ -43,7 +43,7 @@ switch (scene)
                 if (animation_end())
                     image_index = image_number - 1;
                 
-                if (inst_7B35B4A2.x == (obj_player.x + 192))
+                if (inst_1D559AD8.x == (obj_player.x + 192))
                     other.scene++;
             }
         }
@@ -83,7 +83,7 @@ switch (scene)
         {
             fmod_studio_event_instance_stop(music, UnknownEnum.Value_1);
             
-            with (inst_7B35B4A2)
+            with (inst_1D559AD8)
             {
                 instance_destroy();
                 

@@ -35,9 +35,9 @@ switch (global.Fullscreen)
         break;
 }
 
-global.vsync = ini_read_real("General", "Vsync", false);
+global.vsync = ini_read_real("General", "Vsync", true);
 global.hide_hud = ini_read_real("Visual", "showHud", false);
-global.unfocus_mute = ini_read_real("General", "UnfocusMute", true);
+global.unfocus_mute = ini_read_real("General", "UnfocusMute", false);
 global.dirSuper = ini_read_real("General", "dirSuper", true);
 global.dirGround = ini_read_real("General", "dirGround", true);
 global.windowSize = ini_read_real("General", "Windowsize", 1);

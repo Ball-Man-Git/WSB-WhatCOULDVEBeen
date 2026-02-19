@@ -18,8 +18,8 @@ function scr_player_mach3()
     
     buffers.bigdashcloud--;
 	
-	if (movespeed < 16 && isErnie)
-	movespeed = lerp(movespeed, 16, 0.025)
+	if (movespeed < 12 && isErnie)
+	movespeed = lerp(movespeed, 12, 0.025)
     
     if (buffers.bigdashcloud <= 0 && grounded)
     {

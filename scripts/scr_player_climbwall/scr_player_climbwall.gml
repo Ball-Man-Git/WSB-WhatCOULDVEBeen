@@ -69,8 +69,8 @@ function scr_player_climbwall()
 			movespeed = verticalMovespeed;
 			else
 			{
-			if verticalMovespeed <= 16
-			movespeed = 16
+			if verticalMovespeed <= 12
+			movespeed = 12
 			else
             movespeed = verticalMovespeed;
 			}

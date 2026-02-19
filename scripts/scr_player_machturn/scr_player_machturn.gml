@@ -58,9 +58,6 @@ function scr_player_machturn()
         else if (sprite_index == sprites.mach3turn)
         {
             xscale *= -1;
-			if character == UnknownEnum.Value_2
-			movespeed = 16
-			else
             movespeed = 12;
             state = UnknownEnum.Value_4;
             sprite_index = sprites.mach3;

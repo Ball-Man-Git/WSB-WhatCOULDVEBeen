@@ -12,7 +12,7 @@ function scr_player_mach2()
 		_accel = 0
 		
 		if isErnie
-		movespeed = approach(movespeed, 16, 0.75)
+		movespeed = approach(movespeed, 12, 0.75)
     
     if (grounded)
         movespeed += _accel;

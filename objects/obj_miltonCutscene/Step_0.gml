@@ -58,6 +58,9 @@ switch (scene)
             music = FMODevent_oneshot("event:/Music/Cutscene/rivalry");
             scene++;
             
+			with obj_player
+			sprite_index = obj_player.sprites.idle
+			
             with (obj_dialog)
             {
                 textVisual = "";

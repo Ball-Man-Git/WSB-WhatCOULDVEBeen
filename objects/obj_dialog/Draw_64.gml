@@ -7,6 +7,6 @@ if (active)
     draw_set_font(font_dialogPlaceholder);
     draw_set_color(c_black);
     draw_set_halign(fa_left);
-    draw_text(_xx - 230, _yy - 32, textVisual);
+    draw_textEX(_xx - 230, _yy - 32, textVisual);
     draw_set_color(c_white);
 }

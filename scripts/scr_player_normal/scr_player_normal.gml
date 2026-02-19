@@ -4,9 +4,21 @@ function scr_player_normal()
     hsp = movespeed * xscale;
     var move = key_right + key_left;
     
-    if (sprite_index == sprites.move)
+    if (sprite_index == sprites.move && sprites.move != spr_ernie_move)
     {
         if ((floor(image_index) == 3 || floor(image_index) == 8) && buffers.step <= 0)
+        {
+            buffers.step = 12;
+            FMODevent_oneshot("event:/Sfx/Player/step", x, y);
+            create_particleStatic(spr_cloudeffect, x, y + 42, 1, 1, c_white);
+        }
+        
+        buffers.step--;
+    }
+	
+	    if (sprite_index == sprites.move && sprites.move == spr_ernie_move)
+    {
+        if (floor(image_index) == 4 && buffers.step <= 0)
         {
             buffers.step = 12;
             FMODevent_oneshot("event:/Sfx/Player/step", x, y);

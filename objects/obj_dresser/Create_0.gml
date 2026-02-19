@@ -35,12 +35,12 @@ addPalette("Teal Wears", "Unlocked by ???", 6, true);
 addPalette("Purple Wears", "Unlocked by ???", 7, true);
 addPalette("Pristine Wears", "Unlocked by ???", 8, true);
 addPalette("Darker Wears", "Unlocked by ???", 9, true);
+addPalette("Dangerous Wears", "Unlocked by ???", 10, true);
 }
 if obj_player.isMilton == true and obj_player.isErnie == false and obj_player.isMildred == false
 {
 addPalette("Retail Wears", "Unlocked by being a Cool guy", 1, true);
 addPalette("Calm Wears", "Unlocked by being cool", 2, true);
-addPalette("Crappy Wears", "Unlocked by ???", 10, true);
 addPalette("Chainsaw Wears", "Unlocked by being some green dude", 3, true);
 addPalette("Spraypainted Wears", "Unlocked by spraypainting all of the areas in Shell City", 4, true);
 }
@@ -49,7 +49,7 @@ if obj_player.isErnie == true and obj_player.isMilton == false and obj_player.is
 addPalette("Retail Wears", "Unlocked by being a dude named Ernie", 1, true);
 addPalette("Real Wears", "Unlocked by ???", 2, true);
 addPalette("Crappy Wears", "Unlocked by ???", 10, true);
-addPalette("Loino", "Unlocked by begging Ball Man \n to add a Loino palette", 3, true);
+addPalette("Loino", "Unlocked by begging Ball Man to add a Loino palette", 3, true);
 addPalette("Goonerslop Wears", "Unlocked by ???", 11, true);
 }
 ini_close();

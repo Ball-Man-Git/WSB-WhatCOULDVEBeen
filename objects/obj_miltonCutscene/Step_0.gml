@@ -13,6 +13,7 @@ switch (scene)
             image_speed = 0.35;
             xscale = 1;
         }
+		instance_destroy(obj_speedlines)
         
         with (inst_1D559AD8)
             sprite_index = spr_milton_idle;

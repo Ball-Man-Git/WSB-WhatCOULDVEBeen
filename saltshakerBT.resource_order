@@ -863,6 +863,7 @@
     {"name":"spr_roomname","order":490,"path":"sprites/spr_roomname/spr_roomname.yy",},
     {"name":"spr_secretColors","order":491,"path":"sprites/spr_secretColors/spr_secretColors.yy",},
     {"name":"spr_skateboardAim","order":492,"path":"sprites/spr_skateboardAim/spr_skateboardAim.yy",},
+    {"name":"spr_skatenic_idle","order":1,"path":"sprites/spr_skatenic_idle/spr_skatenic_idle.yy",},
     {"name":"spr_slapstar","order":493,"path":"sprites/spr_slapstar/spr_slapstar.yy",},
     {"name":"spr_slider","order":494,"path":"sprites/spr_slider/spr_slider.yy",},
     {"name":"spr_slidericon","order":495,"path":"sprites/spr_slidericon/spr_slidericon.yy",},

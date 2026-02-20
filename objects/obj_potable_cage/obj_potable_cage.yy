@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"content","filters":[],"listItems":[],"multiselect":false,"name":"content","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_potableBean","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"content","filters":[],"listItems":[],"multiselect":false,"name":"content","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":{"name":"obj_potableBean","path":"objects/obj_potableBean/obj_potableBean.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_potableBean","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

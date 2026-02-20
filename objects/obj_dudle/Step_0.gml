@@ -6,6 +6,7 @@ if (cutscene == false)
 
 if (place_meeting(x, y, obj_player) && cutscene == false)
 {
+	if targetRoom != obj_player.prev_g_room
     ds_list_add(global.saveroom, id);
     cutscene = true;
     
@@ -17,6 +18,10 @@ if (place_meeting(x, y, obj_player) && cutscene == false)
         state = -4;
         sprite_index = spr_player_spinout;
         image_speed = 0.35;
+				if other.targetRoom = hotel_soundtest
+		{
+			prev_g_room = room
+		}
     }
     
     sprite_index = spr_dudle_close;

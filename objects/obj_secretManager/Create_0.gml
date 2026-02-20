@@ -24,6 +24,9 @@ need_mask_update = false;
 if (array_length(tiles) == 0)
     instance_destroy();
 
+if room != hotel_soundtest
+{
 global.secretCount++;
 text_clear(lang_get_phrase("secret_get"));
 scr_transfotip(lang_get_phrase("secret_get"));
+}

@@ -1,8 +1,8 @@
-objdepth = target.depth - 2;
+depth = target.depth - 2;
 
 if (target.movespeed > 13)
 {
-    x = target.isErnie ? target.x - 14 : target.x;
+    x = target.x;
     y = target.y;
     image_angle = 0;
     image_xscale = target.xscale;

@@ -3,7 +3,9 @@ var player_sprites = global.PlayerCharacters[obj_player.character].sprites.playe
 var mach4_speed = !obj_player.isMilton ? 16 : 24
 visible = hudVisible();
 
-		if global.newTVs && obj_player.isMildred
+if obj_player.isMildred
+{
+		if global.newTVs
 		{
 		sprites.mach3 = spr_tv_machNEW
 		sprites.crazyrun = spr_tv_crazyrunNEW
@@ -13,6 +15,7 @@ visible = hudVisible();
 		sprites.mach3 = spr_tv_mach
 		sprites.crazyrun = spr_tv_crazyrun
 		}
+}
 
 with (kettle)
 {

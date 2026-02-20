@@ -81,7 +81,7 @@
     {"name":"obj_dougknight","order":38,"path":"objects/obj_dougknight/obj_dougknight.yy",},
     {"name":"obj_dresser","order":39,"path":"objects/obj_dresser/obj_dresser.yy",},
     {"name":"obj_dudle","order":19,"path":"objects/obj_dudle/obj_dudle.yy",},
-    {"name":"obj_dudleEnter","order":41,"path":"objects/obj_dudleEnter/obj_dudleEnter.yy",},
+    {"name":"obj_dudleEnter","order":20,"path":"objects/obj_dudleEnter/obj_dudleEnter.yy",},
     {"name":"obj_dudlesoundtestcomeback","order":157,"path":"objects/obj_dudlesoundtestcomeback/obj_dudlesoundtestcomeback.yy",},
     {"name":"obj_egghead","order":42,"path":"objects/obj_egghead/obj_egghead.yy",},
     {"name":"obj_enemyspawner","order":43,"path":"objects/obj_enemyspawner/obj_enemyspawner.yy",},

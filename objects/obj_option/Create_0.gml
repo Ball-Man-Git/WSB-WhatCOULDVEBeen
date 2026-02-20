@@ -140,6 +140,7 @@ var AUDIO = create_menu(UnknownEnum.Value_1, UnknownEnum.Value_12, 48, function(
     ini_write_real("General", "Master", global.MasterVolume);
     ini_write_real("General", "Ambiance", global.AmbianceVolume);
     ini_write_real("General", "UnfocusMute", global.unfocus_mute);
+	ini_write_real("General", "AmpedUp", global.amped_up);
     ini_close();
 });
 add_option_press(AUDIO, "option_back", function()
@@ -151,7 +152,7 @@ add_option_press(AUDIO, "option_back", function()
     ini_write_real("General", "Master", global.MasterVolume);
     ini_write_real("General", "Ambiance", global.AmbianceVolume);
     ini_write_real("General", "UnfocusMute", global.unfocus_mute)
-	ini_write_real("General", "UnfocusMute", global.amped_up);
+	ini_write_real("General", "AmpedUp", global.amped_up);
     ini_close();
 });
 add_option_ext(AUDIO, UnknownEnum.Value_16, "option_audio_master", function()
@@ -269,11 +270,25 @@ add_option_ext(VIDEO, UnknownEnum.Value_15, "option_video_hide_hud", function()
 var GAME = create_menu(UnknownEnum.Value_10, UnknownEnum.Value_12, 48, function()
 {
     goto_menu(UnknownEnum.Value_0);
+	    ini_open(working_directory + "options.ini");
+    ini_write_real("Game", "NewTVs", global.newTVs);
+	ini_close();
 });
 add_option_press(GAME, "option_back", function()
 {
     goto_menu(UnknownEnum.Value_0);
+		    ini_open(working_directory + "options.ini");
+    ini_write_real("Game", "NewTVs", global.newTVs);
+	ini_close();
 });
+add_option_ext(GAME, UnknownEnum.Value_15, "option_game_newmachtvs", function()
+{
+    var m = menus[currentmenu];
+    var opt = m.options;
+    var q = opt[selected];
+    global.newTVs = q.val;
+    q.val = global.newTVs;
+}, global.newTVs, 1);
 var controlsMain = create_menu(UnknownEnum.Value_4, UnknownEnum.Value_12, 48, function()
 {
     goto_menu(UnknownEnum.Value_0);

@@ -47,6 +47,7 @@ gpu_set_tex_filter(global.texFilter);
 var res = [[480, 270], [960, 540], [1024, 576], [1280, 720], [1600, 900], [1920, 1080]];
 window_set_size(res[global.windowSize][0], res[global.windowSize][1]);
 window_center();
+global.newTVs = ini_read_real("General", "NewTVs", false);
 ini_close();
 global.saveFile = working_directory + "/saves/save.ini";
 ini_open(global.saveFile);

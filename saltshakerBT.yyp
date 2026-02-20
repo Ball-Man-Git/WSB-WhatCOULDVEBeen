@@ -679,6 +679,7 @@
     {"id":{"name":"spr_metalblock","path":"sprites/spr_metalblock/spr_metalblock.yy",},},
     {"id":{"name":"spr_mildred_clothes","path":"sprites/spr_mildred_clothes/spr_mildred_clothes.yy",},},
     {"id":{"name":"spr_mildredKart","path":"sprites/spr_mildredKart/spr_mildredKart.yy",},},
+    {"id":{"name":"spr_milton_backhurt","path":"sprites/spr_milton_backhurt/spr_milton_backhurt.yy",},},
     {"id":{"name":"spr_milton_crazyrun","path":"sprites/spr_milton_crazyrun/spr_milton_crazyrun.yy",},},
     {"id":{"name":"spr_milton_crouch","path":"sprites/spr_milton_crouch/spr_milton_crouch.yy",},},
     {"id":{"name":"spr_milton_crouchstart","path":"sprites/spr_milton_crouchstart/spr_milton_crouchstart.yy",},},

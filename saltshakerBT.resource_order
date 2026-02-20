@@ -610,6 +610,7 @@
     {"name":"spr_metalblock","order":240,"path":"sprites/spr_metalblock/spr_metalblock.yy",},
     {"name":"spr_mildred_clothes","order":241,"path":"sprites/spr_mildred_clothes/spr_mildred_clothes.yy",},
     {"name":"spr_mildredKart","order":242,"path":"sprites/spr_mildredKart/spr_mildredKart.yy",},
+    {"name":"spr_milton_backhurt","order":2,"path":"sprites/spr_milton_backhurt/spr_milton_backhurt.yy",},
     {"name":"spr_milton_crazyrun","order":243,"path":"sprites/spr_milton_crazyrun/spr_milton_crazyrun.yy",},
     {"name":"spr_milton_crouchstart","order":1,"path":"sprites/spr_milton_crouchstart/spr_milton_crouchstart.yy",},
     {"name":"spr_milton_dive","order":244,"path":"sprites/spr_milton_dive/spr_milton_dive.yy",},

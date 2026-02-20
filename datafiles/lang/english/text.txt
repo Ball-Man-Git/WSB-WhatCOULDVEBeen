@@ -27,6 +27,7 @@
   "option_video_hide_hud": "HIDE HUD",
 
   "option_game": "GAME",
+  "option_game_newmachtvs": "NEW MILDRED MACH TVS",
 
   "option_controls": "CONTROLS",
   "option_controls_keyboard": "KEYBOARD",

@@ -193,7 +193,7 @@ function scr_player_normal()
     {
         freefalling = 0;
         image_index = 0;
-        sprite_index = spr_player_fall;
+        sprite_index = sprites.fall;
         state = UnknownEnum.Value_2;
     }
     
@@ -202,7 +202,7 @@ function scr_player_normal()
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         image_index = 0;
-        sprite_index = spr_player_jump;
+        sprite_index = sprites.jump;
         state = UnknownEnum.Value_2;
         vsp = -12;
         jumpstop = false;

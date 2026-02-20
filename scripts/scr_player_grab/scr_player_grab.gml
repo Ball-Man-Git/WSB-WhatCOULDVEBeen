@@ -119,7 +119,7 @@ function scr_player_grab()
         sprite_index = spr_player_crouchslip;
         image_index = 0;
         state = UnknownEnum.Value_16;
-        movespeed = isErnie ? 16 : 12;
+        movespeed = isErnie ? 14 : 12;
         create_particleStatic(spr_superdashcloud, x, y, xscale, 1);
         fmod_studio_event_instance_stop(soundGrab, UnknownEnum.Value_1);
         exit;

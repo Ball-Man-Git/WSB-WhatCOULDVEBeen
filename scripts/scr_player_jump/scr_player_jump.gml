@@ -26,10 +26,10 @@ function scr_player_jump()
         movespeed = approach(movespeed, 0, 0.65);
     }
     
-    if (animation_end() && sprite_index == spr_player_jump)
+    if (animation_end() && sprite_index == sprites.jump)
     {
         image_index = 0;
-        sprite_index = spr_player_fall;
+        sprite_index = sprites.fall;
     }
     
     if (animation_end() && sprite_index == spr_player_bumpenemystart)
@@ -41,13 +41,13 @@ function scr_player_jump()
     if (animation_end() && sprite_index == spr_player_grabcancel)
     {
         image_index = 0;
-        sprite_index = spr_player_fall;
+        sprite_index = sprites.fall;
     }
 	
 	    if (animation_end() && sprite_index == spr_ernie_groundpoundjump)
     {
         image_index = 0;
-        sprite_index = spr_player_fall;
+        sprite_index = sprites.fall;
     }
     
     if (freefalling >= 60)

@@ -329,7 +329,7 @@ function doGrab()
                     movespeed = 8;
 				}
 				else
-				movespeed = 20
+				movespeed = 16
             }
             else
             {
@@ -505,6 +505,8 @@ function get_characterspr(arg0)
 			st.player.crouchstart = spr_player_crouchstart
 			st.player.crouch = spr_player_crouch
 			st.player.backhurt = spr_player_hurt2
+			st.player.jump = spr_player_jump
+			st.player.fall = spr_player_fall
             st.tv.idle = spr_tv_idle;
             st.tv.mach3 = spr_tv_mach;
             st.tv.crazyrun = spr_tv_crazyrun;
@@ -530,6 +532,8 @@ function get_characterspr(arg0)
 			st.player.crouchstart = spr_milton_crouchstart
 			st.player.crouch = spr_milton_crouch
 			st.player.backhurt = spr_milton_backhurt
+						st.player.jump = spr_player_jump
+			st.player.fall = spr_player_fall
             st.tv.idle = spr_tv_idleT;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
@@ -555,6 +559,8 @@ function get_characterspr(arg0)
 			st.player.crouchstart = spr_player_crouchstart
 			st.player.crouch = spr_player_crouch
 			st.player.backhurt = spr_player_hurt2
+						st.player.jump = spr_ernie_jump
+			st.player.fall = spr_ernie_fall
             st.tv.idle = spr_tv_idleE;
             st.tv.mach3 = spr_tv_machE;
             st.tv.crazyrun = spr_tv_crazyrun;

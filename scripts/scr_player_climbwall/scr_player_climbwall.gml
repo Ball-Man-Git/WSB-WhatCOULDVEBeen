@@ -121,7 +121,7 @@ function scr_player_climbwall()
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
         vsp = -11;
         xscale *= -1;
-        movespeed = character == UnknownEnum.Value_2 ? 16 : 10;
+        movespeed = character == UnknownEnum.Value_2 ? 14 : 10;
         state = (character == UnknownEnum.Value_2) ? UnknownEnum.Value_4 : UnknownEnum.Value_3;
         jumpstop = false;
         sprite_index = spr_player_walljumpstart;

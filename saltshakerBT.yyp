@@ -294,6 +294,7 @@
     {"id":{"name":"mangrove_secret3","path":"rooms/mangrove_secret3/mangrove_secret3.yy",},},
     {"id":{"name":"mangrove_treasure","path":"rooms/mangrove_treasure/mangrove_treasure.yy",},},
     {"id":{"name":"milkshek_1","path":"rooms/milkshek_1/milkshek_1.yy",},},
+    {"id":{"name":"milkshek_2","path":"rooms/milkshek_2/milkshek_2.yy",},},
     {"id":{"name":"rank_room","path":"rooms/rank_room/rank_room.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"serverMenuShit","path":"rooms/serverMenuShit/serverMenuShit.yy",},},
@@ -423,6 +424,7 @@
     {"id":{"name":"bg_coast5","path":"sprites/bg_coast5/bg_coast5.yy",},},
     {"id":{"name":"bg_doodle1","path":"sprites/bg_doodle1/bg_doodle1.yy",},},
     {"id":{"name":"bg_doodle2","path":"sprites/bg_doodle2/bg_doodle2.yy",},},
+    {"id":{"name":"bg_entertainment","path":"sprites/bg_entertainment/bg_entertainment.yy",},},
     {"id":{"name":"bg_house_front","path":"sprites/bg_house_front/bg_house_front.yy",},},
     {"id":{"name":"bg_house","path":"sprites/bg_house/bg_house.yy",},},
     {"id":{"name":"bg_hubLobby","path":"sprites/bg_hubLobby/bg_hubLobby.yy",},},
@@ -1150,6 +1152,7 @@
     {"roomId":{"name":"hotel_2","path":"rooms/hotel_2/hotel_2.yy",},},
     {"roomId":{"name":"hotel_3","path":"rooms/hotel_3/hotel_3.yy",},},
     {"roomId":{"name":"milkshek_1","path":"rooms/milkshek_1/milkshek_1.yy",},},
+    {"roomId":{"name":"milkshek_2","path":"rooms/milkshek_2/milkshek_2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

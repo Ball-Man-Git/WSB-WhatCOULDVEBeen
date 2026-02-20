@@ -183,3 +183,4 @@ get_input();
 alarm[1] = irandom_range(5, 15);
 hasSpray = false
 prev_g_room = 0
+tvsprites = noone

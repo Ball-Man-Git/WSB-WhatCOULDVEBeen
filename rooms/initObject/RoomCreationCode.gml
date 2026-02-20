@@ -19,6 +19,7 @@ global.SfxVolume = ini_read_real("General", "Sfx", 0.8);
 global.AmbianceVolume = ini_read_real("General", "Ambiance", 1);
 global.amped_up = ini_read_real("General", "AmpedUp", false);
 global.Fullscreen = ini_read_real("General", "Fullscreen", 0);
+global.newTVs = ini_read_real("General", "NewTVs", false);
 
 switch (global.Fullscreen)
 {
@@ -47,7 +48,6 @@ gpu_set_tex_filter(global.texFilter);
 var res = [[480, 270], [960, 540], [1024, 576], [1280, 720], [1600, 900], [1920, 1080]];
 window_set_size(res[global.windowSize][0], res[global.windowSize][1]);
 window_center();
-global.newTVs = ini_read_real("General", "NewTVs", false);
 ini_close();
 global.saveFile = working_directory + "/saves/save.ini";
 ini_open(global.saveFile);

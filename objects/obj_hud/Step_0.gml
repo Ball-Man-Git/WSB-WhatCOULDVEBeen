@@ -3,19 +3,24 @@ var player_sprites = global.PlayerCharacters[obj_player.character].sprites.playe
 var mach4_speed = !obj_player.isMilton ? 16 : 24
 visible = hudVisible();
 
-if obj_player.isMildred
+if obj_player.isMildred && obj_player.isMilton == false
 {
 		if global.newTVs
 		{
-		sprites.mach3 = spr_tv_machNEW
-		sprites.crazyrun = spr_tv_crazyrunNEW
+		sprites.mach3 = obj_player.isMilton ? spr_tv_machT : spr_tv_machNEW
+		sprites.crazyrun = obj_player.isMilton ? spr_tv_crazyrunT : spr_tv_crazyrunNEW
 		}
 		else
 				{
-		sprites.mach3 = spr_tv_mach
-		sprites.crazyrun = spr_tv_crazyrun
+		sprites.mach3 = obj_player.isMilton ? spr_tv_machT : obj_player.tvsprites.mach3
+		sprites.crazyrun = obj_player.isMilton ? spr_tv_crazyrunT : obj_player.tvsprites.crazyrun
 		}
 }
+else if obj_player.isMilton
+				{
+		sprites.mach3 = spr_tv_machT
+		sprites.crazyrun = spr_tv_crazyrunT
+		}
 else
 				{
 		sprites.mach3 = global.PlayerCharacters[obj_player.character].sprites.tv.mach3;

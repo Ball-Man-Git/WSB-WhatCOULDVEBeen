@@ -34,6 +34,7 @@ else if (supertaunt < 10 && canSupertaunt)
 if (sprites != global.PlayerCharacters[character].sprites.player)
 {
     sprites = global.PlayerCharacters[character].sprites.player;
+	tvsprites = global.PlayerCharacters[character].sprites.tv;
     spr_palette = global.PlayerCharacters[character].playerPal;
     global.patternSpr = global.PlayerCharacters[character].patternSpr;
     
@@ -45,7 +46,7 @@ if (sprites != global.PlayerCharacters[character].sprites.player)
     if (ini_read_string("Game", "Pattern", "spr_playerPat_threads") != -1 && character == UnknownEnum.Value_0)
     {
         global.patternSpr = asset_get_index(ini_read_string("Game", "Pattern", "spr_playerPat_threads"));
-        aalIndex = ini_read_real("Game", "Palette", 1);
+        palIndex = ini_read_real("Game", "Palette", 1);
     }
     
     ini_close();

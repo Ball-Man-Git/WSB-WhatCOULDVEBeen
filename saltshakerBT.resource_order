@@ -218,6 +218,7 @@
     {"name":"crashout_1","order":75,"path":"rooms/crashout_1/crashout_1.yy",},
     {"name":"crashout_2","order":77,"path":"rooms/crashout_2/crashout_2.yy",},
     {"name":"crashout_3","order":78,"path":"rooms/crashout_3/crashout_3.yy",},
+    {"name":"crashout_4","order":80,"path":"rooms/crashout_4/crashout_4.yy",},
     {"name":"crashout_reference","order":76,"path":"rooms/crashout_reference/crashout_reference.yy",},
     {"name":"hotel_1","order":13,"path":"rooms/hotel_1/hotel_1.yy",},
     {"name":"hotel_2","order":71,"path":"rooms/hotel_2/hotel_2.yy",},

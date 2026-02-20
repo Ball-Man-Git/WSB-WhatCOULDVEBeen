@@ -112,6 +112,6 @@ function scr_player_tumble()
         sprite_index = spr_player_rollgetup;
         state = !isErnie ? UnknownEnum.Value_3 : UnknownEnum.Value_4;
 		if character == UnknownEnum.Value_2
-		movespeed = max(movespeed, isErnie ? 16 : 12);
+		movespeed = max(movespeed, isErnie ? 14 : 12);
     }
 }

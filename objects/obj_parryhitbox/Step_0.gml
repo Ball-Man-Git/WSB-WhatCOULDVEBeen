@@ -34,8 +34,8 @@ if (place_meeting(x, y, obj_dart))
 if (place_meeting(x, y, obj_hipnatuese) && obj_hipnatuese.image_alpha == 1 && global.hardMode)
 {
 	instance_create(obj_hipnatuese.x, obj_hipnatuese.y, obj_hipnatueseDead)
-	global.escape.timer = 500
-	global.combo.timer += 5
+	global.escape.timer = 750
+	global.combo.timer += 10
     instance_destroy(obj_hipnatuese)
     event_user(0);
 }

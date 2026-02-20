@@ -1,6 +1,18 @@
 {
   "FolderOrderSettings":[
+    {"name":"DecompilerGenerated","order":1,"path":"folders/DecompilerGenerated.yy",},
+    {"name":"Extensions","order":2,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":3,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":4,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":5,"path":"folders/Objects.yy",},
     {"name":"Structure Thingies","order":155,"path":"folders/Objects/Structure Thingies.yy",},
+    {"name":"Paths","order":6,"path":"folders/Paths.yy",},
+    {"name":"Rooms","order":7,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":8,"path":"folders/Scripts.yy",},
+    {"name":"Sequences","order":9,"path":"folders/Sequences.yy",},
+    {"name":"Shaders","order":10,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":11,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":12,"path":"folders/Sprites.yy",},
     {"name":"Character Select","order":616,"path":"folders/Sprites/Character Select.yy",},
     {"name":"Ernie","order":600,"path":"folders/Sprites/Ernie.yy",},
     {"name":"TV","order":26,"path":"folders/Sprites/Ernie/TV.yy",},
@@ -12,6 +24,8 @@
     {"name":"Other HUD Crap","order":619,"path":"folders/Sprites/Other HUD Crap.yy",},
     {"name":"Skatenic","order":611,"path":"folders/Sprites/Skatenic.yy",},
     {"name":"Sugary Spire Stuff","order":617,"path":"folders/Sprites/Sugary Spire Stuff.yy",},
+    {"name":"Tile Sets","order":13,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"gameframe_native","order":1,"path":"extensions/gameframe_native/gameframe_native.yy",},

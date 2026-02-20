@@ -16,6 +16,11 @@ if obj_player.isMildred
 		sprites.crazyrun = spr_tv_crazyrun
 		}
 }
+else
+				{
+		sprites.mach3 = global.PlayerCharacters[obj_player.character].sprites.tv.mach3;
+		sprites.crazyrun = global.PlayerCharacters[obj_player.character].sprites.tv.crazyrun
+		}
 
 with (kettle)
 {

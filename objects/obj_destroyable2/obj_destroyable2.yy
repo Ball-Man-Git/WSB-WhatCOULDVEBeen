@@ -9,8 +9,8 @@
   "name":"obj_destroyable2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Structure Thingies",
-    "path":"folders/Objects/Structure Thingies.yy",
+    "name":"Common Level Objects",
+    "path":"folders/Objects/Common Level Objects.yy",
   },
   "parentObjectId":{
     "name":"obj_destructibles",

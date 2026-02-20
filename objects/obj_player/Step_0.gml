@@ -371,17 +371,6 @@ if isMildred
 		sprites.idle = spr_juandanger_idle
 	else
 		sprites.idle = spr_player_idle
-		
-		if global.newTVs
-		{
-		sprites.tv.mach3 = spr_tv_machNEW
-		sprites.tv.crazyrun = spr_tv_crazyrunNEW
-		}
-		else
-				{
-		sprites.tv.mach3 = spr_tv_mach
-		sprites.tv.crazyrun = spr_tv_crazyrun
-		}
 }
 
 

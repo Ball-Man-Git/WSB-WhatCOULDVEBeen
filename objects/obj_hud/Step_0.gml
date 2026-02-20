@@ -3,6 +3,17 @@ var player_sprites = global.PlayerCharacters[obj_player.character].sprites.playe
 var mach4_speed = !obj_player.isMilton ? 16 : 24
 visible = hudVisible();
 
+		if global.newTVs && obj_player.isMildred
+		{
+		sprites.mach3 = spr_tv_machNEW
+		sprites.crazyrun = spr_tv_crazyrunNEW
+		}
+		else
+				{
+		sprites.mach3 = spr_tv_mach
+		sprites.crazyrun = spr_tv_crazyrun
+		}
+
 with (kettle)
 {
     kx = lerp(kx, x, 0.2) + irandom_range(shake, -shake);

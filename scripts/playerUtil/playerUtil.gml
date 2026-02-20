@@ -329,7 +329,7 @@ function doGrab()
                     movespeed = 8;
 				}
 				else
-				movespeed = 16
+				movespeed = 20
             }
             else
             {

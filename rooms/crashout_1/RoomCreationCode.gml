@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? A Crashout city"
+global.gameframe_caption_text = "What's Shakin, Bacon? Crashing out in a City"

@@ -1,4 +1,8 @@
 pal_swap_init_system(shd_pal_swapper);
+isMildred = true;
+isMilton = false;
+isErnie = false
+isJuan = false
 global.PlayerCharacters = [];
 global.PlayerCharacters[0] = 
 {
@@ -32,10 +36,6 @@ global.PlayerCharacters[2] =
 };
 character = UnknownEnum.Value_0;
 sprites = get_characterspr(UnknownEnum.Value_0);
-isMildred = true;
-isMilton = false;
-isErnie = false
-isJuan = false
 depth = 0;
 image_speed = 0.35;
 scr_collision_init();

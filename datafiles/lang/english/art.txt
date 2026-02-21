@@ -42,7 +42,7 @@
     "spr_titlecardMonolithJuan":{
     "xorigin":0.0,
     "yorigin":0.0,
-    "path":"art/spr_titlecardMonolith.png"
+    "path":"art/spr_titlecardMonolithJuan.png"
   },
   "spr_titlecardMonolithTitle1":{
     "xorigin":0.0,

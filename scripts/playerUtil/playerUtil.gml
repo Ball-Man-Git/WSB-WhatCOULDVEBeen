@@ -487,6 +487,8 @@ function get_characterspr(arg0)
     switch (arg0)
     {
         case UnknownEnum.Value_0:
+		if !isJuan
+		{
             st.player.idle = spr_player_idle;
             st.player.taunt = spr_player_taunt;
 			st.player.mach1 = spr_player_mach1;
@@ -513,6 +515,36 @@ function get_characterspr(arg0)
 			            st.tv.mach3backup = spr_tv_mach;
             st.tv.crazyrunbackup = spr_tv_crazyrun;
 			st.tv.collect = spr_tv_happy
+		}
+		else
+				{
+            st.player.idle = spr_player_idle;
+            st.player.taunt = spr_player_taunt;
+			st.player.mach1 = spr_player_mach1;
+			st.player.mach2 = spr_player_mach2;
+            st.player.mach3 = spr_player_mach3;
+            st.player.mach3hit = spr_player_mach3hit;
+            st.player.mach3jump = spr_player_mach3jump;
+			st.player.mach3turn = spr_player_mach3turn;
+            st.player.rolling = spr_player_rolling;
+            st.player.move = spr_player_move;
+            st.player.crazyrun = spr_player_crazyrun;
+            st.player.dive = spr_player_dive;
+            st.player.divebomb = spr_player_divebomb;
+			st.player.divebombland = spr_player_divebombland;
+            st.player.gateslam = spr_player_gateslam;
+			st.player.crouchstart = spr_player_crouchstart
+			st.player.crouch = spr_player_crouch
+			st.player.backhurt = spr_player_hurt2
+			st.player.jump = spr_player_jump
+			st.player.fall = spr_player_fall
+            st.tv.idle = spr_tv_idle;
+            st.tv.mach3 = spr_tv_mach;
+            st.tv.crazyrun = spr_tv_crazyrun;
+			            st.tv.mach3backup = spr_tv_machNEW;
+            st.tv.crazyrunbackup = spr_tv_crazyrunNEW;
+			st.tv.collect = spr_tv_happy
+		}
             break;
         
         case UnknownEnum.Value_1:

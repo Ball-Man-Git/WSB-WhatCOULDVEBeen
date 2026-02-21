@@ -140,7 +140,7 @@ function scr_player_groundpound()
     if (buffers.afterimageBlur == 0)
     {
         buffers.afterimageBlur = 4;
-        create_blur_effect(sprite_index, image_index, x, y, xscale);
+        create_blur_effect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale);
     }
     
     if (buffers.step <= 0)
@@ -164,7 +164,7 @@ function scr_player_groundpound()
         if (buffers.afterimageMach == 0)
         {
             buffers.afterimageMach = 4;
-            create_machEffect(sprite_index, image_index, x, y, xscale, 1);
+            create_machEffect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale, 1);
         }
         
         buffers.crazyothereffect--;

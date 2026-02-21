@@ -174,7 +174,7 @@
           82,83,84,85,86,245,-31,162,23,82,83,84,85,86,82,83,82,83,84,82,83,84,85,86,83,84,85,86,82,83,84,85,-377,
           162,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crashout","path":"tilesets/ts_crashout/ts_crashout.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_bg","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_bg","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":101,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"Tiles_BG2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_BG2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":101,"TileCompressedData":[
           -348,-2147483648,3,135,136,137,-98,-2147483648,3,175,176,177,-98,-2147483648,3,215,216,217,-8,-2147483648,
           3,139,140,141,-87,-2147483648,2,255,256,-10,257,2,180,181,-87,-2147483648,2,135,136,-10,257,2,220,221,
           -87,-2147483648,2,175,176,-10,257,2,260,261,-6,-2147483648,3,103,144,144,-78,-2147483648,2,215,216,-10,

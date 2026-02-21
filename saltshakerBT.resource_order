@@ -991,7 +991,7 @@
     {"name":"spr_tv_off","order":560,"path":"sprites/spr_tv_off/spr_tv_off.yy",},
     {"name":"spr_tv_offT","order":601,"path":"sprites/spr_tv_offT/spr_tv_offT.yy",},
     {"name":"spr_tv_palette","order":561,"path":"sprites/spr_tv_palette/spr_tv_palette.yy",},
-    {"name":"spr_tv_sad","order":608,"path":"sprites/spr_tv_sad/spr_tv_sad.yy",},
+    {"name":"spr_tv_sad","order":3,"path":"sprites/spr_tv_sad/spr_tv_sad.yy",},
     {"name":"spr_tv_secret","order":562,"path":"sprites/spr_tv_secret/spr_tv_secret.yy",},
     {"name":"spr_tv_secretT","order":605,"path":"sprites/spr_tv_secretT/spr_tv_secretT.yy",},
     {"name":"spr_tv_ski","order":563,"path":"sprites/spr_tv_ski/spr_tv_ski.yy",},

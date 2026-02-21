@@ -510,6 +510,8 @@ function get_characterspr(arg0)
             st.tv.idle = spr_tv_idle;
             st.tv.mach3 = spr_tv_mach;
             st.tv.crazyrun = spr_tv_crazyrun;
+			            st.tv.mach3backup = spr_tv_mach;
+            st.tv.crazyrunbackup = spr_tv_crazyrun;
 			st.tv.collect = spr_tv_happy
             break;
         
@@ -537,6 +539,8 @@ function get_characterspr(arg0)
             st.tv.idle = spr_tv_idleT;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
+						            st.tv.mach3backup = spr_tv_machT;
+            st.tv.crazyrunbackup = spr_tv_crazyrunT;
 			st.tv.collect = spr_tv_happyT
             break;
 			
@@ -564,6 +568,8 @@ function get_characterspr(arg0)
             st.tv.idle = spr_tv_idleE;
             st.tv.mach3 = spr_tv_machE;
             st.tv.crazyrun = spr_tv_crazyrun;
+						            st.tv.mach3backup = spr_tv_machE;
+            st.tv.crazyrunbackup = spr_tv_crazyrunNEW;
 			st.tv.collect = spr_tv_happyE
             break;
     }

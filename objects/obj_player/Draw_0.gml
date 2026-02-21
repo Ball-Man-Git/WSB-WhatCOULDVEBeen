@@ -12,11 +12,17 @@ if (super)
 }
 
 pal_swap_set(spr_palette, palIndex, false);
+if palIndex != 0
 draw_sprite_ext(sprite_index, image_index, x, y, xscale * xscaleMulti * squashX, 1 * yscaleMulti * squashY, image_angle, image_blend, image_alpha);
+else
+draw_sprite_ext(spr_mildredKart, image_index, x, y, xscale * xscaleMulti * squashX, 1 * yscaleMulti * squashY, image_angle, image_blend, image_alpha);
 shader_reset();
 squashX = lerp(squashX, 1, 0.25);
 squashY = lerp(squashY, 1, 0.25);
+if palIndex != 0
 pattern_draw(sprite_index, image_index, x, y, xscale * xscaleMulti * squashX, 1 * yscaleMulti * squashY, image_angle, image_blend, image_alpha, global.patternSpr, global.PlayerCharacters[character].patColors);
+else
+pattern_draw(spr_mildredKart, image_index, x, y, xscale * xscaleMulti * squashX, 1 * yscaleMulti * squashY, image_angle, image_blend, image_alpha, global.patternSpr, global.PlayerCharacters[character].patColors);
 
 if (flash)
 {

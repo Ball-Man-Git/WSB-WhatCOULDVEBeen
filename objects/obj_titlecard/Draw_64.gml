@@ -2,6 +2,12 @@ if (scene == 1 || scene == 2)
 {
     titlecardName.x = irandom_range(-1, 1);
     titlecardName.y = irandom_range(-1, 1);
+	if obj_player.isMildred
+	{
+	pal_swap_set(obj_player.spr_palette, obj_player.palIndex, false);
+	draw_sprite(titlecardSprite, 0, 0, 0);
+	shader_reset();
+	}
     draw_sprite(titlecardSprite, 0, 0, 0);
     
     if (isMilton)

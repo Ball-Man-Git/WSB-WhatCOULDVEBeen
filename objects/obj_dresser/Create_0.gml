@@ -35,7 +35,8 @@ addPalette("Teal Wears", "Unlocked by ???", 6, true);
 addPalette("Purple Wears", "Unlocked by ???", 7, true);
 addPalette("Pristine Wears", "Unlocked by ???", 8, true);
 addPalette("Darker Wears", "Unlocked by ???", 9, true);
-addPalette("Dangerous Wears", "Unlocked by ???", 10, true);
+addPalette("Dangerous Wears", "Unlocked by ???", 11, true);
+addPalette("Racing Wears", "Unlocked by ???", 0, true);
 }
 if obj_player.isMilton == true and obj_player.isErnie == false and obj_player.isMildred == false
 {

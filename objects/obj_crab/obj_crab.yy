@@ -9,8 +9,8 @@
   "name":"obj_crab",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_baddie",
@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

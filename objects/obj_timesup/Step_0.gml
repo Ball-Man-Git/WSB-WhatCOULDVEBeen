@@ -12,11 +12,11 @@ with (obj_player)
         {
             hsp = 4;
             vsp = -10;
-            sprite_index = spr_player_hurt;
+            sprite_index = choose(spr_player_hurt, sprites.backhurt)
         }
     }
     
-    if (sprite_index == spr_player_hurt)
+    if (sprite_index == spr_player_hurt || sprite_index == sprites.backhurt)
     {
     }
 }

@@ -258,6 +258,7 @@
     {"name":"mangrove_treasure","order":39,"path":"rooms/mangrove_treasure/mangrove_treasure.yy",},
     {"name":"milkshek_1","order":73,"path":"rooms/milkshek_1/milkshek_1.yy",},
     {"name":"milkshek_2","order":74,"path":"rooms/milkshek_2/milkshek_2.yy",},
+    {"name":"milkshek_3","order":84,"path":"rooms/milkshek_3/milkshek_3.yy",},
     {"name":"rank_room","order":40,"path":"rooms/rank_room/rank_room.yy",},
     {"name":"rm_intro","order":41,"path":"rooms/rm_intro/rm_intro.yy",},
     {"name":"serverMenuShit","order":42,"path":"rooms/serverMenuShit/serverMenuShit.yy",},

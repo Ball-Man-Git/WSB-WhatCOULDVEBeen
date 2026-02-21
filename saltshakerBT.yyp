@@ -311,6 +311,7 @@
     {"id":{"name":"mangrove_treasure","path":"rooms/mangrove_treasure/mangrove_treasure.yy",},},
     {"id":{"name":"milkshek_1","path":"rooms/milkshek_1/milkshek_1.yy",},},
     {"id":{"name":"milkshek_2","path":"rooms/milkshek_2/milkshek_2.yy",},},
+    {"id":{"name":"milkshek_3","path":"rooms/milkshek_3/milkshek_3.yy",},},
     {"id":{"name":"rank_room","path":"rooms/rank_room/rank_room.yy",},},
     {"id":{"name":"rm_intro","path":"rooms/rm_intro/rm_intro.yy",},},
     {"id":{"name":"serverMenuShit","path":"rooms/serverMenuShit/serverMenuShit.yy",},},
@@ -1200,6 +1201,7 @@
     {"roomId":{"name":"crashout_5","path":"rooms/crashout_5/crashout_5.yy",},},
     {"roomId":{"name":"crashout_6","path":"rooms/crashout_6/crashout_6.yy",},},
     {"roomId":{"name":"crashout_7","path":"rooms/crashout_7/crashout_7.yy",},},
+    {"roomId":{"name":"milkshek_3","path":"rooms/milkshek_3/milkshek_3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

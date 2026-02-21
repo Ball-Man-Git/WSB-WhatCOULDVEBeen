@@ -22,7 +22,7 @@ function scr_player_mach2()
     if (buffers.afterimageMach <= 0)
     {
         buffers.afterimageMach = 6;
-        create_machEffect(sprite_index, image_index, x, y, xscale, movespeed / 12);
+        create_machEffect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale, movespeed / 12);
     }
     
     buffers.dashcloud--;

@@ -48,7 +48,7 @@ function scr_player_grab()
     if (buffers.afterimageBlur == 0)
     {
         buffers.afterimageBlur = 3;
-        create_blur_effect(sprite_index, image_index, x, y, xscale);
+        create_blur_effect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale);
     }
     
     buffers.dashcloud--;

@@ -13,7 +13,7 @@ function scr_player_buzzsaw()
     if (buffers.afterimageBlur == 0)
     {
         buffers.afterimageBlur = 3;
-        create_buzzsawAfterimage(sprite_index, image_index, x, y, xscale);
+        create_buzzsawAfterimage(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale);
     }
     
     if (key_down2)

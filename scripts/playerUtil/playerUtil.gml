@@ -539,8 +539,8 @@ function get_characterspr(arg0)
 			st.player.jump = spr_player_jump
 			st.player.fall = spr_player_fall
             st.tv.idle = spr_tv_idle;
-            st.tv.mach3 = spr_tv_mach;
-            st.tv.crazyrun = spr_tv_crazyrun;
+            st.tv.mach3 = spr_tv_machNEW;
+            st.tv.crazyrun = spr_tv_crazyrunNEW;
 			            st.tv.mach3backup = spr_tv_machNEW;
             st.tv.crazyrunbackup = spr_tv_crazyrunNEW;
 			st.tv.collect = spr_tv_happy

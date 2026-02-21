@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77c1aee6-753c-4589-b579-850dbc5466b9","name":"77c1aee6-753c-4589-b579-850dbc5466b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"501b599c-c235-4624-a312-9206abb9b452","name":"501b599c-c235-4624-a312-9206abb9b452","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f00d10a3-1d3c-47e2-8e74-67851fa9d9c1","name":"f00d10a3-1d3c-47e2-8e74-67851fa9d9c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"0bc523ba-8c62-46e3-acf5-f4c8374d0fe2","name":"0bc523ba-8c62-46e3-acf5-f4c8374d0fe2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"940a857b-f287-4758-9933-4a200c4ce4e3","name":"940a857b-f287-4758-9933-4a200c4ce4e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"37a2f933-5b86-4fa6-9694-1f95fcfa6614","name":"37a2f933-5b86-4fa6-9694-1f95fcfa6614","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1d6e93ba-065d-4331-8975-e8bc4d301179","blendMode":0,"displayName":"default","isLocked":false,"name":"1d6e93ba-065d-4331-8975-e8bc4d301179","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"053d14f2-ede7-4dc2-96d4-6387017689f0","blendMode":0,"displayName":"default","isLocked":false,"name":"053d14f2-ede7-4dc2-96d4-6387017689f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ernie_fall",
   "nineSlice":null,
@@ -73,14 +73,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77c1aee6-753c-4589-b579-850dbc5466b9","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"29a4b6c3-f563-4639-b6f5-bf926300718d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0bc523ba-8c62-46e3-acf5-f4c8374d0fe2","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c3eb564-908b-4025-8fc8-99be109255ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"501b599c-c235-4624-a312-9206abb9b452","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a6f9d98f-4993-4259-b37f-f2d0d0adcf96","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"940a857b-f287-4758-9933-4a200c4ce4e3","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a38ac1b-3fda-4d36-8755-21d6abd34a97","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f00d10a3-1d3c-47e2-8e74-67851fa9d9c1","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"33e3c777-21d9-4bcb-b0ef-f3b2ee7742b6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37a2f933-5b86-4fa6-9694-1f95fcfa6614","path":"sprites/spr_ernie_fall/spr_ernie_fall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bda33bfb-27e2-4a89-a196-75cf11552aba","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -8,6 +8,7 @@ if (scene == 1 || scene == 2)
 	draw_sprite(titlecardSprite, 0, 0, 0);
 	shader_reset();
 	}
+	else
     draw_sprite(titlecardSprite, 0, 0, 0);
     
     if (isMilton)

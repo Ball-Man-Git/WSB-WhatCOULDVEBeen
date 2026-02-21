@@ -19,7 +19,7 @@ global.SfxVolume = ini_read_real("General", "Sfx", 0.8);
 global.AmbianceVolume = ini_read_real("General", "Ambiance", 1);
 global.amped_up = ini_read_real("General", "AmpedUp", false);
 global.Fullscreen = ini_read_real("General", "Fullscreen", 0);
-global.newTVs = ini_read_real("General", "NewTVs", false);
+global.newTVs = ini_read_real("Game", "NewTVs", false);
 
 switch (global.Fullscreen)
 {

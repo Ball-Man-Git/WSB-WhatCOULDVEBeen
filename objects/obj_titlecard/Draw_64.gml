@@ -5,7 +5,7 @@ if (scene == 1 || scene == 2)
 	if obj_player.isMildred
 	{
 	pal_swap_set(obj_player.spr_palette, obj_player.palIndex, false);
-	draw_sprite(titlecardSprite, 0, 0, 0);
+	draw_sprite(obj_player.isJuan ? titlecardSpriteJuan : titlecardSprite, 0, 0, 0);
 	shader_reset();
 	}
 	else

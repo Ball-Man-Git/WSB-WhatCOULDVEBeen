@@ -338,9 +338,9 @@ function doGrab()
                 state = UnknownEnum.Value_26;
                 
                 if (coyote_time)
-                    vsp = -17;
+                    vsp = isErnie ? -20 : -17;
                 else
-                    vsp = -12;
+                    vsp = isErnie ? -15 : -12;
                 
                 sprite_index = spr_player_uppercut;
                 image_index = 0;

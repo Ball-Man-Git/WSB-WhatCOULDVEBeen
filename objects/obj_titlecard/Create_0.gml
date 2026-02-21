@@ -1,4 +1,5 @@
 titlecardSprite = lang_get_asset("spr_titlecardMonolith");
+
 titlecardName = 
 {
     sprite: lang_get_asset("spr_titlecardMonolithTitle1"),
@@ -16,4 +17,6 @@ circleSize = 0;
 circleSizeSpeed = 0;
 titlecardMilton = spr_titlecardMilton_wayback;
 titlecardMiltonIndex = 0;
-isMilton = obj_player.character == UnknownEnum.Value_1;
+titlecardSpriteJuan = lang_get_asset("spr_titlecardMonolithJuan")
+isMilton = obj_player.character == UnknownEnum.Value_1
+isJuan = obj_player.isJuan

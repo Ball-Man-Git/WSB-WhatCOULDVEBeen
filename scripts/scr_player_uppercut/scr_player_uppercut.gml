@@ -8,7 +8,7 @@ function scr_player_uppercut()
 	hsp = approach(hsp, movespeed * move, 0.8);
     
     if (move != 0)
-        movespeed = isErnie ? 12 : 6;
+        movespeed = isErnie ? 10 : 6;
     
     image_speed = 0.4;
     

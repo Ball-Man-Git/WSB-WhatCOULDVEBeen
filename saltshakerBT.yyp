@@ -60,6 +60,7 @@
     {"$GMIncludedFile":"","%Name":"spr_rankS_text.gif","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_rankS_text.gif","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_teatime.gif","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_teatime.gif","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_titlecardMonolith.png","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_titlecardMonolith.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"spr_titlecardMonolithJuan.png","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_titlecardMonolithJuan.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_titlecardMonolithTitle1.png","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_titlecardMonolithTitle1.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_titlecardMonolithTitle2.png","CopyToMask":-1,"filePath":"datafiles/lang/english/art","name":"spr_titlecardMonolithTitle2.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"text.txt","CopyToMask":-1,"filePath":"datafiles/lang/english","name":"text.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

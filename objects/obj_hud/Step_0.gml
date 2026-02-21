@@ -1,4 +1,4 @@
-sspvar sprites = global.PlayerCharacters[obj_player.character].sprites.tv;
+var sprites = global.PlayerCharacters[obj_player.character].sprites.tv;
 var player_sprites = global.PlayerCharacters[obj_player.character].sprites.player;
 var mach4_speed = !obj_player.isMilton ? 16 : 24
 visible = hudVisible();

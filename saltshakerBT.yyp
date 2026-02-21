@@ -743,6 +743,7 @@
     {"id":{"name":"spr_newwears","path":"sprites/spr_newwears/spr_newwears.yy",},},
     {"id":{"name":"spr_npcborder","path":"sprites/spr_npcborder/spr_npcborder.yy",},},
     {"id":{"name":"spr_npcfont","path":"sprites/spr_npcfont/spr_npcfont.yy",},},
+    {"id":{"name":"spr_null","path":"sprites/spr_null/spr_null.yy",},},
     {"id":{"name":"spr_onewayman","path":"sprites/spr_onewayman/spr_onewayman.yy",},},
     {"id":{"name":"spr_onewaymask","path":"sprites/spr_onewaymask/spr_onewaymask.yy",},},
     {"id":{"name":"spr_online_bob","path":"sprites/spr_online_bob/spr_online_bob.yy",},},

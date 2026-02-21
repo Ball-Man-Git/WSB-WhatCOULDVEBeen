@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player) <= 200 && obj_player.super)
+if (distance_to_object(obj_player) <= 200 && obj_player.super && global.hardMode == true)
     state = UnknownEnum.Value_49;
 
 if (state == UnknownEnum.Value_49)

@@ -9,6 +9,11 @@ switch (global.level)
         global.Srank = 30000;
         tv.backindex = 1;
         break;
+		
+		    case "crashout":
+        global.Srank = 35000;
+        tv.backindex = 0;
+        break;
     
     default:
         global.Srank = 0;

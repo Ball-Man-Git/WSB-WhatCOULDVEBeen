@@ -51,15 +51,18 @@ function scr_player_climbwall()
         
         if (character == UnknownEnum.Value_0)
         {
-            state = UnknownEnum.Value_29;
+            state = !isJuan ? UnknownEnum.Value_29 : UnknownEnum.Value_48;
             image_index = 0;
-            sprite_index = spr_player_buzzsawBump;
+            sprite_index = isJuan ? spr_player_slipsyrup : spr_player_buzzsawBump;
             
             if (verticalMovespeed < 14)
                 verticalMovespeed = 14;
             
             movespeed = verticalMovespeed;
             vsp = -10;
+			if isJuan
+			FMODevent_oneshot("event:/Sfx/Player/slip", x, y);
+			else
             FMODevent_oneshot("event:/Sfx/Player/airspin", x, y);
         }
         else if (verticalMovespeed >= 12 || isErnie)

@@ -9,7 +9,8 @@ slapBuffer = approach(slapBuffer, 0, 1);
 playerSounds();
 isMildred = character == UnknownEnum.Value_0;
 isMilton = character == UnknownEnum.Value_1;
-isErnie = character == UnknownEnum.Value_2;
+isErnie = character == UnknownEnum.Value_2
+isJuan = isMildred == true && palIndex == 11
 
 if (supertaunt >= 10 && !canSupertaunt)
 {

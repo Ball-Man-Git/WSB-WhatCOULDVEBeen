@@ -14,6 +14,17 @@ function scr_player_slip()
         xscale *= -1;
         FMODevent_oneshot("event:/Sfx/Player/slipbump", x, y);
     }
+	
+	if jumpBuffer && isJuan
+	{
+		jumpBuffer = false
+		image_index = 0;
+		sprite_index = spr_player_buzzsawBump
+		movespeed = 14
+		state = UnknownEnum.Value_29
+		vsp = -10;
+		FMODevent_oneshot("event:/Sfx/Player/airspin", x, y);
+	}
     
     if (!grounded && sprite_index == spr_player_beakerintro)
         sprite_index = spr_player_spinout;

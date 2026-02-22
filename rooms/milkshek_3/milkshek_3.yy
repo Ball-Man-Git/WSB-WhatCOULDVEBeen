@@ -62,6 +62,8 @@
     {"name":"inst_24F53BDC","path":"rooms/milkshek_3/milkshek_3.yy",},
     {"name":"inst_2C24B824","path":"rooms/milkshek_3/milkshek_3.yy",},
     {"name":"inst_3E9DE89E","path":"rooms/milkshek_3/milkshek_3.yy",},
+    {"name":"inst_47A52ADF","path":"rooms/milkshek_3/milkshek_3.yy",},
+    {"name":"inst_67938074","path":"rooms/milkshek_3/milkshek_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -124,6 +126,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_hallway/obj_hallway.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"milkshek_2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-2.0,"scaleY":3.0,"x":-64.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_3E9DE89E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E9DE89E","objectId":{"name":"obj_doorA","path":"objects/obj_doorA/obj_doorA.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":608.0,},
+        {"$GMRInstance":"v2","%Name":"inst_47A52ADF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47A52ADF","objectId":{"name":"obj_hallway_vertical","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_hallway_vertical","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"milkshek_4",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":-2.0,"x":2432.0,"y":1792.0,},
+        {"$GMRInstance":"v2","%Name":"inst_67938074","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_67938074","objectId":{"name":"obj_doorB","path":"objects/obj_doorB/obj_doorB.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2432.0,"y":1728.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_still1","animationFPS":1.0,"animationSpeedType":1,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_still1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_milkshek","path":"sprites/bg_milkshek/bg_milkshek.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

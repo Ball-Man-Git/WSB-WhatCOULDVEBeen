@@ -54,7 +54,7 @@ function scr_player_superjump()
         if (buffers.afterimageMach == 0)
         {
             buffers.afterimageMach = 4;
-            create_machEffect(sprite_index, image_index, x, y, xscale, 1);
+            create_machEffect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale, 1);
         }
         
         buffers.afterimageBlur = approach(buffers.afterimageBlur, 0, 1);
@@ -62,7 +62,7 @@ function scr_player_superjump()
         if (buffers.afterimageBlur == 0)
         {
             buffers.afterimageBlur = 3;
-            create_blur_effect(sprite_index, image_index, x, y, xscale);
+            create_blur_effect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale);
         }
         
         buffers.crazyothereffect--;

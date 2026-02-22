@@ -15,7 +15,7 @@ function scr_player_slip()
         FMODevent_oneshot("event:/Sfx/Player/slipbump", x, y);
     }
 	
-	if jumpBuffer && isJuan
+	if jumpBuffer && isJuan && !grounded
 	{
 		jumpBuffer = false
 		image_index = 0;

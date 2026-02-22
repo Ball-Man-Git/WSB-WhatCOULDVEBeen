@@ -67,7 +67,7 @@ function scr_player_normal()
     }
     else
     {
-        if (sprite_index != sprites.idle && sprite_index != spr_player_panic && sprite_index != spr_player_idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != spr_player_land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.idle && sprite_index != spr_player_panic && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != spr_player_land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
         {
             image_speed = movespeed / 15;
             

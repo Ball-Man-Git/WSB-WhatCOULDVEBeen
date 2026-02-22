@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Extra Mildred Sprites",
-    "path":"folders/Sprites/Extra Mildred Sprites.yy",
+    "name":"TV",
+    "path":"folders/Sprites/Mildred Sprites/TV.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

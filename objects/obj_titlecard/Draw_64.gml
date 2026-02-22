@@ -7,6 +7,7 @@ if (scene == 1 || scene == 2)
 	pal_swap_set(obj_player.spr_palette, obj_player.palIndex, false);
 	draw_sprite(obj_player.isJuan ? titlecardSpriteJuan : titlecardSprite, 0, 0, 0);
 	shader_reset();
+	pattern_draw(obj_player.isJuan ? titlecardSpriteJuan : titlecardSprite, 0, 0, 0, 1, 1, 0, 16777215, 1, global.patternSpr, global.PlayerCharacters[obj_player.character].patColors);
 	}
 	else
     draw_sprite(titlecardSprite, 0, 0, 0);

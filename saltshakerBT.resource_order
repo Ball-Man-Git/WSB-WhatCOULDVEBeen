@@ -631,6 +631,7 @@
     {"name":"spr_kibidi_dead","order":3,"path":"sprites/spr_kibidi_dead/spr_kibidi_dead.yy",},
     {"name":"spr_kibidi_scared","order":2,"path":"sprites/spr_kibidi_scared/spr_kibidi_scared.yy",},
     {"name":"spr_kibidi_stun","order":1,"path":"sprites/spr_kibidi_stun/spr_kibidi_stun.yy",},
+    {"name":"spr_kibidi_turn","order":4,"path":"sprites/spr_kibidi_turn/spr_kibidi_turn.yy",},
     {"name":"spr_kungfueffect","order":208,"path":"sprites/spr_kungfueffect/spr_kungfueffect.yy",},
     {"name":"spr_ladder","order":209,"path":"sprites/spr_ladder/spr_ladder.yy",},
     {"name":"spr_landeffect","order":210,"path":"sprites/spr_landeffect/spr_landeffect.yy",},

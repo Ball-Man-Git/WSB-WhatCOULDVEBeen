@@ -701,6 +701,7 @@
     {"id":{"name":"spr_kibidi_dead","path":"sprites/spr_kibidi_dead/spr_kibidi_dead.yy",},},
     {"id":{"name":"spr_kibidi_scared","path":"sprites/spr_kibidi_scared/spr_kibidi_scared.yy",},},
     {"id":{"name":"spr_kibidi_stun","path":"sprites/spr_kibidi_stun/spr_kibidi_stun.yy",},},
+    {"id":{"name":"spr_kibidi_turn","path":"sprites/spr_kibidi_turn/spr_kibidi_turn.yy",},},
     {"id":{"name":"spr_kibidi_walk","path":"sprites/spr_kibidi_walk/spr_kibidi_walk.yy",},},
     {"id":{"name":"spr_kungfueffect","path":"sprites/spr_kungfueffect/spr_kungfueffect.yy",},},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},},

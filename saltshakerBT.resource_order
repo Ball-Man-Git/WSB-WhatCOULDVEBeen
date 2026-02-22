@@ -112,7 +112,7 @@
     {"name":"obj_globaltimer","order":53,"path":"objects/obj_globaltimer/obj_globaltimer.yy",},
     {"name":"obj_goodmourning","order":54,"path":"objects/obj_goodmourning/obj_goodmourning.yy",},
     {"name":"obj_goup","order":55,"path":"objects/obj_goup/obj_goup.yy",},
-    {"name":"obj_hallway_vertical","order":56,"path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},
+    {"name":"obj_hallway_vertical","order":11,"path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},
     {"name":"obj_hallway","order":10,"path":"objects/obj_hallway/obj_hallway.yy",},
     {"name":"obj_hipnatuese","order":8,"path":"objects/obj_hipnatuese/obj_hipnatuese.yy",},
     {"name":"obj_hipnatueseDead","order":9,"path":"objects/obj_hipnatueseDead/obj_hipnatueseDead.yy",},

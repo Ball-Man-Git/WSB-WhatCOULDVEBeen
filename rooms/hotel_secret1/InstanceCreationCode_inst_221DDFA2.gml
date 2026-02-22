@@ -1,0 +1,1 @@
+text = "i'm in the https://www.youtube.com/watch?v=gEBxKPhf5TE, everybody knows"

@@ -30,7 +30,7 @@ function scr_player_normal()
 	
     if (move != 0)
     {
-        if (sprite_index != sprites.move && sprite_index != spr_player_panicwalk && sprite_index != spr_player_land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance)
+        if (sprite_index != sprites.move && sprite_index != spr_player_panicwalk && sprite_index != spr_player_land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_soundtestdance)
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;

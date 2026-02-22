@@ -391,8 +391,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"default",
-    "path":"texturegroups/default",
+    "name":"player_group",
+    "path":"texturegroups/player_group",
   },
   "type":0,
   "VTile":false,

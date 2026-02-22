@@ -9,7 +9,7 @@ function scr_player_parry()
     if (animation_end())
     {
         state = UnknownEnum.Value_0;
-        sprite_index = spr_player_idle;
+        sprite_index = sprites.idle;
         image_index = 0;
     }
 }

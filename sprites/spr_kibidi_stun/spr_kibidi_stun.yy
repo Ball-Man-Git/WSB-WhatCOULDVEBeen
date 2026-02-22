@@ -91,8 +91,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"default",
-    "path":"texturegroups/default",
+    "name":"enemy_group",
+    "path":"texturegroups/enemy_group",
   },
   "type":0,
   "VTile":false,

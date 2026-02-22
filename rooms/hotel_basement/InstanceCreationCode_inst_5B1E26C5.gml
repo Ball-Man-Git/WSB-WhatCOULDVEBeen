@@ -1,0 +1,1 @@
+text = "Someone tell me what this bro's talking about bro, because I don't get it bro."

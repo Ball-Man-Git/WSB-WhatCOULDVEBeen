@@ -82,6 +82,7 @@
     {"name":"inst_38E95533","path":"rooms/hotel_1/hotel_1.yy",},
     {"name":"inst_76680D6F","path":"rooms/hotel_1/hotel_1.yy",},
     {"name":"inst_62C0CC0B","path":"rooms/hotel_1/hotel_1.yy",},
+    {"name":"inst_4F5EA0F0","path":"rooms/hotel_1/hotel_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -184,6 +185,7 @@
         {"$GMRInstance":"v2","%Name":"inst_62C0CC0B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62C0CC0B","objectId":{"name":"obj_hallway_vertical","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_hallway_vertical","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_hallway_vertical/obj_hallway_vertical.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"hotel_secret1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":-128.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4F5EA0F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F5EA0F0","objectId":{"name":"obj_crashoutcutscene","path":"objects/obj_crashoutcutscene/obj_crashoutcutscene.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.5,"x":800.0,"y":1056.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":50,"SerialiseWidth":141,"TileCompressedData":[
           -311,-2147483648,2,536,537,-139,-2147483648,2,562,563,-467,-2147483648,5,445,446,447,448,449,-136,-2147483648,

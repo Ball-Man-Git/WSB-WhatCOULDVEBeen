@@ -89,14 +89,17 @@ function scr_player_normal()
         {
             buffers.idle = 150;
             image_index = 0;
-            sprite_index = choose(sprites.idle1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
+			if !isMildred
+			sprite_index = sprites.idleanim1
+			else
+            sprite_index = choose(sprites.idleanim1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
             image_speed = 0.35;
             
             if (irandom(100) <= 25)
                 fmod_studio_event_instance_start(soundsOk);
         }
         
-        if (animation_end() && (sprite_index == sprites.idle1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
+        if (animation_end() && (sprite_index == spr_player_idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5 || sprite_index == spr_milton_idleanim1))
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panic : sprites.idle

@@ -295,6 +295,7 @@
     {"id":{"name":"crashout_5","path":"rooms/crashout_5/crashout_5.yy",},},
     {"id":{"name":"crashout_6","path":"rooms/crashout_6/crashout_6.yy",},},
     {"id":{"name":"crashout_7","path":"rooms/crashout_7/crashout_7.yy",},},
+    {"id":{"name":"crashout_lap","path":"rooms/crashout_lap/crashout_lap.yy",},},
     {"id":{"name":"crashout_reference","path":"rooms/crashout_reference/crashout_reference.yy",},},
     {"id":{"name":"hotel_1","path":"rooms/hotel_1/hotel_1.yy",},},
     {"id":{"name":"hotel_2","path":"rooms/hotel_2/hotel_2.yy",},},
@@ -1226,6 +1227,7 @@
     {"roomId":{"name":"milkshek_3","path":"rooms/milkshek_3/milkshek_3.yy",},},
     {"roomId":{"name":"hotel_secret1","path":"rooms/hotel_secret1/hotel_secret1.yy",},},
     {"roomId":{"name":"milkshek_4","path":"rooms/milkshek_4/milkshek_4.yy",},},
+    {"roomId":{"name":"crashout_lap","path":"rooms/crashout_lap/crashout_lap.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

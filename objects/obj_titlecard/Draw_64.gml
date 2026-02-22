@@ -10,7 +10,10 @@ if (scene == 1 || scene == 2)
 	pattern_draw(obj_player.isJuan ? titlecardSpriteJuan : titlecardSprite, 0, 0, 0, 1, 1, 0, 16777215, 1, global.patternSpr, global.PlayerCharacters[obj_player.character].patColors);
 	}
 	else
+	{
     draw_sprite(titlecardSprite, 0, 0, 0);
+	pattern_draw(titlecardSprite, 0, 0, 0, 1, 1, 0, 16777215, 1, spr_playerPat_threads, spr_playerPatColors);
+	}
     
     if (isMilton)
         draw_sprite(titlecardMilton, titlecardMiltonIndex, 0, 0);

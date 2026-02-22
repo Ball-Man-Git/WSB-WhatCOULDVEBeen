@@ -82,21 +82,21 @@ function scr_player_normal()
         
         movespeed = approach(movespeed, 0, 0.65);
         
-        if (sprite_index == sprites.idle)
+        if (sprite_index == sprites.idle && sprites.idle != spr_juandanger_idle)
             buffers.idle--;
         
         if (buffers.idle <= 0 && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_juandanger_idle && sprite_index != spr_player_panic)
         {
             buffers.idle = 150;
             image_index = 0;
-            sprite_index = choose(spr_player_idleanim1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
+            sprite_index = choose(sprites.idle1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
             image_speed = 0.35;
             
             if (irandom(100) <= 25)
                 fmod_studio_event_instance_start(soundsOk);
         }
         
-        if (animation_end() && (sprite_index == spr_player_idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
+        if (animation_end() && (sprite_index == sprites.idle1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panic : sprites.idle

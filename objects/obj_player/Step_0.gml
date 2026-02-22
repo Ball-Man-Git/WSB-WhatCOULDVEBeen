@@ -368,9 +368,23 @@ if isErnie
 if isMildred
 {
 	if palIndex == 11
+	{
 		sprites.idle = spr_juandanger_idle
-	else
+		sprites.mach3 = spr_player_mach3
+		sprites.mach3turn = spr_player_mach3turn;
+	}
+	else if palIndex == 12
+		{
 		sprites.idle = spr_player_idle
+		sprites.mach3 = spr_mildrednew_mach3
+		sprites.mach3turn = spr_mildrednew_mach3turn;
+	}
+	else
+	{
+		sprites.idle = spr_player_idle
+		sprites.mach3 = spr_player_mach3
+		sprites.mach3turn = spr_player_mach3turn;
+	}
 }
 
 

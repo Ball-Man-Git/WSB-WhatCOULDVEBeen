@@ -39,6 +39,7 @@
     {"name":"NekoPresence","order":2,"path":"extensions/NekoPresence/NekoPresence.yy",},
     {"name":"font_console","order":1,"path":"fonts/font_console/font_console.yy",},
     {"name":"font_dialogPlaceholder","order":2,"path":"fonts/font_dialogPlaceholder/font_dialogPlaceholder.yy",},
+    {"name":"Font_notes","order":4,"path":"fonts/Font_notes/Font_notes.yy",},
     {"name":"font_saltif","order":3,"path":"fonts/font_saltif/font_saltif.yy",},
     {"name":"Asset_Order","order":1,"path":"notes/Asset_Order/Asset_Order.yy",},
     {"name":"obj_backtohub","order":1,"path":"objects/obj_backtohub/obj_backtohub.yy",},

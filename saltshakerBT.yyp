@@ -86,6 +86,7 @@
     {"id":{"name":"font_caption","path":"fonts/font_caption/font_caption.yy",},},
     {"id":{"name":"font_console","path":"fonts/font_console/font_console.yy",},},
     {"id":{"name":"font_dialogPlaceholder","path":"fonts/font_dialogPlaceholder/font_dialogPlaceholder.yy",},},
+    {"id":{"name":"Font_notes","path":"fonts/Font_notes/Font_notes.yy",},},
     {"id":{"name":"font_saltif","path":"fonts/font_saltif/font_saltif.yy",},},
     {"id":{"name":"Asset_Order","path":"notes/Asset_Order/Asset_Order.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},

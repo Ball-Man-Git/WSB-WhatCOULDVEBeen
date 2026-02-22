@@ -28,7 +28,7 @@
   "origin":4,
   "parent":{
     "name":"TV",
-    "path":"folders/Sprites/Ernie/TV.yy",
+    "path":"folders/Sprites/Ernie Sprites/TV.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ernie",
-    "path":"folders/Sprites/Ernie.yy",
+    "name":"Ernie Sprites",
+    "path":"folders/Sprites/Ernie Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

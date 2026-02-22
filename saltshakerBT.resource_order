@@ -697,6 +697,7 @@
     {"name":"spr_npcborder","order":267,"path":"sprites/spr_npcborder/spr_npcborder.yy",},
     {"name":"spr_npcfont","order":268,"path":"sprites/spr_npcfont/spr_npcfont.yy",},
     {"name":"spr_null","order":638,"path":"sprites/spr_null/spr_null.yy",},
+    {"name":"spr_onewayman_dead","order":641,"path":"sprites/spr_onewayman_dead/spr_onewayman_dead.yy",},
     {"name":"spr_onewayman","order":269,"path":"sprites/spr_onewayman/spr_onewayman.yy",},
     {"name":"spr_onewaymask","order":270,"path":"sprites/spr_onewaymask/spr_onewaymask.yy",},
     {"name":"spr_optionsBG","order":271,"path":"sprites/spr_optionsBG/spr_optionsBG.yy",},

@@ -123,8 +123,8 @@
   ],
   "name":"milkshek_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Milkshake Peaks",
+    "path":"folders/Rooms/Floor 2/Milkshake Peaks.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -1,1 +1,1 @@
-text = "i'm in the https://www.youtube.com/watch?v=gEBxKPhf5TE, everybody knows"
+text = "Wowee, bro! i'm a https://www.youtube.com/watch?v=Sj6UEZubnB0, bro"

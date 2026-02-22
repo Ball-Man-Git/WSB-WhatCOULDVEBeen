@@ -37,6 +37,7 @@ addPalette("Pristine Wears", "Unlocked by ???", 8, true);
 addPalette("Darker Wears", "Unlocked by ???", 9, true);
 addPalette("Dangerous Wears", "Unlocked by ???", 11, true);
 addPalette("Racing Wears", "Unlocked by ???", 0, true);
+addPalette("New-ish Wears", "Unlocked by being undead", 12, true);
 }
 if obj_player.isMilton == true and obj_player.isErnie == false and obj_player.isMildred == false
 {

@@ -115,8 +115,8 @@
   ],
   "name":"kingdom_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Snowcone Kingdom",
+    "path":"folders/Rooms/Floor 2/Snowcone Kingdom.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

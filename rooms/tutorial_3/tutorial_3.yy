@@ -160,8 +160,8 @@
   ],
   "name":"tutorial_3",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tutorial",
+    "path":"folders/Rooms/Tutorial.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

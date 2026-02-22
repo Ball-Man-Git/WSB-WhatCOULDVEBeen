@@ -54,6 +54,9 @@
 
   "roomname_hotel_receptionentrance":"whats shakin bacon",
   "roomname_hotel_1":"guilty pleasure",
+  "roomname_hotel_2":"the showfloors",
+  "roomname_hotel_3":"privacy",
+  "roomname_hotel_basement":"rotten bacon",
 
   "dialog_milton1_1_MT": "HEY!",
   "dialog_milton1_2_MT": "Let me set some DAMN ground rules for you.",
@@ -74,6 +77,7 @@
   "tip_flag":"[wave]Plant the Flag!",
   "tip_ski":"[wave][J] Jump",
   "tip_surf": "[wave][U][D] Surf [L][R] Adjust Speed",
+  "tip_skateboard": "[wave][U][D][L][R] Aim [G] Charge [J] Jump",
   "buddy_release": "[shake]You've set her free...",
   "treasure_get": "[wave]You got the secret treasure!",
   "tip_supertaunt":"[wave][U][T] Super Taunt",

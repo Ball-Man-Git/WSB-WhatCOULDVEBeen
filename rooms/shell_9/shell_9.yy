@@ -143,8 +143,8 @@
   ],
   "name":"shell_9",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Shell City",
+    "path":"folders/Rooms/Floor 1/Shell City.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

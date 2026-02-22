@@ -36,8 +36,8 @@
   ],
   "name":"hotel_basement",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"The Mourning Hotel",
+    "path":"folders/Rooms/The Mourning Hotel.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

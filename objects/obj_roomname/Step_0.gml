@@ -13,6 +13,9 @@ switch (room)
     
     case hotel_receptionentrance:
     case hotel_1:
+	case hotel_2:
+	case hotel_3:
+	case hotel_basement:
         text = lang_get_phrase(string("roomname_{0}", room_get_name(room)));
         break;
 }

@@ -27,8 +27,8 @@
   ],
   "name":"crashout_reference",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Crashout City",
+    "path":"folders/Rooms/Basement/Crashout City.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

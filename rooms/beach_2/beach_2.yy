@@ -143,8 +143,8 @@
   ],
   "name":"beach_2",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Fruitcup Coast",
+    "path":"folders/Rooms/Floor 1/Fruitcup Coast.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

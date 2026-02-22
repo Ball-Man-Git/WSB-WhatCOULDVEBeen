@@ -582,8 +582,8 @@
   ],
   "name":"mangrove_8",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Waybackyard",
+    "path":"folders/Rooms/Floor 1/Waybackyard.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -48,7 +48,7 @@
         {"$GMRInstance":"v2","%Name":"inst_100627","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100627","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":11.0,"x":128.0,"y":224.0,},
         {"$GMRInstance":"v2","%Name":"inst_100628","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100628","objectId":{"name":"obj_partyportal","path":"objects/obj_partyportal/obj_partyportal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":647.0,"y":302.0,},
         {"$GMRInstance":"v2","%Name":"inst_100629","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100629","objectId":{"name":"obj_ballofbeer","path":"objects/obj_ballofbeer/obj_ballofbeer.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ballofbeer","path":"objects/obj_ballofbeer/obj_ballofbeer.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_ballofbeer/obj_ballofbeer.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"beach_1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ballofbeer","path":"objects/obj_ballofbeer/obj_ballofbeer.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_ballofbeer/obj_ballofbeer.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"beach_1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":-1.0,"x":1056.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_100630","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100630","objectId":{"name":"obj_doorG","path":"objects/obj_doorG/obj_doorG.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1056.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_100631","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100631","objectId":{"name":"obj_destroyable1","path":"objects/obj_destroyable1/obj_destroyable1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":736.0,},
@@ -69,8 +69,8 @@
   ],
   "name":"beach_lap",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Fruitcup Coast",
+    "path":"folders/Rooms/Floor 1/Fruitcup Coast.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

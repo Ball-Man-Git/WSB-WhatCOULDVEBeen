@@ -68,7 +68,7 @@
     },
     "name":"spr_ernie_move",
     "playback":1,
-    "playbackSpeed":20.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":1,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

@@ -584,7 +584,7 @@ function get_characterspr(arg0)
             st.player.mach3 = spr_ernie_run;
             st.player.mach3hit = spr_ernie_runkillenemy;
             st.player.mach3jump = spr_ernie_runningjump;
-			st.player.mach3turn = spr_ernie_runturnplaceholder;
+			st.player.mach3turn = spr_ernie_runturn;
             st.player.rolling = spr_player_rolling;
             st.player.move = spr_ernie_move;
             st.player.crazyrun = spr_player_crazyrun;

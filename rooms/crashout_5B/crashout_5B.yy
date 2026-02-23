@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
-  "%Name":"crashout_reference",
-  "creationCodeFile":"rooms/crashout_reference/RoomCreationCode.gml",
+  "%Name":"crashout_5B",
+  "creationCodeFile":"rooms/crashout_5B/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -25,7 +25,7 @@
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_stillscroll1","animationFPS":33.0,"animationSpeedType":0,"colour":4294967295,"depth":900,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":-0.2,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_stillscroll1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_crashoutSmoke2","path":"sprites/bg_crashoutSmoke2/bg_crashoutSmoke2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_still1","animationFPS":33.0,"animationSpeedType":0,"colour":4294967295,"depth":1000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_still1","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"bg_crashoutSky","path":"sprites/bg_crashoutSky/bg_crashoutSky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"crashout_reference",
+  "name":"crashout_5B",
   "parent":{
     "name":"Crashout City",
     "path":"folders/Rooms/Basement/Crashout City.yy",

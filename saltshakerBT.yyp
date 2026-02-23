@@ -295,6 +295,7 @@
     {"id":{"name":"beach_test","path":"rooms/beach_test/beach_test.yy",},},
     {"id":{"name":"beer_test","path":"rooms/beer_test/beer_test.yy",},},
     {"id":{"name":"cafe_1","path":"rooms/cafe_1/cafe_1.yy",},},
+    {"id":{"name":"cafe_2","path":"rooms/cafe_2/cafe_2.yy",},},
     {"id":{"name":"castle_1","path":"rooms/castle_1/castle_1.yy",},},
     {"id":{"name":"castle_2","path":"rooms/castle_2/castle_2.yy",},},
     {"id":{"name":"castle_3","path":"rooms/castle_3/castle_3.yy",},},
@@ -1267,6 +1268,7 @@
     {"roomId":{"name":"crashout_treasure","path":"rooms/crashout_treasure/crashout_treasure.yy",},},
     {"roomId":{"name":"cafe_1","path":"rooms/cafe_1/cafe_1.yy",},},
     {"roomId":{"name":"milkshek_secret1","path":"rooms/milkshek_secret1/milkshek_secret1.yy",},},
+    {"roomId":{"name":"cafe_2","path":"rooms/cafe_2/cafe_2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

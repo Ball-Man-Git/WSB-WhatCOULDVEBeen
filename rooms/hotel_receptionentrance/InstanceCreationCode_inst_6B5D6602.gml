@@ -1,0 +1,1 @@
+text = "Hey bro, welcome to The Mourning Hotel bro!"

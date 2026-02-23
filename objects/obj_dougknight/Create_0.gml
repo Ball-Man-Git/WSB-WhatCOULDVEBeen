@@ -14,3 +14,11 @@ spr_stun = spr_kibidi_stun;
 spr_scared = spr_kibidi_scared;
 spr_dead = spr_kibidi_dead;
 }
+if global.level == "cafe"
+{
+spr_move = spr_kibidi_walk;
+spr_turn = spr_kibidi_turn;
+spr_stun = spr_kibidi_stun;
+spr_scared = spr_kibidi_scared;
+spr_dead = spr_kibidi_dead;
+}

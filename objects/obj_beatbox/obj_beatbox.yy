@@ -10,8 +10,8 @@
   "name":"obj_beatbox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Effects and Player Stuff",
+    "path":"folders/Objects/Effects and Player Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

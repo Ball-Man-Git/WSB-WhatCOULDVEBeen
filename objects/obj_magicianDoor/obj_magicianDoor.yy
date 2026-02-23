@@ -11,8 +11,8 @@
   "name":"obj_magicianDoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Doors and Warps",
+    "path":"folders/Objects/Doors and Warps.yy",
   },
   "parentObjectId":null,
   "persistent":false,

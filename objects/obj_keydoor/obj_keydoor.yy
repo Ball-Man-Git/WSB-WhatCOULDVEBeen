@@ -11,8 +11,8 @@
   "name":"obj_keydoor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Doors and Warps",
+    "path":"folders/Objects/Doors and Warps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"name":"targetRoom","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-4","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"name":"targetRoom","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-4","varType":4,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -10,8 +10,8 @@
   "name":"obj_hoaxxe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hidden Objects",
+    "path":"folders/Objects/Hidden Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

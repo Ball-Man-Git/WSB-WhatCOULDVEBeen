@@ -9,8 +9,8 @@
   "name":"obj_speedlines",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Effects and Player Stuff",
+    "path":"folders/Objects/Effects and Player Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,

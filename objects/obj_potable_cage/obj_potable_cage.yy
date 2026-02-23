@@ -10,8 +10,8 @@
   "name":"obj_potable_cage",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Common Level Objects",
+    "path":"folders/Objects/Common Level Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

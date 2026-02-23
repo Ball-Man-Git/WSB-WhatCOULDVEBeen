@@ -6,7 +6,7 @@ if (active)
             with (obj_player)
             {
                 x = -200;
-                y = obj_doorS.y - 12;
+                y = obj_doorS.y - 15;
                 state = UnknownEnum.Value_20;
                 sprite_index = sprites.idle;
                 obj_camera.cam_tar = obj_fakebody;

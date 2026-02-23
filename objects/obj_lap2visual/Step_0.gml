@@ -7,9 +7,9 @@ if (down)
 }
 else
 {
-    y = approach(y, -64, 2);
+    y = approach(y, -80, 2);
     
-    if (y == -128)
+    if (y == -80)
         instance_destroy();
 }
 

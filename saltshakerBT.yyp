@@ -298,6 +298,7 @@
     {"id":{"name":"cafe_1","path":"rooms/cafe_1/cafe_1.yy",},},
     {"id":{"name":"cafe_2","path":"rooms/cafe_2/cafe_2.yy",},},
     {"id":{"name":"cafe_3","path":"rooms/cafe_3/cafe_3.yy",},},
+    {"id":{"name":"cafe_4","path":"rooms/cafe_4/cafe_4.yy",},},
     {"id":{"name":"castle_1","path":"rooms/castle_1/castle_1.yy",},},
     {"id":{"name":"castle_2","path":"rooms/castle_2/castle_2.yy",},},
     {"id":{"name":"castle_3","path":"rooms/castle_3/castle_3.yy",},},
@@ -1272,6 +1273,7 @@
     {"roomId":{"name":"milkshek_secret1","path":"rooms/milkshek_secret1/milkshek_secret1.yy",},},
     {"roomId":{"name":"cafe_2","path":"rooms/cafe_2/cafe_2.yy",},},
     {"roomId":{"name":"cafe_3","path":"rooms/cafe_3/cafe_3.yy",},},
+    {"roomId":{"name":"cafe_4","path":"rooms/cafe_4/cafe_4.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

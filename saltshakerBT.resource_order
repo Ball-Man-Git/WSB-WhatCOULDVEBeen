@@ -239,6 +239,7 @@
     {"name":"beach_test","order":8,"path":"rooms/beach_test/beach_test.yy",},
     {"name":"cafe_2","order":1,"path":"rooms/cafe_2/cafe_2.yy",},
     {"name":"cafe_3","order":2,"path":"rooms/cafe_3/cafe_3.yy",},
+    {"name":"cafe_4","order":3,"path":"rooms/cafe_4/cafe_4.yy",},
     {"name":"castle_2","order":1,"path":"rooms/castle_2/castle_2.yy",},
     {"name":"castle_3","order":2,"path":"rooms/castle_3/castle_3.yy",},
     {"name":"characterSelect","order":12,"path":"rooms/characterSelect/characterSelect.yy",},

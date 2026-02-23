@@ -6,9 +6,9 @@ if (active)
             with (obj_player)
             {
                 x = -200;
-                y = obj_doorS.y - 14;
+                y = obj_doorS.y - 13;
                 state = UnknownEnum.Value_20;
-                sprite_index = spr_player_idle;
+                sprite_index = sprites.idle;
                 obj_camera.cam_tar = obj_fakebody;
             }
             
@@ -22,7 +22,7 @@ if (active)
             if (eventtimer <= 0)
             {
                 part++;
-                obj_player.sprite_index = spr_player_move;
+                obj_player.sprite_index = obj_player.sprites.move;
             }
             
             break;
@@ -32,7 +32,8 @@ if (active)
             {
                 x = approach(x, other.playerstart, 8);
                 state = UnknownEnum.Value_20;
-                sprite_index = spr_player_move;
+				image_speed = 0.35
+                sprite_index = sprites.move;
             }
             
             if (obj_player.x == (other.playerstart - 64))
@@ -42,7 +43,7 @@ if (active)
                 with (obj_player)
                 {
                     state = UnknownEnum.Value_0;
-                    sprite_index = spr_player_idle;
+                    sprite_index = sprites.idle;
                     obj_camera.lock = false;
                     obj_camera.cam_tar = obj_player;
                 }

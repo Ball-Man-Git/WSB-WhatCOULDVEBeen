@@ -302,6 +302,7 @@
     {"id":{"name":"crashout_6","path":"rooms/crashout_6/crashout_6.yy",},},
     {"id":{"name":"crashout_7","path":"rooms/crashout_7/crashout_7.yy",},},
     {"id":{"name":"crashout_8","path":"rooms/crashout_8/crashout_8.yy",},},
+    {"id":{"name":"crashout_9","path":"rooms/crashout_9/crashout_9.yy",},},
     {"id":{"name":"crashout_lap","path":"rooms/crashout_lap/crashout_lap.yy",},},
     {"id":{"name":"crashout_reference","path":"rooms/crashout_reference/crashout_reference.yy",},},
     {"id":{"name":"crashout_secret1","path":"rooms/crashout_secret1/crashout_secret1.yy",},},
@@ -1249,6 +1250,7 @@
     {"roomId":{"name":"secretempty","path":"rooms/secretempty/secretempty.yy",},},
     {"roomId":{"name":"crashout_8","path":"rooms/crashout_8/crashout_8.yy",},},
     {"roomId":{"name":"warehouse_1","path":"rooms/warehouse_1/warehouse_1.yy",},},
+    {"roomId":{"name":"crashout_9","path":"rooms/crashout_9/crashout_9.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

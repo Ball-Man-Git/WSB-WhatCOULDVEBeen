@@ -272,6 +272,7 @@ var GAME = create_menu(UnknownEnum.Value_10, UnknownEnum.Value_12, 48, function(
     goto_menu(UnknownEnum.Value_0);
 	    ini_open(working_directory + "options.ini");
     ini_write_real("Game", "NewTVs", global.newTVs);
+	ini_write_real("Game", "RedempEnemyDeath", global.redempEnemyDeath)
 	ini_close();
 });
 add_option_press(GAME, "option_back", function()
@@ -279,6 +280,7 @@ add_option_press(GAME, "option_back", function()
     goto_menu(UnknownEnum.Value_0);
 		    ini_open(working_directory + "options.ini");
     ini_write_real("Game", "NewTVs", global.newTVs);
+	ini_write_real("Game", "RedempEnemyDeath", global.redempEnemyDeath)
 	ini_close();
 });
 add_option_ext(GAME, UnknownEnum.Value_15, "option_game_newmachtvs", function()
@@ -289,6 +291,14 @@ add_option_ext(GAME, UnknownEnum.Value_15, "option_game_newmachtvs", function()
     global.newTVs = q.val;
     q.val = global.newTVs;
 }, global.newTVs, 1);
+add_option_ext(GAME, UnknownEnum.Value_15, "option_game_spinnyenemies", function()
+{
+    var m = menus[currentmenu];
+    var opt = m.options;
+    var q = opt[selected];
+    global.redempEnemyDeath = q.val;
+    q.val = global.redempEnemyDeath;
+}, global.redempEnemyDeath, 1);
 var controlsMain = create_menu(UnknownEnum.Value_4, UnknownEnum.Value_12, 48, function()
 {
     goto_menu(UnknownEnum.Value_0);

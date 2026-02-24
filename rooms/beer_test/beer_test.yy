@@ -112,8 +112,8 @@
   ],
   "name":"beer_test",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Wasted Shores",
+    "path":"folders/Rooms/Floor 2/Wasted Shores.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

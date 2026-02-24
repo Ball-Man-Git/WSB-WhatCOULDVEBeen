@@ -36,8 +36,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Big",
+    "path":"folders/Sprites/Collects/Big.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

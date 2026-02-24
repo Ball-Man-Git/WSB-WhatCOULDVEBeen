@@ -41,8 +41,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Potables",
+    "path":"folders/Sprites/Collects/Potables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

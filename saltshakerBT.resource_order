@@ -242,6 +242,7 @@
     {"name":"cafe_2","order":1,"path":"rooms/cafe_2/cafe_2.yy",},
     {"name":"cafe_3","order":2,"path":"rooms/cafe_3/cafe_3.yy",},
     {"name":"cafe_4","order":3,"path":"rooms/cafe_4/cafe_4.yy",},
+    {"name":"cafe_5","order":5,"path":"rooms/cafe_5/cafe_5.yy",},
     {"name":"cafe_secret1","order":4,"path":"rooms/cafe_secret1/cafe_secret1.yy",},
     {"name":"castle_2","order":1,"path":"rooms/castle_2/castle_2.yy",},
     {"name":"castle_3","order":2,"path":"rooms/castle_3/castle_3.yy",},

@@ -8,7 +8,7 @@ spr_pattern = global.patternSpr;
 if global.redempEnemyDeath
 {
 spinSpd = random_range(-25, 25);
-sizeSpd = random_range(-0.05, 0.05);
+sizeSpd = random_range(-0.1, 0.1);
 }
 else
 {

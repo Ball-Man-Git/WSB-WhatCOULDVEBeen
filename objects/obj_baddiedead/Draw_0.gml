@@ -1,5 +1,3 @@
-draw_self();
-
 if (usePalette)
 {
     pal_swap_set(spr_palette, paletteIndex, false);

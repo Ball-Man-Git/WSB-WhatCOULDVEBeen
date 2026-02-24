@@ -394,3 +394,24 @@ if isMildred
 		vsp = 15
 		freefallsmash = 15
 			}
+			
+			if ((sprite_index == spr_player_groundpoundland || sprite_index == sprites.divebombland) && sprite_index != spr_player_hitceiling)
+			{
+								if key_jump && isErnie
+			{
+				            state = UnknownEnum.Value_2;
+            vsp = -22;
+			freefalling = -25
+            image_index = 0;
+            sprite_index = spr_ernie_groundpoundjump;
+			}
+			
+			if key_attack && isMilton
+			{
+				        flash = true;
+        state = UnknownEnum.Value_4;
+				movespeed = 13
+				image_index = 0;
+				sprite_index = spr_milton_groundpoundrun
+			}
+			}

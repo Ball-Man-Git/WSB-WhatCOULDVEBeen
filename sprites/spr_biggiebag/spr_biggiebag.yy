@@ -36,8 +36,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Biggie Bag",
+    "path":"folders/Sprites/Enemies/Biggie Bag.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

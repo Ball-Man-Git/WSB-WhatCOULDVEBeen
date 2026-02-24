@@ -5,7 +5,7 @@ if global.hardMode
 spr_turn = spr_biggiebag_turn;
 spr_stun = spr_biggiebag_stun;
 spr_scared = spr_biggiebag_scared;
-spr_dead = spr_biggiebagHARD_dead;
+spr_dead = spr_plosher_dead;
 }
 else
 {

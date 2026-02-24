@@ -7,6 +7,8 @@ function scr_player_mach3()
         image_speed = lerp(image_speed, 0.5, 0.15);
 		else if (sprite_index == spr_ernie_run)
 		image_speed = 0.45
+				else if (sprite_index == spr_milton_groundpoundrun || sprite_index == spr_milton_groundpoundrunhit)
+		image_speed = 0.35
     else
         image_speed = (sprite_index == sprites.crazyrun) ? 0.6 : 0.35;
     
@@ -19,7 +21,7 @@ function scr_player_mach3()
     buffers.bigdashcloud--;
 	
 	if (movespeed < 14 && isErnie)
-	movespeed = lerp(movespeed, 14, 0.025)
+	movespeed = lerp(movespeed, 14, 0.05)
     
     if (buffers.bigdashcloud <= 0 && grounded)
     {
@@ -55,8 +57,11 @@ function scr_player_mach3()
         image_index = 0;
         sprite_index = spr_player_walljump;
     }
+	
+			    if (animation_end() && sprite_index == spr_milton_groundpoundrun)
+        image_index = 4;
     
-    if (animation_end() && ((sprite_index == sprites.mach3jump && !isErnie) || sprite_index == sprites.mach3hit || sprite_index == spr_player_rollgetup))
+    if (animation_end() && ((sprite_index == sprites.mach3jump && !isErnie) || sprite_index == sprites.mach3hit || sprite_index == spr_player_rollgetup || sprite_index == spr_milton_groundpoundrunhit))
     {
         image_index = 0;
         sprite_index = sprites.mach3;

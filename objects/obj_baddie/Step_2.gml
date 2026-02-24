@@ -152,8 +152,12 @@ with (obj_player)
             
             FMODevent_oneshot("event:/Sfx/Player/punch", x, y);
             
-            if (state == UnknownEnum.Value_4 && sprite_index == sprites.mach3)
+            if (state == UnknownEnum.Value_4 && (sprite_index == sprites.mach3 || sprite_index == spr_milton_groundpoundrun))
             {
+				                image_index = 0;
+								if sprite_index == spr_milton_groundpoundrun
+								sprite_index = spr_milton_groundpoundrunhit
+								else
                 sprite_index = sprites.mach3hit;
                 image_index = 0;
             }

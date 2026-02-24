@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Cabbit",
+    "path":"folders/Sprites/Enemies/Cabbit.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -200,8 +200,8 @@
   ],
   "name":"hotel_2",
   "parent":{
-    "name":"The Mourning Hotel",
-    "path":"folders/Rooms/The Mourning Hotel.yy",
+    "name":"Sunnyside Inn",
+    "path":"folders/Rooms/Sunnyside Inn.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

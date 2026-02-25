@@ -54,8 +54,8 @@
   "secret_get":"[wave]You've found [global.secretCount] love letters out of 3!!",
 
   "roomname_hotel_receptionentrance":"whats shakin bacon",
-  "roomname_hotel_1":"guilty pleasure",
-  "roomname_hotel_2":"the showfloors",
+  "roomname_hotel_1":"lunch hour",
+  "roomname_hotel_2":"happy holidays",
   "roomname_hotel_3":"privacy",
   "roomname_hotel_basement":"rotten bacon",
 

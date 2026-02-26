@@ -18,9 +18,9 @@ function create_gate_layer(arg0, arg1, arg2, arg3, arg4, arg5, arg6 = false)
     return q;
 }
 
-create_gate_layer(spr_gate_waybackBG, 0, 0, 0, 0, 0, true);
-create_gate_layer(spr_gate_waybackBG, 1, 0, 0, 0.35, 0);
-create_gate_layer(spr_gate_waybackBG, 2, 0, 0, 0.25, 0);
+create_gate_layer(gateBG, 0, 0, 0, 0, 0, true);
+create_gate_layer(gateBG, 1, 0, 0, 0.35, 0);
+create_gate_layer(gateBG, 2, 0, 0, 0.25, 0);
 bgalpha = 1;
 visibleradius = 250;
 textalpha = 0;

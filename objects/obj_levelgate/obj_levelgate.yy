@@ -33,6 +33,7 @@
     {"$GMObjectProperty":"v1","%Name":"level","filters":[],"listItems":[],"multiselect":false,"name":"level","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"forest\"","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"targetRoom","filters":[],"listItems":[],"multiselect":false,"name":"targetRoom","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":{"name":"mangrove_1","path":"rooms/mangrove_1/mangrove_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"mangrove_1","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"sprite_index","filters":[],"listItems":[],"multiselect":false,"name":"sprite_index","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"sprite_index","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"gateBG","filters":[],"listItems":[],"multiselect":false,"name":"gateBG","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_gate_waybackBG","path":"sprites/spr_gate_waybackBG/spr_gate_waybackBG.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_gate_waybackBG","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

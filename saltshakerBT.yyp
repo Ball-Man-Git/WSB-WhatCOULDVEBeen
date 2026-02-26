@@ -301,6 +301,7 @@
     {"id":{"name":"obj_treasureViewer","path":"objects/obj_treasureViewer/obj_treasureViewer.yy",},},
     {"id":{"name":"obj_tutorialBlock","path":"objects/obj_tutorialBlock/obj_tutorialBlock.yy",},},
     {"id":{"name":"obj_uncleflo","path":"objects/obj_uncleflo/obj_uncleflo.yy",},},
+    {"id":{"name":"obj_video","path":"objects/obj_video/obj_video.yy",},},
     {"id":{"name":"obj_warehousecutsene","path":"objects/obj_warehousecutsene/obj_warehousecutsene.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"obj_whiteflash","path":"objects/obj_whiteflash/obj_whiteflash.yy",},},

@@ -240,6 +240,7 @@
     {"name":"obj_treasureViewer","order":108,"path":"objects/obj_treasureViewer/obj_treasureViewer.yy",},
     {"name":"obj_tutorialBlock","order":109,"path":"objects/obj_tutorialBlock/obj_tutorialBlock.yy",},
     {"name":"obj_uncleflo","order":110,"path":"objects/obj_uncleflo/obj_uncleflo.yy",},
+    {"name":"obj_video","order":5,"path":"objects/obj_video/obj_video.yy",},
     {"name":"obj_warehousecutsene","order":123,"path":"objects/obj_warehousecutsene/obj_warehousecutsene.yy",},
     {"name":"obj_water","order":111,"path":"objects/obj_water/obj_water.yy",},
     {"name":"obj_whiteflash","order":6,"path":"objects/obj_whiteflash/obj_whiteflash.yy",},

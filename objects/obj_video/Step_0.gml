@@ -14,7 +14,7 @@ if (video_get_status() == 0)
     
     with (obj_player)
     {
-        targetRoom = Mainmenu;
+        targetRoom = serverMenuShit;
         targetDoor = "A";
         hallway = false;
         

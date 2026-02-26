@@ -7,7 +7,7 @@ if (_type == "video_end")
     
     with (obj_player)
     {
-        targetRoom = Mainmenu
+        targetRoom = serverMenuShit
         targetDoor = "A";
         hallway = false;
         

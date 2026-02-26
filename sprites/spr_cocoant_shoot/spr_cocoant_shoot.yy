@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Coco Ant",
+    "path":"folders/Sprites/Enemies/Coco Ant.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

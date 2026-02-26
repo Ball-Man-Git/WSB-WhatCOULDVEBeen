@@ -1,4 +1,4 @@
-text = "WOOOOAAAAHH bro, before you go anywhere bro, you gotta finish the tutorial bto."
+text = "WOOOOAAAAHH bro, before you go anywhere bro, you gotta finish the tutorial bro."
 
 ini_open(global.saveFile);
 

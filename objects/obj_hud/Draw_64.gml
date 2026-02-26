@@ -224,7 +224,7 @@ with (tv)
 
 with (bar)
 {
-    var _escape = global.escape.active == true && !global.hardMode;
+    var _escape = global.escape.active == true && (!global.hardMode || room != rm_wwdop);
     var roomname = string_letters(room_get_name(room));
     var _secret = string_pos("secret", roomname) > 0;
     var _sec = wrap(global.escape.timer / 60, 0, 59);

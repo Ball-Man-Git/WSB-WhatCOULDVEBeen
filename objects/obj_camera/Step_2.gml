@@ -56,7 +56,7 @@ var _escapeShake1 = irandom_range(-global.escape.active, global.escape.active);
 var _escapeShake2 = irandom_range(-global.escape.active, global.escape.active);
 var _secret = string_pos("secret", roomname) > 0;
 
-if (_secret)
+if (_secret || roomname == rm_wwdop)
 {
     _escapeShake1 = 0;
     _escapeShake2 = 0;

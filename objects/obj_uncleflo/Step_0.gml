@@ -1,6 +1,6 @@
-if (global.escape.active)
+if (global.escape.active && room != rm_wwdop)
 {
-    text = "[wave]BRO YOU GOTTA LEAVE BRO!";
+    text = "[shake]BRO YOU GOTTA LEAVE BRO!";
     
     if (place_meeting(x, y, obj_player))
     {

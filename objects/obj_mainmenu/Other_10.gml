@@ -1,4 +1,6 @@
 var _rm = hotel_receptionentrance;
+if current_month == 6 && current_day == 21
+_rm = rm_wwdop
 var _dr = "A";
 
 with (obj_player)

@@ -153,7 +153,7 @@ var roomname = string_letters(room_get_name(room));
 var _secret = string_pos("secret", roomname) > 0;
 var _escape = global.escape.active == true;
 
-if (!_secret)
+if (!_secret || room != rm_wwdop)
     global.escape.timer = approach(global.escape.timer, 0, 1);
 
 if (global.escape.timer == 0 && !instance_exists(obj_hipnatuese) && !_secret && global.level != "tutorial" && _escape)

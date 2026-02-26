@@ -18,7 +18,7 @@ if (other.grounded && other.key_up && other.state != UnknownEnum.Value_20 && oth
         {
             ds_list_add(global.saveroom, id);
             image_index = 0;
-            sprite_index = spr_doorkey_open;
+            sprite_index = spr_player_doorunlock;
         }
         else
         {

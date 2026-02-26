@@ -29,4 +29,4 @@ if (video_get_status() == 0)
     }
 }
 
-video_set_volume(global.MusicVolume);
+video_set_volume(global.MasterVolume);

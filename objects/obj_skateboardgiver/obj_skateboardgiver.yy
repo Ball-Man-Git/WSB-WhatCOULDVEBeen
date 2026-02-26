@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stickcollect_billlargestack",
-    "path":"sprites/spr_stickcollect_billlargestack/spr_stickcollect_billlargestack.yy",
+    "name":"spr_spraycan",
+    "path":"sprites/spr_spraycan/spr_spraycan.yy",
   },
   "spriteMaskId":null,
   "visible":true,

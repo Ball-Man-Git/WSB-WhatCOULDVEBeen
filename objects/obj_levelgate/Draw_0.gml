@@ -1,7 +1,7 @@
 var x1 = sprite_get_xoffset(sprite_index);
 var y1 = sprite_get_yoffset(sprite_index);
 draw_sprite(sprite_index, 1, x, y);
-var _bgyoffset = sprite_get_yoffset(gateBG) + sprite_get_height(sprite_index);
+var _bgyoffset = sprite_get_yoffset(spr_gate_waybackBG) + sprite_get_height(sprite_index);
 var _surf = -4;
 var _clip = -4;
 

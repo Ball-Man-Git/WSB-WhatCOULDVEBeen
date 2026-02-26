@@ -104,11 +104,32 @@ with (tv)
                     
                     if (expressionSprite != _idleSprite)
                         tv_anim(_idleSprite);
+						
+						if _idleSprite == sprites.idle
+						{
+							                idletimer--;
+                
+                if (idletimer <= 0)
+                {
+                    image_index = 0;
+                    sprite_index = choose(spr_tv_idleanim1, spr_tv_idleanim2);
+                    idletimer = random_range(180, 360);
+                }
+						}
                     
                     if (obj_player.state == UnknownEnum.Value_4 && !isSecret)
                         tv_anim(obj_player.sprite_index == player_sprites.crazyrun ? sprites.crazyrun : sprites.mach3);
                     
                     break;
+					            case spr_tv_idleanim1:
+            case spr_tv_idleanim2:
+                if (image_index >= sprite_get_number(sprite_index))
+                    sprite_index = sprites.idle;
+					
+					if (obj_player.state == UnknownEnum.Value_4 && !isSecret)
+                        tv_anim(obj_player.sprite_index == player_sprites.crazyrun ? sprites.crazyrun : sprites.mach3);
+						
+						break;
             }
             
             break;

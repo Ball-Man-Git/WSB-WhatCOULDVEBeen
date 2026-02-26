@@ -1151,6 +1151,8 @@
     {"id":{"name":"spr_tv_happyE","path":"sprites/spr_tv_happyE/spr_tv_happyE.yy",},},
     {"id":{"name":"spr_tv_happyT","path":"sprites/spr_tv_happyT/spr_tv_happyT.yy",},},
     {"id":{"name":"spr_tv_idle","path":"sprites/spr_tv_idle/spr_tv_idle.yy",},},
+    {"id":{"name":"spr_tv_idleanim1","path":"sprites/spr_tv_idleanim1/spr_tv_idleanim1.yy",},},
+    {"id":{"name":"spr_tv_idleanim2","path":"sprites/spr_tv_idleanim2/spr_tv_idleanim2.yy",},},
     {"id":{"name":"spr_tv_idleE","path":"sprites/spr_tv_idleE/spr_tv_idleE.yy",},},
     {"id":{"name":"spr_tv_idleT","path":"sprites/spr_tv_idleT/spr_tv_idleT.yy",},},
     {"id":{"name":"spr_tv_mach","path":"sprites/spr_tv_mach/spr_tv_mach.yy",},},

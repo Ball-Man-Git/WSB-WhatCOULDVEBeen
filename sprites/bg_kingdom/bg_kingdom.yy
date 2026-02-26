@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Snowcone Kingdom",
+    "path":"folders/Sprites/Snowcone Kingdom.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

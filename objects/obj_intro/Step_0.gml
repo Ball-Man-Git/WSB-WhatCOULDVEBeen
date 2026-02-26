@@ -27,7 +27,10 @@ switch (scene)
             alarm[1] = 120;
         
         if ((fadeout && blackAlpha == 1) || key_jump2)
+		{
             instance_create(x, y, obj_video)
+			instance_destroy()
+		}
         
         break;
 }

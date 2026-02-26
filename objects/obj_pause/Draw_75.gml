@@ -42,7 +42,7 @@ if (!instance_exists(obj_option))
     
     draw_sprite_ext(spr_pauseBorder, 0, obj_screensizer.displayWidth / 2, obj_screensizer.displayHeight / 2, graphBorderSize, graphBorderSize, 0, c_white, 1);
     
-    if (global.level != -4)
+    if (global.level != -4 || global.level != "tutorial")
     {
         for (var i = 0; i < array_length(hearts); i++)
         {

@@ -24,3 +24,6 @@ if (place_meeting(x, y, obj_doorH))
 
 if (place_meeting(x, y, obj_doorS))
     targetDoor = "S";
+
+if (place_meeting(x, y, obj_player))
+    sprite_index = spr_doorkey_open;

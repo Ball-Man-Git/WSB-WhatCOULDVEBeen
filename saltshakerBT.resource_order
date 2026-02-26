@@ -577,6 +577,7 @@
     {"name":"spr_disc","order":134,"path":"sprites/spr_disc/spr_disc.yy",},
     {"name":"spr_disoballDebri","order":135,"path":"sprites/spr_disoballDebri/spr_disoballDebri.yy",},
     {"name":"spr_door","order":136,"path":"sprites/spr_door/spr_door.yy",},
+    {"name":"spr_doorkey_open","order":471,"path":"sprites/spr_doorkey_open/spr_doorkey_open.yy",},
     {"name":"spr_doorkey","order":137,"path":"sprites/spr_doorkey/spr_doorkey.yy",},
     {"name":"spr_doug_scared","order":1,"path":"sprites/spr_doug_scared/spr_doug_scared.yy",},
     {"name":"spr_doug_stun","order":2,"path":"sprites/spr_doug_stun/spr_doug_stun.yy",},

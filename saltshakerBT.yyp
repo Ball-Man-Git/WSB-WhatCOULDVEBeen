@@ -667,6 +667,7 @@
     {"id":{"name":"spr_disc","path":"sprites/spr_disc/spr_disc.yy",},},
     {"id":{"name":"spr_disoballDebri","path":"sprites/spr_disoballDebri/spr_disoballDebri.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
+    {"id":{"name":"spr_doorkey_open","path":"sprites/spr_doorkey_open/spr_doorkey_open.yy",},},
     {"id":{"name":"spr_doorkey","path":"sprites/spr_doorkey/spr_doorkey.yy",},},
     {"id":{"name":"spr_doug_dead","path":"sprites/spr_doug_dead/spr_doug_dead.yy",},},
     {"id":{"name":"spr_doug_scared","path":"sprites/spr_doug_scared/spr_doug_scared.yy",},},

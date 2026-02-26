@@ -22,6 +22,7 @@ tv.expressionTimer = 0;
 tv.switchindex = 0;
 tv.offset = 0;
 tv.backindex = 0;
+tv.idletimer = 300;
 combometer = {};
 combometer.x = 811;
 combometer.y = 237;

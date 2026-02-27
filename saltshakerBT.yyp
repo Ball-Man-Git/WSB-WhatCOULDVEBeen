@@ -540,6 +540,7 @@
     {"id":{"name":"bg_house","path":"sprites/bg_house/bg_house.yy",},},
     {"id":{"name":"bg_hubLobby","path":"sprites/bg_hubLobby/bg_hubLobby.yy",},},
     {"id":{"name":"bg_hubMain","path":"sprites/bg_hubMain/bg_hubMain.yy",},},
+    {"id":{"name":"bg_hubShop","path":"sprites/bg_hubShop/bg_hubShop.yy",},},
     {"id":{"name":"bg_kingdom1","path":"sprites/bg_kingdom1/bg_kingdom1.yy",},},
     {"id":{"name":"bg_kingdom2","path":"sprites/bg_kingdom2/bg_kingdom2.yy",},},
     {"id":{"name":"bg_kingdom3","path":"sprites/bg_kingdom3/bg_kingdom3.yy",},},

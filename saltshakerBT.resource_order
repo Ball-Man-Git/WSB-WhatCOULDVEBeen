@@ -455,6 +455,7 @@
     {"name":"bg_house","order":27,"path":"sprites/bg_house/bg_house.yy",},
     {"name":"bg_hubLobby","order":28,"path":"sprites/bg_hubLobby/bg_hubLobby.yy",},
     {"name":"bg_hubMain","order":444,"path":"sprites/bg_hubMain/bg_hubMain.yy",},
+    {"name":"bg_hubShop","order":476,"path":"sprites/bg_hubShop/bg_hubShop.yy",},
     {"name":"bg_kingdom2","order":1,"path":"sprites/bg_kingdom2/bg_kingdom2.yy",},
     {"name":"bg_kingdom3","order":2,"path":"sprites/bg_kingdom3/bg_kingdom3.yy",},
     {"name":"bg_milkshek","order":29,"path":"sprites/bg_milkshek/bg_milkshek.yy",},

@@ -181,6 +181,7 @@
     {"name":"inst_103663","path":"rooms/shell_4/shell_4.yy",},
     {"name":"inst_103664","path":"rooms/shell_4/shell_4.yy",},
     {"name":"inst_103665","path":"rooms/shell_4/shell_4.yy",},
+    {"name":"inst_4590E24","path":"rooms/shell_4/shell_4.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -387,6 +388,7 @@
         {"$GMRInstance":"v2","%Name":"inst_103663","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_103663","objectId":{"name":"obj_destroyable_secret2","path":"objects/obj_destroyable_secret2/obj_destroyable_secret2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6176.0,"y":352.0,},
         {"$GMRInstance":"v2","%Name":"inst_103664","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_103664","objectId":{"name":"obj_destroyable_secret1","path":"objects/obj_destroyable_secret1/obj_destroyable_secret1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":1216.0,},
         {"$GMRInstance":"v2","%Name":"inst_103665","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_103665","objectId":{"name":"obj_destroyable_secret1","path":"objects/obj_destroyable_secret1/obj_destroyable_secret1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1664.0,"y":1152.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4590E24","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4590E24","objectId":{"name":"obj_exitPointer","path":"objects/obj_exitPointer/obj_exitPointer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":5920.0,"y":754.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":54,"SerialiseWidth":232,"TileCompressedData":[
           -232,194,2,99,100,-17,194,2,99,100,-17,194,2,99,100,-17,194,2,99,100,-17,194,2,99,100,-17,194,2,99,100,

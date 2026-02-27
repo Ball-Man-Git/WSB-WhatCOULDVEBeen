@@ -26,6 +26,7 @@ switch (state)
         else
         {
 			create_particleStatic(spr_landeffect, x, y, 1, 1);
+			FMODevent_oneshot("event:/Sfx/Player/step", x, y);
             sprite_index = spr_idle;
             image_index = 0;
             state = UnknownEnum.Value_0;

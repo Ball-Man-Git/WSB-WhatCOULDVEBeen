@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_player_mach2",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Player Scripts",
+    "path":"folders/Scripts/Player Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

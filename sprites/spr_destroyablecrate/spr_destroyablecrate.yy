@@ -19,7 +19,8 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dea9bfd6-5f13-4f11-8492-83d50a514446","blendMode":0,"displayName":"default","isLocked":false,"name":"dea9bfd6-5f13-4f11-8492-83d50a514446","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6d196879-fba8-4e5c-a2ca-7c299ad269c8","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6d196879-fba8-4e5c-a2ca-7c299ad269c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dea9bfd6-5f13-4f11-8492-83d50a514446","blendMode":0,"displayName":"default","isLocked":false,"name":"dea9bfd6-5f13-4f11-8492-83d50a514446","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
   ],
   "name":"spr_destroyablecrate",
   "nineSlice":null,

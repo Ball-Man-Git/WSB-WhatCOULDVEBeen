@@ -281,6 +281,7 @@ add_option_press(GAME, "option_back", function()
 		    ini_open(working_directory + "options.ini");
     ini_write_real("Game", "NewTVs", global.newTVs);
 	ini_write_real("Game", "RedempEnemyDeath", global.redempEnemyDeath)
+	ini_write_real("Game", "XtraZoom", global.xtraZoom)
 	ini_close();
 });
 add_option_ext(GAME, UnknownEnum.Value_15, "option_game_newmachtvs", function()
@@ -299,6 +300,14 @@ add_option_ext(GAME, UnknownEnum.Value_15, "option_game_spinnyenemies", function
     global.redempEnemyDeath = q.val;
     q.val = global.redempEnemyDeath;
 }, global.redempEnemyDeath, 1);
+add_option_ext(GAME, UnknownEnum.Value_15, "option_game_xtracamerazoom", function()
+{
+    var m = menus[currentmenu];
+    var opt = m.options;
+    var q = opt[selected];
+    global.xtraZoom = q.val;
+    q.val = global.xtraZoom;
+}, global.xtraZoom, 1);
 var controlsMain = create_menu(UnknownEnum.Value_4, UnknownEnum.Value_12, 48, function()
 {
     goto_menu(UnknownEnum.Value_0);

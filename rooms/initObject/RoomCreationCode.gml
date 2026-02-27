@@ -21,6 +21,7 @@ global.amped_up = ini_read_real("General", "AmpedUp", false);
 global.Fullscreen = ini_read_real("General", "Fullscreen", 0);
 global.newTVs = ini_read_real("Game", "NewTVs", false);
 global.redempEnemyDeath = ini_read_real("Game", "RedempEnemyDeath", false);
+global.xtraZoom = ini_read_real("Game", "XtraZoom", false);
 
 switch (global.Fullscreen)
 {

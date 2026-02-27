@@ -1,7 +1,11 @@
 event_inherited();
-spr_move = spr_tiki_move;
-spr_turn = spr_doug_turn;
-spr_stun = spr_tiki_stun;
-spr_scared = spr_tiki_scared;
-spr_dead = spr_tiki_dead;
-attackTimer = 0;
+spr_move = spr_crab_move;
+spr_turn = spr_biggiebag_turn;
+spr_stun = spr_crab_stun;
+spr_scared = spr_crab_scared;
+spr_dead = spr_crab_dead;
+state = UnknownEnum.Value_0;
+sprite_index = spr_crab_idle;
+awoken = false;
+awokenTimer = 14;
+invincable = false;

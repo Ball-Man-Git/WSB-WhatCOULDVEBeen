@@ -29,13 +29,15 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tiki_move",
-    "path":"sprites/spr_tiki_move/spr_tiki_move.yy",
+    "name":"spr_crab_idle",
+    "path":"sprites/spr_crab_idle/spr_crab_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

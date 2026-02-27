@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tiki_ball",
+  "%Name":"obj_umbrella_ball",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tiki_ball",
+  "name":"obj_umbrella_ball",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",

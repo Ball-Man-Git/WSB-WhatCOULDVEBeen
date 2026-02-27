@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crab",
+  "%Name":"obj_umbrella",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_crab",
+  "name":"obj_umbrella",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -29,15 +29,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"escape","filters":[],"listItems":[],"multiselect":false,"name":"escape","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crab_idle",
-    "path":"sprites/spr_crab_idle/spr_crab_idle.yy",
+    "name":"spr_tiki_move",
+    "path":"sprites/spr_tiki_move/spr_tiki_move.yy",
   },
   "spriteMaskId":null,
   "visible":true,

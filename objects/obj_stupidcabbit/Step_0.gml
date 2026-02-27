@@ -7,7 +7,7 @@ with (obj_player)
     }
 }
 
-with (obj_crab)
+with (obj_tiki)
 {
     if (place_meeting(x + hsp, y + vsp, other))
     {

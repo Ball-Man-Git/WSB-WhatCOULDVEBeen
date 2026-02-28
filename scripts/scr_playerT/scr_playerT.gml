@@ -57,7 +57,7 @@ function scr_player_hammerattack()
     {
         jumpBuffer = false;
         image_index = 0;
-        sprite_index = spr_player_longjump;
+        sprite_index = sprites.longjump;
         state = UnknownEnum.Value_3;
         vsp = -12;
         jumpstop = false;

@@ -170,7 +170,6 @@
     {"name":"inst_100612","path":"rooms/beach_6/beach_6.yy",},
     {"name":"inst_100613","path":"rooms/beach_6/beach_6.yy",},
     {"name":"inst_100614","path":"rooms/beach_6/beach_6.yy",},
-    {"name":"inst_100615","path":"rooms/beach_6/beach_6.yy",},
     {"name":"inst_100616","path":"rooms/beach_6/beach_6.yy",},
     {"name":"inst_63B05F54","path":"rooms/beach_6/beach_6.yy",},
     {"name":"inst_F530851","path":"rooms/beach_6/beach_6.yy",},
@@ -349,9 +348,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_potable_cage","path":"objects/obj_potable_cage/obj_potable_cage.yy",},"propertyId":{"name":"content","path":"objects/obj_potable_cage/obj_potable_cage.yy",},"resource":{"name":"obj_potableLime","path":"objects/obj_potableLime/obj_potableLime.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_potableLime",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2098.0,"y":1906.0,},
         {"$GMRInstance":"v2","%Name":"inst_100614","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100614","objectId":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":1.0,"x":2656.0,"y":480.0,},
-        {"$GMRInstance":"v2","%Name":"inst_100615","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100615","objectId":{"name":"obj_dudle","path":"objects/obj_dudle/obj_dudle.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dudle","path":"objects/obj_dudle/obj_dudle.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_dudle/obj_dudle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"beach_secret2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":500.0,"y":754.0,},
         {"$GMRInstance":"v2","%Name":"inst_100616","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_100616","objectId":{"name":"obj_coconutgun","path":"objects/obj_coconutgun/obj_coconutgun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":495.0,"y":790.0,},
         {"$GMRInstance":"v2","%Name":"inst_63B05F54","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63B05F54","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_door/obj_door.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"beach_7",},

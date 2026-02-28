@@ -101,10 +101,11 @@ function scr_player_snowball_jump()
     if (key_down2 && vsp < 10)
         vsp = 10;
     
-    if (vsp <= 0)
-        sprite_index = spr_player_snowball_jump;
-    else
-        sprite_index = spr_player_snowball_fall;
+    if sprite_index == spr_player_snowball_jump && animation_end()
+	{
+		image_index = 0
+		sprite_index = spr_player_snowball_fall
+	}
     
     if (grounded && vsp > 0)
     {

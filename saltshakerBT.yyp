@@ -842,6 +842,8 @@
     {"id":{"name":"spr_milton_hammertwirl","path":"sprites/spr_milton_hammertwirl/spr_milton_hammertwirl.yy",},},
     {"id":{"name":"spr_milton_idle","path":"sprites/spr_milton_idle/spr_milton_idle.yy",},},
     {"id":{"name":"spr_milton_idleanim1","path":"sprites/spr_milton_idleanim1/spr_milton_idleanim1.yy",},},
+    {"id":{"name":"spr_milton_longjump","path":"sprites/spr_milton_longjump/spr_milton_longjump.yy",},},
+    {"id":{"name":"spr_milton_longjumpend","path":"sprites/spr_milton_longjumpend/spr_milton_longjumpend.yy",},},
     {"id":{"name":"spr_milton_mach3","path":"sprites/spr_milton_mach3/spr_milton_mach3.yy",},},
     {"id":{"name":"spr_milton_mach3hit","path":"sprites/spr_milton_mach3hit/spr_milton_mach3hit.yy",},},
     {"id":{"name":"spr_milton_mach3jump","path":"sprites/spr_milton_mach3jump/spr_milton_mach3jump.yy",},},

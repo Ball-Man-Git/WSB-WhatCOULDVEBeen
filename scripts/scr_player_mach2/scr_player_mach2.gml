@@ -71,10 +71,10 @@ function scr_player_mach2()
         sprite_index = spr_player_mach2jumpend;
     }
     
-    if (animation_end() && sprite_index == spr_player_longjump)
+    if (animation_end() && sprite_index == sprites.longjump)
     {
         image_index = 0;
-        sprite_index = spr_player_longjumpend;
+        sprite_index = sprites.longjumpend;
     }
     
     if (animation_end() && sprite_index == spr_player_walljumpstart)
@@ -89,7 +89,7 @@ function scr_player_mach2()
         sprite_index = spr_player_mach2jump;
     }
     
-    if (grounded && (sprite_index == spr_player_mach2jump || sprite_index == spr_player_mach2jumpend || sprite_index == spr_player_walljump || sprite_index == spr_player_walljumpstart || sprite_index == spr_player_longjump || sprite_index == spr_player_longjumpend))
+    if (grounded && (sprite_index == spr_player_mach2jump || sprite_index == spr_player_mach2jumpend || sprite_index == spr_player_walljump || sprite_index == spr_player_walljumpstart || sprite_index == sprites.longjump || sprite_index == sprites.longjumpend))
     {
 				if character != UnknownEnum.Value_2
 		{

@@ -739,6 +739,8 @@
     {"name":"spr_milton_hammertwirl","order":9,"path":"sprites/spr_milton_hammertwirl/spr_milton_hammertwirl.yy",},
     {"name":"spr_milton_idle","order":10,"path":"sprites/spr_milton_idle/spr_milton_idle.yy",},
     {"name":"spr_milton_idleanim1","order":22,"path":"sprites/spr_milton_idleanim1/spr_milton_idleanim1.yy",},
+    {"name":"spr_milton_longjump","order":25,"path":"sprites/spr_milton_longjump/spr_milton_longjump.yy",},
+    {"name":"spr_milton_longjumpend","order":26,"path":"sprites/spr_milton_longjumpend/spr_milton_longjumpend.yy",},
     {"name":"spr_milton_mach3","order":11,"path":"sprites/spr_milton_mach3/spr_milton_mach3.yy",},
     {"name":"spr_milton_mach3hit","order":12,"path":"sprites/spr_milton_mach3hit/spr_milton_mach3hit.yy",},
     {"name":"spr_milton_mach3jump","order":13,"path":"sprites/spr_milton_mach3jump/spr_milton_mach3jump.yy",},

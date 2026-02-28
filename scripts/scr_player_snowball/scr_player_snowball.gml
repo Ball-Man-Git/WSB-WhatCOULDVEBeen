@@ -43,6 +43,7 @@ function scr_player_snowball()
         jumpBuffer = 0;
         vsp = -11;
         image_index = 0;
+		sprite_index = spr_player_snowball_jump
         exit;
     }
     

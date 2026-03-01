@@ -28,10 +28,10 @@ function scr_player_superjumpprep()
         
         if (!key_up)
         {
-            state = UnknownEnum.Value_13;
+            state = isErnie ? UnknownEnum.Value_26 : UnknownEnum.Value_13;
             sprite_index = isErnie ? spr_ernie_superjumpstart : spr_player_superjump;
             image_index = 0;
-            verticalMovespeed = isErnie ? -20 : -14;
+            verticalMovespeed = isErnie ? -21 : -14;
             vsp = verticalMovespeed;
             FMODevent_oneshot("event:/Sfx/Player/superjumprelease", x, y);
         }
@@ -77,12 +77,6 @@ function scr_player_superjump()
                 image_speed = 0.5;
             }
         }
-		
-		if sprite_index == spr_ernie_superjumpstart && animation_end()
-		{
-			image_index = 0
-		sprite_index = spr_ernie_superjump
-		}
         
         image_speed = 0.4;
         vsp = verticalMovespeed;

@@ -284,6 +284,8 @@
     {"name":"crashout_9","order":12,"path":"rooms/crashout_9/crashout_9.yy",},
     {"name":"crashout_lap","order":8,"path":"rooms/crashout_lap/crashout_lap.yy",},
     {"name":"crashout_secret1","order":9,"path":"rooms/crashout_secret1/crashout_secret1.yy",},
+    {"name":"crashout_secret2","order":15,"path":"rooms/crashout_secret2/crashout_secret2.yy",},
+    {"name":"crashout_secret3","order":16,"path":"rooms/crashout_secret3/crashout_secret3.yy",},
     {"name":"crashout_treasure","order":14,"path":"rooms/crashout_treasure/crashout_treasure.yy",},
     {"name":"emptyroom","order":17,"path":"rooms/emptyroom/emptyroom.yy",},
     {"name":"hotel_2","order":1,"path":"rooms/hotel_2/hotel_2.yy",},

@@ -69,7 +69,7 @@
     "name":"spr_milton_longjump",
     "playback":1,
     "playbackSpeed":20.0,
-    "playbackSpeedType":0,
+    "playbackSpeedType":1,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
     "seqHeight":100.0,

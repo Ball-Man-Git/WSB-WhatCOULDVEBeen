@@ -354,6 +354,8 @@
     {"id":{"name":"crashout_9","path":"rooms/crashout_9/crashout_9.yy",},},
     {"id":{"name":"crashout_lap","path":"rooms/crashout_lap/crashout_lap.yy",},},
     {"id":{"name":"crashout_secret1","path":"rooms/crashout_secret1/crashout_secret1.yy",},},
+    {"id":{"name":"crashout_secret2","path":"rooms/crashout_secret2/crashout_secret2.yy",},},
+    {"id":{"name":"crashout_secret3","path":"rooms/crashout_secret3/crashout_secret3.yy",},},
     {"id":{"name":"crashout_treasure","path":"rooms/crashout_treasure/crashout_treasure.yy",},},
     {"id":{"name":"emptyroom","path":"rooms/emptyroom/emptyroom.yy",},},
     {"id":{"name":"hotel_1","path":"rooms/hotel_1/hotel_1.yy",},},
@@ -1371,6 +1373,8 @@
     {"roomId":{"name":"beach_secret2","path":"rooms/beach_secret2/beach_secret2.yy",},},
     {"roomId":{"name":"beach_secret3","path":"rooms/beach_secret3/beach_secret3.yy",},},
     {"roomId":{"name":"beach_9","path":"rooms/beach_9/beach_9.yy",},},
+    {"roomId":{"name":"crashout_secret2","path":"rooms/crashout_secret2/crashout_secret2.yy",},},
+    {"roomId":{"name":"crashout_secret3","path":"rooms/crashout_secret3/crashout_secret3.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

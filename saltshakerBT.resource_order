@@ -619,6 +619,8 @@
     {"name":"spr_ernie_kungfu3air","order":14,"path":"sprites/spr_ernie_kungfu3air/spr_ernie_kungfu3air.yy",},
     {"name":"spr_ernie_kungfu3airstart","order":13,"path":"sprites/spr_ernie_kungfu3airstart/spr_ernie_kungfu3airstart.yy",},
     {"name":"spr_ernie_kungfubump","order":8,"path":"sprites/spr_ernie_kungfubump/spr_ernie_kungfubump.yy",},
+    {"name":"spr_ernie_land","order":33,"path":"sprites/spr_ernie_land/spr_ernie_land.yy",},
+    {"name":"spr_ernie_land2","order":34,"path":"sprites/spr_ernie_land2/spr_ernie_land2.yy",},
     {"name":"spr_ernie_move","order":30,"path":"sprites/spr_ernie_move/spr_ernie_move.yy",},
     {"name":"spr_ernie_run","order":1,"path":"sprites/spr_ernie_run/spr_ernie_run.yy",},
     {"name":"spr_ernie_runkillenemy","order":19,"path":"sprites/spr_ernie_runkillenemy/spr_ernie_runkillenemy.yy",},

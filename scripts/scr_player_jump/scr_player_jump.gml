@@ -71,7 +71,7 @@ function scr_player_jump()
     {
         create_particleStatic(spr_landeffect, x, y, 1, 1);
         image_index = 0;
-        sprite_index = (move != 0) ? spr_player_land2 : spr_player_land;
+        sprite_index = (move != 0) ? sprites.land2 : sprites.land;
         state = UnknownEnum.Value_0;
         FMODevent_oneshot("event:/Sfx/Player/step", x, y);
         freefalling = 0;

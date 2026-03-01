@@ -30,7 +30,7 @@ function scr_player_normal()
 	
     if (move != 0)
     {
-        if (sprite_index != sprites.move && sprite_index != spr_player_panicwalk && sprite_index != spr_player_land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.move && sprite_index != spr_player_panicwalk && sprite_index != sprites.land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_soundtestdance)
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;
@@ -53,7 +53,7 @@ function scr_player_normal()
                 image_speed = 0.1;
         }
         
-        if (animation_end() && sprite_index == spr_player_land2)
+        if (animation_end() && sprite_index == sprites.land2)
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;
@@ -67,7 +67,7 @@ function scr_player_normal()
     }
     else
     {
-        if (sprite_index != sprites.idle && sprite_index != spr_player_panic && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != spr_player_land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.idle && sprite_index != spr_player_panic && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != sprites.land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
         {
             image_speed = movespeed / 15;
             
@@ -99,13 +99,13 @@ function scr_player_normal()
                 fmod_studio_event_instance_start(soundsOk);
         }
         
-        if (animation_end() && (sprite_index == spr_player_idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5 || sprite_index == spr_milton_idleanim1))
+        if (animation_end() && (sprite_index == sprites.idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panic : sprites.idle
         }
         
-        if (animation_end() && sprite_index == spr_player_land)
+        if (animation_end() && sprite_index == sprites.land)
         {
             image_index = 0;
             sprite_index = global.escape.active ? spr_player_panic : sprites.idle

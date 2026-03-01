@@ -510,6 +510,8 @@ function get_characterspr(arg0)
 			st.player.idleanim1 = spr_player_idleanim1;
 						st.player.longjump = spr_player_longjump
 			st.player.longjumpend = spr_player_longjumpend
+									st.player.land = spr_player_land
+			st.player.land2 = spr_player_land2
             st.tv.idle = spr_tv_idle;
             st.tv.mach3 = spr_tv_mach;
             st.tv.crazyrun = spr_tv_crazyrun;
@@ -542,6 +544,8 @@ function get_characterspr(arg0)
 			st.player.idleanim1 = spr_milton_idleanim1;
 									st.player.longjump = spr_milton_longjump
 			st.player.longjumpend = spr_milton_longjumpend
+												st.player.land = spr_player_land
+			st.player.land2 = spr_player_land2
             st.tv.idle = spr_tv_idleT;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
@@ -574,6 +578,8 @@ function get_characterspr(arg0)
 			st.player.idleanim1 = spr_player_idleanim1;
 									st.player.longjump = spr_player_longjump
 			st.player.longjumpend = spr_player_longjumpend
+												st.player.land = spr_ernie_land
+			st.player.land2 = spr_ernie_land2
             st.tv.idle = spr_tv_idleE;
             st.tv.mach3 = spr_tv_machE;
             st.tv.crazyrun = spr_tv_crazyrun;

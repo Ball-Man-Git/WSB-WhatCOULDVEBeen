@@ -5,7 +5,8 @@ function scr_player_hurt()
     if (grounded && vsp >= 0)
     {
         movespeed = 0;
-        sprite_index = spr_player_land;
+		image_index = 0
+        sprite_index = sprites.land;
         state = UnknownEnum.Value_0;
     }
 }

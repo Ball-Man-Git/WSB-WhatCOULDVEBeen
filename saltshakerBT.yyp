@@ -715,6 +715,8 @@
     {"id":{"name":"spr_ernie_kungfu3air","path":"sprites/spr_ernie_kungfu3air/spr_ernie_kungfu3air.yy",},},
     {"id":{"name":"spr_ernie_kungfu3airstart","path":"sprites/spr_ernie_kungfu3airstart/spr_ernie_kungfu3airstart.yy",},},
     {"id":{"name":"spr_ernie_kungfubump","path":"sprites/spr_ernie_kungfubump/spr_ernie_kungfubump.yy",},},
+    {"id":{"name":"spr_ernie_land","path":"sprites/spr_ernie_land/spr_ernie_land.yy",},},
+    {"id":{"name":"spr_ernie_land2","path":"sprites/spr_ernie_land2/spr_ernie_land2.yy",},},
     {"id":{"name":"spr_ernie_move","path":"sprites/spr_ernie_move/spr_ernie_move.yy",},},
     {"id":{"name":"spr_ernie_run","path":"sprites/spr_ernie_run/spr_ernie_run.yy",},},
     {"id":{"name":"spr_ernie_runkillenemy","path":"sprites/spr_ernie_runkillenemy/spr_ernie_runkillenemy.yy",},},

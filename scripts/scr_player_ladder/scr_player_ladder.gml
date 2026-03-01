@@ -54,7 +54,7 @@ function scr_player_ladder()
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         image_index = 0;
-        sprite_index = spr_player_jump;
+        sprite_index = sprites.jump;
 		freefalling = 0
         state = UnknownEnum.Value_2;
         vsp = -12;

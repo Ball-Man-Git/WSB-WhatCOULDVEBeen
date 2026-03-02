@@ -51,6 +51,7 @@ if obj_player.isErnie == true and obj_player.isMilton == false and obj_player.is
 addPalette("Retail Wears", "Unlocked by being a dude named Ernie", 1, true);
 addPalette("Real Wears", "Unlocked by ???", 2, true);
 addPalette("Crappy Wears", "Unlocked by ???", 10, true);
+addPalette("Redemption Wears", "Unlocked by ???", 6, true);
 addPalette("Loino", "Unlocked by begging Ball Man to add a Loino palette", 3, true);
 addPalette("Goonerslop Wears", "Unlocked by ???", 11, true);
 }

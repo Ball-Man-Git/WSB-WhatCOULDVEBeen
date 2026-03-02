@@ -222,9 +222,11 @@ with (tv)
         offset = approach(offset, 0, 100);
 }
 
+if room != rm_wwdop
+{
 with (bar)
 {
-    var _escape = global.escape.active == true && (!global.hardMode || room != rm_wwdop);
+    var _escape = global.escape.active == true;
     var roomname = string_letters(room_get_name(room));
     var _secret = string_pos("secret", roomname) > 0;
     var _sec = wrap(global.escape.timer / 60, 0, 59);
@@ -257,4 +259,5 @@ with (bar)
     {
         y = obj_screensizer.displayHeight + 100;
     }
+}
 }

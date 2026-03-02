@@ -6,6 +6,9 @@ repeat (10)
 
 ds_list_add(global.saveroom, id);
 
+if global.hardMode
+global.escape.timer += 120
+
 with (obj_player)
 {
     if (irandom(100) <= 25)

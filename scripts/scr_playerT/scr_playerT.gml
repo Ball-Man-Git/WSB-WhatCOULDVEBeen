@@ -31,7 +31,7 @@ function scr_player_hammerattack()
     {
         FMODevent_oneshot("event:/Sfx/Player/crouchslide", x, y);
         crouchslip = 25;
-        sprite_index = spr_player_crouchslip;
+        sprite_index = sprites.crouchslip;
         image_index = 0;
         state = UnknownEnum.Value_16;
         

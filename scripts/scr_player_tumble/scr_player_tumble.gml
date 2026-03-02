@@ -26,7 +26,7 @@ function scr_player_tumble()
     slope_momentum();
     crouchslip--;
     
-    if ((sprite_index == sprites.rolling || sprite_index == spr_player_crouchslip || sprite_index == spr_player_rollstart) && !grounded)
+    if ((sprite_index == sprites.rolling || sprite_index == sprites.crouchslip || sprite_index == spr_player_rollstart) && !grounded)
     {
         FMODevent_oneshot("event:/Sfx/Player/dive", x, y);
         sprite_index = sprites.dive;

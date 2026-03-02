@@ -3,6 +3,8 @@ if (global.escape.active)
     var __val = super ? 200 : 100;
     global.collect += __val;
     global.combo.timer = 60;
+	if global.hardMode
+	global.escape.timer += 60
     create_smalltext(__val);
     create_collect(sprite_index, x, y);
     ds_list_add(global.escaperoom, id);

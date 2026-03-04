@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_escapeoventimer",
-    "path":"sprites/spr_escapeoventimer/spr_escapeoventimer.yy",
+    "name":"spr_escapesun",
+    "path":"sprites/spr_escapesun/spr_escapesun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

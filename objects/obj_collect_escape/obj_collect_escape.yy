@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_escapeshaker",
-    "path":"sprites/spr_escapeshaker/spr_escapeshaker.yy",
+    "name":"spr_escapestar",
+    "path":"sprites/spr_escapestar/spr_escapestar.yy",
   },
   "spriteMaskId":null,
   "visible":true,

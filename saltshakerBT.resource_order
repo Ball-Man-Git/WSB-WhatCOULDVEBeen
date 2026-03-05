@@ -776,6 +776,7 @@
     {"name":"spr_monolithblock_wake","order":247,"path":"sprites/spr_monolithblock_wake/spr_monolithblock_wake.yy",},
     {"name":"spr_mugmonolith_dead","order":248,"path":"sprites/spr_mugmonolith_dead/spr_mugmonolith_dead.yy",},
     {"name":"spr_mugmonolith","order":249,"path":"sprites/spr_mugmonolith/spr_mugmonolith.yy",},
+    {"name":"spr_naomi_idle","order":1,"path":"sprites/spr_naomi_idle/spr_naomi_idle.yy",},
     {"name":"spr_npcborder","order":250,"path":"sprites/spr_npcborder/spr_npcborder.yy",},
     {"name":"spr_npcfont","order":251,"path":"sprites/spr_npcfont/spr_npcfont.yy",},
     {"name":"spr_null","order":455,"path":"sprites/spr_null/spr_null.yy",},

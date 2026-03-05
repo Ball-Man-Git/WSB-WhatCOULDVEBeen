@@ -138,7 +138,7 @@
   "name":"milkshek_3",
   "parent":{
     "name":"Milkshake Peaks",
-    "path":"folders/Rooms/Floor 2/Milkshake Peaks.yy",
+    "path":"folders/Rooms/Basement/Milkshake Peaks.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

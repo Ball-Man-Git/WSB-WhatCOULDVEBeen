@@ -1,7 +1,10 @@
-var _rm = hotel_receptionentrance;
+var _rm = hotel_outside;
 if current_month == 6 && current_day == 21
 _rm = rm_wwdop
-var _dr = "A";
+if _rm == hotel_outside
+var _dr = "B";
+else
+_dr = "A"
 
 with (obj_player)
 {

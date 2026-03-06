@@ -1123,6 +1123,7 @@
     {"id":{"name":"spr_prettyImportant","path":"sprites/spr_prettyImportant/spr_prettyImportant.yy",},},
     {"id":{"name":"spr_priest_idle","path":"sprites/spr_priest_idle/spr_priest_idle.yy",},},
     {"id":{"name":"spr_priest_pray","path":"sprites/spr_priest_pray/spr_priest_pray.yy",},},
+    {"id":{"name":"spr_pumpkin_collected","path":"sprites/spr_pumpkin_collected/spr_pumpkin_collected.yy",},},
     {"id":{"name":"spr_pumpkin","path":"sprites/spr_pumpkin/spr_pumpkin.yy",},},
     {"id":{"name":"spr_pumpkinstein_idle","path":"sprites/spr_pumpkinstein_idle/spr_pumpkinstein_idle.yy",},},
     {"id":{"name":"spr_quitgame","path":"sprites/spr_quitgame/spr_quitgame.yy",},},

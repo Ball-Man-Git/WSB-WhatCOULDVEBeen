@@ -1,9 +1,26 @@
 function scr_player_normal()
 {
+    static snowbuffer = 5;
+    var roomname = string_letters(room_get_name(room));
+    var is_kingdom = string_pos("kingdom", roomname) > 0;
+    
     get_input();
     hsp = movespeed * xscale;
     var move = key_right + key_left;
     
+    var on_ice = place_meeting(x, y + 1, obj_iceslippery);
+    
+    if (is_kingdom && grounded && move != 0 && movespeed > 0)
+    {
+        if (snowbuffer > 0)
+            snowbuffer--;
+        else
+        {
+            create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
+            snowbuffer = 5;
+        }
+    }
+
     if (sprite_index == sprites.move)
     {
         if ((floor(image_index) == 3 || floor(image_index) == 8) && buffers.step <= 0)
@@ -16,7 +33,7 @@ function scr_player_normal()
         buffers.step--;
     }
     
-	    if (sprite_index == spr_player_panicwalk)
+    if (sprite_index == spr_player_panicwalk)
     {
         if ((floor(image_index) == 2 || floor(image_index) == 5) && buffers.step <= 0)
         {
@@ -39,15 +56,26 @@ function scr_player_normal()
         if (sprite_index != spr_player_littledanceydance)
             image_speed = movespeed / 15;
         
-        xscale = move;
-        
+        if (!on_ice)
+            xscale = move;
+        else if (move != xscale && movespeed > 0)
+            movespeed = approach(movespeed, 0, 0.1); 
+        else
+            xscale = move;
+
         if (!place_meeting(x + xscale, y, obj_solid))
         {
-            movespeed = approach(movespeed, 6, 0.5);
+            var target_speed = (on_ice) ? 8 : 6;
+            var accel = (on_ice) ? 0.1 : 0.5;
+            
+            if (isErnie && !on_ice) target_speed = 4;
+            
+            movespeed = approach(movespeed, target_speed, accel);
         }
         else
         {
-            movespeed = approach(movespeed, 0, 0.65);
+            var wall_deccel = (on_ice) ? 0.1 : 0.65;
+            movespeed = approach(movespeed, 0, wall_deccel);
             
             if (sprite_index != spr_player_littledanceydance)
                 image_speed = 0.1;
@@ -80,7 +108,8 @@ function scr_player_normal()
             }
         }
         
-        movespeed = approach(movespeed, 0, 0.65);
+        var idle_deccel = (on_ice) ? 0.05 : 0.65;
+        movespeed = approach(movespeed, 0, idle_deccel);
         
         if (sprite_index == sprites.idle && sprites.idle != spr_juandanger_idle)
             buffers.idle--;
@@ -89,10 +118,10 @@ function scr_player_normal()
         {
             buffers.idle = 150;
             image_index = 0;
-			if !isMildred
-			sprite_index = sprites.idleanim1
-			else
-            sprite_index = choose(sprites.idleanim1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
+            if !isMildred
+                sprite_index = sprites.idleanim1;
+            else
+                sprite_index = choose(sprites.idleanim1, spr_player_idleanim2, spr_player_idleanim3, spr_player_idleanim4, spr_player_idleanim5);
             image_speed = 0.35;
             
             if (irandom(100) <= 25)
@@ -102,13 +131,13 @@ function scr_player_normal()
         if (animation_end() && (sprite_index == sprites.idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle
+            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
         }
         
         if (animation_end() && sprite_index == sprites.land)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle
+            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
         }
         
         if (animation_end() && sprite_index == spr_player_statuestart)
@@ -120,7 +149,7 @@ function scr_player_normal()
         if (animation_end() && sprite_index == spr_player_machslideend)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle
+            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
         }
     }
     
@@ -135,7 +164,7 @@ function scr_player_normal()
         breakdancespeed = 0.25;
         
         if (sprite_index == spr_player_littledanceydance)
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle
+            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
         
         image_speed = 0.35;
     }
@@ -192,6 +221,10 @@ function scr_player_normal()
     {
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
+        
+        if (is_kingdom)
+            repeat(3) create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
+
         image_index = 0;
         sprite_index = sprites.jump;
         state = UnknownEnum.Value_2;
@@ -211,10 +244,18 @@ function scr_player_normal()
     if (key_attack && !place_meeting(x + xscale, y, obj_solid))
     {
         create_particleStatic(spr_grabcloud, x, y, xscale, 1);
-		if !isErnie
-        movespeed = 6;
-		else
-		movespeed = 4
+        
+        if (is_kingdom && grounded)
+            repeat(2) create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
+
+        if !on_ice
+        {
+            if !isErnie movespeed = 6; else movespeed = 4;
+        }
+        else
+        {
+            movespeed = clamp(movespeed, 6, 12);
+        }
         sprite_index = sprites.mach1;
         image_index = 0;
         state = UnknownEnum.Value_3;

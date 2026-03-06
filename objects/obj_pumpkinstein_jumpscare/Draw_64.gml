@@ -1,0 +1,1 @@
+draw_sprite(bg_beakerBack_escape, 0, 0, 0);

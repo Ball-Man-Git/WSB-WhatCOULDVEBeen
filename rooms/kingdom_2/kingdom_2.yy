@@ -61,6 +61,7 @@
     {"name":"inst_101175","path":"rooms/kingdom_2/kingdom_2.yy",},
     {"name":"inst_101176","path":"rooms/kingdom_2/kingdom_2.yy",},
     {"name":"inst_101177","path":"rooms/kingdom_2/kingdom_2.yy",},
+    {"name":"inst_23C0F08B","path":"rooms/kingdom_2/kingdom_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -125,6 +126,7 @@
         {"$GMRInstance":"v2","%Name":"inst_101175","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_101175","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_101176","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_101176","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_101177","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_101177","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":640.0,},
+        {"$GMRInstance":"v2","%Name":"inst_23C0F08B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23C0F08B","objectId":{"name":"obj_snowcheap","path":"objects/obj_snowcheap/obj_snowcheap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":720.0,},
       ],"layers":[],"name":"Instances","properties":[
         {"name":"g_TintCol","type":1,"value":"#FFFFC4D2",},
       ],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},

@@ -5,6 +5,7 @@ menuscale = 0;
 moviefade = 255;
 moviefadeC = make_color_rgb(moviefade, moviefade, moviefade);
 dark = true;
+title_timer = 0;
 saveFiles = [];
 
 createSave = function(arg0) constructor
@@ -12,31 +13,31 @@ createSave = function(arg0) constructor
     file = arg0;
     savePath = working_directory + string("/saves/save{0}.ini", arg0 + 1);
     movie = {};
-    movie.x = 341;
-    movie.y = 253;
-    
-    switch (arg0)
-    {
-        default:
-            movie.x = 374;
-            movie.y = 232;
-            break;
+movie.x = 341;
+movie.y = 383;
+
+switch (arg0)
+{
+    default:
+        movie.x = 374;
+        movie.y = 362;
+        break;
         
-        case 1:
-            movie.x = 272;
-            movie.y = 239;
-            break;
+    case 1:
+        movie.x = 272;
+        movie.y = 369;
+        break;
         
-        case 2:
-            movie.x = 168;
-            movie.y = 246;
-            break;
+    case 2:
+        movie.x = 168;
+        movie.y = 376;
+        break;
         
-        case 3:
-            movie.x = 60;
-            movie.y = 253;
-            break;
-    }
+    case 3:
+        movie.x = 60;
+        movie.y = 383;
+        break;
+}
     
     movie.saveX = movie.x;
     movie.saveY = movie.y;
@@ -112,3 +113,17 @@ for (var i = 0; i < array_length(saveFiles); i++)
     if (saveFiles[i].created)
         created = true;
 }
+
+bg_frame = 0;
+dark_frame = 0;
+
+bg_speed = 0.3;
+dark_speed = 0.1;
+title_x = 60;
+title_y = 0;
+
+title_alpha = 1;
+corner_alpha = 1;
+
+corner_x = obj_screensizer.displayWidth - 80;
+corner_y = obj_screensizer.displayHeight - 80;

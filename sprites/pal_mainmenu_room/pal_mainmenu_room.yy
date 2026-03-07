@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"pal_mainmenu_room",
   "bboxMode":0,
-  "bbox_bottom":10,
+  "bbox_bottom":18,
   "bbox_left":0,
   "bbox_right":4,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"022cb6e2-74eb-48a0-ae6a-a435d9e13d91","name":"022cb6e2-74eb-48a0-ae6a-a435d9e13d91","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"7296f11f-7606-415f-a481-3747f6635c75","name":"7296f11f-7606-415f-a481-3747f6635c75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":11,
+  "height":19,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f205b628-708c-476d-9a51-9808d9dc83b7","blendMode":0,"displayName":"default","isLocked":false,"name":"f205b628-708c-476d-9a51-9808d9dc83b7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"26eda0c5-78c1-4003-8d34-b72167b3fd5a","blendMode":0,"displayName":"default","isLocked":false,"name":"26eda0c5-78c1-4003-8d34-b72167b3fd5a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"pal_mainmenu_room",
   "nineSlice":null,
@@ -63,12 +63,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":19.0,
+    "seqWidth":5.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
-      {"$GMSpriteFramesTrack":"","builtinName":-1,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"022cb6e2-74eb-48a0-ae6a-a435d9e13d91","path":"sprites/pal_mainmenu_room/pal_mainmenu_room.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe4fa76d-7098-4ae4-be24-cff0d65b6cee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+      {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7296f11f-7606-415f-a481-3747f6635c75","path":"sprites/pal_mainmenu_room/pal_mainmenu_room.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a82b4d54-8c21-4de1-8e97-f0809a5b637b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

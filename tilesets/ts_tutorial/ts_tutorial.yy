@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"_decompiled_ts_tutorial",
-    "path":"sprites/_decompiled_ts_tutorial/_decompiled_ts_tutorial.yy",
+    "name":"tilespr_tutorial",
+    "path":"sprites/tilespr_tutorial/tilespr_tutorial.yy",
   },
   "spriteNoExport":true,
   "textureGroupId":{

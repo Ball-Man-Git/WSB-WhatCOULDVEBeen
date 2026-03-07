@@ -30,8 +30,8 @@
   ],
   "name":"boss_hipnatuese",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Bosses",
+    "path":"folders/Rooms/Bosses.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

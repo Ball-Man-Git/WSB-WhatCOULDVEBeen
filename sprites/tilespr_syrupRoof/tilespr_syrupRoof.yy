@@ -83,8 +83,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"default",
-    "path":"texturegroups/default",
+    "name":"street_group",
+    "path":"texturegroups/street_group",
   },
   "type":0,
   "VTile":false,

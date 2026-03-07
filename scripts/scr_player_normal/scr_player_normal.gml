@@ -68,7 +68,7 @@ function scr_player_normal()
             var target_speed = (on_ice) ? 8 : 6;
             var accel = (on_ice) ? 0.1 : 0.5;
             
-            if (isErnie && !on_ice) target_speed = 4;
+            if (isErnie && !on_ice) target_speed = 8;
             
             movespeed = approach(movespeed, target_speed, accel);
         }

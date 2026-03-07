@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6f6537fb-e8d8-4092-ac49-558dfe16f401","name":"6f6537fb-e8d8-4092-ac49-558dfe16f401","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"05847355-ee61-4ce3-8fea-85c141f9301b","name":"05847355-ee61-4ce3-8fea-85c141f9301b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":570,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"910d088e-6808-4e47-886a-71d9f1c2cc6e","blendMode":0,"displayName":"default","isLocked":false,"name":"910d088e-6808-4e47-886a-71d9f1c2cc6e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cea9f225-de09-49dd-973e-7a5338d314fc","blendMode":0,"displayName":"default","isLocked":false,"name":"cea9f225-de09-49dd-973e-7a5338d314fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"bg_house",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6f6537fb-e8d8-4092-ac49-558dfe16f401","path":"sprites/bg_house/bg_house.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"51029b53-2485-4e10-a3c7-8a0a230ddef4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05847355-ee61-4ce3-8fea-85c141f9301b","path":"sprites/bg_house/bg_house.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a5f56b6b-126d-4def-98bf-1053790c4066","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

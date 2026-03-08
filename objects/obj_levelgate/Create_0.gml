@@ -26,3 +26,19 @@ visibleradius = 250;
 textalpha = 0;
 drawing = 0;
 scoreViewer = -4;
+
+for (var i = 0; i < 3; i++)
+{
+    var icon = instance_create_layer(x, y, layer, obj_gateSecretIcon);
+    icon.targetRoom = targetRoom; 
+    icon.parentGate = id;
+    icon.level = level;
+    icon.secretIndex = i + 1; 
+    
+
+    icon.cardtimer = irandom(10000); 
+    icon.orbitSpeed = random_range(2, 6); 
+    
+    icon.depth = depth - 10;
+}
+

@@ -117,8 +117,8 @@ for (var i = 0; i < array_length(saveFiles); i++)
 bg_frame = 0;
 dark_frame = 0;
 
-bg_speed = 0.3;
-dark_speed = 0.1;
+bg_speed = 0.4;
+dark_speed = 0.4;
 title_x = 60;
 title_y = 0;
 

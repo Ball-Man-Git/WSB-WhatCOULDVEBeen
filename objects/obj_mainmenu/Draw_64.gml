@@ -1,7 +1,10 @@
 pal_swap_set(pal_mainmenu_room, roomPaletteIndex, false);
 draw_sprite_ext(spr_mainmenu_tvBackground, bg_frame, 0, 0, menuscale + 1, menuscale + 1, 0, c_white, 1);
 draw_sprite_ext(TVsprite, TVindex, 768, 288, menuscale + 1, menuscale + 1, 0, c_white, 1);
-draw_sprite_ext(spr_mainmenu_shelf, 0, 0, -170, menuscale + 1, menuscale + 1, 0, c_white, 1);
+
+// Normal shelf only shows when it's NOT dark
+if (!dark)
+    draw_sprite_ext(spr_mainmenu_shelf, 0, 0, -170, menuscale + 1, menuscale + 1, 0, c_white, 1);
 
 shader_reset();
 
@@ -47,30 +50,25 @@ var _yy = obj_screensizer.displayHeight - 32;
 draw_set_alpha(1);
 
 if (dark)
-draw_sprite(spr_mainmenu_dark, dark_frame, 0, 0);
+{
+    draw_sprite(spr_mainmenu_dark, dark_frame, 0, 0);
+    // DRAW DARK SHELF HERE (On top of the darkness so it's a silhouette)
+    draw_sprite_ext(spr_mainmenu_shelfdark, 0, 0, -170, menuscale + 1, menuscale + 1, 0, c_white, 1);
+}
 
 var base_x = 60;
 var base_y = 40;
 
-var float1 = sin(title_timer) * 2;
-var float2 = sin(title_timer + 0.7) * 2;
-var float3 = sin(title_timer + 1.4) * 2;
-
 if (scene >= 0)
 {
-    // Main title
     draw_set_alpha(title_alpha);
+    draw_sprite(spr_whatcouldvebeen, 0, title_x - 50 + sin(title_timer)*2.0, (title_y - 10) + cos(title_timer)*1.5);
+    draw_sprite(spr_bacon, 0, title_x - 50 + sin(title_timer*0.9)*2.0, (title_y - 10) + cos(title_timer*1.1)*1.5);
+    draw_sprite(spr_whatsshakin, 0, title_x - 50 + sin(title_timer*1.1)*2.0, (title_y - 10) + cos(title_timer*0.9)*1.5);
 
-  draw_sprite(spr_whatcouldvebeen, 0, title_x - 30 + sin(title_timer)*1.2, (title_y - 10) + cos(title_timer)*0.8);
-draw_sprite(spr_bacon, 0, title_x - 30 + sin(title_timer*0.9)*1.2, (title_y - 10) + cos(title_timer*1.1)*0.8);
-draw_sprite(spr_whatsshakin, 0, title_x - 30 + sin(title_timer*1.1)*1.2, (title_y - 10) + cos(title_timer*0.9)*0.8);
-
-    // Corner UI
     draw_set_alpha(corner_alpha);
-
     draw_sprite_ext(spr_saves,   0, corner_x + sin(title_timer*0.8)*1.5 - 240, corner_y + cos(title_timer*0.9)*0.8 - 20, 1,1,0,c_white,corner_alpha);
     draw_sprite_ext(spr_curly,   0, corner_x + sin(title_timer*1.0)*1.2 - 240, corner_y + cos(title_timer*0.7)*0.6 - 20, 1,1,0,c_white,corner_alpha);
     draw_sprite_ext(spr_options, 0, corner_x + sin(title_timer*0.9)*1.0 - 240, corner_y + cos(title_timer*1.1)*0.5 - 20, 1,1,0,c_white,corner_alpha);
-
     draw_set_alpha(1);
 }

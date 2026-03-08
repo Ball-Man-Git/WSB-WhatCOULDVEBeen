@@ -12,3 +12,4 @@ spr_attack = spr_gnome_attack;
 spr_stun = spr_egghead_stun; 
 spr_dead = spr_egghead_dead; 
 spr_scared = spr_egghead_scared;
+footstep_timer = 0;

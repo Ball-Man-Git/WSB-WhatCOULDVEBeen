@@ -1,3 +1,8 @@
+
+// reset terrain flags each frame
+onIce = false;
+onSnow = false;
+
 if (FMODevent_isplaying(soundsOk))
     FMODSet3dPos(soundsOk, x, y);
 
@@ -415,3 +420,32 @@ if isMildred
 				sprite_index = spr_milton_groundpoundrun
 			}
 			}
+		
+if (onSnow && abs(hsp) > 1 && place_meeting(x, y + 1, obj_iceslippery))
+{
+    if (random(1) < 0.3)
+    {
+        effect_create_above(ef_snow, x + random_range(-4,4), y, 1, c_white);
+    }
+}
+
+
+var _on_ice = place_meeting(x, y + 1, obj_iceslippery);
+
+if (state != UnknownEnum.Value_48 && _on_ice && grounded)
+{
+
+    if (place_meeting(x + sign(hsp), y, obj_solid) && abs(hsp) > 0)
+    {
+        state = UnknownEnum.Value_48; 
+        sprite_index = spr_player_slipsyrup;
+        image_index = 0;
+
+        vsp = -12; 
+        movespeed = -5; 
+        xscale = -sign(hsp); 
+        
+        FMODevent_oneshot("event:/Sfx/Player/bump", x, y);
+        create_particleStatic(spr_hurteffect, x, y, 1);
+    }
+}

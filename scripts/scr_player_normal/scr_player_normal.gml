@@ -10,7 +10,7 @@ function scr_player_normal()
     
     var on_ice = place_meeting(x, y + 1, obj_iceslippery);
     
-    if (is_kingdom && grounded && move != 0 && movespeed > 0)
+    if (is_kingdom && grounded && !on_ice && move != 0 && movespeed > 0)
     {
         if (snowbuffer > 0)
             snowbuffer--;
@@ -59,14 +59,14 @@ function scr_player_normal()
         if (!on_ice)
             xscale = move;
         else if (move != xscale && movespeed > 0)
-            movespeed = approach(movespeed, 0, 0.1); 
+            movespeed = approach(movespeed, 0, 0.05); 
         else
             xscale = move;
 
         if (!place_meeting(x + xscale, y, obj_solid))
         {
-            var target_speed = (on_ice) ? 8 : 6;
-            var accel = (on_ice) ? 0.1 : 0.5;
+            var target_speed = (on_ice) ? 10 : 6;
+            var accel = (on_ice) ? 0.2 : 0.5;
             
             if (isErnie && !on_ice) target_speed = 8;
             
@@ -74,7 +74,7 @@ function scr_player_normal()
         }
         else
         {
-            var wall_deccel = (on_ice) ? 0.1 : 0.65;
+            var wall_deccel = (on_ice) ? 0.05 : 0.65;
             movespeed = approach(movespeed, 0, wall_deccel);
             
             if (sprite_index != spr_player_littledanceydance)
@@ -108,7 +108,7 @@ function scr_player_normal()
             }
         }
         
-        var idle_deccel = (on_ice) ? 0.05 : 0.65;
+        var idle_deccel = (on_ice) ? 0.02 : 0.65;
         movespeed = approach(movespeed, 0, idle_deccel);
         
         if (sprite_index == sprites.idle && sprites.idle != spr_juandanger_idle)
@@ -222,7 +222,7 @@ function scr_player_normal()
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         
-        if (is_kingdom)
+        if (is_kingdom && !on_ice)
             repeat(3) create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
 
         image_index = 0;
@@ -245,7 +245,7 @@ function scr_player_normal()
     {
         create_particleStatic(spr_grabcloud, x, y, xscale, 1);
         
-        if (is_kingdom && grounded)
+        if (is_kingdom && grounded && !on_ice)
             repeat(2) create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
 
         if !on_ice
@@ -254,7 +254,7 @@ function scr_player_normal()
         }
         else
         {
-            movespeed = clamp(movespeed, 6, 12);
+            movespeed = clamp(movespeed, 8, 12);
         }
         sprite_index = sprites.mach1;
         image_index = 0;

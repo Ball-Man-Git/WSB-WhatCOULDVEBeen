@@ -94,6 +94,9 @@ door = "A";
 state = UnknownEnum.Value_0;
 movespeed = 0;
 verticalMovespeed = 0;
+
+onIce = false;
+onSnow = false;
 xscale = 1;
 xscaleMulti = 1;
 yscaleMulti = 1;

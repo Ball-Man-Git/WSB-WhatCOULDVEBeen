@@ -5,54 +5,76 @@ if (!hitstun.is)
         case UnknownEnum.Value_0:
             if (substate == 0) 
             {
-                image_blend = make_color_rgb(100, 150, 255);
+                image_alpha = 0.6;
+                hsp = 0;
+                vsp = 0;
+                image_angle = 0; 
                 timer++;
-                if (timer > 60) 
+                
+                if (timer > 80 && point_distance(x, y, obj_player.x, obj_player.y) < 400) 
                 {
                     vsp = jump_vsp;
+                   
                     air_dir = (obj_player.x > x) ? 1 : -1;
+                    image_xscale = air_dir; 
+                    
                     substate = 1;
-                    image_blend = c_white;
+                    image_alpha = 1;
                     timer = 0;
+                    FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
                 }
             }
             else if (substate == 1) 
             {
                 vsp += grav;
-                x += (jump_hsp * air_dir);
+                hsp = (jump_hsp * air_dir);
+
+                if (place_meeting(x + hsp, y, obj_solid))
+                    hsp = 0;
+
+                x += hsp;
                 y += vsp;
 
-                image_angle = point_direction(0, 0, (jump_hsp * air_dir), vsp);
-                image_yscale = (air_dir < 0) ? -1 : 1;
+                
+                image_angle = point_direction(0, 0, hsp, vsp);
+                
+           
+                if (image_xscale == -1) 
+                    image_angle += 180;
 
+          
                 if (y > ystart && vsp > 0)
                 {
                     y = ystart;
                     vsp = 0;
+                    hsp = 0;
                     substate = 0;
                     image_angle = 0;
-                    image_yscale = 1;
+                    image_alpha = 0.6;
+                    FMODevent_oneshot("event:/Sfx/Player/slipbump", x, y);
+                    repeat(4) create_particleDebri(spr_snowparticle, irandom(3), x, y, 1);
                 }
             }
 
-
-            var head_x = x + lengthdir_x(24, image_angle);
-            var head_y = y + lengthdir_y(24, image_angle);
-            if (place_meeting(head_x, head_y, obj_player) && substate == 1)
-                hurt_player(id);
-                
-            if (place_meeting(x, y, obj_player) && (obj_player.state == UnknownEnum.Value_4 || obj_player.instakill))
-                instance_destroy();
+ 
+            var _player = instance_place(x, y, obj_player);
+            if (_player != noone)
+            {
+                if (_player.state == UnknownEnum.Value_3 || _player.state == UnknownEnum.Value_4 || _player.instakill)
+                    instance_destroy();
+                else if (substate == 1 && _player.i_frame <= 0)
+                    hurt_player(id);
+            }
         break;
 
-        case UnknownEnum.Value_11:
+        case UnknownEnum.Value_11: 
             scr_enemy_stun();
         break;
     }
 }
 else 
 {
-    x = hitstun.x + irandom_range(-5, 5);
-    y = hitstun.y + irandom_range(-5, 5);
+    x = hitstun.x + irandom_range(-2, 2);
+    y = hitstun.y + irandom_range(-2, 2);
     if (hitstun.time-- <= 0) hitstun.is = false;
 }

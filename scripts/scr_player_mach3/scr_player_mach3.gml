@@ -1,14 +1,19 @@
 function scr_player_mach3()
 {
+    static snowbuffer = 5;
+    var roomname = string_letters(room_get_name(room));
+    var is_kingdom = string_pos("kingdom", roomname) > 0;
+    var on_ice = place_meeting(x, y + 1, obj_iceslippery);
+
     get_input();
     hsp = movespeed * xscale;
     
     if (sprite_index == spr_player_superjumpcancel)
         image_speed = lerp(image_speed, 0.5, 0.15);
-		else if (sprite_index == spr_ernie_run)
-		image_speed = 0.45
-				else if (sprite_index == spr_milton_groundpoundrun || sprite_index == spr_milton_groundpoundrunhit)
-		image_speed = 0.35
+    else if (sprite_index == spr_ernie_run)
+        image_speed = 0.45;
+    else if (sprite_index == spr_milton_groundpoundrun || sprite_index == spr_milton_groundpoundrunhit)
+        image_speed = 0.35;
     else
         image_speed = (sprite_index == sprites.crazyrun) ? 0.6 : 0.35;
     
@@ -18,10 +23,29 @@ function scr_player_mach3()
     if (!instance_exists(speedlineseffect) && movespeed > 13)
         speedlineseffect = instance_create(x, y, obj_speedlines);
     
+    if (is_kingdom && grounded && !on_ice && movespeed > 0)
+    {
+        if (snowbuffer > 0)
+            snowbuffer--;
+        else
+        {
+            var _repeat = mach4mode ? 6 : 4;
+            repeat(_repeat)
+            {
+                with (create_particleDebri(spr_snowparticle, irandom_range(0, 3), x - (xscale * 15), y + 42, 1))
+                {
+                    hsp = -(other.xscale * irandom_range(4, 8));
+                    vsp = -irandom_range(3, 7);
+                }
+            }
+            snowbuffer = mach4mode ? 2 : 4;
+        }
+    }
+
     buffers.bigdashcloud--;
 	
 	if (movespeed < 14 && isErnie)
-	movespeed = lerp(movespeed, 14, 0.05)
+	    movespeed = lerp(movespeed, 14, 0.05);
     
     if (buffers.bigdashcloud <= 0 && grounded)
     {
@@ -40,6 +64,9 @@ function scr_player_mach3()
     var move = key_right + key_left;
     var _accel = (character == UnknownEnum.Value_1) ? 0.01 : 0.025;
     
+    if (on_ice)
+        _accel *= 2;
+
     if (mach4mode)
         _accel = (character == UnknownEnum.Value_1) ? 0.05 : 0.1;
     
@@ -49,16 +76,16 @@ function scr_player_mach3()
     if (animation_end() && sprite_index == spr_player_buzzsawCancel)
         image_index = image_number - 2;
 		
-		    if (animation_end() && sprite_index == spr_ernie_runningjump)
+    if (animation_end() && sprite_index == spr_ernie_runningjump)
         image_index = image_number - 5;
 		
-		    if (animation_end() && sprite_index == spr_player_walljumpstart)
+    if (animation_end() && sprite_index == spr_player_walljumpstart)
     {
         image_index = 0;
         sprite_index = spr_player_walljump;
     }
 	
-			    if (animation_end() && sprite_index == spr_milton_groundpoundrun)
+    if (animation_end() && sprite_index == spr_milton_groundpoundrun)
         image_index = 4;
     
     if (animation_end() && ((sprite_index == sprites.mach3jump && !isErnie) || sprite_index == sprites.mach3hit || sprite_index == spr_player_rollgetup || sprite_index == spr_milton_groundpoundrunhit))
@@ -72,10 +99,11 @@ function scr_player_mach3()
         sprite_index = sprites.crazyrun;
         flash = true;
     }
-    if character == UnknownEnum.Value_2
-	mach4mode = movespeed >= 20
+
+    if (character == UnknownEnum.Value_2)
+	    mach4mode = movespeed >= 20;
 	else
-    mach4mode = (character == UnknownEnum.Value_1) ? (movespeed >= 24) : (movespeed >= 16);
+        mach4mode = (character == UnknownEnum.Value_1) ? (movespeed >= 24) : (movespeed >= 16);
     
     if (movespeed < 18)
         slope_momentum(0.1);
@@ -101,8 +129,8 @@ function scr_player_mach3()
     
     if (grounded && (sprite_index == spr_player_superjumpcancel || sprite_index == spr_player_buzzsawCancel || sprite_index == spr_player_walljumpstart || sprite_index == spr_player_walljump || (sprite_index == sprites.mach3jump && isErnie)))
     {
-		if sprite_index != spr_ernie_runningjump
-        flash = true;
+		if (sprite_index != spr_ernie_runningjump)
+            flash = true;
         image_index = 0;
         sprite_index = sprites.mach3;
     }
@@ -118,13 +146,17 @@ function scr_player_mach3()
         grounded = false;
         jumpBuffer = false;
         create_particleStatic(spr_grabcloud, x, y, xscale, 1);
-		if movespeed <= (character == UnknownEnum.Value_2 ? 20 : 16)
+        
+        if (is_kingdom && !on_ice)
+            repeat(3) create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 42, 1);
+
+		if (movespeed <= (character == UnknownEnum.Value_2 ? 20 : 16))
 		{
-        image_index = 0;
-        sprite_index = sprites.mach3jump;
+            image_index = 0;
+            sprite_index = sprites.mach3jump;
 		}
 		else
-		flash = true;
+		    flash = true;
         vsp = -12;
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
@@ -140,13 +172,19 @@ function scr_player_mach3()
     
     if (move != xscale && move != 0 && grounded)
     {
-        FMODevent_oneshot("event:/Sfx/Player/machturn", x, y);
-        movespeed = 12;
-        sprite_index = sprites.mach3turn;
-        image_index = 0;
-        state = UnknownEnum.Value_6;
-        show_debug_message("mach turned from mach 3");
-        exit;
+        if (on_ice)
+        {
+            movespeed = approach(movespeed, 0, 0.1);
+        }
+        else
+        {
+            FMODevent_oneshot("event:/Sfx/Player/machturn", x, y);
+            movespeed = 12;
+            sprite_index = sprites.mach3turn;
+            image_index = 0;
+            state = UnknownEnum.Value_6;
+            exit;
+        }
     }
     
     if ((((key_up && global.dirGround) || (key_superjump && !global.dirGround)) && grounded) && !place_meeting(x, y - 32, obj_solid))
@@ -169,13 +207,20 @@ function scr_player_mach3()
     
     if (place_meeting(x + sign(hsp), y, obj_solid) && !place_meeting(x, y + 1, obj_slope) && grounded && !place_meeting(x + sign(hsp), y, obj_metalblock) && !place_meeting(x + sign(hsp), y, obj_secretmetalblock))
     {
-        FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
-        state = UnknownEnum.Value_7;
-        shake_camera(15);
-        sprite_index = spr_player_mach3hitwall;
-        image_index = 0;
-        vsp = -6;
-        movespeed = -6;
+        if (on_ice && movespeed > 8)
+        {
+            movespeed = approach(movespeed, 0, 0.1);
+        }
+        else
+        {
+            FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
+            state = UnknownEnum.Value_7;
+            shake_camera(15);
+            sprite_index = spr_player_mach3hitwall;
+            image_index = 0;
+            vsp = -6;
+            movespeed = -6;
+        }
     }
     
     if (((place_meeting(x + sign(hsp), y, obj_solid) && !grounded) || (scr_slope(x, y + 4) && place_meeting(x + sign(hsp), y - 4, obj_solid))) && !place_meeting(x + hsp, y, obj_metalblock) && !place_meeting(x + hsp, y, obj_secretmetalblock))

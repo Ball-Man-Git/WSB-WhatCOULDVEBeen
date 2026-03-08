@@ -66,8 +66,8 @@
   ],
   "name":"warehouse_test",
   "parent":{
-    "name":"Sunnyside Inn",
-    "path":"folders/Rooms/Sunnyside Inn.yy",
+    "name":"Crashout City",
+    "path":"folders/Rooms/Basement/Crashout City.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

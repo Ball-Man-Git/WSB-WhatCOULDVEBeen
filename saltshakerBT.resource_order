@@ -378,7 +378,7 @@
     {"name":"tutorial_6","order":5,"path":"rooms/tutorial_6/tutorial_6.yy",},
     {"name":"warehouse_1","order":11,"path":"rooms/warehouse_1/warehouse_1.yy",},
     {"name":"warehouse_2","order":13,"path":"rooms/warehouse_2/warehouse_2.yy",},
-    {"name":"warehouse_test","order":15,"path":"rooms/warehouse_test/warehouse_test.yy",},
+    {"name":"warehouse_test","order":17,"path":"rooms/warehouse_test/warehouse_test.yy",},
     {"name":"_GLOBAL_INIT","order":1111,"path":"scripts/_GLOBAL_INIT/_GLOBAL_INIT.yy",},
     {"name":"Fmod_Definitions","order":1,"path":"scripts/Fmod_Definitions/Fmod_Definitions.yy",},
     {"name":"Fmod_Functions","order":2,"path":"scripts/Fmod_Functions/Fmod_Functions.yy",},

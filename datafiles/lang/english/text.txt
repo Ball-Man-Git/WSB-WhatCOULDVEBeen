@@ -85,4 +85,8 @@
   "tip_supertaunt":"[wave][U][T] Super Taunt",
   
   "caption_main":"What's Shakin, Bacon?",
+  
+  "rank_score":"SCORE: {0}",
+  "rank_time":"TIME: {0}",
+  "rank_combo":"HIGHEST COMBO: {0}",
 }

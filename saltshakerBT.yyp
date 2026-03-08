@@ -1163,6 +1163,7 @@
     {"id":{"name":"spr_slope","path":"sprites/spr_slope/spr_slope.yy",},},
     {"id":{"name":"spr_smallfont","path":"sprites/spr_smallfont/spr_smallfont.yy",},},
     {"id":{"name":"spr_smallnumber","path":"sprites/spr_smallnumber/spr_smallnumber.yy",},},
+    {"id":{"name":"spr_smiles_idle","path":"sprites/spr_smiles_idle/spr_smiles_idle.yy",},},
     {"id":{"name":"spr_snowman","path":"sprites/spr_snowman/spr_snowman.yy",},},
     {"id":{"name":"spr_snowmanpickup_throw","path":"sprites/spr_snowmanpickup_throw/spr_snowmanpickup_throw.yy",},},
     {"id":{"name":"spr_snowmanpickup","path":"sprites/spr_snowmanpickup/spr_snowmanpickup.yy",},},

@@ -3,7 +3,9 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     ds_list_add(global.saveroom, id);
     global.pumpkins.count++;
     
+
     FMODevent_oneshot("event:/Sfx/General/collect", x, y);
+    create_particleStatic(spr_cloudeffect, x, y, 1, 1);
     
     if (global.pumpkins.count < 15)
         scr_transfotip(string("[wave]There are {0} Pumpkins Left...", 15 - global.pumpkins.count));
@@ -13,6 +15,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
         FMODevent_oneshot("event:/Sfx/General/treasure", x, y);
     }
 
-    sprite_index = spr_pumpkin_collected;
-    image_index = 0;
+
+    instance_create(x, y, obj_pumpkinfollow);
+    instance_destroy();
 }

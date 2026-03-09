@@ -41,7 +41,7 @@ function scr_player_grab()
     
     var move = key_right + key_left;
     
-    // Ice acceleration logic
+
     var _accel = on_ice ? 0.25 : 1;
     if (movespeed < 10) && !isErnie
         movespeed = approach(movespeed, 10, _accel);
@@ -49,7 +49,7 @@ function scr_player_grab()
     if (movespeed > 13) && isErnie
         movespeed = lerp(movespeed, 13, 0.075);
 		
-    // Kingdom Snow Particles
+
     if (is_kingdom && grounded && !on_ice && movespeed > 0)
     {
         if (snowbuffer > 0)
@@ -147,7 +147,7 @@ function scr_player_grab()
     
     if (move != 0 && move != xscale)
     {
-        // Ice turning friction
+
         var _turn_deccel = on_ice ? 0.05 : 1;
         movespeed = approach(movespeed, 0, _turn_deccel);
         
@@ -190,7 +190,7 @@ function scr_player_grab()
     
     if (place_meeting(x + sign(hsp), y, obj_solid) && grounded)
     {
-        // Ice wall bump deccel
+
         var _bump_deccel = on_ice ? 0.05 : 1;
         if (on_ice && movespeed > 4)
         {

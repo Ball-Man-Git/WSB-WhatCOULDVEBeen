@@ -1,5 +1,4 @@
 event_inherited();
-
 spr_move = spr_crab_idle;       
 spr_orbit = spr_egghead_charge; 
 spr_stun = spr_crab_scared;     

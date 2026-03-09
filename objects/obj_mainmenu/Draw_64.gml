@@ -2,7 +2,7 @@ pal_swap_set(pal_mainmenu_room, roomPaletteIndex, false);
 draw_sprite_ext(spr_mainmenu_tvBackground, bg_frame, 0, 0, menuscale + 1, menuscale + 1, 0, c_white, 1);
 draw_sprite_ext(TVsprite, TVindex, 768, 288, menuscale + 1, menuscale + 1, 0, c_white, 1);
 
-// Normal shelf only shows when it's NOT dark
+
 if (!dark)
     draw_sprite_ext(spr_mainmenu_shelf, 0, 0, -170, menuscale + 1, menuscale + 1, 0, c_white, 1);
 
@@ -52,7 +52,7 @@ draw_set_alpha(1);
 if (dark)
 {
     draw_sprite(spr_mainmenu_dark, dark_frame, 0, 0);
-    // DRAW DARK SHELF HERE (On top of the darkness so it's a silhouette)
+   
     draw_sprite_ext(spr_mainmenu_shelfdark, 0, 0, -170, menuscale + 1, menuscale + 1, 0, c_white, 1);
 }
 

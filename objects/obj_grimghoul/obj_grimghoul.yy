@@ -11,8 +11,8 @@
   "name":"obj_grimghoul",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Castle Pumpkinstein",
+    "path":"folders/Objects/Level Specific Objects/Castle Pumpkinstein.yy",
   },
   "parentObjectId":{
     "name":"obj_solid",

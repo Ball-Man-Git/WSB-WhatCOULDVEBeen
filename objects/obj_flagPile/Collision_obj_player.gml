@@ -1,24 +1,24 @@
 if (global.hasFlag && !planted)
 {
-    // 1. DATA & POINTS
+
     planted = true;
     global.hasFlag = false;
     global.collect += 500;
     global.combo.timer = 60;
-    ds_list_add(global.saveroom, id); // SAVE the data
+    ds_list_add(global.saveroom, id); 
 
     if (global.hardMode)
         global.escape.timer += 60;
 
-    // 2. AUDIO JUICE (The "Crunchy" Slam)
+ 
     FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
     FMODevent_oneshot("event:/Sfx/General/Level/breakblock", x, y);
 
-    // 3. VISUAL JUICE
+
     shake_camera(8); 
     create_smalltext(500, x, y);
     
-    // Massive Snow Spray
+ 
     repeat(10)
     {
         with (create_particleDebri(spr_snowparticle, irandom_range(0, 3), x, y + 20, 1))
@@ -28,7 +28,7 @@ if (global.hasFlag && !planted)
         }
     }
 
-    // 4. TV & PLAYER REACTION
+
     var tv_sprites = global.PlayerCharacters[obj_player.character].sprites.tv;
     tv_anim(tv_sprites.collect, 180);
 

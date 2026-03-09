@@ -1,27 +1,38 @@
-if (other.grounded && other.key_up && other.state != UnknownEnum.Value_20 && other.state != UnknownEnum.Value_21 && other.state != UnknownEnum.Value_38 && open)
+if (other.grounded && other.key_up && other.state != UnknownEnum.Value_20 && other.state != UnknownEnum.Value_21 && other.state != UnknownEnum.Value_38)
 {
-    global.key = false;
-    ds_list_add(global.saveroom, id);
-    sprite_index = spr_doorkey_open;
-    
-    with (other)
+    if (global.key) 
     {
-        targetRoom = other.targetRoom;
-        door = other.targetDoor;
-        hallway = false;
-        movespeed = 0;
-        vsp = 0;
-        hsp = 0;
-        state = UnknownEnum.Value_20;
+        global.key = false;
+        ds_list_add(global.saveroom, id);
+        open = true;
         
-        if (ds_list_find_index(global.saveroom, id) == -1)
+     
+        with (obj_keyfollow) state = "unlock";
+        
+  
+        FMODevent_oneshot("event:/Sfx/General/Level/Gerome/unlock", x, y);
+        shake_camera(3, 5);
+
+        with (other)
         {
-            ds_list_add(global.saveroom, id);
+            targetRoom = other.targetRoom;
+            door = other.targetDoor;
+            hallway = false;
+            movespeed = 0;
+            vsp = 0;
+            hsp = 0;
+            state = UnknownEnum.Value_20;
             image_index = 0;
             sprite_index = spr_player_doorunlock;
         }
-        else
+    }
+    else if (open) 
+    {
+        with (other)
         {
+            targetRoom = other.targetRoom;
+            door = other.targetDoor;
+            state = UnknownEnum.Value_20;
             image_index = 0;
             sprite_index = spr_player_lookdoor;
             FMODevent_oneshot("event:/Sfx/General/Level/Progression/door");

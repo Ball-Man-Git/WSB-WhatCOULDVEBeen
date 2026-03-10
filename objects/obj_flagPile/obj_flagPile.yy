@@ -11,8 +11,8 @@
   "name":"obj_flagPile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Snowcone Kingdom",
+    "path":"folders/Objects/Level Specific Objects/Snowcone Kingdom.yy",
   },
   "parentObjectId":null,
   "persistent":false,

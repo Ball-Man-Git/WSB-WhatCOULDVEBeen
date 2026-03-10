@@ -430,22 +430,39 @@ if (onSnow && abs(hsp) > 1 && place_meeting(x, y + 1, obj_iceslippery))
 }
 
 
-var _on_ice = place_meeting(x, y + 1, obj_iceslippery);
+// Change _on_ice to on_ice to match the check below!
+var on_ice = place_meeting(x, y + 1, obj_iceslippery); 
 
-if (state != UnknownEnum.Value_48 && _on_ice && grounded)
+var on_ice = place_meeting(x, y + 1, obj_iceslippery);
+
+if (on_ice && grounded)
 {
-
     if (place_meeting(x + sign(hsp), y, obj_solid) && abs(hsp) > 0)
     {
-        state = UnknownEnum.Value_48; 
-        sprite_index = spr_player_slipsyrup;
-        image_index = 0;
-
-        vsp = -12; 
-        movespeed = -5; 
-        xscale = -sign(hsp); 
-        
-        FMODevent_oneshot("event:/Sfx/Player/bump", x, y);
-        create_particleStatic(spr_hurteffect, x, y, 1);
+        // 1. SNOWBALL BOUNCE (Keep Transfo)
+        if (state == UnknownEnum.Value_38 || state == UnknownEnum.Value_39 || state == UnknownEnum.Value_40)
+        {
+            FMODevent_oneshot("event:/Sfx/Player/bump", x, y);
+            shake_camera(3, 5);
+            vsp = -5;
+            movespeed = approach(movespeed, 0, 4); 
+            xscale *= -1; 
+            sprite_index = spr_player_snowball_fall;
+            image_index = 0;
+            repeat(3) create_particleStatic(spr_snowparticle, x + (xscale * 20), y, 1, 1);
+        }
+        // 2. NORMAL SLIP (Only if not a snowball)
+        else if (state != UnknownEnum.Value_48)
+        {
+            state = UnknownEnum.Value_48; 
+            sprite_index = spr_player_slipsyrup;
+            image_index = 0;
+            vsp = -12; 
+            movespeed = -5; 
+            xscale = -sign(hsp); 
+            FMODevent_oneshot("event:/Sfx/Player/bump", x, y);
+            create_particleStatic(spr_hurteffect, x, y, 1, 1);
+        }
     }
 }
+

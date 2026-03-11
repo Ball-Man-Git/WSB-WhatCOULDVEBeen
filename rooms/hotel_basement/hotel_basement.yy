@@ -17,8 +17,6 @@
     {"name":"inst_5B1E26C5","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_ED9BDE3","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_7AFBEDEF","path":"rooms/hotel_basement/hotel_basement.yy",},
-<<<<<<< Updated upstream
-=======
     {"name":"inst_633C6D9D","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_44C566D8","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_59986433","path":"rooms/hotel_basement/hotel_basement.yy",},
@@ -35,10 +33,6 @@
     {"name":"inst_339ED42C","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_816DED5","path":"rooms/hotel_basement/hotel_basement.yy",},
     {"name":"inst_3FA39CEA","path":"rooms/hotel_basement/hotel_basement.yy",},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
   ],
   "isDnd":false,
   "layers":[
@@ -67,12 +61,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7AFBEDEF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7AFBEDEF","objectId":{"name":"obj_levelgate","path":"objects/obj_levelgate/obj_levelgate.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelgate","path":"objects/obj_levelgate/obj_levelgate.yy",},"propertyId":{"name":"level","path":"objects/obj_levelgate/obj_levelgate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"radiation\"",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelgate","path":"objects/obj_levelgate/obj_levelgate.yy",},"propertyId":{"name":"targetRoom","path":"objects/obj_levelgate/obj_levelgate.yy",},"resource":{"name":"radiation_1","path":"rooms/radiation_1/radiation_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"radiation_1",},
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":352.0,},
-=======
-=======
->>>>>>> Stashed changes
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2528.0,"y":1504.0,},
         {"$GMRInstance":"v2","%Name":"inst_633C6D9D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_633C6D9D","objectId":{"name":"obj_levelgate","path":"objects/obj_levelgate/obj_levelgate.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_levelgate","path":"objects/obj_levelgate/obj_levelgate.yy",},"propertyId":{"name":"level","path":"objects/obj_levelgate/obj_levelgate.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"milkshek\"",},
@@ -93,10 +82,6 @@
         {"$GMRInstance":"v2","%Name":"inst_339ED42C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_339ED42C","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.999998,"scaleY":5.0,"x":1824.0,"y":1632.0,},
         {"$GMRInstance":"v2","%Name":"inst_816DED5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_816DED5","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":12.0,"scaleY":5.0,"x":1824.0,"y":1088.0,},
         {"$GMRInstance":"v2","%Name":"inst_3FA39CEA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3FA39CEA","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":10.0,"x":2656.0,"y":1312.0,},
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

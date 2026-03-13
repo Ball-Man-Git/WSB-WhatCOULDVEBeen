@@ -1,0 +1,1 @@
+text = "Ay, bro. Welcome to the tutorial bro"

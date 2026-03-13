@@ -13,8 +13,8 @@
   ],
   "name":"challenge1_1",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"1",
+    "path":"folders/Rooms/Challenge Levels/1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

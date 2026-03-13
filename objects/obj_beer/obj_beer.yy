@@ -9,8 +9,8 @@
   "name":"obj_beer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Wasted Shores",
+    "path":"folders/Objects/Unused/Wasted Shores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

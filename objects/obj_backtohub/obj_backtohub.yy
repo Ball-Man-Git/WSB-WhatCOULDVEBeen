@@ -11,8 +11,8 @@
   "name":"obj_backtohub",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Essentials",
+    "path":"folders/Objects/Essentials.yy",
   },
   "parentObjectId":null,
   "persistent":true,
@@ -29,7 +29,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"finishlevel","filters":[],"listItems":[],"multiselect":false,"name":"finishlevel","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"finishlevel","filters":[],"listItems":[],"multiselect":false,"name":"finishlevel","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"false","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

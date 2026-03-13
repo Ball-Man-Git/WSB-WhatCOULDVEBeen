@@ -12,8 +12,8 @@
   "name":"obj_sprayWall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Shell City",
+    "path":"folders/Objects/Level Specific Objects/Shell City.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -9,8 +9,8 @@
   "name":"obj_strawimpact",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Level Specific Objects",
+    "path":"folders/Objects/Level Specific Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

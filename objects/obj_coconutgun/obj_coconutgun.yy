@@ -10,8 +10,8 @@
   "name":"obj_coconutgun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Fruitcup Coast",
+    "path":"folders/Objects/Level Specific Objects/Fruitcup Coast.yy",
   },
   "parentObjectId":null,
   "persistent":false,

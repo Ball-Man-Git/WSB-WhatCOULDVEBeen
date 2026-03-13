@@ -8,8 +8,8 @@
   "name":"obj_fiveishtrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Crashout City",
+    "path":"folders/Objects/Level Specific Objects/Crashout City.yy",
   },
   "parentObjectId":null,
   "persistent":false,

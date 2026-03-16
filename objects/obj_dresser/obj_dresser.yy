@@ -12,8 +12,8 @@
   "name":"obj_dresser",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hub",
+    "path":"folders/Objects/Hub.yy",
   },
   "parentObjectId":null,
   "persistent":false,

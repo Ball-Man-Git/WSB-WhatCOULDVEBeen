@@ -10,8 +10,8 @@
   "name":"obj_pumpkinController",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Castle Pumpkinstein",
+    "path":"folders/Objects/Level Specific Objects/Castle Pumpkinstein.yy",
   },
   "parentObjectId":null,
   "persistent":true,

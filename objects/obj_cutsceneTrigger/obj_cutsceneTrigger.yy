@@ -9,8 +9,8 @@
   "name":"obj_cutsceneTrigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Essentials",
+    "path":"folders/Objects/Essentials.yy",
   },
   "parentObjectId":null,
   "persistent":false,

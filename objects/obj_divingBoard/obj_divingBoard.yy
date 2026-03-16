@@ -9,8 +9,8 @@
   "name":"obj_divingBoard",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Wasted Shores",
+    "path":"folders/Objects/Unused/Wasted Shores.yy",
   },
   "parentObjectId":{
     "name":"obj_platform",

@@ -9,8 +9,8 @@
   "name":"obj_butterfollower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Warehouse",
-    "path":"folders/Objects/Level Specific Objects/Warehouse.yy",
+    "name":"Crashout City",
+    "path":"folders/Objects/Level Specific Objects/Crashout City.yy",
   },
   "parentObjectId":{
     "name":"obj_followplayer",

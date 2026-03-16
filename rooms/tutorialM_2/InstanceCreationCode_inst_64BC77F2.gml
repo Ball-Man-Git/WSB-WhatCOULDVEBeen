@@ -1,0 +1,1 @@
+text = "Hey bro. Did you know that if you hold down the [X] key, you can spin with your hammer bro"

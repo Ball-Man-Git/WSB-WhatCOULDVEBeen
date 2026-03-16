@@ -1,4 +1,4 @@
-obtitlecardSprite = lang_get_asset("spr_titlecardMonolith");
+titlecardSprite = lang_get_asset("spr_titlecardMonolith");
 
 titlecardName = 
 {

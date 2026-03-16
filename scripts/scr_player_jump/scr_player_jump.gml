@@ -55,7 +55,15 @@ function scr_player_jump()
     
     if (freefalling >= 120)
         sprite_index = spr_player_fallfast2;
-    
+
+    if (key_jump2 && !grounded && isMilton)
+    {
+        state = UnknownEnum.Value_53; 
+        sprite_index = spr_milton_diveprep;
+        image_index = 0;
+        vsp = -5; 
+    }
+
     if (((key_down2 && global.dirGround) || (key_groundpound2 && !global.dirGround)) && !grounded)
     {
         vsp = -6;

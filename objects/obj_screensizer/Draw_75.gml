@@ -12,7 +12,7 @@ if (global.debug)
 {
     var devWindow = [];
     array_push(devWindow, "POWERED BY AVOCADO ENGINE");
-    array_push(devWindow, "PROPERTY OF THE SALTSHAKERS");
+    array_push(devWindow, "PROPERTY OF OPEN YOUR HEART");
     array_push(devWindow, string("FPS: {0}", fps));
     array_push(devWindow, string("ROOM: {0}", room_get_name(room)));
     array_push(devWindow, string("Real FPS: {0}", fps_real));

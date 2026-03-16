@@ -30,7 +30,7 @@ if (hitstun.is == false)
                 with (_player)
                 {
                     state = UnknownEnum.Value_27;
-                    sprite_index = spr_player_wallsplat; // The correct sprite for hitting a wall
+                    sprite_index = spr_player_wallsplat; 
                     image_index = 0;
                     
                     xscale *= -1;

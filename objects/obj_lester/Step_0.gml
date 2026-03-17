@@ -27,7 +27,8 @@ if (global.escape.active)
 
     if (player_dist < 60)
     {
-        instance_create(x, y, spr_escape_die); 
+        with instance_create(x, y, obj_baddiedead)
+		sprite_index = spr_escape_die
         instance_destroy();
     }
     

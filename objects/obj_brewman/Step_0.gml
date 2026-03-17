@@ -65,7 +65,7 @@ if (hitstun.is == false)
                 bash_count++;
                 fmod_studio_event_instance_start(obj_player.soundsMach);
             }
-            if (place_meeting(x + hsp, y, obj_player)) with(obj_player) scr_player_hurt(id);
+            if (place_meeting(x + hsp, y, obj_player)) with(obj_player) scr_player_hurt();
             if (place_meeting(x + hsp, y, obj_solid) && bash_count >= 6) {
                 state = 11; sprite_index = spr_faint;
                 vsp = -8; hsp = -xscale * 5;

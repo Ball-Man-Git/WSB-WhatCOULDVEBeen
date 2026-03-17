@@ -330,6 +330,8 @@
     {"name":"hotel_escape","order":9,"path":"rooms/hotel_escape/hotel_escape.yy",},
     {"name":"hotel_escape1","order":8,"path":"rooms/hotel_escape1/hotel_escape1.yy",},
     {"name":"hotel_escape2","order":10,"path":"rooms/hotel_escape2/hotel_escape2.yy",},
+    {"name":"hotel_escape3","order":16,"path":"rooms/hotel_escape3/hotel_escape3.yy",},
+    {"name":"hotel_escape4","order":17,"path":"rooms/hotel_escape4/hotel_escape4.yy",},
     {"name":"hotel_finalhall","order":7,"path":"rooms/hotel_finalhall/hotel_finalhall.yy",},
     {"name":"hotel_hipnatuesehall","order":15,"path":"rooms/hotel_hipnatuesehall/hotel_hipnatuesehall.yy",},
     {"name":"hotel_outside","order":11,"path":"rooms/hotel_outside/hotel_outside.yy",},

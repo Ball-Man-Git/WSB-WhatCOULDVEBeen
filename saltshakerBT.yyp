@@ -417,6 +417,8 @@
     {"id":{"name":"hotel_escape","path":"rooms/hotel_escape/hotel_escape.yy",},},
     {"id":{"name":"hotel_escape1","path":"rooms/hotel_escape1/hotel_escape1.yy",},},
     {"id":{"name":"hotel_escape2","path":"rooms/hotel_escape2/hotel_escape2.yy",},},
+    {"id":{"name":"hotel_escape3","path":"rooms/hotel_escape3/hotel_escape3.yy",},},
+    {"id":{"name":"hotel_escape4","path":"rooms/hotel_escape4/hotel_escape4.yy",},},
     {"id":{"name":"hotel_finalhall","path":"rooms/hotel_finalhall/hotel_finalhall.yy",},},
     {"id":{"name":"hotel_hipnatuesehall","path":"rooms/hotel_hipnatuesehall/hotel_hipnatuesehall.yy",},},
     {"id":{"name":"hotel_outside","path":"rooms/hotel_outside/hotel_outside.yy",},},
@@ -1512,6 +1514,8 @@
     {"roomId":{"name":"tutorialM_3","path":"rooms/tutorialM_3/tutorialM_3.yy",},},
     {"roomId":{"name":"forest_1","path":"rooms/forest_1/forest_1.yy",},},
     {"roomId":{"name":"forest_entrance","path":"rooms/forest_entrance/forest_entrance.yy",},},
+    {"roomId":{"name":"hotel_escape3","path":"rooms/hotel_escape3/hotel_escape3.yy",},},
+    {"roomId":{"name":"hotel_escape4","path":"rooms/hotel_escape4/hotel_escape4.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

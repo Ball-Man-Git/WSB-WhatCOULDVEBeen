@@ -1,6 +1,17 @@
 function scr_player_machslide()
 {
     get_input();
+
+if (key_down2 && !grounded && isMilton)
+{
+    state = UnknownEnum.Value_53;
+    sprite_index = spr_milton_dive;
+    vsp = 20;
+    hsp = xscale * movespeed; 
+    hammer_bounces = 0;
+    exit;
+}
+
     hsp = movespeed * xscale;
     movespeed = approach(movespeed, 0, 0.4);
     image_speed = 0.35;

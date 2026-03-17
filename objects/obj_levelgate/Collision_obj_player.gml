@@ -1,26 +1,33 @@
 var _rm = targetRoom;
 var _dr = "A";
 
-if (other.grounded && other.key_up && other.state != UnknownEnum.Value_20 && other.state != UnknownEnum.Value_21)
+var _curtain_open_placeholder = spr_genericpoofeffect; 
+var _curtain = instance_place(x, y, obj_gate_curtain);
+var _locked = (_curtain != noone && _curtain.sprite_index != _curtain_open_placeholder);
+
+if (!_locked)
 {
-    with (other)
+    if (other.grounded && other.key_up && other.state != UnknownEnum.Value_20 && other.state != UnknownEnum.Value_21)
     {
-        hallway = false;
-        movespeed = 0;
-        vsp = 0;
-        hsp = 0;
-        state = UnknownEnum.Value_20;
-        sprite_index = spr_player_entergate;
-        image_index = 0;
-        targetRoom = _rm;
-        door = _dr;
-        backtohubRoom = room;
-        backtohubX = x;
-        backtohubY = y;
+        with (other)
+        {
+            hallway = false;
+            movespeed = 0;
+            vsp = 0;
+            hsp = 0;
+            state = UnknownEnum.Value_20;
+            sprite_index = spr_player_entergate;
+            image_index = 0;
+            targetRoom = _rm;
+            door = _dr;
+            backtohubRoom = room;
+            backtohubX = x;
+            backtohubY = y;
+        }
+        
+        with (obj_music)
+            stop_music();
     }
-    
-    with (obj_music)
-        stop_music();
 }
 
 with (other)

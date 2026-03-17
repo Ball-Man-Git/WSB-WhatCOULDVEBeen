@@ -1,6 +1,5 @@
 if (hitstun.is == false)
 {
-
     if (state == 15)
     {
         hsp = 0;
@@ -15,20 +14,7 @@ if (hitstun.is == false)
         exit;
     }
     
-
     event_inherited();
-
- 
-    if (state == 16)
-    {
-        hsp = 0;
-        if (floor(image_index) >= (image_number - 1))
-        {
-            state = UnknownEnum.Value_9;
-            sprite_index = spr_move;
-        }
-    }
-
 
     switch (state)
     {
@@ -40,72 +26,72 @@ if (hitstun.is == false)
         
         case UnknownEnum.Value_9: 
             sprite_index = spr_move;
-            image_speed = 0.45;
-            movespeed = 5; 
-            
+            movespeed = 3;
             var _dist_x = obj_player.x - x;
-            if (abs(_dist_x) > 64) 
-                xscale = sign(_dist_x);
+            if (abs(_dist_x) > 64) xscale = sign(_dist_x);
             hsp = xscale * movespeed;
 
-       
-            if (point_distance(x, 0, obj_player.x, 0) < 200 && chargeBuffer <= 0 && state == UnknownEnum.Value_9)
+            if (point_distance(x, 0, obj_player.x, 0) < 200 && chargeBuffer <= 0)
             {
                 state = 17; 
                 sprite_index = spr_attackstart;
                 image_index = 0;
-                movespeed = 0;
                 FMODevent_oneshot("event:/Sfx/Player/hammerspin", x, y);
             }
             break;
 
         case 17: 
             hsp = 0;
-            if (floor(image_index) >= (image_number - 1))
-            {
+
+            if (floor(image_index) >= (image_number - 1)) {
                 state = 18; 
                 sprite_index = spr_attack;
-                movespeed = 12;
+                movespeed = 8;
             }
             break;
 
         case 18: 
-           
             hsp = xscale * movespeed; 
             
-            if (floor(image_index) % 4 == 0)
+            if (--afterimage_timer <= 0) {
+                afterimage_timer = 6;
+                create_miltonAfterimage(sprite_index, image_index, x, y, xscale);
+            }
+            
+            if (grounded && --dashcloud_timer <= 0) {
+                dashcloud_timer = 12;
                 create_particleStatic(spr_dashcloud1, x, y, xscale, 1);
+            }
 
             if (place_meeting(x + hsp, y, obj_solid))
             {
                 FMODevent_oneshot("event:/Sfx/Player/hammerbounce", x, y);
-                vsp = -16;
-                state = UnknownEnum.Value_11;
+                shake_camera(4, 6);
+                
+                create_particleStatic(spr_genericpoofeffect, x + (xscale * 20), y, 1, 1);
+                repeat(3) create_particleDebri(spr_slapstar, irandom(3), x, y, 1);
+                
+                vsp = -4; 
+                state = UnknownEnum.Value_11; 
                 sprite_index = spr_stun;
-                movespeed = -5;
-                chargeBuffer = 120;
+                movespeed = -3;
+                chargeBuffer = 150;
             }
             break;
     }
-    
     chargeBuffer = approach(chargeBuffer, 0, 1);
 }
 
-
 hitbox = (state == 18); 
-if (hitbox == true)
+if (hitbox)
 {
-    if (!instance_exists(hitboxInst))
-    {
+    if (!instance_exists(hitboxInst)) {
         hitboxInst = instance_create(x, y, obj_forkbox);
         with (hitboxInst) enemy_inst = other;
     }
-}
-else if (instance_exists(hitboxInst))
-{
+} else if (instance_exists(hitboxInst)) {
     instance_destroy(hitboxInst);
     hitboxInst = -4;
 }
 
-
-scr_collide();
+scr_collision();

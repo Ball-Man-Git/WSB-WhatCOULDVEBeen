@@ -1,5 +1,5 @@
 
-// reset terrain flags each frame
+
 onIce = false;
 onSnow = false;
 
@@ -299,6 +299,11 @@ if (hitstun.is == false)
         case UnknownEnum.Value_52:
             scr_player_coconut_shoot();
             break;
+			
+	    case UnknownEnum.Value_53:
+            scr_player_hammerdive();
+            break;
+
         
         case UnknownEnum.Value_54:
             get_input();
@@ -400,7 +405,8 @@ if isMildred
 		freefallsmash = 15
 			}
 			
-			if ((sprite_index == spr_player_groundpoundland || sprite_index == sprites.divebombland) && sprite_index != spr_player_hitceiling)
+		if ((sprite_index == spr_player_groundpoundland || sprite_index == asset_get_index("spr_ernie_divebombland")) && sprite_index != spr_player_hitceiling)
+
 			{
 								if key_jump && isErnie
 			{
@@ -430,7 +436,7 @@ if (onSnow && abs(hsp) > 1 && place_meeting(x, y + 1, obj_iceslippery))
 }
 
 
-// Change _on_ice to on_ice to match the check below!
+
 var on_ice = place_meeting(x, y + 1, obj_iceslippery); 
 
 var on_ice = place_meeting(x, y + 1, obj_iceslippery);
@@ -439,7 +445,7 @@ if (on_ice && grounded)
 {
     if (place_meeting(x + sign(hsp), y, obj_solid) && abs(hsp) > 0)
     {
-        // 1. SNOWBALL BOUNCE (Keep Transfo)
+    
         if (state == UnknownEnum.Value_38 || state == UnknownEnum.Value_39 || state == UnknownEnum.Value_40)
         {
             FMODevent_oneshot("event:/Sfx/Player/bump", x, y);
@@ -451,7 +457,7 @@ if (on_ice && grounded)
             image_index = 0;
             repeat(3) create_particleStatic(spr_snowparticle, x + (xscale * 20), y, 1, 1);
         }
-        // 2. NORMAL SLIP (Only if not a snowball)
+
         else if (state != UnknownEnum.Value_48)
         {
             state = UnknownEnum.Value_48; 

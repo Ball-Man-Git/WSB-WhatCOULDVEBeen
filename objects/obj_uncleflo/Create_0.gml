@@ -15,3 +15,15 @@ BGX = 0;
 BGY = 0;
 snd_voice = FMODcreate_event("event:/Sfx/General/Hub/Granny/granny");
 rescaled = false;
+
+hurtTimer = 0;
+isUpset = false;
+upsetLine = "";
+
+upsetLines = [
+    "[shake]Whoa, Bro! That was totally harsh.",
+    "[shake]Not cool, man. My aura is seriously dented now bro.",
+    "[shake]You're harshing the whole vibe, bro.",
+    "[shake]Aggressive much? Go hit a wall, not uncle flo!",
+    "[shake]That's a major vibe-foul, Milton. Major."
+];

@@ -6,6 +6,19 @@ function scr_player_mach3()
     var on_ice = place_meeting(x, y + 1, obj_iceslippery);
 
     get_input();
+	
+if (key_down2 && !grounded && isMilton)
+{
+    state = UnknownEnum.Value_53; 
+    sprite_index = spr_milton_dive; 
+    vsp = (state == UnknownEnum.Value_4) ? 25 : 18; 
+    hsp = xscale * movespeed;
+    hammer_bounces = 0;
+    
+    flash = true;
+    FMODevent_oneshot("event:/Sfx/Player/airspin", x, y);
+    exit; 
+}
     hsp = movespeed * xscale;
     
     if (sprite_index == spr_player_superjumpcancel)
@@ -248,6 +261,11 @@ function scr_player_mach3()
         exit;
     }
     
+	
     doTaunt();
     doGrab();
+	
+	
 }
+
+   

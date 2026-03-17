@@ -1,7 +1,18 @@
-if target.sprite_index != spr_ernie_run
-depth = target.depth + 2;
+if (target.sprite_index != spr_ernie_run)
+    depth = target.depth + 2;
 else
-depth = target.depth - 2;
+    depth = target.depth - 2;
+
+
+var _miltonSprite = asset_get_index("spr_chargeeffect_milton");
+if (instance_exists(obj_mainmenu) && obj_mainmenu.miltonMode && _miltonSprite != -1)
+{
+    sprite_index = _miltonSprite;
+}
+else
+{
+    sprite_index = spr_chargeeffect;
+}
 
 if (target.state == UnknownEnum.Value_4)
 {

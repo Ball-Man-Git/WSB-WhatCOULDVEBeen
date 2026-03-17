@@ -23,6 +23,7 @@ for (var i = 0; i < array_length(backgrounds); i++)
     }
 }
 
+
 var m = menus[currentmenu];
 var opt = m.options;
 var _length = array_length(opt);

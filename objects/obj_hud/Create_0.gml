@@ -52,7 +52,7 @@ bar.chunkMax = 1;
 
 hudVisible = function()
 {
-    var _rooms = room == rm_intro || room == hotel_soundtest || room == hotel_secrethall || room == hotel_secret1 || room == rank_room || room == Levelselect || room == Mainmenu || room == serverMenuShit || room == hotel_receptionentrance || room == hotel_hallway || room == hotel_1 || room == hotel_2 || room == hotel_3 || room == hotel_basement || room == hotel_outside || room == timesup_room || global.level == "tutorial";
+    var _rooms = room == rm_intro || room == hotel_soundtest || room == hotel_secrethall || room == hotel_secret1 || room == rank_room || room == Levelselect || room == Mainmenu || room == serverMenuShit || room == hotel_receptionentrance || room == hotel_hallway || room == hotel_1 || room == hotel_2 || room == hotel_3 || room == hotel_basement || room == hotel_outside || room == boss_brewman || room == timesup_room || global.level == "tutorial";
     return !_rooms;
 };
 

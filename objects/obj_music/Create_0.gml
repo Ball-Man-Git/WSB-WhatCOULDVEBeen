@@ -77,7 +77,7 @@ ds_map_add(musicDetails, mangrove_1, new add_music("event:/Music/W1/Monolith Man
 }));
 global.CurrentBeat = 0
 ds_map_add(musicDetails, hotel_outside, new add_music(-4, -4, "event:/Ambience/mainmenu"));
-ds_map_add(musicDetails, hotel_receptionentrance, new add_music("event:/Music/W1/hub", -4, -4));
+ds_map_add(musicDetails, hotel_entrance, new add_music("event:/Music/W1/hub", -4, -4));
 ds_map_add(musicDetails, hotel_1, new add_music("event:/Music/W1/hub", -4, -4));
 ds_map_add(musicDetails, hotel_2, new add_music("event:/Music/W1/hub", -4, -4));
 ds_map_add(musicDetails, hotel_3, new add_music("event:/Music/W1/hub", -4, -4));

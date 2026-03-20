@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
-    {"name":"hotel_hallway","order":1,"path":"rooms/hotel_hallway/hotel_hallway.yy",},
+    {"name":"hotel_reception","order":1,"path":"rooms/hotel_reception/hotel_reception.yy",},
   ],
 }

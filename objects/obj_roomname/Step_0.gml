@@ -11,7 +11,7 @@ switch (room)
         text = "";
         break;
     
-    case hotel_entrance:
+    case hotel_receptionentrance:
     case hotel_1:
 	case hotel_2:
 	case hotel_3:

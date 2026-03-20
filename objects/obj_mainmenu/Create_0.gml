@@ -57,7 +57,7 @@ createSave = function(arg0) constructor
 
     // --- STANDARD COMPLETION CALC ---
     var _completionNum = 0;
-    var _levels = ["forest", "shell", "beach"];
+    var _levels = ["forest", "shell", "beach", "kingdom", "castle", "market", "liminal", "spy", "carnival"];
     var _countTotems = (ini_read_real("General", "Totem0", false) == true) + (ini_read_real("General", "Totem1", false) == true) + (ini_read_real("General", "Totem2", false) == true);
     _completionNum += _countTotems;
     

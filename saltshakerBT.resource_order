@@ -2,5 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"hotel_hallway","order":1,"path":"rooms/hotel_hallway/hotel_hallway.yy",},
+    {"name":"tilespr_hubnewer","order":1,"path":"sprites/tilespr_hubnewer/tilespr_hubnewer.yy",},
+    {"name":"ts_hubnewer","order":1,"path":"tilesets/ts_hubnewer/ts_hubnewer.yy",},
   ],
 }

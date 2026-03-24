@@ -37,6 +37,9 @@ with (tv)
 		
 		    if (global.escape.active && !isSecret)
         _idleSprite = spr_tv_escape;
+		
+				    if (global.escape.active && global.escape.party && !global.hardMode && !isSecret)
+        _idleSprite = spr_tv_party;
     
     if (obj_player.state == UnknownEnum.Value_33)
         _idleSprite = spr_tv_ski;
@@ -98,6 +101,7 @@ with (tv)
                 case sprites.idle:
                 case spr_tv_combo:
                 case spr_tv_ski:
+				case spr_tv_party:
                     roomname = room_get_name(room);
                     roomname = string_letters(roomname);
                     isSecret = string_pos("secret", roomname) > 0;

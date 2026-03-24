@@ -1314,6 +1314,7 @@
     {"id":{"name":"spr_tv_off","path":"sprites/spr_tv_off/spr_tv_off.yy",},},
     {"id":{"name":"spr_tv_offT","path":"sprites/spr_tv_offT/spr_tv_offT.yy",},},
     {"id":{"name":"spr_tv_palette","path":"sprites/spr_tv_palette/spr_tv_palette.yy",},},
+    {"id":{"name":"spr_tv_party","path":"sprites/spr_tv_party/spr_tv_party.yy",},},
     {"id":{"name":"spr_tv_sad","path":"sprites/spr_tv_sad/spr_tv_sad.yy",},},
     {"id":{"name":"spr_tv_secret","path":"sprites/spr_tv_secret/spr_tv_secret.yy",},},
     {"id":{"name":"spr_tv_secretT","path":"sprites/spr_tv_secretT/spr_tv_secretT.yy",},},

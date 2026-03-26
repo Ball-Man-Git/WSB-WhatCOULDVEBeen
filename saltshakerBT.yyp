@@ -452,6 +452,7 @@
     {"id":{"name":"kingdom_7","path":"rooms/kingdom_7/kingdom_7.yy",},},
     {"id":{"name":"kingdom_8","path":"rooms/kingdom_8/kingdom_8.yy",},},
     {"id":{"name":"kingdom_9","path":"rooms/kingdom_9/kingdom_9.yy",},},
+    {"id":{"name":"kingdom_lap","path":"rooms/kingdom_lap/kingdom_lap.yy",},},
     {"id":{"name":"kingdom_secret1","path":"rooms/kingdom_secret1/kingdom_secret1.yy",},},
     {"id":{"name":"Levelselect","path":"rooms/Levelselect/Levelselect.yy",},},
     {"id":{"name":"liminal_1","path":"rooms/liminal_1/liminal_1.yy",},},
@@ -1537,6 +1538,7 @@
     {"roomId":{"name":"hotel_escape3","path":"rooms/hotel_escape3/hotel_escape3.yy",},},
     {"roomId":{"name":"hotel_escape4","path":"rooms/hotel_escape4/hotel_escape4.yy",},},
     {"roomId":{"name":"hotel_hallway","path":"rooms/hotel_hallway/hotel_hallway.yy",},},
+    {"roomId":{"name":"kingdom_lap","path":"rooms/kingdom_lap/kingdom_lap.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

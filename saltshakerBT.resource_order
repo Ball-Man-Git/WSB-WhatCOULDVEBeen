@@ -2,6 +2,7 @@
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
     {"name":"hotel_hallway","order":1,"path":"rooms/hotel_hallway/hotel_hallway.yy",},
+    {"name":"kingdom_lap","order":1,"path":"rooms/kingdom_lap/kingdom_lap.yy",},
     {"name":"spr_tv_party","order":1,"path":"sprites/spr_tv_party/spr_tv_party.yy",},
     {"name":"tilespr_hubnewer","order":1,"path":"sprites/tilespr_hubnewer/tilespr_hubnewer.yy",},
     {"name":"ts_hubnewer","order":1,"path":"tilesets/ts_hubnewer/ts_hubnewer.yy",},

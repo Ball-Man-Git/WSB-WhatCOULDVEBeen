@@ -10,8 +10,8 @@
   "name":"obj_boss_announcement",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"Common Boss Objects",
+    "path":"folders/Objects/Bosses/Common Boss Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

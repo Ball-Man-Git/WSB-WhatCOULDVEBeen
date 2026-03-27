@@ -35,6 +35,9 @@ with (tv)
     if (global.combo.amt >= 15 && !isSecret)
         _idleSprite = spr_tv_combo;
 		
+	if (global.combo.amt >= 50 && !isSecret)
+        _idleSprite = spr_tv_angry;
+		
 		    if (global.escape.active && !isSecret)
         _idleSprite = spr_tv_escape;
 		

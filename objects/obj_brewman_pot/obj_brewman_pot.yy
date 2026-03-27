@@ -9,8 +9,8 @@
   "name":"obj_brewman_pot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bosses",
-    "path":"folders/Objects/Bosses.yy",
+    "name":"Brewman",
+    "path":"folders/Objects/Bosses/Brewman.yy",
   },
   "parentObjectId":null,
   "persistent":false,

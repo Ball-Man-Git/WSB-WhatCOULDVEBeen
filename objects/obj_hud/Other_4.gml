@@ -15,9 +15,24 @@ switch (global.level)
         tv.backindex = 2;
         break;
 		
+	case "beach":
+        global.Srank = 0;
+        tv.backindex = 3;
+        break;
+		
     case "crashout":
         global.Srank = 35000;
-        tv.backindex = 3;
+        tv.backindex = 4;
+        break;
+		
+	case "cafe":
+        global.Srank = 0;
+        tv.backindex = 5;
+        break;
+		
+	case "radiation":
+        global.Srank = 0;
+        tv.backindex = 6;
         break;
     
     default:

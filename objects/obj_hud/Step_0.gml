@@ -99,6 +99,7 @@ with (tv)
                     
                     break;
                 
+				case spr_tv_angry:
                 case spr_tv_secret:
                 case spr_tv_escape:
                 case sprites.idle:

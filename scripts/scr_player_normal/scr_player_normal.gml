@@ -33,7 +33,7 @@ function scr_player_normal()
         buffers.step--;
     }
     
-    if (sprite_index == spr_player_panicwalk)
+    if (sprite_index == sprites.panicwalk)
     {
         if ((floor(image_index) == 2 || floor(image_index) == 5) && buffers.step <= 0)
         {
@@ -47,10 +47,10 @@ function scr_player_normal()
 	
     if (move != 0)
     {
-        if (sprite_index != sprites.move && sprite_index != spr_player_panicwalk && sprite_index != sprites.land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.move && sprite_index != sprites.panicwalk && sprite_index != sprites.land2 && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_soundtestdance)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;
+            sprite_index = global.escape.active ? sprites.panicwalk : sprites.move;
         }
         
         if (sprite_index != spr_player_littledanceydance)
@@ -84,25 +84,25 @@ function scr_player_normal()
         if (animation_end() && sprite_index == sprites.land2)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;
+            sprite_index = global.escape.active ? sprites.panicwalk : sprites.move;
         }
         
         if (animation_end() && sprite_index == spr_player_machslideend)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panicwalk : sprites.move;
+            sprite_index = global.escape.active ? sprites.panicwalk : sprites.move;
         }
     }
     else
     {
-        if (sprite_index != sprites.idle && sprite_index != spr_player_panic && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != sprites.land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.idle && sprite_index != sprites.panicidle && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != sprites.land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
         {
             image_speed = movespeed / 15;
             
             if (movespeed == 0)
             {
                 image_index = 0;
-                sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
+                sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
                 image_speed = 0.35;
                 buffers.idle = 150;
             }
@@ -114,7 +114,7 @@ function scr_player_normal()
         if (sprite_index == sprites.idle && sprites.idle != spr_juandanger_idle)
             buffers.idle--;
         
-        if (buffers.idle <= 0 && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_juandanger_idle && sprite_index != spr_player_panic)
+        if (buffers.idle <= 0 && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_juandanger_idle && sprite_index != sprites.panicidle)
         {
             buffers.idle = 150;
             image_index = 0;
@@ -131,13 +131,13 @@ function scr_player_normal()
         if (animation_end() && (sprite_index == sprites.idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
+            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
         }
         
         if (animation_end() && sprite_index == sprites.land)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
+            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
         }
         
         if (animation_end() && sprite_index == spr_player_statuestart)
@@ -149,7 +149,7 @@ function scr_player_normal()
         if (animation_end() && sprite_index == spr_player_machslideend)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
+            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
         }
     }
     
@@ -164,7 +164,7 @@ function scr_player_normal()
         breakdancespeed = 0.25;
         
         if (sprite_index == spr_player_littledanceydance)
-            sprite_index = global.escape.active ? spr_player_panic : sprites.idle;
+            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
         
         image_speed = 0.35;
     }

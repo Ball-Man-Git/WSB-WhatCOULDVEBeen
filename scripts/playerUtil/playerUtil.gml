@@ -513,6 +513,8 @@ function get_characterspr(arg0)
 			st.player.land = spr_player_land
 			st.player.land2 = spr_player_land2
 			st.player.crouchslip = spr_player_crouchslip
+			st.player.panicidle = spr_player_panic
+			st.player.panicwalk = spr_player_panicwalk
             st.tv.idle = spr_tv_idle;
             st.tv.mach3 = spr_tv_mach;
             st.tv.crazyrun = spr_tv_crazyrun;
@@ -524,7 +526,7 @@ function get_characterspr(arg0)
         case UnknownEnum.Value_1:
             st.player.idle = spr_milton_idle;
             st.player.taunt = spr_milton_taunt;
-			st.player.mach1 = spr_player_mach1;
+			st.player.mach1 = spr_milton_mach2;
 			st.player.mach2 = spr_milton_mach2;
             st.player.mach3 = spr_milton_mach3;
             st.player.mach3hit = spr_milton_mach3hit;
@@ -548,6 +550,8 @@ function get_characterspr(arg0)
 			st.player.land = spr_player_land
 			st.player.land2 = spr_player_land2
 			st.player.crouchslip = spr_milton_crouchslip
+			st.player.panicidle = spr_player_panic
+			st.player.panicwalk = spr_player_panicwalk
             st.tv.idle = spr_tv_idleT;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
@@ -583,6 +587,8 @@ function get_characterspr(arg0)
 			st.player.land = spr_ernie_land
 			st.player.land2 = spr_ernie_land2
 			st.player.crouchslip = spr_player_crouchslip
+			st.player.panicidle = spr_player_panic
+			st.player.panicwalk = spr_player_panicwalk
             st.tv.idle = spr_tv_idleE;
             st.tv.mach3 = spr_tv_machE;
             st.tv.crazyrun = spr_tv_crazyrun;

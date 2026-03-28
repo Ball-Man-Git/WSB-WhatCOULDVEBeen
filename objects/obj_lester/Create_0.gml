@@ -38,7 +38,7 @@ waitTimer = -1;
 
 
 snd_voice = FMODcreate_event("event:/Sfx/Player/yay");
-spr_idle = spr_floidle;
+spr_idle = spr_lester_idle;
 spr_talk = spr_flotalk;
 spr_snap = spr_genericpoofeffect; 
 spr_die  = spr_bacon1_idle; 

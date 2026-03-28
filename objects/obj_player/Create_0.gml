@@ -66,6 +66,7 @@ isMildred = true;
 isMilton = false;
 isErnie = false;
 isJuan = false;
+isNaomi = false;
 
 global.PlayerCharacters = [];
 global.PlayerCharacters[0] = {

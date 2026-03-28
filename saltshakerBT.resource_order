@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Brewman","order":1,"path":"folders/Objects/Bosses/Brewman.yy",},
     {"name":"Common Boss Objects","order":2,"path":"folders/Objects/Bosses/Common Boss Objects.yy",},
+    {"name":"Lester Smiles","order":2,"path":"folders/Sprites/Lester Smiles.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_boss_defeatflash","order":1,"path":"objects/obj_boss_defeatflash/obj_boss_defeatflash.yy",},

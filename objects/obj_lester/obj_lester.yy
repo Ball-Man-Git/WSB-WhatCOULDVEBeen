@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_floidle",
-    "path":"sprites/spr_floidle/spr_floidle.yy",
+    "name":"spr_lester_idle",
+    "path":"sprites/spr_lester_idle/spr_lester_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -11,27 +11,27 @@ switch (global.level)
         break;
 		
 	case "beach":
-        global.Srank = 0;
+        global.Srank = 500;
         tv.backindex = 2;
         break;
 		
-	case "beach":
-        global.Srank = 0;
+	case "kingdom":
+        global.Srank = 550;
         tv.backindex = 3;
         break;
 		
-    case "crashout":
+	case "crashout":
         global.Srank = 35000;
         tv.backindex = 4;
         break;
 		
 	case "cafe":
-        global.Srank = 0;
+		    global.Srank = 560;
         tv.backindex = 5;
         break;
 		
 	case "radiation":
-        global.Srank = 0;
+        global.Srank = 570;
         tv.backindex = 6;
         break;
     

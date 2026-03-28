@@ -99,7 +99,7 @@
   "tip_surf": "[wave][U][D] Surf [L][R] Adjust Speed",
   "tip_skateboard": "[wave][U][D][L][R] Aim [G] Charge [J] Jump",
   "buddy_release": "[shake]You've set her free...",
-  "treasure_get": "[wave]You got the secret treasure!",
+  "treasure_get": "[wave]You got the secret hotel treasure!",
   "tip_supertaunt":"[wave][U][T] Super Taunt",
   
   "caption_main":"What's Shakin, Bacon?",

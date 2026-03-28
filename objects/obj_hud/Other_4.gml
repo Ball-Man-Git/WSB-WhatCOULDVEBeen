@@ -10,9 +10,14 @@ switch (global.level)
         tv.backindex = 1;
         break;
 		
+	case "beach":
+        global.Srank = 0;
+        tv.backindex = 2;
+        break;
+		
     case "crashout":
         global.Srank = 35000;
-        tv.backindex = 4;
+        tv.backindex = 3;
         break;
     
     default:

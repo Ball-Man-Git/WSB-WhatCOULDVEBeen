@@ -168,8 +168,8 @@
   ],
   "name":"kingdom_4",
   "parent":{
-    "name":"Snowcone Kingdom",
-    "path":"folders/Rooms/Floor 2/Snowcone Kingdom.yy",
+    "name":"Milkshake Peaks",
+    "path":"folders/Rooms/Basement/Milkshake Peaks.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

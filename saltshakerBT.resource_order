@@ -2,6 +2,7 @@
   "FolderOrderSettings":[
     {"name":"Brewman","order":1,"path":"folders/Objects/Bosses/Brewman.yy",},
     {"name":"Common Boss Objects","order":2,"path":"folders/Objects/Bosses/Common Boss Objects.yy",},
+    {"name":"Milkshake Peaks","order":1,"path":"folders/Rooms/Basement/Milkshake Peaks.yy",},
     {"name":"Lester Smiles","order":2,"path":"folders/Sprites/Lester Smiles.yy",},
   ],
   "ResourceOrderSettings":[

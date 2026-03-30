@@ -391,6 +391,7 @@
     {"id":{"name":"beach_test","path":"rooms/beach_test/beach_test.yy",},},
     {"id":{"name":"beach_treasure","path":"rooms/beach_treasure/beach_treasure.yy",},},
     {"id":{"name":"beer_1","path":"rooms/beer_1/beer_1.yy",},},
+    {"id":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
     {"id":{"name":"beer_test","path":"rooms/beer_test/beer_test.yy",},},
     {"id":{"name":"boss_brewman","path":"rooms/boss_brewman/boss_brewman.yy",},},
     {"id":{"name":"boss_hipnatuese","path":"rooms/boss_hipnatuese/boss_hipnatuese.yy",},},
@@ -1547,6 +1548,7 @@
     {"roomId":{"name":"hotel_escape4","path":"rooms/hotel_escape4/hotel_escape4.yy",},},
     {"roomId":{"name":"hotel_hallway","path":"rooms/hotel_hallway/hotel_hallway.yy",},},
     {"roomId":{"name":"kingdom_lap","path":"rooms/kingdom_lap/kingdom_lap.yy",},},
+    {"roomId":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

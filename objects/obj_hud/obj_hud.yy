@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tv_empty",
-    "path":"sprites/spr_tv_empty/spr_tv_empty.yy",
+    "name":"spr_null",
+    "path":"sprites/spr_null/spr_null.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -11,8 +11,8 @@
   "name":"obj_flagPickUp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Snowcone Kingdom",
-    "path":"folders/Objects/Level Specific Objects/Snowcone Kingdom.yy",
+    "name":"Milkshake Peaks",
+    "path":"folders/Objects/Level Specific Objects/Milkshake Peaks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

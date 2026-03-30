@@ -10,8 +10,8 @@
   "name":"obj_poletree",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Milkshake Peaks",
+    "path":"folders/Objects/Level Specific Objects/Milkshake Peaks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

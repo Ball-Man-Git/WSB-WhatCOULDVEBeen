@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Wasted Shores",
-    "path":"folders/Objects/Unused/Wasted Shores.yy",
+    "path":"folders/Objects/Level Specific Objects/Wasted Shores.yy",
   },
   "parentObjectId":null,
   "persistent":false,

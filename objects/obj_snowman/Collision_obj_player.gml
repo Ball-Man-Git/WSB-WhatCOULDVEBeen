@@ -1,7 +1,10 @@
-instance_create(x, y, obj_baddiedead).sprite_index = sprite_index;
+instance_create_depth(x, y, depth, obj_baddiedead).sprite_index = sprite_index;
+scr_transfotip(lang_get_phrase("tip_ski"));
 
 with (obj_player)
-    state = UnknownEnum.Value_38;
+{
+    movespeed = 10;
+    state = UnknownEnum.Value_33;
+}
 
-ds_list_add(global.saveroom, id);
 instance_destroy();

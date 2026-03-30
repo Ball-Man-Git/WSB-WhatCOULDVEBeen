@@ -96,6 +96,7 @@
     {"name":"inst_7C654D4E","path":"rooms/shell_13/shell_13.yy",},
     {"name":"inst_249A1039","path":"rooms/shell_13/shell_13.yy",},
     {"name":"inst_47534B7C","path":"rooms/shell_13/shell_13.yy",},
+    {"name":"inst_1A993CBB","path":"rooms/shell_13/shell_13.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -213,6 +214,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7C654D4E","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C654D4E","objectId":{"name":"obj_exitgate","path":"objects/obj_exitgate/obj_exitgate.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1296.0,"y":1152.0,},
         {"$GMRInstance":"v2","%Name":"inst_249A1039","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_249A1039","objectId":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":7.0,"x":1952.0,"y":736.0,},
         {"$GMRInstance":"v2","%Name":"inst_47534B7C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_47534B7C","objectId":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":11.0,"x":352.0,"y":1120.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1A993CBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A993CBB","objectId":{"name":"obj_hoaxxe","path":"objects/obj_hoaxxe/obj_hoaxxe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":1008.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_3","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":60,"SerialiseWidth":107,"TileCompressedData":[
           -2520,-2147483648,6,370,371,372,373,374,375,-20,-2147483648,1,251,-729,-2147483648,1,251,-292,-2147483648,

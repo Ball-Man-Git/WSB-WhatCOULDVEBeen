@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tv_empty",
+    "path":"sprites/spr_tv_empty/spr_tv_empty.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

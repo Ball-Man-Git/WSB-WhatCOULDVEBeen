@@ -1,0 +1,1 @@
+global.gameframe_caption_text = "What's Shakin, Bacon? Going Skiing Between the Peaks";

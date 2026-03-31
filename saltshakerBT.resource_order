@@ -39,6 +39,7 @@
     {"name":"beer_2","order":1,"path":"rooms/beer_2/beer_2.yy",},
     {"name":"beer_3","order":2,"path":"rooms/beer_3/beer_3.yy",},
     {"name":"beer_4","order":3,"path":"rooms/beer_4/beer_4.yy",},
+    {"name":"beer_5","order":4,"path":"rooms/beer_5/beer_5.yy",},
     {"name":"hotel_hallway","order":1,"path":"rooms/hotel_hallway/hotel_hallway.yy",},
     {"name":"kingdom_lap","order":1,"path":"rooms/kingdom_lap/kingdom_lap.yy",},
     {"name":"milkshek_2","order":1,"path":"rooms/milkshek_2/milkshek_2.yy",},

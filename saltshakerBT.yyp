@@ -395,6 +395,7 @@
     {"id":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
     {"id":{"name":"beer_3","path":"rooms/beer_3/beer_3.yy",},},
     {"id":{"name":"beer_4","path":"rooms/beer_4/beer_4.yy",},},
+    {"id":{"name":"beer_5","path":"rooms/beer_5/beer_5.yy",},},
     {"id":{"name":"beer_test","path":"rooms/beer_test/beer_test.yy",},},
     {"id":{"name":"boss_brewman","path":"rooms/boss_brewman/boss_brewman.yy",},},
     {"id":{"name":"boss_hipnatuese","path":"rooms/boss_hipnatuese/boss_hipnatuese.yy",},},
@@ -1555,6 +1556,7 @@
     {"roomId":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
     {"roomId":{"name":"beer_3","path":"rooms/beer_3/beer_3.yy",},},
     {"roomId":{"name":"beer_4","path":"rooms/beer_4/beer_4.yy",},},
+    {"roomId":{"name":"beer_5","path":"rooms/beer_5/beer_5.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

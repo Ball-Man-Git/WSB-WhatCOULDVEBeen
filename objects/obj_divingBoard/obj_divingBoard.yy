@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_divingboard",
+    "path":"sprites/spr_divingboard/spr_divingboard.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

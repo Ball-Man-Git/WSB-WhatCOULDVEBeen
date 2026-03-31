@@ -394,6 +394,7 @@
     {"id":{"name":"beer_1","path":"rooms/beer_1/beer_1.yy",},},
     {"id":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
     {"id":{"name":"beer_3","path":"rooms/beer_3/beer_3.yy",},},
+    {"id":{"name":"beer_4","path":"rooms/beer_4/beer_4.yy",},},
     {"id":{"name":"beer_test","path":"rooms/beer_test/beer_test.yy",},},
     {"id":{"name":"boss_brewman","path":"rooms/boss_brewman/boss_brewman.yy",},},
     {"id":{"name":"boss_hipnatuese","path":"rooms/boss_hipnatuese/boss_hipnatuese.yy",},},
@@ -786,6 +787,7 @@
     {"id":{"name":"spr_dialogportraitPlaceholder2","path":"sprites/spr_dialogportraitPlaceholder2/spr_dialogportraitPlaceholder2.yy",},},
     {"id":{"name":"spr_disc","path":"sprites/spr_disc/spr_disc.yy",},},
     {"id":{"name":"spr_disoballDebri","path":"sprites/spr_disoballDebri/spr_disoballDebri.yy",},},
+    {"id":{"name":"spr_divingboard","path":"sprites/spr_divingboard/spr_divingboard.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_doorkey_open","path":"sprites/spr_doorkey_open/spr_doorkey_open.yy",},},
     {"id":{"name":"spr_doorkey","path":"sprites/spr_doorkey/spr_doorkey.yy",},},
@@ -1552,6 +1554,7 @@
     {"roomId":{"name":"kingdom_lap","path":"rooms/kingdom_lap/kingdom_lap.yy",},},
     {"roomId":{"name":"beer_2","path":"rooms/beer_2/beer_2.yy",},},
     {"roomId":{"name":"beer_3","path":"rooms/beer_3/beer_3.yy",},},
+    {"roomId":{"name":"beer_4","path":"rooms/beer_4/beer_4.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

@@ -125,7 +125,7 @@ with (tv)
                 }
 						}
                     
-                    if (obj_player.state == UnknownEnum.Value_4 && !isSecret)
+                    if (obj_player.state == UnknownEnum.Value_4 && (!isSecret || !global.hardMode || !global.escape.party))
                         tv_anim(obj_player.sprite_index == player_sprites.crazyrun ? sprites.crazyrun : sprites.mach3);
                     
                     break;
@@ -135,7 +135,7 @@ with (tv)
                 if (image_index >= sprite_get_number(sprite_index))
                     sprite_index = sprites.idle;
 					
-					if (obj_player.state == UnknownEnum.Value_4 && !isSecret)
+					if (obj_player.state == UnknownEnum.Value_4 && (!isSecret || !global.hardMode || !global.escape.party))
                         tv_anim(obj_player.sprite_index == player_sprites.crazyrun ? sprites.crazyrun : sprites.mach3);
 						
 						break;

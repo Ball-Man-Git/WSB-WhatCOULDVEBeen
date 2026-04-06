@@ -120,7 +120,7 @@ with (tv)
                 if (idletimer <= 0)
                 {
                     image_index = 0;
-                    sprite_index = choose(spr_tv_idleanim1, spr_tv_idleanim2);
+                    sprite_index = choose(spr_tv_idleanim1, spr_tv_idleanim2, spr_tv_idleanim3);
                     idletimer = random_range(180, 360);
                 }
 						}
@@ -131,6 +131,7 @@ with (tv)
                     break;
 					            case spr_tv_idleanim1:
             case spr_tv_idleanim2:
+			case spr_tv_idleanim3:
                 if (image_index >= sprite_get_number(sprite_index))
                     sprite_index = sprites.idle;
 					

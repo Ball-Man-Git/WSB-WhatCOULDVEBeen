@@ -50,6 +50,7 @@
     {"name":"spr_milton_mach2","order":2,"path":"sprites/spr_milton_mach2/spr_milton_mach2.yy",},
     {"name":"spr_milton_mach3turn","order":1,"path":"sprites/spr_milton_mach3turn/spr_milton_mach3turn.yy",},
     {"name":"spr_tv_angry","order":2,"path":"sprites/spr_tv_angry/spr_tv_angry.yy",},
+    {"name":"spr_tv_idleanim3","order":3,"path":"sprites/spr_tv_idleanim3/spr_tv_idleanim3.yy",},
     {"name":"spr_tv_party","order":1,"path":"sprites/spr_tv_party/spr_tv_party.yy",},
     {"name":"tilespr_hubnewer","order":1,"path":"sprites/tilespr_hubnewer/tilespr_hubnewer.yy",},
     {"name":"ts_hubnewer","order":1,"path":"tilesets/ts_hubnewer/ts_hubnewer.yy",},

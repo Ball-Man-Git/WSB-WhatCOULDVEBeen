@@ -4,6 +4,7 @@ function scr_player_grab()
     var roomname = string_letters(room_get_name(room));
     var is_kingdom = string_pos("kingdom", roomname) > 0;
     var on_ice = place_meeting(x, y + 1, obj_iceslippery);
+	
 
     static grabOut = function()
     {
@@ -17,7 +18,8 @@ function scr_player_grab()
         }
         else
         {
-            sprite_index = spr_player_idle;
+			var panic_idle = global.escape.party ? spr_player_party : sprites.panicidle
+            sprite_index = global.escape.active ? panic_idle : spr_player_idle;
             image_index = 0;
             state = UnknownEnum.Value_0;
             

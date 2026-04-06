@@ -3,6 +3,7 @@ function scr_player_normal()
     static snowbuffer = 5;
     var roomname = string_letters(room_get_name(room));
     var is_kingdom = string_pos("kingdom", roomname) > 0;
+	var panic_idle = global.escape.party ? spr_player_party : sprites.panicidle
     
     get_input();
     hsp = movespeed * xscale;
@@ -95,14 +96,14 @@ function scr_player_normal()
     }
     else
     {
-        if (sprite_index != sprites.idle && sprite_index != sprites.panicidle && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != sprites.land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
+        if (sprite_index != sprites.idle && sprite_index != panic_idle && sprite_index != sprites.idleanim1 && sprite_index != spr_player_idleanim2 && sprite_index != spr_player_idleanim3 && sprite_index != spr_player_idleanim4 && sprite_index != spr_player_idleanim5 && sprite_index != sprites.land && sprite_index != spr_player_machslideend && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_player_soundtestdance)
         {
             image_speed = movespeed / 15;
             
             if (movespeed == 0)
             {
                 image_index = 0;
-                sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
+                sprite_index = global.escape.active ? panic_idle : sprites.idle;
                 image_speed = 0.35;
                 buffers.idle = 150;
             }
@@ -114,7 +115,7 @@ function scr_player_normal()
         if (sprite_index == sprites.idle && sprites.idle != spr_juandanger_idle)
             buffers.idle--;
         
-        if (buffers.idle <= 0 && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_juandanger_idle && sprite_index != sprites.panicidle)
+        if (buffers.idle <= 0 && sprite_index != spr_player_littledanceydance && sprite_index != spr_player_statue && sprite_index != spr_player_statuestart && sprite_index != spr_juandanger_idle && sprite_index != panic_idle)
         {
             buffers.idle = 150;
             image_index = 0;
@@ -131,13 +132,13 @@ function scr_player_normal()
         if (animation_end() && (sprite_index == sprites.idleanim1 || sprite_index == spr_player_idleanim2 || sprite_index == spr_player_idleanim3 || sprite_index == spr_player_idleanim4 || sprite_index == spr_player_idleanim5))
         {
             image_index = 0;
-            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
+            sprite_index = global.escape.active ? panic_idle : sprites.idle;
         }
         
         if (animation_end() && sprite_index == sprites.land)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
+            sprite_index = global.escape.active ? panic_idle : sprites.idle;
         }
         
         if (animation_end() && sprite_index == spr_player_statuestart)
@@ -149,7 +150,7 @@ function scr_player_normal()
         if (animation_end() && sprite_index == spr_player_machslideend)
         {
             image_index = 0;
-            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
+            sprite_index = global.escape.active ? panic_idle : sprites.idle;
         }
     }
     
@@ -164,7 +165,7 @@ function scr_player_normal()
         breakdancespeed = 0.25;
         
         if (sprite_index == spr_player_littledanceydance)
-            sprite_index = global.escape.active ? sprites.panicidle : sprites.idle;
+            sprite_index = global.escape.active ? panic_idle : sprites.idle;
         
         image_speed = 0.35;
     }

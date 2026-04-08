@@ -46,6 +46,9 @@ with (tv)
     
     if (obj_player.state == UnknownEnum.Value_33)
         _idleSprite = spr_tv_ski;
+		
+	if (obj_player.state == UnknownEnum.Value_38 || obj_player.state == UnknownEnum.Value_39 || obj_player.state == UnknownEnum.Value_40)
+        _idleSprite = spr_tv_snowball;
     
     if (!other.visible)
     {

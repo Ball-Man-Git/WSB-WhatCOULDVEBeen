@@ -1339,6 +1339,7 @@
     {"id":{"name":"spr_tv_secretT","path":"sprites/spr_tv_secretT/spr_tv_secretT.yy",},},
     {"id":{"name":"spr_tv_ski","path":"sprites/spr_tv_ski/spr_tv_ski.yy",},},
     {"id":{"name":"spr_tv_skiT","path":"sprites/spr_tv_skiT/spr_tv_skiT.yy",},},
+    {"id":{"name":"spr_tv_snowball","path":"sprites/spr_tv_snowball/spr_tv_snowball.yy",},},
     {"id":{"name":"spr_tv_switch","path":"sprites/spr_tv_switch/spr_tv_switch.yy",},},
     {"id":{"name":"spr_tv_turnon","path":"sprites/spr_tv_turnon/spr_tv_turnon.yy",},},
     {"id":{"name":"spr_tv_turnonT","path":"sprites/spr_tv_turnonT/spr_tv_turnonT.yy",},},

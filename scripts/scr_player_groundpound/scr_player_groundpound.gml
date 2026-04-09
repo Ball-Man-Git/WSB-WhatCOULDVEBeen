@@ -59,10 +59,7 @@ function scr_player_groundpoundstart()
         {
             var slope = instance_place(x, y + 1, obj_slope);
             xscale = -sign(slope.image_xscale);
-            if !isErnie
-                movespeed = (freefallsmash >= 10) ? 12 : 8;
-            else
-                movespeed = 16;
+            movespeed = (freefallsmash >= 10) ? 12 : 8;
             state = UnknownEnum.Value_16;
             sprite_index = spr_player_rolling;
             FMODevent_oneshot("event:/Sfx/Player/crouchslide", x, y);
@@ -100,9 +97,9 @@ function scr_player_groundpoundstart()
                 }
             }
             else if (sprite_index == sprites.divebomb)
-            {
-                sprite_index = sprites.divebombland;
-            }
+{
+    sprite_index = sprites.divebombland;
+}
             else
             {
                 sprite_index = spr_player_groundpoundland;
@@ -194,7 +191,7 @@ function scr_player_groundpound()
     if (buffers.afterimageBlur == 0)
     {
         buffers.afterimageBlur = 4;
-        create_blur_effect(palIndex != 0 ? sprite_index : spr_mildredKart, image_index, x, y, xscale);
+        create_blur_effect(sprite_index, image_index, x, y, xscale);
     }
     
     if (buffers.step <= 0)
@@ -263,7 +260,7 @@ function scr_player_groundpound()
     if (grounded || place_meeting(x, y + vsp, obj_solid) || place_meeting(x, y + vsp, obj_platform))
     {
      
-        if (!place_meeting(x, y + vsp, obj_destructibles) && !place_meeting(x, y + vsp, obj_metalblock) && !place_meeting(x, y + vsp, obj_secretmetalblock))
+       if (grounded && vsp >= 0 && (!place_meeting(x, y + vsp, obj_destructibles) && (!place_meeting(x, y + vsp, obj_metalblock) && !place_meeting(x, y + vsp, obj_secretmetalblock) && freefallsmash >= 10)))
         {
             if (scr_slope(x, y + 1) && sprite_index != spr_player_piledriver)
             {
@@ -298,5 +295,4 @@ function scr_player_groundpound()
         }
     }
 } 
-
 

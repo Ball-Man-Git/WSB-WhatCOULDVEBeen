@@ -3,6 +3,8 @@ function scr_player_crouch()
     var roomname = string_letters(room_get_name(room));
     var is_kingdom = string_pos("kingdom", roomname) > 0;
     var on_ice = place_meeting(x, y + 1, obj_iceslippery);
+	
+	var panic_idle = global.escape.party ? spr_player_party : sprites.panicidle
 
     get_input();
     hsp = movespeed * xscale;
@@ -11,7 +13,7 @@ function scr_player_crouch()
     if (!key_down && !scr_solid(x, y - 16) && grounded)
     {
         image_index = 0;
-        sprite_index = spr_player_idle;
+        sprite_index = global.escape.active ? panic_idle : sprites.idle
         state = UnknownEnum.Value_0;
     }
     

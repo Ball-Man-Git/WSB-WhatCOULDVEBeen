@@ -268,7 +268,7 @@ function scr_player_groundpound()
                 xscale = -sign(slope.image_xscale);
                 movespeed = (isErnie) ? 15 : ((freefallsmash >= 10) ? 12 : 8);
                 state = UnknownEnum.Value_16;
-                sprite_index = spr_player_rolling;
+                sprite_index = sprites.rolling;
                 FMODevent_oneshot("event:/Sfx/Player/crouchslide", x, y);
                 create_particleStatic(spr_superdashcloud, x, y, xscale, 1);
             }

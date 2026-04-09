@@ -108,6 +108,7 @@ with (tv)
                 case sprites.idle:
                 case spr_tv_combo:
                 case spr_tv_ski:
+				case spr_tv_snowball:
 				case spr_tv_party:
                     roomname = room_get_name(room);
                     roomname = string_letters(roomname);

@@ -10,6 +10,7 @@
     {"name":"Snowcone Kingdom","order":6,"path":"folders/Objects/Level Specific Objects/Snowcone Kingdom.yy",},
     {"name":"Wasted Shores","order":7,"path":"folders/Objects/Level Specific Objects/Wasted Shores.yy",},
     {"name":"Milkshake Peaks","order":1,"path":"folders/Rooms/Basement/Milkshake Peaks.yy",},
+    {"name":"HUD","order":2,"path":"folders/Sprites/Juan Danger/HUD.yy",},
     {"name":"Lester Smiles","order":2,"path":"folders/Sprites/Lester Smiles.yy",},
   ],
   "ResourceOrderSettings":[
@@ -47,6 +48,8 @@
     {"name":"milkshek_4","order":4,"path":"rooms/milkshek_4/milkshek_4.yy",},
     {"name":"milkshek_secret1","order":3,"path":"rooms/milkshek_secret1/milkshek_secret1.yy",},
     {"name":"spr_divingboard","order":1,"path":"sprites/spr_divingboard/spr_divingboard.yy",},
+    {"name":"spr_juandanger_mach3","order":3,"path":"sprites/spr_juandanger_mach3/spr_juandanger_mach3.yy",},
+    {"name":"spr_juandanger_move","order":1,"path":"sprites/spr_juandanger_move/spr_juandanger_move.yy",},
     {"name":"spr_milton_mach2","order":2,"path":"sprites/spr_milton_mach2/spr_milton_mach2.yy",},
     {"name":"spr_milton_mach3turn","order":1,"path":"sprites/spr_milton_mach3turn/spr_milton_mach3turn.yy",},
     {"name":"spr_player_parry2","order":1,"path":"sprites/spr_player_parry2/spr_player_parry2.yy",},

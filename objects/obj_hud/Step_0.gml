@@ -5,8 +5,16 @@ visible = hudVisible();
 
 if obj_player.isMildred
 {
+	if obj_player.isJuan
+	{
+		sprites.mach3 = spr_tv_machJ
+		sprites.crazyrun = spr_tv_crazyrunNEW
+	}
+	else
+	{
 		sprites.mach3 = global.newTVs ? spr_tv_machNEW : sprites.mach3backup
 		sprites.crazyrun = global.newTVs ? spr_tv_crazyrunNEW : sprites.crazyrunbackup
+	}
 }
 else
 {

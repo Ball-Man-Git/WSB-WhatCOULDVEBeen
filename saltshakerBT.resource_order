@@ -52,6 +52,8 @@
     {"name":"spr_juandanger_move","order":1,"path":"sprites/spr_juandanger_move/spr_juandanger_move.yy",},
     {"name":"spr_milton_mach2","order":2,"path":"sprites/spr_milton_mach2/spr_milton_mach2.yy",},
     {"name":"spr_milton_mach3turn","order":1,"path":"sprites/spr_milton_mach3turn/spr_milton_mach3turn.yy",},
+    {"name":"spr_naomi_mach3","order":2,"path":"sprites/spr_naomi_mach3/spr_naomi_mach3.yy",},
+    {"name":"spr_naomi_move","order":1,"path":"sprites/spr_naomi_move/spr_naomi_move.yy",},
     {"name":"spr_player_parry2","order":1,"path":"sprites/spr_player_parry2/spr_player_parry2.yy",},
     {"name":"spr_player_parry3","order":2,"path":"sprites/spr_player_parry3/spr_player_parry3.yy",},
     {"name":"spr_player_party","order":3,"path":"sprites/spr_player_party/spr_player_party.yy",},

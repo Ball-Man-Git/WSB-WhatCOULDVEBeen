@@ -459,6 +459,7 @@
     {"name":"spr_tv_happyT","order":236,"path":"sprites/spr_tv_happyT/spr_tv_happyT.yy",},
     {"name":"spr_tv_idleanim3","order":3,"path":"sprites/spr_tv_idleanim3/spr_tv_idleanim3.yy",},
     {"name":"spr_tv_idleT","order":326,"path":"sprites/spr_tv_idleT/spr_tv_idleT.yy",},
+    {"name":"spr_tv_idleTNEW","order":1,"path":"sprites/spr_tv_idleTNEW/spr_tv_idleTNEW.yy",},
     {"name":"spr_tv_machT","order":86,"path":"sprites/spr_tv_machT/spr_tv_machT.yy",},
     {"name":"spr_tv_off","order":156,"path":"sprites/spr_tv_off/spr_tv_off.yy",},
     {"name":"spr_tv_offT","order":385,"path":"sprites/spr_tv_offT/spr_tv_offT.yy",},

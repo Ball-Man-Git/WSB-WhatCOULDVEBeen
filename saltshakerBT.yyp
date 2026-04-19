@@ -1335,6 +1335,7 @@
     {"id":{"name":"spr_tv_idleanim3","path":"sprites/spr_tv_idleanim3/spr_tv_idleanim3.yy",},},
     {"id":{"name":"spr_tv_idleE","path":"sprites/spr_tv_idleE/spr_tv_idleE.yy",},},
     {"id":{"name":"spr_tv_idleT","path":"sprites/spr_tv_idleT/spr_tv_idleT.yy",},},
+    {"id":{"name":"spr_tv_idleTNEW","path":"sprites/spr_tv_idleTNEW/spr_tv_idleTNEW.yy",},},
     {"id":{"name":"spr_tv_mach","path":"sprites/spr_tv_mach/spr_tv_mach.yy",},},
     {"id":{"name":"spr_tv_machE","path":"sprites/spr_tv_machE/spr_tv_machE.yy",},},
     {"id":{"name":"spr_tv_machJ","path":"sprites/spr_tv_machJ/spr_tv_machJ.yy",},},

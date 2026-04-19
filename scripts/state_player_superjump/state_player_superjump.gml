@@ -165,7 +165,7 @@ function scr_player_superjumpprep()
             
  
             if (isMilton) 
-                verticalMovespeed = -17; 
+                verticalMovespeed = -26; 
             else
                 verticalMovespeed = isErnie ? -21 : -14; 
             

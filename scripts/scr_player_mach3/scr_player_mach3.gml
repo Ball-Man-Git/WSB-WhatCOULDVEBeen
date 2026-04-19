@@ -255,7 +255,7 @@ if (key_down2 && !grounded && isMilton)
     if (key_down)
     {
         image_index = 0;
-        sprite_index = spr_player_rollstart;
+        sprite_index = sprites.rollstart;
         state = UnknownEnum.Value_16;
         create_particleStatic(spr_grabcloud, x, y, xscale, 1);
         exit;

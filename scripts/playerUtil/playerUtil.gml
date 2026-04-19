@@ -496,6 +496,7 @@ function get_characterspr(arg0)
             st.player.mach3jump = spr_player_mach3jump;
 			st.player.mach3turn = spr_player_mach3turn;
             st.player.rolling = spr_player_rolling;
+			st.player.rollstart = spr_player_rollstart
             st.player.move = spr_player_move;
             st.player.crazyrun = spr_player_crazyrun;
             st.player.dive = spr_player_dive;
@@ -533,6 +534,7 @@ function get_characterspr(arg0)
             st.player.mach3jump = spr_milton_mach3jump;
 			st.player.mach3turn = spr_milton_mach3turn;
             st.player.rolling = spr_milton_roll;
+			st.player.rollstart = spr_milton_rollstart
             st.player.move = spr_milton_walk;
             st.player.crazyrun = spr_milton_crazyrun;
             st.player.dive = spr_milton_dive;
@@ -570,6 +572,7 @@ function get_characterspr(arg0)
             st.player.mach3jump = spr_ernie_runningjump;
 			st.player.mach3turn = spr_ernie_runturn;
             st.player.rolling = spr_player_rolling;
+			st.player.rollstart = spr_player_rollstart
             st.player.move = spr_ernie_move;
             st.player.crazyrun = spr_player_crazyrun;
             st.player.dive = spr_player_dive;

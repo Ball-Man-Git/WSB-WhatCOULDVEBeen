@@ -314,6 +314,7 @@
     {"name":"spr_mildredKart","order":207,"path":"sprites/spr_mildredKart/spr_mildredKart.yy",},
     {"name":"spr_milton_mach2","order":2,"path":"sprites/spr_milton_mach2/spr_milton_mach2.yy",},
     {"name":"spr_milton_mach3turn","order":1,"path":"sprites/spr_milton_mach3turn/spr_milton_mach3turn.yy",},
+    {"name":"spr_milton_rollstart","order":3,"path":"sprites/spr_milton_rollstart/spr_milton_rollstart.yy",},
     {"name":"spr_miltonEffect","order":170,"path":"sprites/spr_miltonEffect/spr_miltonEffect.yy",},
     {"name":"spr_monolith_antDestroyables","order":273,"path":"sprites/spr_monolith_antDestroyables/spr_monolith_antDestroyables.yy",},
     {"name":"spr_monolithblock_sleep","order":270,"path":"sprites/spr_monolithblock_sleep/spr_monolithblock_sleep.yy",},

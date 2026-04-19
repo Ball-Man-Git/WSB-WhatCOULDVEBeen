@@ -983,6 +983,7 @@
     {"id":{"name":"spr_milton_mach3jump","path":"sprites/spr_milton_mach3jump/spr_milton_mach3jump.yy",},},
     {"id":{"name":"spr_milton_mach3turn","path":"sprites/spr_milton_mach3turn/spr_milton_mach3turn.yy",},},
     {"id":{"name":"spr_milton_roll","path":"sprites/spr_milton_roll/spr_milton_roll.yy",},},
+    {"id":{"name":"spr_milton_rollstart","path":"sprites/spr_milton_rollstart/spr_milton_rollstart.yy",},},
     {"id":{"name":"spr_milton_taunt","path":"sprites/spr_milton_taunt/spr_milton_taunt.yy",},},
     {"id":{"name":"spr_milton_totems","path":"sprites/spr_milton_totems/spr_milton_totems.yy",},},
     {"id":{"name":"spr_milton_walk","path":"sprites/spr_milton_walk/spr_milton_walk.yy",},},

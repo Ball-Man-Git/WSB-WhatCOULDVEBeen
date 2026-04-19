@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Level Gates",
-    "path":"folders/Sprites/Level Gates.yy",
+    "name":"Shell City",
+    "path":"folders/Sprites/Level Gates/Shell City.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

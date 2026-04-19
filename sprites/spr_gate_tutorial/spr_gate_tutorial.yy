@@ -45,8 +45,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Level Gates",
-    "path":"folders/Sprites/Level Gates.yy",
+    "name":"Tutorial",
+    "path":"folders/Sprites/Level Gates/Tutorial.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

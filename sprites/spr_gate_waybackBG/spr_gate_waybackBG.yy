@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Level Gates",
-    "path":"folders/Sprites/Level Gates.yy",
+    "name":"Waybackyard",
+    "path":"folders/Sprites/Level Gates/Waybackyard.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

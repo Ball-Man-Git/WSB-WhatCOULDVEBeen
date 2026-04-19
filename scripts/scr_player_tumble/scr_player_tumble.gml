@@ -26,7 +26,7 @@ function scr_player_tumble()
     slope_momentum();
     crouchslip--;
     
-    if ((sprite_index == sprites.rolling || sprite_index == sprites.crouchslip || sprite_index == spr_player_rollstart) && !grounded)
+    if ((sprite_index == sprites.rolling || sprite_index == sprites.crouchslip || sprite_index == sprites.rollstart) && !grounded)
     {
         FMODevent_oneshot("event:/Sfx/Player/dive", x, y);
         sprite_index = sprites.dive;
@@ -72,11 +72,11 @@ function scr_player_tumble()
     
     if (sprite_index == sprites.dive && grounded)
     {
-        sprite_index = spr_player_rollstart;
+        sprite_index = sprites.rollstart;
         image_index = 0;
     }
     
-    if (sprite_index == spr_player_rollstart && animation_end())
+    if (sprite_index == sprites.rollstart && animation_end())
     {
         sprite_index = sprites.rolling;
         image_index = 0;

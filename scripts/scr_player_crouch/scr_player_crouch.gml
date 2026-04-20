@@ -14,7 +14,7 @@ function scr_player_crouch()
     {
         image_index = 0;
         sprite_index = global.escape.active ? panic_idle : sprites.idle
-        state = UnknownEnum.Value_0;
+        state = isNaomi ? UnknownEnum.Value_55 : UnknownEnum.Value_0;
     }
     
     if (animation_end() && sprite_index == sprites.crouchstart)

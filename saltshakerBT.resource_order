@@ -75,6 +75,7 @@
     {"name":"milkshek_3","order":2,"path":"rooms/milkshek_3/milkshek_3.yy",},
     {"name":"milkshek_4","order":4,"path":"rooms/milkshek_4/milkshek_4.yy",},
     {"name":"milkshek_secret1","order":3,"path":"rooms/milkshek_secret1/milkshek_secret1.yy",},
+    {"name":"scr_naomiScripts","order":1,"path":"scripts/scr_naomiScripts/scr_naomiScripts.yy",},
     {"name":"assetGoUp","order":406,"path":"sprites/assetGoUp/assetGoUp.yy",},
     {"name":"bg_beakerBack_escape","order":63,"path":"sprites/bg_beakerBack_escape/bg_beakerBack_escape.yy",},
     {"name":"bg_beakerBack","order":301,"path":"sprites/bg_beakerBack/bg_beakerBack.yy",},

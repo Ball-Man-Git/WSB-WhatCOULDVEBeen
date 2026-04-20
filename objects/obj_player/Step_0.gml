@@ -319,6 +319,11 @@ if (hitstun.is == false)
                 state = UnknownEnum.Value_0;
             
             break;
+			
+		case UnknownEnum.Value_55:
+		scr_naomi_normal()
+		break;
+		
     }
     
     if (state == UnknownEnum.Value_1 || state == UnknownEnum.Value_16 || state == UnknownEnum.Value_12)

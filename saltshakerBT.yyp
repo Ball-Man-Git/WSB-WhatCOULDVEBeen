@@ -554,6 +554,7 @@
     {"id":{"name":"scr_language","path":"scripts/scr_language/scr_language.yy",},},
     {"id":{"name":"scr_load_milton_data","path":"scripts/scr_load_milton_data/scr_load_milton_data.yy",},},
     {"id":{"name":"scr_math","path":"scripts/scr_math/scr_math.yy",},},
+    {"id":{"name":"scr_naomiScripts","path":"scripts/scr_naomiScripts/scr_naomiScripts.yy",},},
     {"id":{"name":"scr_onlineUtility","path":"scripts/scr_onlineUtility/scr_onlineUtility.yy",},},
     {"id":{"name":"scr_particles","path":"scripts/scr_particles/scr_particles.yy",},},
     {"id":{"name":"scr_patternUtil","path":"scripts/scr_patternUtil/scr_patternUtil.yy",},},

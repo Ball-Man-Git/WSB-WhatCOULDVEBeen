@@ -49,6 +49,7 @@ function scr_naomi_normal()
         create_particleStatic(spr_landeffect, x, y, 1, 1);
         image_index = 0;
         sprite_index = spr_player_land
+		naomi_landanim = true
         state = UnknownEnum.Value_55;
         FMODevent_oneshot("event:/Sfx/Player/step", x, y);
     }
@@ -105,7 +106,7 @@ function scr_naomi_normalNEW()
     if sprite_index == spr_naomi_mach3
         image_speed = 0.4
     var front = (scr_solid((x + sign(hsp)), y) && (!(place_meeting((x + sign(hsp)), y, obj_slope))))
-	if (!landAnim)
+	if (!naomi_landanim)
         {
             if ((hsp != 0) && (!front))
             {

@@ -4,7 +4,7 @@ function scr_player_taunt()
     vsp = 0;
     get_input();
     
-    if (sprite_index == sprites.taunt)
+    if (sprite_index == sprites.taunt || sprite_index == spr_naomi_taunt)
     {
         image_speed = 0;
         tauntTimer--;

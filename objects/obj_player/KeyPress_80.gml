@@ -1,6 +1,7 @@
 if (!obj_shell.isOpen)
 {
 	state = UnknownEnum.Value_0;
+	isNaomi = false
 if character == UnknownEnum.Value_0
 	character = UnknownEnum.Value_1
 else if character == UnknownEnum.Value_1

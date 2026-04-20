@@ -122,6 +122,10 @@ flash = false;
 rainbow = 0;
 super = false;
 
+naomi_movespeed = 0
+naomi_dash = 0
+naomi_dashpadbuffer = 0
+naomi_landanim = false
 
 soundsOk = FMODcreate_event("event:/Sfx/Player/yeag");
 soundsLaugh = FMODcreate_event("event:/Sfx/Player/yay");

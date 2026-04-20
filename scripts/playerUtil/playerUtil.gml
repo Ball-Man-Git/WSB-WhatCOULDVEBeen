@@ -430,7 +430,7 @@ function doTaunt()
         {
             state = UnknownEnum.Value_15;
             image_speed = 0;
-            sprite_index = sprites.taunt;
+            sprite_index = isNaomi ? spr_naomi_taunt : sprites.taunt;
             image_index = irandom_range(0, image_number);
             instance_create(x, y, obj_taunteffect);
             instance_create(x, y, obj_parryhitbox);

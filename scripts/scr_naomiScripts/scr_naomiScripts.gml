@@ -1,9 +1,9 @@
-//There's nothing here. Go home.
+
 function scr_naomi_normal()
 {
     get_input();
-    hsp = approach(hsp, movespeed * xscale, 0.35);
-    var move = key_right + key_left;
+    hsp = approach(hsp, movespeed * xscale, 0.5);
+	var move = key_right + key_left;
     
     if (jumpstop == false && !key_jump && vsp < grav)
     {
@@ -13,9 +13,9 @@ function scr_naomi_normal()
     
     if (move != 0)
     {
-        image_speed = movespeed / 15;
+        image_speed = (abs(movespeed) / 12)
         xscale = move;
-        movespeed = 11;
+        movespeed = 8;
         
         if (grounded)
             sprite_index = spr_naomi_move;
@@ -42,6 +42,7 @@ function scr_naomi_normal()
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
     }
+	doTaunt()
 }
 
 function scr_naomi_crouch()

@@ -101,6 +101,8 @@ function scr_player_walkfront()
                 sprite_index = spr_player_idle;
                 image_index = 0;
                 state = UnknownEnum.Value_0;
+				if isNaomi
+				state = UnknownEnum.Value_55;
             }
         }
         else
@@ -108,6 +110,8 @@ function scr_player_walkfront()
             sprite_index = spr_player_idle;
             image_index = 0;
             state = UnknownEnum.Value_0;
+							if isNaomi
+				state = UnknownEnum.Value_55;
         }
     }
 }

@@ -2,6 +2,7 @@ cameraShake = 0;
 cameraShakeTimer = 0;
 state = UnknownEnum.Value_0;
 xOffset = 0;
+yOffset = 0
 camera = 
 {
     target: obj_player,

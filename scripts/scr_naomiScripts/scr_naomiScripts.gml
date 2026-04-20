@@ -4,6 +4,7 @@ function scr_naomi_normal()
     get_input();
     hsp = approach(hsp, movespeed * xscale, 0.5);
 	var move = key_right + key_left;
+	var r = naomi_movespeed
     
     if (jumpstop == false && !key_jump && vsp < grav)
     {
@@ -42,7 +43,126 @@ function scr_naomi_normal()
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
     }
+	
+    if (grounded)
+    {
+        create_particleStatic(spr_landeffect, x, y, 1, 1);
+        image_index = 0;
+        sprite_index = spr_player_land
+        state = UnknownEnum.Value_55;
+        FMODevent_oneshot("event:/Sfx/Player/step", x, y);
+    }
 	doTaunt()
+}
+
+function scr_naomi_normalNEW()
+{
+	var move = key_right + key_left;
+	hsp = movespeed
+	var r = naomi_movespeed
+	    if ((place_meeting((x + xscale), y, obj_solid) && (!(place_meeting((x + hsp), y, obj_destructibles)))) || ((abs(movespeed) < 8) && (move != xscale)) || (!key_attack) || (abs(movespeed) <= 6))
+    {
+        naomi_dash = 0
+        naomi_movespeed = 8
+    }
+	
+	    if ((naomi_movespeed >= 12) && (naomi_dash != 51))
+    {
+        instance_create(x, y, obj_jumpdust)
+        naomi_dash = 51
+    }
+	    if ((naomi_movespeed >= 12) || (naomi_dashpadbuffer > 0))
+    {
+        if (!instance_exists(chargeeffect))
+            chargeeffect = instance_create(x, y, obj_chargeeffect);
+    }
+	
+	    if ((naomi_dashpadbuffer > 0) && (movespeed != 0))
+        xscale = sign(movespeed)
+    if ((naomi_dashpadbuffer > 0))
+        naomi_dashpadbuffer--
+    if ((naomi_dashpadbuffer <= 0))
+    {
+        if ((move != 0))
+        {
+            if ((move == xscale))
+                movespeed = approach(movespeed, (xscale * naomi_movespeed), 0.5)
+            else
+                movespeed = approach(movespeed, 0, 0.5)
+        }
+        else
+            movespeed = approach(movespeed, 0, 0.5)
+    }
+    else
+    {
+        naomi_movespeed = 12
+        movespeed = (xscale * naomi_movespeed)
+    }
+    if ((abs(movespeed) > 2))
+        image_speed = (abs(movespeed) / 12)
+    else
+        image_speed = 0.35
+    if sprite_index == spr_naomi_mach3
+        image_speed = 0.4
+    var front = (scr_solid((x + sign(hsp)), y) && (!(place_meeting((x + sign(hsp)), y, obj_slope))))
+	if (!landAnim)
+        {
+            if ((hsp != 0) && (!front))
+            {
+                if ((naomi_movespeed >= 12) || (naomi_dashpadbuffer > 0))
+                    sprite_index = spr_naomi_mach3
+                else if key_attack
+                    sprite_index = spr_naomi_mach
+                else
+                    sprite_index = spr_naomi_move
+            }
+            else
+            {
+                image_speed = 0.35
+                if ((sprite_index != spr_milton_idleanim1))
+                {
+                    sprite_index = spr_naomi_idle
+                        if ((buffers.idle < 400))
+                            buffers.idle++
+                        if ((buffers.idle >= 150))
+                        {
+                            sprite_index = spr_milton_idleanim1
+                            image_index = 0
+                        }
+                }
+                else if animation_end()
+                {
+                    buffers.idle = 0
+                    sprite_index = spr_naomi_idle
+                }
+            }
+        }
+        if animation_end()
+        {
+            landAnim = false
+            if ((sprite_index == spr_player_land))
+                sprite_index = spr_naomi_idle
+        }
+        if ((sprite_index == spr_player_land))
+            image_speed = 0.35
+			    if (jumpBuffer && coyote_time && naomi_dashpadbuffer == 0)
+    {
+        jumpBuffer = false;
+        create_particleStatic(spr_jumpeffect, x, y, 1, 1);
+        image_index = 0;
+        sprite_index = spr_player_jump;
+        vsp = -11;
+        jumpstop = false;
+		state = UnknownEnum.Value_56
+        FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
+    }
+	doTaunt()
+
+}
+
+function scr_naomi_jump()
+{
+
 }
 
 function scr_naomi_crouch()

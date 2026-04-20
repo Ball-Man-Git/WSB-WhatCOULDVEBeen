@@ -321,6 +321,10 @@ if (hitstun.is == false)
             break;
 			
 		case UnknownEnum.Value_55:
+		scr_naomi_normalNEW()
+		break;
+		
+		case UnknownEnum.Value_56:
 		scr_naomi_normal()
 		break;
 		

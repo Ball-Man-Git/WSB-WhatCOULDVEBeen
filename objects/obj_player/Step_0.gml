@@ -316,16 +316,20 @@ if (hitstun.is == false)
             vsp = 0;
             
             if (key_jump2)
-                state = UnknownEnum.Value_0;
+                state = isNaomi ? UnknownEnum.Value_55 : UnknownEnum.Value_0;
             
             break;
 			
 		case UnknownEnum.Value_55:
-		scr_naomi_normalNEW()
+		scr_naomi_normal();
 		break;
 		
 		case UnknownEnum.Value_56:
-		scr_naomi_normal()
+		scr_naomi_normalNEW();
+		break;
+		
+		case UnknownEnum.Value_57:
+		scr_naomi_skid();
 		break;
 		
     }

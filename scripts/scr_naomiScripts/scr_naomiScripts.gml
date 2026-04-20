@@ -1,4 +1,4 @@
-//gsadtfsdgferagdf
+//naomi's finally getting coded! hooray!!!!!!
 function scr_naomi_normal()
 {
     get_input();
@@ -250,9 +250,9 @@ function scr_naomi_crouch()
     {
 		xscale = move
             if ((abs(movespeed) < 4))
-                movespeed = approach(movespeed, (xscale * 4), 0.5)
+                movespeed = approach(movespeed, 4, 0.5)
             else
-                movespeed = approach(movespeed, (xscale * 4), 0.1)
+                movespeed = approach(movespeed, 4, 0.1)
         if ((abs(movespeed) < 3) && (move != 0))
             image_speed = 0.35
         else if ((abs(movespeed) > 3) && (abs(movespeed) < 6))

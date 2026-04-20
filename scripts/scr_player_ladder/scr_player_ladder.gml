@@ -31,13 +31,13 @@ function scr_player_ladder()
     
     if (!q)
     {
-        state = UnknownEnum.Value_0;
+        state = isNaomi ? UnknownEnum.Value_55 : UnknownEnum.Value_0;
         vsp = 0;
     }
     
     if (key_down && grounded && !place_meeting(x, y, obj_platform))
     {
-        state = UnknownEnum.Value_0;
+        state = isNaomi ? UnknownEnum.Value_55 : UnknownEnum.Value_0;
         vsp = 0;
     }
     
@@ -54,9 +54,9 @@ function scr_player_ladder()
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         image_index = 0;
-        sprite_index = sprites.jump;
+        sprite_index = isNaomi ? spr_player_jump : sprites.jump;
 		freefalling = 0
-        state = UnknownEnum.Value_2;
+        state = isNaomi ? UnknownEnum.Value_55 : UnknownEnum.Value_2;
         vsp = -12;
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);

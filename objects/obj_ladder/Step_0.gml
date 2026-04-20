@@ -1,6 +1,6 @@
 with (instance_place(x, y - 1, obj_player))
 {
-    if ((key_up && place_meeting(x, y, obj_ladder)) || ((key_down && grounded && place_meeting(x, y + 1, obj_ladder) && !place_meeting(x, y + 1, obj_solid)) && (state == UnknownEnum.Value_0 || state == UnknownEnum.Value_2 || state == UnknownEnum.Value_1)))
+    if ((key_up && place_meeting(x, y, obj_ladder)) || ((key_down && grounded && place_meeting(x, y + 1, obj_ladder) && !place_meeting(x, y + 1, obj_solid)) && (state == UnknownEnum.Value_0 || state == UnknownEnum.Value_2 || state == UnknownEnum.Value_1 || state == UnknownEnum.Value_55 || state == UnknownEnum.Value_56)))
     {
         state = UnknownEnum.Value_28;
         hsp = 0;

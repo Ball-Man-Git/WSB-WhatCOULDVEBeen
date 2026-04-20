@@ -334,7 +334,7 @@ if (hitstun.is == false)
 		
     }
     
-    if (state == UnknownEnum.Value_1 || state == UnknownEnum.Value_16 || state == UnknownEnum.Value_12)
+    if (state == UnknownEnum.Value_1 || state == UnknownEnum.Value_16 || state == UnknownEnum.Value_12 || state == UnknownEnum.Value_56)
         mask_index = spr_crouchmask;
     else
         mask_index = spr_player_mask;

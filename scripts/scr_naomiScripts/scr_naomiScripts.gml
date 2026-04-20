@@ -73,7 +73,7 @@ function scr_naomi_normal()
     }
 	    if slapBuffer > 0 && key_up
     {
-		        jumpBuffer = false;
+		        slapBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         image_index = 0;
         sprite_index = spr_player_jump;
@@ -81,6 +81,9 @@ function scr_naomi_normal()
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/uppercut", x, y);
 	}
+	
+	    if ((key_down && grounded && (vsp > 0)) || scr_solid(x, y))
+        state = UnknownEnum.Value_56
 	doTaunt()
 }
 
@@ -222,6 +225,39 @@ function scr_naomi_jump()
 
 function scr_naomi_crouch()
 {
+	get_input();
+	    var move = (key_left + key_right)
+    hsp = movespeed * xscale;
+    if (place_meeting((x + hsp), y, obj_solid) && (!(place_meeting((x + hsp), y, obj_slope))) && (!(place_meeting((x + hsp), y, obj_destructibles))))
+        movespeed = 0
+    if ((move != 0))
+    {
+		xscale = move
+            if ((abs(movespeed) < 4))
+                movespeed = approach(movespeed, (xscale * 4), 0.5)
+            else
+                movespeed = approach(movespeed, (xscale * 4), 0.1)
+        if ((abs(movespeed) < 3) && (move != 0))
+            image_speed = 0.35
+        else if ((abs(movespeed) > 3) && (abs(movespeed) < 6))
+            image_speed = 0.45
+        else
+            image_speed = 0.6
+    }
+    else
+        movespeed = approach(movespeed, 0, 0.5)
+    if (!grounded)
+    {
+        state = UnknownEnum.Value_55
+        jumpAnim = false
+        sprite_index = spr_player_fall
+    }
+    if (((grounded && (!key_down))) && (!(scr_solid(x, (y - 16)))) && (!(scr_solid(x, (y - 32)))))
+        state = UnknownEnum.Value_55
+    if ((hsp != 0))
+        sprite_index = spr_player_crouchmove
+    else
+        sprite_index = spr_player_crouch
 
 }
 

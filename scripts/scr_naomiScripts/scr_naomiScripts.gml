@@ -1,5 +1,5 @@
 //There's nothing here. Go home.
-function scr_naomi_normal(){
+function scr_naomi_normal()
 {
     get_input();
     hsp = approach(hsp, movespeed * xscale, 0.35);
@@ -44,14 +44,17 @@ function scr_naomi_normal(){
     }
 }
 
-function scr_naomi_crouch(){
+function scr_naomi_crouch()
+{
 
 }
 
-function scr_naomi_attack(){
+function scr_naomi_attack()
+{
 
 }
 
-function scr_naomi_flying(){
+function scr_naomi_flying()
+{
 
 }

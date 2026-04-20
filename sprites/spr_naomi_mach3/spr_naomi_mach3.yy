@@ -23,7 +23,7 @@
   ],
   "name":"spr_naomi_mach3",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Naomi Sprites",
     "path":"folders/Sprites/Naomi Sprites.yy",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":60,
-    "yorigin":60,
+    "yorigin":67,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

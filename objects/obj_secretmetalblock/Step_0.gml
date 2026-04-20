@@ -2,7 +2,7 @@ with (obj_player)
 {
     var _block = other;
     
-    if (state == UnknownEnum.Value_4 || state == UnknownEnum.Value_29 || (state == UnknownEnum.Value_19 && freefallsmash >= 10))
+    if (state == UnknownEnum.Value_4 || state == UnknownEnum.Value_29 || (state == UnknownEnum.Value_19 && freefallsmash >= 10) || (state == UnknownEnum.Value_55 && movespeed >= 12))
     {
         var _y = y;
         var _x = x + (xscale * 5);

@@ -24,7 +24,7 @@ function scr_naomi_normal()
         
         if (grounded)
 		{
-			                if naomi_movespeed >= 12
+			                if movespeed >= 12
                     sprite_index = spr_naomi_mach3;
                 else if key_attack
                     sprite_index = spr_naomi_mach;
@@ -32,7 +32,7 @@ function scr_naomi_normal()
                     sprite_index = spr_naomi_move;
 		}
 			
-				    if key_attack && grounded
+				    if key_attack
     {
         if ((movespeed < 13))
             movespeed = approach(movespeed, 13, 0.15);
@@ -51,6 +51,15 @@ function scr_naomi_normal()
     
     if (animation_end() && sprite_index == spr_player_jump)
         sprite_index = spr_player_fall;
+		
+			    if movespeed >= 12
+    {
+		instakill = true
+        if (!instance_exists(chargeeffect))
+            chargeeffect = instance_create(x, y, obj_chargeeffect);
+    }
+	else
+	instakill = false
     
     if (jumpBuffer && coyote_time && grounded)
     {

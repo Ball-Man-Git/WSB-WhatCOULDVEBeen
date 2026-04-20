@@ -18,7 +18,7 @@ function scr_collide_destructibles()
                 }
             }
             
-            if (state == UnknownEnum.Value_3 || state == UnknownEnum.Value_4 || state == UnknownEnum.Value_22 || state == UnknownEnum.Value_16 || state == UnknownEnum.Value_36 || (sprite_index == spr_player_swingading && state == UnknownEnum.Value_23) || state == UnknownEnum.Value_38)
+            if (state == UnknownEnum.Value_3 || state == UnknownEnum.Value_4 || state == UnknownEnum.Value_22 || state == UnknownEnum.Value_16 || state == UnknownEnum.Value_36 || (sprite_index == spr_player_swingading && state == UnknownEnum.Value_23) || state == UnknownEnum.Value_38 || (state == UnknownEnum.Value_55 && movespeed >= 9))
             {
                 if (place_meeting(x + (hsp * 2) + xscale, y - 1, other))
                 {

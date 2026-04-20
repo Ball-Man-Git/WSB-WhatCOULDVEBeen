@@ -154,6 +154,7 @@ function scr_naomi_normalNEW()
         sprite_index = spr_player_jump;
         vsp = -11;
         jumpstop = false;
+		naomi_landanim = false
 		state = UnknownEnum.Value_56
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
     }

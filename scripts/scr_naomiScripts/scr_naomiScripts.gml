@@ -71,6 +71,16 @@ function scr_naomi_normal()
         jumpstop = false;
         FMODevent_oneshot("event:/Sfx/Player/jump", x, y);
     }
+	    if slapBuffer > 0 && key_up
+    {
+		        jumpBuffer = false;
+        create_particleStatic(spr_jumpeffect, x, y, 1, 1);
+        image_index = 0;
+        sprite_index = spr_player_jump;
+        vsp = -20;
+        jumpstop = false;
+        FMODevent_oneshot("event:/Sfx/Player/uppercut", x, y);
+	}
 	doTaunt()
 }
 

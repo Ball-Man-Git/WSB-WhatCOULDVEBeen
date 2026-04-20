@@ -1,4 +1,4 @@
-
+//gsadtfsdgferagdf
 function scr_naomi_normal()
 {
     get_input();

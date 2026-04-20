@@ -194,7 +194,7 @@
     {"name":"spr_curly","order":399,"path":"sprites/spr_curly/spr_curly.yy",},
     {"name":"spr_cutoff","order":354,"path":"sprites/spr_cutoff/spr_cutoff.yy",},
     {"name":"spr_dashcloud1","order":230,"path":"sprites/spr_dashcloud1/spr_dashcloud1.yy",},
-    {"name":"spr_dashpad","order":1,"path":"sprites/spr_dashpad/spr_dashpad.yy",},
+    {"name":"spr_dashpad","order":450,"path":"sprites/spr_dashpad/spr_dashpad.yy",},
     {"name":"spr_deletefile","order":334,"path":"sprites/spr_deletefile/spr_deletefile.yy",},
     {"name":"spr_destroyablecrate_debri","order":398,"path":"sprites/spr_destroyablecrate_debri/spr_destroyablecrate_debri.yy",},
     {"name":"spr_destroyablecrate_small","order":137,"path":"sprites/spr_destroyablecrate_small/spr_destroyablecrate_small.yy",},

@@ -28,7 +28,7 @@
 
   "option_game": "GAME",
   "option_game_newmachtvs": "NEW MILDRED MACH TVS",
-  "option_game_spinnyenemies": "REDEMPTION ENEMY DEATH",
+  "option_game_spinnyenemies": "THE ENEMY SPIN FROM REDEMPTION ERA",
   "option_game_xtracamerazoom": "X-TRA CAMERA ZOOM",
 
   "option_controls": "CONTROLS",
@@ -52,7 +52,7 @@
   "option_off": "OFF",
   "option_on": "ON",
 
-  "secret_get":"[wave]You've found [global.secretCount] love letters out of 3!!",
+  "secret_get":"[wave]You've found [global.secretCount] love letters out of 3!",
 
   "roomname_hotel_receptionentrance":"what couldve been",
   "roomname_hotel_hallway":"task manager",

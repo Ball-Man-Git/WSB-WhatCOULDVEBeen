@@ -1,1 +1,3 @@
-# HEY THIS USES IDE v2024.13.1.193 Runtime v2024.13.1.242 SO MAKE SURE TO USE THAT WHEN CREATING STUFF FOR THIS
+this is the demo one. the demo to-do is probably:
+finished milton
+finished floor 1 and boss fight

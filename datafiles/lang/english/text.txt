@@ -102,7 +102,7 @@
   "treasure_get": "[wave]You got the secret hotel treasure!",
   "tip_supertaunt":"[wave][U][T] Super Taunt",
   
-  "caption_main":"What's Shakin, Bacon?",
+  "caption_main":"What's Shakin, Bacon? WHAT COULD'VE BEEN.",
   
   "rank_score":"SCORE: {0}",
   "rank_time":"TIME: {0}",

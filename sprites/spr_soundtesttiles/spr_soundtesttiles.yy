@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Soundtest Stuff",
-    "path":"folders/Sprites/Soundtest Stuff.yy",
+    "name":"Tileset",
+    "path":"folders/Sprites/Tileset.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

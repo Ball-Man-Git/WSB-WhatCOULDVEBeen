@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"HUD",
-    "path":"folders/Sprites/Juan Danger/HUD.yy",
+    "name":"TV",
+    "path":"folders/Sprites/Juan Danger/TV.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

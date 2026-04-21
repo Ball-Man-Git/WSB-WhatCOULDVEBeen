@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Waybackyard",
-    "path":"folders/Sprites/Waybackyard.yy",
+    "name":"Tileset",
+    "path":"folders/Sprites/Tileset.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

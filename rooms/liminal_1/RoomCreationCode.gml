@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? Stuck in Level 0";
+global.gameframe_caption_text = "What Could've Been: Stuck in Level 0";

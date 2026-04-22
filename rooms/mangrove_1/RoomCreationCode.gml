@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? The Smell of Wet Grass";
+global.gameframe_caption_text = "What Could've Been: The Smell of Wet Grass";

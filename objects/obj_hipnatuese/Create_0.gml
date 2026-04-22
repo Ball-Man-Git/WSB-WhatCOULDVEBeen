@@ -15,4 +15,4 @@ if (!FMODevent_isplaying(moveSnd))
     fmod_studio_event_instance_start(moveSnd);
 
 if global.hardMode
-global.gameframe_caption_text = "What's Shakin, Bacon? SUFFERING A FATE WORSE THAN DEATH."
+global.gameframe_caption_text = "What Could've Been: SUFFERING A FATE WORSE THAN DEATH."

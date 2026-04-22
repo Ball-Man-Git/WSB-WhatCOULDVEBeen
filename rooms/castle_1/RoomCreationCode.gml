@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? Digging up 'Firewood'";
+global.gameframe_caption_text = "What Could've Been: Diggin' up Firewood";

@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? It's Vacation Day";
+global.gameframe_caption_text = "What Could've Been: It's Vacation Day!";

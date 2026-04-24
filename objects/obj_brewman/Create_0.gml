@@ -27,7 +27,7 @@ depth = 0;
 
 
 spr_intro = spr_milton_hammertwirl; 
-spr_idle = spr_milton_pointescape;
+spr_idle = spr_milton_idle;
 spr_run = spr_milton_crazyrun; 
 spr_jump = spr_milton_jump;
 spr_fall = spr_milton_fall;

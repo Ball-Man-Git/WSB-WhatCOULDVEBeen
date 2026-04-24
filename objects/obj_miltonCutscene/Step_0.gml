@@ -17,7 +17,7 @@ switch (scene)
         
         with (inst_1D559AD8)
 		{
-            sprite_index = spr_milton_pointescape;
+            sprite_index = spr_milton_idle;
 			image_speed = 0.35
 		}
         

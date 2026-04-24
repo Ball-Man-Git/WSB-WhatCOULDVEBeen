@@ -11,5 +11,7 @@ function scr_player_parry()
         state = UnknownEnum.Value_0;
         sprite_index = sprites.idle;
         image_index = 0;
+						if isNaomi
+				state = UnknownEnum.Value_55;
     }
 }

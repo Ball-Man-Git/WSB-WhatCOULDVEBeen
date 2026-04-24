@@ -105,6 +105,7 @@ function scr_naomi_normal()
 
 function scr_naomi_normalNEW()
 {
+	get_input();
 	var move = key_right + key_left;
 	hsp = movespeed;
 	var r = naomi_movespeed;
@@ -140,7 +141,12 @@ function scr_naomi_normalNEW()
     if ((naomi_dashpadbuffer <= 0))
     {
         if ((move != 0))
+		{
+			if ((move == xscale))
                 movespeed = approach(movespeed, (xscale * naomi_movespeed), 0.5);
+				            else
+                movespeed = approach(movespeed, 0, 0.5)
+		}
         else
             movespeed = approach(movespeed, 0, 0.5);
     }
@@ -201,6 +207,9 @@ function scr_naomi_normalNEW()
         jumpBuffer = false;
         create_particleStatic(spr_jumpeffect, x, y, 1, 1);
         image_index = 0;
+		if (((naomi_movespeed >= 12) && key_attack) || (naomi_dashpadbuffer > 0))
+		sprite_index = spr_naomi_dashjump;
+		else
         sprite_index = spr_player_jump;
         vsp = -11;
         jumpstop = false;
@@ -236,6 +245,50 @@ function scr_naomi_skid()
 
 function scr_naomi_jump()
 {
+		get_input();
+	    var move = (key_left + key_right)
+		    if ((sprite_index == spr_naomi_dashjump))
+        image_speed = 0.6
+    else
+        image_speed = 0.35
+    if ((!jumpStop) && (vsp < 0.5) && (!key_jump2))
+    {
+        vsp /= 10
+        jumpstop = true
+    }
+    hsp = movespeed
+	var r = naomi_movespeed
+		    if ((place_meeting((x + xscale), y, obj_solid) && (!(place_meeting((x + hsp), y, obj_destructibles)))) || ((abs(movespeed) < 8) && (move != xscale)) || (!key_attack) || (abs(movespeed) <= 6))
+    {
+        naomi_dash = 0;
+        naomi_movespeed = 8;
+    }
+	    if ((naomi_dashpadbuffer > 0))
+        naomi_dashpadbuffer--
+    if ((naomi_dashpadbuffer <= 0))
+    {
+        if ((move != 0))
+        {
+            if ((move == xscale))
+                movespeed = approach(movespeed, (xscale * naomi_movespeed), 0.5)
+            else if ((naomi_dash == 51))
+                movespeed = approach(movespeed, 0, 0.5)
+            else
+                movespeed = approach(movespeed, 0, 0.5)
+        }
+        else if ((naomi_dash == 51))
+            movespeed = approach(movespeed, 0, 0.5)
+        else
+            movespeed = approach(movespeed, 0, 0.5)
+        if ((move != xscale) && (move != 0))
+        {
+            naomi_movespeed = 8
+            xscale = move
+        }
+    }
+    if ((naomi_dashpadbuffer > 0) && (movespeed != 0))
+        xscale = sign(movespeed)
+	
 
 }
 

@@ -28,14 +28,14 @@
 
   "option_game": "GAME",
   "option_game_newmachtvs": "NEW MILDRED MACH TVS",
-  "option_game_spinnyenemies": "THE ENEMY SPIN FROM REDEMPTION ERA",
+  "option_game_spinnyenemies": "ENEMY SPIN",
   "option_game_xtracamerazoom": "X-TRA CAMERA ZOOM",
 
   "option_controls": "CONTROLS",
   "option_controls_keyboard": "KEYBOARD",
   "option_controls_controller": "CONTROLLER",
   "option_controls_controller_dir_superjump": "DIR. SUPERJUMP",
-  "option_controls_controller_dir_groundpound": "DIR. GROUNDPOND",
+  "option_controls_controller_dir_groundpound": "DIR. GROUNDPOUND",
   "option_controls_reset_config": "RESET CONFIG",
   "option_controls_config_reset_tip": "[wave]Configuration reset!",
   "option_controls_config_save_tip": "[wave]Configuration saved!",

@@ -1,6 +1,7 @@
 event_inherited();
 var sprites = global.PlayerCharacters[obj_player.character].sprites.tv;
-tv_anim(sprites.collect, 180);
+var naomi = obj_player.isNaomi
+tv_anim(naomi ? spr_tv_happyN : sprites.collect, 180);
 global.combo.timer = 60;
 
 with (obj_player)

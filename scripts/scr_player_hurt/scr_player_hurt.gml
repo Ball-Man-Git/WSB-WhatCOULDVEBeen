@@ -6,7 +6,10 @@ function scr_player_hurt()
     {
         movespeed = 0;
 		image_index = 0
+		if !isNaomi
         sprite_index = sprites.land;
         state = UnknownEnum.Value_0;
+						if isNaomi
+				state = UnknownEnum.Value_55;
     }
 }

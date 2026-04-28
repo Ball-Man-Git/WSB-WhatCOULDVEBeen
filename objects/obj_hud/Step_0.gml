@@ -57,6 +57,12 @@ with (tv)
 		
 	if (obj_player.state == UnknownEnum.Value_38 || obj_player.state == UnknownEnum.Value_39 || obj_player.state == UnknownEnum.Value_40)
         _idleSprite = spr_tv_snowball;
+		
+	if obj_player.isNaomi
+	_idleSprite = spr_tv_idleN
+	
+	if obj_player.isNaomi && global.escape.active && !isSecret
+	_idleSprite = spr_tv_escapeN
     
     if (!other.visible)
     {
@@ -86,7 +92,9 @@ with (tv)
                     break;
                 
                 case sprites.collect:
+				case spr_tv_happyN:
 				case spr_tv_sad:
+				case spr_tv_sadN:
                     expressionTimer--;
                     
                     if (expressionTimer <= 0)
@@ -118,6 +126,7 @@ with (tv)
                 case spr_tv_ski:
 				case spr_tv_snowball:
 				case spr_tv_party:
+				case spr_tv_idleN:
                     roomname = room_get_name(room);
                     roomname = string_letters(roomname);
                     isSecret = string_pos("secret", roomname) > 0;
@@ -137,7 +146,7 @@ with (tv)
                 }
 						}
                     
-                    if (obj_player.state == UnknownEnum.Value_4 && !isSecret && !global.hardMode && !global.escape.party)
+                    if (obj_player.state == UnknownEnum.Value_4 && !isSecret && !global.hardMode && !global.escape.party && !obj_player.isNaomi)
                         tv_anim(obj_player.sprite_index == player_sprites.crazyrun ? sprites.crazyrun : sprites.mach3);
                     
                     break;

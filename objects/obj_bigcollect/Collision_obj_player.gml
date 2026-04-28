@@ -9,7 +9,8 @@ ds_list_add(global.saveroom, id);
 instance_destroy();
 FMODevent_oneshot("event:/Sfx/General/Collects/bigcollect", x, y);
 var sprites = global.PlayerCharacters[obj_player.character].sprites.tv;
-tv_anim(sprites.collect, 180);
+var naomi = obj_player.isNaomi
+tv_anim(naomi ? spr_tv_happyN : sprites.collect, 180);
 
 with (obj_player)
 {

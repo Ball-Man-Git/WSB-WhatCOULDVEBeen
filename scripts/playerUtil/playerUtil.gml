@@ -28,11 +28,14 @@ function hurt_player(arg0 = -4)
         }
         
         hsp = 8 * xscale;
+		if !isNaomi
         sprite_index = !sameFace ? spr_player_hurt : sprites.backhurt;
+		else
+		sprite_index = spr_naomi_hurt
         flash = true;
         state = UnknownEnum.Value_27;
         vsp = -12;
-		tv_anim(spr_tv_sad, 180);
+		tv_anim(isNaomi ? spr_tv_sadN : spr_tv_sad, 180);
 		
     if (irandom(100) <= 25)
         fmod_studio_event_instance_start(soundsHurt);

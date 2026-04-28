@@ -35,7 +35,7 @@
   "option_controls_keyboard": "KEYBOARD",
   "option_controls_controller": "CONTROLLER",
   "option_controls_controller_dir_superjump": "DIR. SUPERJUMP",
-  "option_controls_controller_dir_groundpound": "DIR. GROUNDPOND",
+  "option_controls_controller_dir_groundpound": "DIR. GROUNDPOUND",
   "option_controls_reset_config": "RESET CONFIG",
   "option_controls_config_reset_tip": "[wave]Configuration reset!",
   "option_controls_config_save_tip": "[wave]Configuration saved!",

@@ -1,5 +1,5 @@
 event_inherited();
-if global.hardMode
+if global.hardMode && irandom_range(1, 5) == 5
 {
 	spr_move = spr_plosher;
 spr_turn = spr_plosher_turn;

@@ -7,7 +7,7 @@ if (!active && key_start2 && !_nopauseRooms)
 {
     doPause();
 }
-else if (active && !instance_exists(obj_option) && buffer == 0)
+else if (active && !instance_exists(obj_option) && !instance_exists(obj_feats) && buffer == 0)
 {
     graphBack.alpha = approach(graphBack.alpha, 0.55, 0.01);
     var move = key_down2 - key_up2;

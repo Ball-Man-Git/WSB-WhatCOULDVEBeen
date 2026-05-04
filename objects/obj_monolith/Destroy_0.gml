@@ -17,7 +17,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     }
     
 	
-	var fidelity = obj_player.isMildred && palIndex == 12
+	var fidelity = obj_player.isMildred && obj_player.palIndex == 12
     instance_create(x, y, !fidelity ? obj_goodmourning : obj_newmourning);
     instance_create(x, y, obj_whiteflash);
 	scr_escapeTilesets()

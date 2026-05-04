@@ -1,6 +1,6 @@
 ystart = y
 active = false
-image_speed = 0.35
+image_speed = 0.7
 vsp = 0
 visible = false
 depth = 20

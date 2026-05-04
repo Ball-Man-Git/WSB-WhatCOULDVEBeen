@@ -19,6 +19,8 @@ if (ds_list_find_index(_saveroom, id) == -1)
     
     with (instance_create(x, y, obj_baddiedead))
         sprite_index = other.spr_dead;
+		if global.hardMode
+		global.escape.timer += 15
 	if object_index == obj_biggiebag
 	{
 	create_particleStatic(spr_biggiebag_splat, x, y, 1)

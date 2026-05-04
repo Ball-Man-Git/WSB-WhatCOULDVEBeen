@@ -21,7 +21,7 @@ if (target.state == UnknownEnum.Value_4)
     image_angle = 0;
     image_xscale = target.xscale;
 }
-if (target.state == UnknownEnum.Value_55)
+else if (target.state == UnknownEnum.Value_55)
 {
     x = target.x + (12 * image_xscale);
     y = target.y + 5;

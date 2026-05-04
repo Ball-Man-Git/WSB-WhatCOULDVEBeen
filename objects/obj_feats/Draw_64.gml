@@ -8,7 +8,7 @@ for (var i = 0; i < array_length(achievement); i++)
 	var q = achievement[i]
 	var a = ds_map_find_value(global.achievements, q)
 	ini_open(global.saveFile)
-	var _unlocked = ini_read_real("Achievements", a.name, false) == true
+	var _unlocked = ini_read_real("Achievements", a.savePath, false) == true
 	ini_close()
 	var _index = a.achievementIndex
 	if !_unlocked

@@ -1,4 +1,4 @@
-if (!instance_exists(obj_option))
+if (!instance_exists(obj_option) && !instance_exists(obj_feats))
     getMenu_input();
 
 var _nopauseRooms = room == rm_intro || room == timesup_room || room == Mainmenu || instance_exists(obj_fadeout) || instance_exists(obj_rank) || instance_exists(obj_technicaldifficulty) || instance_exists(obj_titlecard) || obj_shell.isOpen;

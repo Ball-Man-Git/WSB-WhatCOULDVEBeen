@@ -168,6 +168,16 @@ var _option =
         instance_create(0, 0, obj_option);
     }
 };
+var _tasks = 
+{
+    option: "pause_feats",
+    
+    func: function()
+    {
+        FMODevent_oneshot("event:/Sfx/UI/Pause/menuselect");
+        instance_create(0, 0, obj_feats);
+    }
+};
 var _exitlevel = 
 {
     option: "pause_exit",
@@ -219,10 +229,12 @@ var _exitlevel =
 _resume.offsetX = obj_screensizer.displayWidth;
 _option.offsetX = obj_screensizer.displayWidth;
 _restart.offsetX = obj_screensizer.displayWidth;
+_tasks.offsetX = obj_screensizer.displayWidth;
 _exitlevel.offsetX = obj_screensizer.displayWidth;
 array_push(options, _resume);
 array_push(options, _option);
 array_push(options, _restart);
+array_push(options, _tasks);
 array_push(options, _exitlevel);
 timeUniform = shader_get_uniform(shd_wave, "time");
 frequencyUniform = shader_get_uniform(shd_wave, "frequency");

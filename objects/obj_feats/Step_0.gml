@@ -3,7 +3,7 @@ if buffer == 0
 	getMenu_input()
 	BGX--
 	BGY--
-	move = key_left_pressed + key_right_pressed
+	var move = key_right + key_left;
 	if move != 0
 	{
 		selected += move
@@ -11,7 +11,7 @@ if buffer == 0
 		selected = clamp(selected, 0, array_length(achievement) - 1)
 	}
 	
-	if key_grab_pressed
+	if key_slap2
 	{
 		instance_destroy()
 		FMODevent_oneshot("event:/Sfx/UI/Pause/menuback")

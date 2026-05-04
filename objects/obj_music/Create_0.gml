@@ -91,3 +91,6 @@ ds_map_add(musicDetails, Levelselect, new add_music("event:/Music/Ost/mainmenu",
 ds_map_add(musicDetails, Mainmenu, new add_music(-4, -4, "event:/Ambience/mainmenu"));
 ds_map_add(musicDetails, milkshek_1, new add_music("event:/Music/W2/Snowshake Peaks/milkshek", -4, -4));
 ds_map_add(musicDetails, kingdom_1, new add_music("event:/Music/W2/Snowshake Peaks/milkshek", -4, -4));
+
+beat = 0
+bar = 0

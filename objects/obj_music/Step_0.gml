@@ -22,6 +22,7 @@ else
     
     if (global.escape.party && !global.hardMode)
     {
+		fmod_studio_event_instance_set_callback(escapeInst, UnknownEnum.Value_4096)
         fmod_studio_event_instance_set_parameter_by_name(escapeInst, "state", 2);
         fmod_studio_event_instance_set_callback(escapeInst, UnknownEnum.Value_4096);
     }

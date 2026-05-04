@@ -10,4 +10,5 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     }
     
     FMODevent_oneshot("event:/Sfx/General/Level/breakblock", x, y);
+	push_achievement(achievements.waybackFodder)
 }

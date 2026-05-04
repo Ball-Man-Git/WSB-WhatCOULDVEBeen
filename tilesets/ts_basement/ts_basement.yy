@@ -1,0 +1,38 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_basement",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"ts_basement",
+  "out_columns":33,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Tile Sets",
+    "path":"folders/Tile Sets.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tilespr_basement",
+    "path":"sprites/tilespr_basement/tilespr_basement.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"default",
+    "path":"texturegroups/default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":32,
+  "tilehsep":2,
+  "tilevsep":2,
+  "tileWidth":32,
+  "tilexoff":2,
+  "tileyoff":2,
+  "tile_count":1089,
+}

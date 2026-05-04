@@ -3,6 +3,7 @@
   "pause_restart":"RESTART",
   "pause_options":"OPTIONS",
   "pause_exit":"EXIT LEVEL",
+  "pause_feats":"FEATS",
 
   "option_audio": "AUDIO",
   "option_audio_master": "MASTER",

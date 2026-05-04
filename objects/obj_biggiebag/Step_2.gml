@@ -28,6 +28,23 @@ if (hitstun.is == false)
             scr_enemy_thrown();
             break;
     }
+		hitbox = (UnknownEnum.Value_9 || state == UnknownEnum.Value_8) && global.hardMode
+	if hitbox == true
+	{
+		if !instance_exists(hitboxInst)
+		{
+			hitboxInst = instance_create(x, y, obj_forkbox)
+			with hitboxInst
+				enemy_inst = other
+		}
+	}
+	else {
+		if instance_exists(hitboxInst)
+		{
+			instance_destroy(hitboxInst)
+			hitboxInst = noone
+		}
+	}
 }
 else if (hitstun.time >= 0)
 {

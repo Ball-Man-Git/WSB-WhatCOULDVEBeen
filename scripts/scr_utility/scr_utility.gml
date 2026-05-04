@@ -1,5 +1,5 @@
-#macro SCREEN_WIDTH = 960
-#macro SCREEN_HEIGHT = 540
+#macro SCREEN_WIDTH 960
+#macro SCREEN_HEIGHT 540
 
 function scr_savelevel()
 {

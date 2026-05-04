@@ -929,6 +929,7 @@
     {"id":{"name":"spr_escapestar","path":"sprites/spr_escapestar/spr_escapestar.yy",},},
     {"id":{"name":"spr_escapesun","path":"sprites/spr_escapesun/spr_escapesun.yy",},},
     {"id":{"name":"spr_exitgate","path":"sprites/spr_exitgate/spr_exitgate.yy",},},
+    {"id":{"name":"spr_exitpointer_naomifall","path":"sprites/spr_exitpointer_naomifall/spr_exitpointer_naomifall.yy",},},
     {"id":{"name":"spr_exitpointer_naomipoint","path":"sprites/spr_exitpointer_naomipoint/spr_exitpointer_naomipoint.yy",},},
     {"id":{"name":"spr_feat_unlock","path":"sprites/spr_feat_unlock/spr_feat_unlock.yy",},},
     {"id":{"name":"spr_fiveish","path":"sprites/spr_fiveish/spr_fiveish.yy",},},

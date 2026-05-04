@@ -1,5 +1,5 @@
 var spr_idle = ismilton ? spr_milton_pointescape : spr_exitpointer_naomipoint;
-var spr_fall = ismilton ? spr_milton_diveprep : spr_player_groundpound;
+var spr_fall = ismilton ? spr_milton_diveprep : spr_exitpointer_naomifall;
 
 switch (state)
 {

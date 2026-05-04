@@ -257,6 +257,7 @@
     {"name":"spr_escapestar","order":313,"path":"sprites/spr_escapestar/spr_escapestar.yy",},
     {"name":"spr_escapesun","order":116,"path":"sprites/spr_escapesun/spr_escapesun.yy",},
     {"name":"spr_exitgate","order":222,"path":"sprites/spr_exitgate/spr_exitgate.yy",},
+    {"name":"spr_exitpointer_naomifall","order":10,"path":"sprites/spr_exitpointer_naomifall/spr_exitpointer_naomifall.yy",},
     {"name":"spr_flag_pile","order":105,"path":"sprites/spr_flag_pile/spr_flag_pile.yy",},
     {"name":"spr_flag_planted","order":92,"path":"sprites/spr_flag_planted/spr_flag_planted.yy",},
     {"name":"spr_flag","order":28,"path":"sprites/spr_flag/spr_flag.yy",},

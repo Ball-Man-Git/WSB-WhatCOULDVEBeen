@@ -88,6 +88,7 @@
     {"name":"obj_lester_referee","order":3,"path":"objects/obj_lester_referee/obj_lester_referee.yy",},
     {"name":"obj_lester","order":12,"path":"objects/obj_lester/obj_lester.yy",},
     {"name":"obj_levelgate","order":4,"path":"objects/obj_levelgate/obj_levelgate.yy",},
+    {"name":"obj_newmourning","order":4,"path":"objects/obj_newmourning/obj_newmourning.yy",},
     {"name":"obj_poletree","order":3,"path":"objects/obj_poletree/obj_poletree.yy",},
     {"name":"obj_scoreHub","order":2,"path":"objects/obj_scoreHub/obj_scoreHub.yy",},
     {"name":"obj_snowman","order":2,"path":"objects/obj_snowman/obj_snowman.yy",},

@@ -3,8 +3,8 @@
   "%Name":"spr_biggiebag_dead",
   "bboxMode":0,
   "bbox_bottom":94,
-  "bbox_left":15,
-  "bbox_right":81,
+  "bbox_left":17,
+  "bbox_right":84,
   "bbox_top":13,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8c9aae66-93dd-4a76-af6e-cc0400f7865f","name":"8c9aae66-93dd-4a76-af6e-cc0400f7865f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fd8a71e6-598c-4988-b83d-8bba07f67ec0","name":"fd8a71e6-598c-4988-b83d-8bba07f67ec0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d722a124-e590-43d1-9f65-77cb889fa4e4","blendMode":0,"displayName":"default","isLocked":false,"name":"d722a124-e590-43d1-9f65-77cb889fa4e4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cebc689e-39b4-4737-9398-ab5a30e8850f","blendMode":0,"displayName":"default","isLocked":false,"name":"cebc689e-39b4-4737-9398-ab5a30e8850f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_biggiebag_dead",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8c9aae66-93dd-4a76-af6e-cc0400f7865f","path":"sprites/spr_biggiebag_dead/spr_biggiebag_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e6ae1bf9-304d-406d-9607-47179d46d40b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd8a71e6-598c-4988-b83d-8bba07f67ec0","path":"sprites/spr_biggiebag_dead/spr_biggiebag_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"329fc981-cf42-4d3d-a5a7-4e8f00bb519c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

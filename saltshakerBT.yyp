@@ -1044,6 +1044,7 @@
     {"id":{"name":"spr_metalblock","path":"sprites/spr_metalblock/spr_metalblock.yy",},},
     {"id":{"name":"spr_mildred_clothes","path":"sprites/spr_mildred_clothes/spr_mildred_clothes.yy",},},
     {"id":{"name":"spr_mildredKart","path":"sprites/spr_mildredKart/spr_mildredKart.yy",},},
+    {"id":{"name":"spr_mildrednew_gateslam","path":"sprites/spr_mildrednew_gateslam/spr_mildrednew_gateslam.yy",},},
     {"id":{"name":"spr_mildrednew_mach3","path":"sprites/spr_mildrednew_mach3/spr_mildrednew_mach3.yy",},},
     {"id":{"name":"spr_mildrednew_mach3turn","path":"sprites/spr_mildrednew_mach3turn/spr_mildrednew_mach3turn.yy",},},
     {"id":{"name":"spr_milton_backhurt","path":"sprites/spr_milton_backhurt/spr_milton_backhurt.yy",},},

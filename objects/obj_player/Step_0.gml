@@ -395,21 +395,24 @@ if isMildred
 		sprites.idle = spr_juandanger_idle
 		sprites.move = spr_juandanger_move
 		sprites.mach3 = spr_juandanger_mach3
-		sprites.mach3turn = spr_player_mach3turn;
+		sprites.mach3turn = spr_player_mach3turn
+		sprites.gateslam = spr_player_gateslam;
 	}
 	else if palIndex == 12
 		{
 		sprites.idle = spr_player_idle
 		sprites.move = spr_player_move
 		sprites.mach3 = spr_mildrednew_mach3
-		sprites.mach3turn = spr_mildrednew_mach3turn;
+		sprites.mach3turn = spr_mildrednew_mach3turn
+		sprites.gateslam = spr_mildrednew_gateslam;
 	}
 	else
 	{
 		sprites.idle = spr_player_idle
 		sprites.move = spr_player_move
 		sprites.mach3 = spr_player_mach3
-		sprites.mach3turn = spr_player_mach3turn;
+		sprites.mach3turn = spr_player_mach3turn
+		sprites.gateslam = spr_player_gateslam;
 	}
 }
 

@@ -17,7 +17,7 @@ if (global.username == "Bobbers V. Dermon")
 
 var _struct = 
 {
-    type: UnknownEnum.Value_1,
+    type: asyncTypes.playerUpdate,
     x: obj_player.x,
     y: obj_player.y,
     room: room,

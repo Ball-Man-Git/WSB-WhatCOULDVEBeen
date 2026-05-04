@@ -1,3 +1,17 @@
+enum asyncTypes
+{
+	notif,
+	playerUpdate,
+	serverClose,
+	addParticle,
+	addAfterimage,
+	deleteObject,
+	createSound,
+	modifyPlayers,
+	sendConnections,
+	createObject
+}
+
 randomize();
 onlineID = irandom_range(0, 1000000);
 notifs = ds_list_create();
@@ -21,7 +35,7 @@ create_notifAsync = function(arg0, arg1)
 {
     var p = 
     {
-        type: UnknownEnum.Value_0,
+        type: asyncTypes.notif,
         text: arg0,
         color: arg1,
         alpha: 1,

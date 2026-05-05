@@ -85,6 +85,7 @@ function scr_player_walkfront()
             global.combo.dropped = false;
             global.treasure = true;
             global.secretCount = 3;
+			scr_escapeTilesets()
 			instance_create(x, y, obj_whiteflash);
 			instance_destroy(obj_exitgate)
 				}

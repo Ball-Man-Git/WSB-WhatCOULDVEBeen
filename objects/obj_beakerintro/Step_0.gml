@@ -34,6 +34,7 @@ if (obj_player.state == -4)
             global.combo.dropped = false;
             global.treasure = true;
             global.secretCount = 3;
+			scr_escapeTilesets()
 			instance_create(x, y, obj_whiteflash);
 				}
                 shake_camera(15);

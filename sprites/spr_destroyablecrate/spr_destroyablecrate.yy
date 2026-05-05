@@ -12,15 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"47228bb3-4ee1-44c0-aca9-6c5efa121319","name":"47228bb3-4ee1-44c0-aca9-6c5efa121319","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"23b36a0e-3520-4cb6-873b-24c6657d1663","name":"23b36a0e-3520-4cb6-873b-24c6657d1663","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6d196879-fba8-4e5c-a2ca-7c299ad269c8","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6d196879-fba8-4e5c-a2ca-7c299ad269c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"dea9bfd6-5f13-4f11-8492-83d50a514446","blendMode":0,"displayName":"default","isLocked":false,"name":"dea9bfd6-5f13-4f11-8492-83d50a514446","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":false,},
+    {"$GMImageLayer":"","%Name":"b771a4b8-dac6-4c31-8991-272f35d58d8e","blendMode":0,"displayName":"default","isLocked":false,"name":"b771a4b8-dac6-4c31-8991-272f35d58d8e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_destroyablecrate",
   "nineSlice":null,
@@ -72,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47228bb3-4ee1-44c0-aca9-6c5efa121319","path":"sprites/spr_destroyablecrate/spr_destroyablecrate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d5814477-cfa8-4dfd-9dff-5715a3e8048b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23b36a0e-3520-4cb6-873b-24c6657d1663","path":"sprites/spr_destroyablecrate/spr_destroyablecrate.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92599131-f657-46a3-ac49-0a86b3e8d5ad","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

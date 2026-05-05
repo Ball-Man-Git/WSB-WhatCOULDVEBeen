@@ -234,7 +234,10 @@ _exitlevel.offsetX = obj_screensizer.displayWidth;
 array_push(options, _resume)
 array_push(options, _option)
 array_push(options, _restart)
+
+if global.level != noone
 array_push(options, _tasks)
+
 array_push(options, _exitlevel)
 timeUniform = shader_get_uniform(shd_wave, "time");
 frequencyUniform = shader_get_uniform(shd_wave, "frequency");

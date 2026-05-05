@@ -1,3 +1,6 @@
+#macro SCREEN_WIDTH 960
+#macro SCREEN_HEIGHT 540
+
 function scr_savelevel()
 {
     ini_open(global.saveFile);
@@ -241,4 +244,18 @@ function add_secrettiles(arg0)
     
     array_sort(global.secret_layers, _f);
     return true;
+}
+
+function scr_escapeTilesets()
+{
+	if global.escape.active
+	{
+		layer_change_tileset(ts_monolith, ts_monolithEscape)
+	}
+}
+
+function reset_blendmmode()
+{
+	gpu_set_blendmode_ext_sepalpha(bm_src_alpha, bm_inv_src_alpha, bm_src_alpha, bm_dest_alpha)
+	gpu_set_blendequation_sepalpha(bm_eq_add, bm_eq_max)
 }

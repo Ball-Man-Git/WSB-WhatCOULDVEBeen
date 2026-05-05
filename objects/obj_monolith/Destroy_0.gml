@@ -16,8 +16,11 @@ if (ds_list_find_index(global.saveroom, id) == -1)
         create_particleDebri(spr_slapstar, irandom_range(0, sprite_get_number(spr_slapstar)), x, y, 1, -5);
     }
     
-    instance_create(x, y, obj_goodmourning);
+	
+	var fidelity = obj_player.isMildred && obj_player.palIndex == 12
+    instance_create(x, y, !fidelity ? obj_goodmourning : obj_newmourning);
     instance_create(x, y, obj_whiteflash);
+	scr_escapeTilesets()
     global.escape.active = true;
     
     switch (global.level)

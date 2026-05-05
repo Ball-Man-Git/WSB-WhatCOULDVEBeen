@@ -1,23 +1,25 @@
-function send_data(arg0)
+function send_data(_st)
 {
-    var _buff = buffer_create(12, buffer_grow, 1);
-    buffer_seek(_buff, buffer_seek_start, 0);
-    var q = json_stringify(arg0, true);
-    buffer_write(_buff, buffer_string, q);
-    self.network_send_packetServ(_buff, buffer_tell(_buff));
-    buffer_delete(_buff);
+	var _buff = buffer_create(12, buffer_grow, 1)
+	buffer_seek(_buff, buffer_seek_start, 0)
+	var q = json_stringify(_st, true)
+	buffer_write(_buff, buffer_string, q)
+	self.network_send_packetServ(_buff, buffer_tell(_buff))
+	buffer_delete(_buff)	
 }
 
-function instance_create_online(arg0, arg1, arg2, arg3, arg4 = {})
+function instance_create_online(x, y, depth, obj, _variables = {})
 {
-    var struct = {};
-    struct.x = arg0;
-    struct.y = arg1;
-    struct.depth = arg2;
-    struct.obj = arg3;
-    struct.room = room;
-    struct.onlineID = onlineID;
-    struct.type = UnknownEnum.Value_9;
-    struct.vars = arg4;
-    send_data(struct);
+	var struct = {}
+	
+	struct.x = x
+	struct.y = y
+	struct.depth = depth
+	struct.obj = obj
+	struct.room = room
+	struct.onlineID = onlineID	
+	struct.type = asyncTypes.createObject
+	struct.vars = _variables
+	
+	send_data(struct)
 }

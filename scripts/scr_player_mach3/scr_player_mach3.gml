@@ -229,6 +229,7 @@ if (key_down2 && !grounded && isMilton)
             FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
             state = UnknownEnum.Value_7;
             shake_camera(15);
+			create_particleStatic(spr_hurteffect, x, y, 1)
             sprite_index = spr_player_mach3hitwall;
             image_index = 0;
             vsp = -6;

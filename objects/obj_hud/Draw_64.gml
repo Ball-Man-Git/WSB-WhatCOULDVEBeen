@@ -1,5 +1,20 @@
 if (global.hide_hud)
     exit;
+	
+	if global.escape.party
+{
+	discoAlpha = approach(discoAlpha, 0.05, 1 / 60 * 2)
+	var _color = discoColors[discoColor]
+	draw_set_alpha(discoAlpha)
+	gpu_set_blendmode(bm_add)
+	draw_rectangle_colour(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, _color, _color, _color, _color, false)
+	gpu_set_blendmode(bm_normal)
+	draw_set_alpha(1)
+	
+}
+else {
+	discoAlpha = 0
+}
 
 if (!ds_list_empty(collectVis))
 {

@@ -58,3 +58,9 @@ hudVisible = function()
 
 global.Srank = 22000;
 global.magician = false;
+
+discoAlpha = 0
+discoColors = [c_red, c_aqua, c_fuchsia, c_yellow, c_lime]
+discoColor = 0
+musicBeat = 0
+musicBar = 0

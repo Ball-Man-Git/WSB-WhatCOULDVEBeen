@@ -9,3 +9,4 @@ spinSpd = random_range(-50, 50);
 sizeSpd = random_range(-0.05, 0.05);
 size = 1;
 patColors = spr_playerPatColors;
+hallucination = false

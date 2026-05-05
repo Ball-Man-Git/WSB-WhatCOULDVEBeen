@@ -29,6 +29,11 @@
     "yorigin":160.0,
     "path":"art/spr_teatime.gif"
   },
+  "spr_newmourning":{
+    "xorigin":210.0,
+    "yorigin":160.0,
+    "path":"art/spr_newmourning.gif"
+  },
   "spr_pleasestandbyBackground":{
     "xorigin":0.0,
     "yorigin":0.0,

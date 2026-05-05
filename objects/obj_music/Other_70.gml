@@ -1,6 +1,8 @@
-if ((ds_map_find_value(async_load, "type") == "fmod_studio_event_description_set_callback"))
+if async_load[? "type"] == "fmod_studio_event_description_set_callback"
 {
-    global.CurrentBeat = ds_map_find_value(async_load, "beat")
+	beat = async_load[? "beat"]
+	bar = async_load[? "bar"]
+	show_debug_message(bar)
 	with obj_camera
-	event_user(0)
+		event_user(0)
 }

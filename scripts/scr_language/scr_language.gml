@@ -1,4 +1,6 @@
-global.language = "english";
+ini_open(working_directory + "options.ini");
+global.language = ini_read_real("General", "Language", "english");
+ini_close();
 global.langMapWord = ds_map_create();
 global.langMapArt = ds_map_create();
 

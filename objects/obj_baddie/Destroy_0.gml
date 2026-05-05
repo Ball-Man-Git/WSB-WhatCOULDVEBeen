@@ -23,6 +23,7 @@ if (ds_list_find_index(_saveroom, id) == -1)
 		global.escape.timer += 15
 	if object_index == obj_biggiebag
 	{
+			FMODevent_oneshot("event:/Sfx/General/Enemy/balloonsplat", x, y)
 	create_particleStatic(spr_biggiebag_splat, x, y, 1)
 	}
     
@@ -35,7 +36,4 @@ if (ds_list_find_index(_saveroom, id) == -1)
 }
 
 if object_index == obj_biggiebag
-{
-	FMODevent_oneshot("event:/Sfx/General/Enemy/balloonsplat", x, y)
 	instance_create(x, y, obj_fidelitysplat).blend = !global.hardMode ? #ffad5a : #c59fff
-}

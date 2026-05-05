@@ -804,6 +804,7 @@
     {"id":{"name":"spr_biggiebag_dead","path":"sprites/spr_biggiebag_dead/spr_biggiebag_dead.yy",},},
     {"id":{"name":"spr_biggiebag_scared","path":"sprites/spr_biggiebag_scared/spr_biggiebag_scared.yy",},},
     {"id":{"name":"spr_biggiebag_splat","path":"sprites/spr_biggiebag_splat/spr_biggiebag_splat.yy",},},
+    {"id":{"name":"spr_biggiebag_splatmask","path":"sprites/spr_biggiebag_splatmask/spr_biggiebag_splatmask.yy",},},
     {"id":{"name":"spr_biggiebag_stun","path":"sprites/spr_biggiebag_stun/spr_biggiebag_stun.yy",},},
     {"id":{"name":"spr_biggiebag_turn","path":"sprites/spr_biggiebag_turn/spr_biggiebag_turn.yy",},},
     {"id":{"name":"spr_biggiebag","path":"sprites/spr_biggiebag/spr_biggiebag.yy",},},

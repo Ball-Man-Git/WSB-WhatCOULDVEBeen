@@ -187,6 +187,7 @@
     {"name":"spr_beatbox","order":252,"path":"sprites/spr_beatbox/spr_beatbox.yy",},
     {"name":"spr_bigfont","order":21,"path":"sprites/spr_bigfont/spr_bigfont.yy",},
     {"name":"spr_biggiebag_splat","order":1,"path":"sprites/spr_biggiebag_splat/spr_biggiebag_splat.yy",},
+    {"name":"spr_biggiebag_splatmask","order":2,"path":"sprites/spr_biggiebag_splatmask/spr_biggiebag_splatmask.yy",},
     {"name":"spr_bombexplosion","order":74,"path":"sprites/spr_bombexplosion/spr_bombexplosion.yy",},
     {"name":"spr_breakdancenotes","order":56,"path":"sprites/spr_breakdancenotes/spr_breakdancenotes.yy",},
     {"name":"spr_buddy","order":15,"path":"sprites/spr_buddy/spr_buddy.yy",},

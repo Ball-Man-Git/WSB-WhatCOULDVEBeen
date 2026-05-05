@@ -9,7 +9,8 @@ for (var i = 0; i < array_length(layers); i++) {
 }
 tiles = array_reverse(tiles)
 tileSurf = surface_create(sprite_width, sprite_height);
-image_speed = 0.35
+image_speed = 0
+image_index = irandom_range(0, image_number);
 image_angle = irandom_range(0, 360)
 depth = 80
 blend = #ff8986

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_biggiebag_splat",
-    "path":"sprites/spr_biggiebag_splat/spr_biggiebag_splat.yy",
+    "name":"spr_biggiebag_splatmask",
+    "path":"sprites/spr_biggiebag_splatmask/spr_biggiebag_splatmask.yy",
   },
   "spriteMaskId":null,
   "visible":true,

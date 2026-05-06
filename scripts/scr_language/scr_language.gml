@@ -1,7 +1,7 @@
 ini_open(working_directory + "options.ini");
-global.language = ini_read_real("General", "Language", "english");
+global.language = "english"
 if os_get_language() == "ar"
-global.language == "arabic"
+global.language = "arabic"
 ini_close();
 global.langMapWord = ds_map_create();
 global.langMapArt = ds_map_create();

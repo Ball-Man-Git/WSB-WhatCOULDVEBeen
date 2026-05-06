@@ -94,7 +94,7 @@ global.PlayerCharacters[2] = {
     patColors: spr_erniePatColors,
     playerPal: spr_erniePal,
     patternSpr: spr_erniePat,
-    usesPlaceholderMusic: true
+    usesPlaceholderMusic: false
 };
 
 character = UnknownEnum.Value_0;

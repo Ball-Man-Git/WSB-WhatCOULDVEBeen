@@ -6,8 +6,8 @@ array_push(songs, new add_song("event:/Music/Soundtest/shellcity", "Beggars Cant
 array_push(songs, new add_song("event:/Music/Soundtest/fruitcup", "We Are People of The Universe - Mildrux, Varies", 112));
 array_push(songs, new add_song("event:/Music/Soundtest/escape", "Good Mourning! - Internetty Spaghetti, Mildrux", 160));
 array_push(songs, new add_song("event:/Music/Soundtest/lap", "Raise The Roof (Feat. Peebuttnudder) - Mildrux, Varies", 195));
-array_push(songs, new add_song("event:/Music/Soundtest/miltontheme", "The Mole from Underground - Varies, Mildrux", 94));
-array_push(songs, new add_song("event:/Music/Soundtest/miltonwayback", "Through The Ashes - Varies", 104));
-array_push(songs, new add_song("event:/Music/Soundtest/miltonescape", "YOOHOO! DEMOLITION CREW! - Internetty Spaghetti, Ball Man", 160));
-array_push(songs, new add_song("event:/Music/Soundtest/lap", "Party Crashers (MOVE ON UP) - Ball Man, Scotty, Varies (i think)", 196));
+array_push(songs, new add_song("event:/Music/Soundtest/miltontheme", "The Mole from Underground - Varies, Mildrux", 94, true));
+array_push(songs, new add_song("event:/Music/Soundtest/miltonwayback", "Through The Ashes - Varies", 104, true));
+array_push(songs, new add_song("event:/Music/Soundtest/miltonescape", "YOOHOO! DEMOLITION CREW! - Internetty Spaghetti, Ball Man", 160, true));
+array_push(songs, new add_song("event:/Music/Soundtest/lap", "Party Crashers (MOVE ON UP) - Ball Man, Scotty, Varies (i think)", 196, true));
 array_push(songs, new add_song("event:/Music/Soundtest/credits", "Our Vacations End - Mildrux", 103));

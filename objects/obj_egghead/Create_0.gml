@@ -7,3 +7,4 @@ spr_dead = spr_egghead_dead;
 chargeBuffer = 0;
 hitbox = false;
 hitboxInst = -4;
+chargeSnd = FMODcreate_event("event:/Sfx/General/Enemy/Egghead/charge")

@@ -1,0 +1,5 @@
+// Inherit the parent event
+event_inherited();
+fmod_studio_event_instance_stop(chargeSnd, UnknownEnum.Value_1);
+fmod_studio_event_instance_release(chargeSnd);
+

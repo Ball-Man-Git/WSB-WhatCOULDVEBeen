@@ -5,4 +5,6 @@ if async_load[? "type"] == "fmod_studio_event_description_set_callback"
 	show_debug_message(bar)
 	with obj_camera
 		event_user(0)
+	with obj_hud
+		event_user(0)
 }

@@ -53,6 +53,7 @@ if (hitstun.is == false)
             {
                 if (sprite_index != spr_egghead_charge)
                 {
+					FMODevent_oneshot("event:/Sfx/General/Enemy/Egghead/spot", x, y)
                     image_index = 0;
                     sprite_index = spr_egghead_chargestart;
                     

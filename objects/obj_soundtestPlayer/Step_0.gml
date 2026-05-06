@@ -26,4 +26,7 @@ if (place_meeting(x, y, obj_player))
 }
 
 if (songInst != -4)
+{
+	fmod_studio_event_instance_set_callback(songInst, UnknownEnum.Value_4096)
     fmod_studio_event_instance_set_paused(songInst, !playing);
+}

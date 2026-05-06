@@ -422,6 +422,7 @@
     {"id":{"name":"obj_slope","path":"objects/obj_slope/obj_slope.yy",},},
     {"id":{"name":"obj_slushiesquire","path":"objects/obj_slushiesquire/obj_slushiesquire.yy",},},
     {"id":{"name":"obj_slushiestraw","path":"objects/obj_slushiestraw/obj_slushiestraw.yy",},},
+    {"id":{"name":"obj_smallDialog","path":"objects/obj_smallDialog/obj_smallDialog.yy",},},
     {"id":{"name":"obj_smalltext","path":"objects/obj_smalltext/obj_smalltext.yy",},},
     {"id":{"name":"obj_snowcheap","path":"objects/obj_snowcheap/obj_snowcheap.yy",},},
     {"id":{"name":"obj_snowman_throw","path":"objects/obj_snowman_throw/obj_snowman_throw.yy",},},

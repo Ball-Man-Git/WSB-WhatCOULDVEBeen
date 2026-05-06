@@ -92,6 +92,7 @@
     {"name":"obj_newmourning","order":4,"path":"objects/obj_newmourning/obj_newmourning.yy",},
     {"name":"obj_poletree","order":3,"path":"objects/obj_poletree/obj_poletree.yy",},
     {"name":"obj_scoreHub","order":2,"path":"objects/obj_scoreHub/obj_scoreHub.yy",},
+    {"name":"obj_smallDialog","order":3,"path":"objects/obj_smallDialog/obj_smallDialog.yy",},
     {"name":"obj_snowman","order":2,"path":"objects/obj_snowman/obj_snowman.yy",},
     {"name":"obj_soundtestKing_Milton","order":15,"path":"objects/obj_soundtestKing_Milton/obj_soundtestKing_Milton.yy",},
     {"name":"obj_soundtestKing","order":14,"path":"objects/obj_soundtestKing/obj_soundtestKing.yy",},

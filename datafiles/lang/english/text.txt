@@ -11,7 +11,7 @@
   "option_audio_sfx": "SFX",
   "option_audio_ambiance": "AMBIANCE",
   "option_audio_unfocus": "UNFOCUS MUTE",
-  "option_ampedup_0": "THIS WON'T DO ANYTHING FOR NOW",
+  "option_ampedup_0": "WSB: AMPED UP",
   "option_ampedup_1": "MILTON: AMPED UP",
   "option_ampedup_2": "ERNIE: AMPED UP",
 

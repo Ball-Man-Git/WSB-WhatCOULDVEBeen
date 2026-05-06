@@ -1,6 +1,8 @@
 global.language = "english"
 if os_get_language() == "ar"
 global.language = "arabic"
+if irandom_range(1, 50) == 50
+global.language = "morse"
 global.langMapWord = ds_map_create();
 global.langMapArt = ds_map_create();
 

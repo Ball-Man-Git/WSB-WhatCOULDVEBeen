@@ -474,6 +474,115 @@ function draw_textEX(arg0, arg1, arg2, arg3 = string_width(arg2))
     return false;
 }
 
+function draw_text_oyh(_x, _y, _text, _w = string_width(_text), _typewriter = undefined)
+{
+	var exists = ds_map_exists(global.textFunc, _text)
+	if !ds_map_exists(global.textCache, _text)
+	{
+		ds_map_add(global.textCache, _text, parse_textEX(_text, _w))
+		show_debug_message($"Added {_text} to cache")
+	}
+	
+	var func = function(_x, _y, _text, w = string_width(_text), _typewriter)
+	{
+		var _stringArr = ds_map_find_value(global.textCache, _text)[0]
+		var _stringArrLength = array_length(_stringArr)
+		if is_undefined(_typewriter)
+			_typewriter = _stringArrLength
+		var _size = global.textSize
+		
+		var _lines = ds_map_find_value(global.textCache, _text)[1]
+		var _pHAlign = draw_get_halign()
+		var _pVAlign = draw_get_valign()
+		var _pFont = draw_get_font()
+		var _pColor = draw_get_color()
+		draw_set_halign(fa_left)
+		draw_set_valign(fa_top)
+	
+		for (var i = 0; i < _typewriter; i++)
+		{
+			var _lDat = _stringArr[i]
+			var _lType = _lDat.specialType
+			var _XX = _x + (_lDat.x * _size)
+			var _YY = _y + (_lDat.y * _size)
+			switch _pHAlign
+			{
+				case fa_center:
+					_lDat.x = _lDat.ogx - _lines[_lDat.line].w / 2
+				break
+				case fa_right:
+					_lDat.x = _lDat.ogx - _lines[_lDat.line].w 
+				break
+			}
+			switch _pVAlign
+			{
+				case fa_middle:
+					_lDat.y = _lDat.ogy / 2 * _size
+				break
+				case fa_bottom:
+					_lDat.y = _lDat.ogy - _lDat.ogy * _size
+				break
+			}
+			switch _lDat.effect
+			{
+				default:
+					_XX = _x + _lDat.x * _size
+					_YY = _y + _lDat.y * _size
+				break
+				case "shake":
+					_XX = _x + _lDat.x * _size + irandom_range(-1, 1)
+					_YY = _y + _lDat.y * _size + irandom_range(-1, 1)
+				break
+				case "wave":
+					_XX = _x + _lDat.x * _size
+					_YY = _y + _lDat.y * _size + irandom_range(-1, 1)
+				break
+			}
+			_XX = floor(_XX)
+			_YY = floor(_YY)
+			switch _lType
+			{
+				case noone:
+					draw_text_transformed(_XX, _YY, _lDat.letter, _size, _size, 0)
+				break
+				case "Bacontu":
+					draw_sprite(spr_ico, 0, _XX - 2, _YY - 7)
+					break
+				case "controlKey":
+					if _lDat.keyDet.isKey
+					{
+						draw_sprite(_lDat.keyDet.sprite, _lDat.keyDet.value, _XX - 8, _YY + 2)
+					}
+					else
+					{
+						draw_sprite_ext(spr_tutorialkey, 0, _XX - 8, _YY + 2, _size, _size, 0, c_white, draw_get_alpha())
+						draw_set_font(global.npcfont)
+						draw_set_colour(c_black)
+						draw_text_transformed_colour(_XX, _YY - 6, _lDat.keyDet.value, _size, _size, 0, c_black, c_black, c_black, c_black, draw_get_alpha())
+						draw_set_font(_pFont)
+						draw_set_colour(_pColor)
+					}
+				break
+			}
+		}
+		draw_set_halign(_pHAlign)
+		draw_set_valign(_pVAlign)
+	}
+	
+	if !exists
+	{
+		func(_x, _y, _text, _w = string_width(_text), _typewriter)
+		ds_map_add(global.textFunc, _text, func)
+	}
+	else
+	{
+		var draw  = ds_map_find_value(global.textFunc, _text)
+		draw(_x, _y, _text, _w = string_width(_text), _typewriter)
+	}
+	
+	return false
+}
+
 function text_clear(arg0 = "")
 {
     if (arg0 != "")

@@ -38,4 +38,27 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     global.combo.amt += 1;
     obj_player.supertaunt++;
     global.combo.timer = 60;
+	
+				switch room
+			{
+				case mangrove_11:
+					var _dialog = instance_create(x, y - 32, obj_smallDialog)
+					with _dialog
+					{
+						target = obj_player
+						addDialog(dialogChars.mildred, "Oh no... [shake]RUN!!!")
+						draw_set_font(global.npcfont)
+						draw_set_halign(fa_center)
+						global.textSize = 0.8
+						draw_text_oyh(x, y, dialogStuff[currentDialog].text, 800)
+						global.textSize = 1
+						var _stringArr = ds_map_find_value(global.textCache, dialogStuff[currentDialog].text)[0]
+						var _stringArrLength = array_length(_stringArr)
+						textLength = _stringArrLength
+						textLetter = 0
+						active = true
+						alarm[0] = 45
+					}
+					break
+			}
 }

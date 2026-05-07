@@ -19,6 +19,9 @@ tutorial = global.level == "tutorial";
 
 if (tutorial && global.level_timer < 60)
 {
+	if obj_player.isMildred
+	unlock_palette("mintwears", 10)
+	
     ini_open(global.saveFile);
     if (ini_read_real("General", "Lap", false) == false)
     {

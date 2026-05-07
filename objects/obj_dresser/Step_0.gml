@@ -25,7 +25,7 @@ if (place_meeting(x, y, obj_player))
             FMODevent_oneshot("event:/Sfx/General/dresser", x, y);
 			            ini_open(global.saveFile);
             ini_write_real("Game", "Palette", palIndex);
-			ini_write_real("Game", "Pattern", global.patternSpr);
+			ini_write_string("Game", "Pattern", sprite_get_name(global.patternSpr))
             ini_close();
 			obj_savesystem.saveiconTimer = 60;
         }

@@ -26,7 +26,7 @@ ini_open(global.saveFile);
 if obj_player.isMildred == true and obj_player.isErnie == false and obj_player.isMilton == false
 {
 addPalette("Retail Wears", "Unlocked by being Tu", 1, true);
-addPalette("Mint Wears", "A Housewarming Gift", 10, true);
+addPalette("Mint Wears", "A Housewarming Gift", 10, ini_read_real("Palette", "mintwears", false));
 addPalette("Red Wears", "Unlocked by ???", 2, true);
 addPalette("Orange Wears", "Unlocked by ???", 3, true);
 addPalette("Blue Wears", "Unlocked by ???", 4, true);
@@ -35,9 +35,10 @@ addPalette("Teal Wears", "Unlocked by ???", 6, true);
 addPalette("Purple Wears", "Unlocked by ???", 7, true);
 addPalette("Pristine Wears", "Unlocked by ???", 8, true);
 addPalette("Darker Wears", "Unlocked by ???", 9, true);
+addPalette("Magic Wears", "Unlocked by ???", 1, true, spr_pattern_genie)
 addPalette("Dangerous Wears", "Unlocked by ???", 11, true);
 addPalette("Racing Wears", "Unlocked by ???", 0, true);
-addPalette("Fidelity Wears", "Unlocked by being undead", 12, true, spr_pattern_newmildred);
+addPalette("Fidelity Wears", "Unlocked by being undead", 12, ini_read_real("Palette", "fidelity", false), spr_pattern_newmildred);
 }
 if obj_player.isMilton == true and obj_player.isErnie == false and obj_player.isMildred == false
 {

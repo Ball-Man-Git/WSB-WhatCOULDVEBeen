@@ -28,6 +28,7 @@ with (obj_player)
     state = UnknownEnum.Value_20;
     ini_open(global.saveFile);
     palIndex = ini_read_real("Game", "Palette", 1);
+	global.patternSpr = asset_get_index(ini_read_string("Game", "Pattern", "spr_playerPat_threads"))
     ini_close();
 }
 

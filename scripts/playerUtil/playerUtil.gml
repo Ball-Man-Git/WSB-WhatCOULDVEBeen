@@ -166,6 +166,9 @@ function generalReset()
         bag: false,
         orange: false
     };
+	
+		with obj_achievementController
+		reset_level_stats()
 }
 
 function playerSounds()

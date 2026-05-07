@@ -4,7 +4,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     
     with (instance_create(x, y, obj_baddiedead))
     {
-        sprite_index = other.sprite_index;
+        sprite_index = spr_monolith_antDestroyablesCentered;
         image_speed = 0;
         image_index = other.image_index;
     }

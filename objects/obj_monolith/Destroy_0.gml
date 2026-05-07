@@ -48,6 +48,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 		global.patternSpr = spr_pattern_newmildred
 		}
 	}
+	}
 	scr_escapeTilesets()
     global.escape.active = true;
     
@@ -95,4 +96,5 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 					}
 					break
 			}
+	}
 }

@@ -4,3 +4,5 @@ if obj_player.isMildred && obj_player.palIndex == 12
 isfidelitymonolith = true
 if isfidelitymonolith
 sprite_index = spr_monolithnew_idle
+else
+sprite_index = spr_mugmonolith

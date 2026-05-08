@@ -14,3 +14,8 @@ if dancing
 	if animation_end()
 		image_index = image_number - 1
 }
+
+if obj_soundtestPlayer.isNaomi
+image_speed = 0.25
+else
+image_speed = 0.1

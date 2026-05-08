@@ -10,4 +10,5 @@ array_push(songs, new add_song("event:/Music/Soundtest/miltontheme", "The Mole f
 array_push(songs, new add_song("event:/Music/Soundtest/miltonwayback", "Through The Ashes - Varies", 104, true));
 array_push(songs, new add_song("event:/Music/Soundtest/miltonescape", "YOOHOO! DEMOLITION CREW! - Internetty Spaghetti, Ball Man", 160, true));
 array_push(songs, new add_song("event:/Music/Soundtest/lap", "Party Crashers (MOVE ON UP) - Ball Man, Scotty, Varies (i think)", 196, true));
+array_push(songs, new add_song("event:/Music/Soundtest/juanlastchance", "JUAN LAST CHANCE - Ball Man", 190, false, false, false, true));
 array_push(songs, new add_song("event:/Music/Soundtest/credits", "Our Vacations End - Mildrux", 103));

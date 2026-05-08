@@ -46,8 +46,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Harper",
-    "path":"folders/Sprites/Soundtest Stuff/Harper.yy",
+    "name":"Naomi",
+    "path":"folders/Sprites/Soundtest Stuff/Harper/Naomi.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

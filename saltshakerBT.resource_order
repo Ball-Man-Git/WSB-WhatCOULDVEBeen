@@ -245,6 +245,7 @@
     {"name":"spr_disc","order":121,"path":"sprites/spr_disc/spr_disc.yy",},
     {"name":"spr_disoballDebri","order":151,"path":"sprites/spr_disoballDebri/spr_disoballDebri.yy",},
     {"name":"spr_divingboard","order":1,"path":"sprites/spr_divingboard/spr_divingboard.yy",},
+    {"name":"spr_door_temple","order":379,"path":"sprites/spr_door_temple/spr_door_temple.yy",},
     {"name":"spr_door","order":25,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_doorkey_open","order":101,"path":"sprites/spr_doorkey_open/spr_doorkey_open.yy",},
     {"name":"spr_doorkey","order":209,"path":"sprites/spr_doorkey/spr_doorkey.yy",},

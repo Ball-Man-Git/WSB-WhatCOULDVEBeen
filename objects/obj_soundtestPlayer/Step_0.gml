@@ -25,6 +25,10 @@ if (place_meeting(x, y, obj_player))
     }
 }
 isMilton = songs[currentSong].milton == true && playing
+isNaomi = songs[currentSong].naomi == true && playing
+isErnie = songs[currentSong].ernie == true && playing
+isJuan = songs[currentSong].juan == true && playing
+isFidelity = songs[currentSong].fidelity == true && playing
 if (songInst != -4)
 {
 	fmod_studio_event_instance_set_callback(songInst, UnknownEnum.Value_4096)

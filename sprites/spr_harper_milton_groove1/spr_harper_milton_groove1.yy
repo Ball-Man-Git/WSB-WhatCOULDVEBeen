@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Harper",
-    "path":"folders/Sprites/Soundtest Stuff/Harper.yy",
+    "name":"Milton",
+    "path":"folders/Sprites/Soundtest Stuff/Harper/Milton.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

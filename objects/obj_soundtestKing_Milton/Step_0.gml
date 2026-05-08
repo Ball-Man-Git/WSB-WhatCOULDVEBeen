@@ -4,7 +4,7 @@ else {
 	x = lerp(x, xstart, 0.1)
 }
 y = lerp(y, ystart, 0.1)
-if obj_soundtestPlayer.isMilton
+if obj_soundtestPlayer.isMilton || obj_soundtestPlayer.isErnie || obj_soundtestPlayer.isNaomi || obj_soundtestPlayer.isJuan
 	xstart = 704
 else
 	xstart = 1440

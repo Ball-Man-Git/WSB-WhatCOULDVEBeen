@@ -30,7 +30,7 @@
   ],
   "name":"spr_milton_jump",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Milton Sprites",
     "path":"folders/Sprites/Milton Sprites.yy",
@@ -106,7 +106,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":50,
-    "yorigin":70,
+    "yorigin":60,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

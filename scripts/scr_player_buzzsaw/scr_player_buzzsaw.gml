@@ -34,7 +34,7 @@ function scr_player_buzzsaw()
         
         movespeed = 9;
         xscale *= -1;
-        create_particleStatic(spr_bangeffect, x, y, 1, 1);
+        create_particleStatic(spr_buzzsaw_bump, x, y, 1, 1);
         FMODevent_oneshot("event:/Sfx/Player/airbump", x, y);
         image_index = 0;
         sprite_index = spr_player_buzzsawBump;

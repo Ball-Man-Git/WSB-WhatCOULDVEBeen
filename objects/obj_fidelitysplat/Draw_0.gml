@@ -12,8 +12,8 @@ surface_set_target(tileSurf);
     	draw_tilemap(tiles[i], -x + p_x, -y + p_x);
 	shader_reset();
 	gpu_set_blendmode(bm_subtract);
-	draw_sprite_ext(sprite_index, image_index, p_x, p_y, xscale, yscale, 0, c_white, 1);
+	draw_sprite_ext(sprite_index, image_index, p_x, p_y, xscale, yscale, image_angle, c_white, 1);
 	reset_blendmmode()
 
 surface_reset_target();
-draw_surface_ext(tileSurf, x - p_x, y - p_y, 1, 1, 0, blend, 1);
+draw_surface_ext(tileSurf, x - p_x, y - p_y, 1, 1, image_angle, blend, 1);

@@ -522,6 +522,8 @@ function get_characterspr(arg0)
 			st.player.crouchslip = spr_player_crouchslip
 			st.player.panicidle = spr_player_panic
 			st.player.panicwalk = spr_player_panicwalk
+			st.player.groundpound = spr_player_groundpound
+			st.player.groundpoundland = spr_player_groundpoundland
             st.tv.idle = spr_tv_idle;
             st.tv.mach3 = spr_tv_mach;
             st.tv.crazyrun = spr_tv_crazyrun;
@@ -560,6 +562,8 @@ function get_characterspr(arg0)
 			st.player.crouchslip = spr_milton_crouchslip
 			st.player.panicidle = spr_player_panic
 			st.player.panicwalk = spr_player_panicwalk
+			st.player.groundpound = spr_milton_groundpound
+			st.player.groundpoundland = spr_milton_groundpoundland
             st.tv.idle = spr_tv_idleT;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
@@ -598,6 +602,8 @@ function get_characterspr(arg0)
 			st.player.crouchslip = spr_player_crouchslip
 			st.player.panicidle = spr_player_panic
 			st.player.panicwalk = spr_player_panicwalk
+			st.player.groundpound = spr_player_groundpound
+			st.player.groundpoundland = spr_player_groundpoundland
             st.tv.idle = spr_tv_idleE;
             st.tv.mach3 = spr_tv_machE;
             st.tv.crazyrun = spr_tv_crazyrun;

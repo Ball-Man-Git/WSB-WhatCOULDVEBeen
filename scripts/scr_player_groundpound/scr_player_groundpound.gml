@@ -100,9 +100,31 @@ function scr_player_groundpoundstart()
 {
     sprite_index = sprites.divebombland;
 }
+			else if sprite_index == spr_player_piledriver
+			{
+                sprite_index = spr_player_piledriverend;
+                
+                if (instance_exists(enemyID) && enemyID.state == UnknownEnum.Value_22)
+                {
+                    FMODevent_oneshot("event:/Sfx/Player/punch", x, y);
+                    
+                    repeat (8)
+                    {
+                        create_particleDebri(spr_baddie_gibs, irandom_range(0, sprite_get_number(spr_baddie_gibs)), x, y, 1, -5);
+                        create_particleDebri(spr_slapstar, irandom_range(0, sprite_get_number(spr_slapstar)), x, y, 1, -5);
+                    }
+                    
+                    create_particleStatic(spr_kungfueffect, x, y, 1, 2);
+                    
+                    with (enemyID)
+                        instance_destroy();
+                    
+                    enemyID = -4;
+                }
+            }
             else
             {
-                sprite_index = spr_player_groundpoundland;
+                sprite_index = sprites.groundpoundland;
             }
             
             image_index = 0;
@@ -155,7 +177,7 @@ function scr_player_groundpound()
     
 
     if (isMilton && sprite_index == spr_milton_diveprep && animation_end())
-        sprite_index = spr_milton_dive; 
+        sprite_index = sprites.groundpound; 
 
     if (sprite_index == spr_player_groundpoundstart && animation_end())
         sprite_index = spr_player_groundpound;
@@ -179,7 +201,7 @@ function scr_player_groundpound()
             with (_baddie)
             {
                 instance_destroy(); 
-                var _bang = asset_get_index("spr_bang_effect");
+                var _bang = asset_get_index("spr_bangeffect");
                 if (_bang != -1) create_particleStatic(_bang, x, y, 1, 1);
             }
             shake_camera(3, 5);
@@ -286,7 +308,7 @@ function scr_player_groundpound()
                 image_index = 0;
                 
                 if (sprite_index == sprites.divebomb) sprite_index = sprites.divebombland;
-                else sprite_index = spr_player_groundpoundland;
+                else sprite_index = sprites.groundpoundland;
 
                 if (!isMilton) shake_camera(freefallsmash >= 10 ? 25 : 10);
                 FMODevent_oneshot("event:/Sfx/Player/slam", x, y);

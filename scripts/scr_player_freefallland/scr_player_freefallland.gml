@@ -14,7 +14,7 @@ function scr_player_freefallland()
             vsp = 2;
         }
         
-        if (sprite_index == spr_player_groundpoundland || sprite_index == sprites.divebombland)
+        if (sprite_index == sprites.groundpoundland || sprite_index == sprites.divebombland)
         {
             state = UnknownEnum.Value_0;
             image_index = 0;

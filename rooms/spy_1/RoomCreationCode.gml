@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? Ten Thousand Leagues Under the Sea";
+global.gameframe_caption_text = "What Could've Been: Ten Thousand Leagues Under the Sea";

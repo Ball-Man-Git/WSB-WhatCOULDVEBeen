@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"hotel_hipnatuesehall",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/hotel_hipnatuesehall/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,

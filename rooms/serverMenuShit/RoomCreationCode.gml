@@ -1,0 +1,1 @@
+global.gameframe_caption_text = "What Could've Been: Best Friends Forever!";

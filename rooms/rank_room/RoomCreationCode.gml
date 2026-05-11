@@ -1,1 +1,1 @@
-global.gameframe_caption_text = "What's Shakin, Bacon? My Report Card.";
+global.gameframe_caption_text = "What Could've Been: My Report Card.";

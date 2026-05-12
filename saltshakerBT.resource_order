@@ -150,7 +150,6 @@
     {"name":"bg_house_front","order":1,"path":"sprites/bg_house_front/bg_house_front.yy",},
     {"name":"bg_hubCorridor","order":1,"path":"sprites/bg_hubCorridor/bg_hubCorridor.yy",},
     {"name":"bg_hubLobby","order":2,"path":"sprites/bg_hubLobby/bg_hubLobby.yy",},
-    {"name":"bg_hubMain","order":4,"path":"sprites/bg_hubMain/bg_hubMain.yy",},
     {"name":"bg_hubShop","order":3,"path":"sprites/bg_hubShop/bg_hubShop.yy",},
     {"name":"bg_milkshek","order":286,"path":"sprites/bg_milkshek/bg_milkshek.yy",},
     {"name":"bg_outside1","order":5,"path":"sprites/bg_outside1/bg_outside1.yy",},

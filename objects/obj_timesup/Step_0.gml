@@ -12,6 +12,8 @@ with (obj_player)
         {
             hsp = 4;
             vsp = -10;
+			FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
+			shake_camera(15);
             sprite_index = choose(spr_player_hurt, sprites.backhurt)
         }
     }

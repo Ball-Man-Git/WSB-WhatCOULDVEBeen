@@ -46,7 +46,8 @@ if (hitstun.is == false)
 		}
 	}
 }
-else if (hitstun.time >= 0)
+
+	if (hitstun.time >= 0)
 {
     image_speed = 0;
     x = hitstun.x + irandom_range(-5, 5);

@@ -38,7 +38,10 @@ function scr_player_superjump()
                
         if (isMilton) {
           
+		  if sprite_index != spr_player_spinout
             verticalMovespeed = approach(verticalMovespeed, 0, 0.45); 
+			else
+			verticalMovespeed -= 0.1;
             
            
             if (verticalMovespeed >= 0) {

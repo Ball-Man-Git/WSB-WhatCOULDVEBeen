@@ -44,7 +44,13 @@ function scr_player_jump()
         sprite_index = sprites.fall;
     }
 	
-	    if (animation_end() && sprite_index == spr_ernie_groundpoundjump)
+	if (animation_end() && sprite_index == spr_ernie_groundpoundjump)
+    {
+        image_index = 0;
+        sprite_index = sprites.fall;
+    }
+	
+		if (animation_end() && sprite_index == spr_player_piledrivergetup)
     {
         image_index = 0;
         sprite_index = sprites.fall;

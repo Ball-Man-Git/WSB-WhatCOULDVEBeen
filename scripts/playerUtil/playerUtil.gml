@@ -530,6 +530,7 @@ function get_characterspr(arg0)
 			st.tv.mach3backup = spr_tv_mach;
             st.tv.crazyrunbackup = spr_tv_crazyrun;
 			st.tv.collect = spr_tv_happy
+			st.tv.combo = spr_tv_combo
             break;
         
         case UnknownEnum.Value_1:
@@ -564,12 +565,13 @@ function get_characterspr(arg0)
 			st.player.panicwalk = spr_player_panicwalk
 			st.player.groundpound = spr_milton_groundpound
 			st.player.groundpoundland = spr_milton_groundpoundland
-            st.tv.idle = spr_tv_idleT;
+            st.tv.idle = spr_tv_idleTNEW;
             st.tv.mach3 = spr_tv_machT;
             st.tv.crazyrun = spr_tv_crazyrunT;
 			st.tv.mach3backup = spr_tv_machT;
             st.tv.crazyrunbackup = spr_tv_crazyrunT;
 			st.tv.collect = spr_tv_happyT
+			st.tv.combo = spr_tv_comboT
             break;
 			
 			        case UnknownEnum.Value_2:
@@ -610,6 +612,7 @@ function get_characterspr(arg0)
 			st.tv.mach3backup = spr_tv_machE;
             st.tv.crazyrunbackup = spr_tv_crazyrunNEW;
 			st.tv.collect = spr_tv_happyE
+			st.tv.combo = spr_tv_angry
             break;
     }
     

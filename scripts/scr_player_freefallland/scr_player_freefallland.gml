@@ -24,9 +24,19 @@ function scr_player_freefallland()
         if (sprite_index == spr_player_piledriverend)
         {
             state = UnknownEnum.Value_2;
-            vsp = -8;
+            vsp = -15;
+			jumpstop = false
             image_index = 0;
-            sprite_index = sprites.fall;
+            sprite_index = spr_player_piledrivergetup
         }
+		
+					if key_attack && isMilton
+			{
+				        flash = true;
+        state = UnknownEnum.Value_4;
+				movespeed = 13
+				image_index = 0;
+				sprite_index = spr_milton_groundpoundrun
+			}
     }
 }

@@ -1279,6 +1279,7 @@
     {"id":{"name":"spr_player_party","path":"sprites/spr_player_party/spr_player_party.yy",},},
     {"id":{"name":"spr_player_piledriver","path":"sprites/spr_player_piledriver/spr_player_piledriver.yy",},},
     {"id":{"name":"spr_player_piledriverend","path":"sprites/spr_player_piledriverend/spr_player_piledriverend.yy",},},
+    {"id":{"name":"spr_player_piledrivergetup","path":"sprites/spr_player_piledrivergetup/spr_player_piledrivergetup.yy",},},
     {"id":{"name":"spr_player_rollgetup","path":"sprites/spr_player_rollgetup/spr_player_rollgetup.yy",},},
     {"id":{"name":"spr_player_rolling","path":"sprites/spr_player_rolling/spr_player_rolling.yy",},},
     {"id":{"name":"spr_player_rollstart","path":"sprites/spr_player_rollstart/spr_player_rollstart.yy",},},

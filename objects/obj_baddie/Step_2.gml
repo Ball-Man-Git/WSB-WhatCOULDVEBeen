@@ -142,6 +142,14 @@ with (obj_player)
                 sprite_index = spr_stun;
                 state = UnknownEnum.Value_22;
             }
+			
+						if key_up
+			{
+				vsp = -14
+				sprite_index = spr_player_piledriver
+				image_index = 0
+				state = UnknownEnum.Value_18
+			}
 			}
         }
         

@@ -306,11 +306,32 @@ function scr_player_groundpound()
                 vsp = 0;
                 hsp = 0;
                 image_index = 0;
-                
-                if (sprite_index == sprites.divebomb) sprite_index = sprites.divebombland;
-                else sprite_index = sprites.groundpoundland;
+                if sprite_index == spr_player_piledriver
+			{
+				sprite_index = spr_player_piledriverend
+				if instance_exists(enemyID) && enemyID.state == UnknownEnum.Value_22
+				{
+					FMODevent_oneshot("event:/Sfx/Player/punch", x, y)
+					repeat (8)
+					{
+						create_particleDebri(spr_baddie_gibs, irandom_range(0, sprite_get_number(spr_baddie_gibs)), x, y, 1, -5)
+						create_particleDebri(spr_slapstar, irandom_range(0, sprite_get_number(spr_slapstar)), x, y, 1, -5)
+					}
+					create_particleStatic(spr_kungfueffect, x, y, 1, 2)
+					with enemyID
+					{
+						instance_destroy()
+					}
+					enemyID = -4
+				}
+			}
+                else if (sprite_index == sprites.divebomb) 
+				sprite_index = sprites.divebombland;
+                else 
+				sprite_index = sprites.groundpoundland;
 
-                if (!isMilton) shake_camera(freefallsmash >= 10 ? 25 : 10);
+                if (!isMilton) 
+				shake_camera(freefallsmash >= 10 ? 25 : 10);
                 FMODevent_oneshot("event:/Sfx/Player/slam", x, y);
                 create_particleStatic(spr_groundpoundeffect, x, y, 1, -2);
             }

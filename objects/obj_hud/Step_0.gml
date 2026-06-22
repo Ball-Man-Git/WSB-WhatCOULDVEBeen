@@ -41,7 +41,7 @@ with (tv)
         _idleSprite = spr_tv_secret;
     
     if (global.combo.amt >= 15 && !isSecret)
-        _idleSprite = spr_tv_combo;
+        _idleSprite = sprites.combo;
 		
 	if (global.combo.amt >= 50 && !isSecret)
         _idleSprite = spr_tv_angry;
@@ -122,7 +122,7 @@ with (tv)
                 case spr_tv_secret:
                 case spr_tv_escape:
                 case sprites.idle:
-                case spr_tv_combo:
+                case sprites.combo:
                 case spr_tv_ski:
 				case spr_tv_snowball:
 				case spr_tv_party:

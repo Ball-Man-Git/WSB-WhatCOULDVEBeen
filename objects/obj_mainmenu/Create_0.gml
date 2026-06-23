@@ -121,3 +121,12 @@ corner_alpha = 1;
 
 corner_x = obj_screensizer.displayWidth - 80;
 corner_y = obj_screensizer.displayHeight - 80;
+
+byebyeIndex = 0
+quitText = choose(
+	"ARE YOU SURE YOU WANT TO QUIT?",
+	"DONT LEAVE ME! IM SORRY!",
+	"YOULL BE BACK, RIGHT?",
+	"PLEASE DONT LEAAVE..",
+	"I LOVE YOU THOUGH!",
+	"DONT QUIT PLEASE!")

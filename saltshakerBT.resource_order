@@ -437,6 +437,7 @@
     {"name":"spr_player_parry3","order":2,"path":"sprites/spr_player_parry3/spr_player_parry3.yy",},
     {"name":"spr_player_party","order":3,"path":"sprites/spr_player_party/spr_player_party.yy",},
     {"name":"spr_player_piledrivergetup","order":5,"path":"sprites/spr_player_piledrivergetup/spr_player_piledrivergetup.yy",},
+    {"name":"spr_player_supertaunt4","order":6,"path":"sprites/spr_player_supertaunt4/spr_player_supertaunt4.yy",},
     {"name":"spr_playerN_knightdoublejump","order":57,"path":"sprites/spr_playerN_knightdoublejump/spr_playerN_knightdoublejump.yy",},
     {"name":"spr_playerN_knightidle","order":300,"path":"sprites/spr_playerN_knightidle/spr_playerN_knightidle.yy",},
     {"name":"spr_playerN_knightmove","order":220,"path":"sprites/spr_playerN_knightmove/spr_playerN_knightmove.yy",},

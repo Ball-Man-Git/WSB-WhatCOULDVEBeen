@@ -26,7 +26,7 @@ function scr_player_taunt()
         {
             state = UnknownEnum.Value_15;
             image_speed = 0.35;
-            sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3);
+            sprite_index = choose(spr_player_supertaunt1, spr_player_supertaunt2, spr_player_supertaunt3, spr_player_supertaunt4);
             image_index = 0;
             FMODevent_oneshot("event:/Sfx/Player/supertaunt", x, y);
             supertaunt = 0;

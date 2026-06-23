@@ -1,5 +1,9 @@
 var _rm = targetRoom;
 var _dr = "A";
+var titlecardSpr = lang_get_asset(string_concat("spr_titlecard", titlecardName));
+var titlecardNamesprite = lang_get_asset(string_concat("spr_titlecard", titlecardName, "Title1"));
+var titlecardNamesprite2 = lang_get_asset(string_concat("spr_titlecard", titlecardName, "Title2"));
+var titlecardMus = titlecardMusic
 
 var _curtain_open_placeholder = spr_genericpoofeffect; 
 var _curtain = instance_place(x, y, obj_gate_curtain);
@@ -51,10 +55,10 @@ with (other)
         {
             with instance_create(0, 0, obj_titlecard)
 			{
-			titlecardSprite = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName));
-			titlecardName.sprite = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName, "Title1"));
-			titlecardName.sprite2 = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName, "Title2"));
-			titlecardMusic = _curGate.titlecardMusic
+			titlecardSprite = titlecardSpr
+			titlecardName.sprite = titlecardNamesprite
+			titlecardName.sprite2 = titlecardNamesprite2
+			titlecardMusic = titlecardMus
 			}
         }
     }

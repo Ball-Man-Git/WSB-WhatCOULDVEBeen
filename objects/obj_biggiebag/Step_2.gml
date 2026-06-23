@@ -46,7 +46,8 @@ if (hitstun.is == false)
 		}
 	}
 }
-
+else
+{
 	if (hitstun.time >= 0)
 {
     image_speed = 0;
@@ -59,4 +60,5 @@ else
     x = hitstun.x;
     y = hitstun.y;
     hitstun.is = false;
+}
 }

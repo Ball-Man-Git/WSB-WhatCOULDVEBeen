@@ -28,7 +28,7 @@ if (hitstun.is == false)
             scr_enemy_thrown();
             break;
     }
-		hitbox = (UnknownEnum.Value_9 || state == UnknownEnum.Value_8) && spr_move == spr_plosher
+		hitbox = (UnknownEnum.Value_9 || state == UnknownEnum.Value_8) && plosher
 	if hitbox == true
 	{
 		if !instance_exists(hitboxInst)

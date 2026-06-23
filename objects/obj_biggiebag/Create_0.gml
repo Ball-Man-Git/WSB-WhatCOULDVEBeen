@@ -18,3 +18,7 @@ spr_dead = spr_biggiebag_dead;
 }
 hitbox = false
 hitboxInst = noone
+
+plosher = false
+if spr_move == spr_plosher
+plosher = true

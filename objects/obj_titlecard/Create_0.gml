@@ -1,8 +1,11 @@
 titlecardSprite = lang_get_asset("spr_titlecardMonolith");
+titlecardMusic = "event:/Music/W1/Monolith Mangrove/titlecard"
+
 
 titlecardName = 
 {
     sprite: lang_get_asset("spr_titlecardMonolithTitle1"),
+	sprite2: lang_get_asset("spr_titlecardMonolithTitle2"),
     x: 0,
     y: 0,
     alpha: 0,

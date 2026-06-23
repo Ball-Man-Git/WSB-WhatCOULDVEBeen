@@ -270,6 +270,7 @@
     {"name":"spr_egghead_stun","order":117,"path":"sprites/spr_egghead_stun/spr_egghead_stun.yy",},
     {"name":"spr_egghead","order":290,"path":"sprites/spr_egghead/spr_egghead.yy",},
     {"name":"spr_enemyspawner","order":276,"path":"sprites/spr_enemyspawner/spr_enemyspawner.yy",},
+    {"name":"spr_ernie_surfhit","order":2,"path":"sprites/spr_ernie_surfhit/spr_ernie_surfhit.yy",},
     {"name":"spr_ernie_surfing","order":1,"path":"sprites/spr_ernie_surfing/spr_ernie_surfing.yy",},
     {"name":"spr_escapespawner","order":27,"path":"sprites/spr_escapespawner/spr_escapespawner.yy",},
     {"name":"spr_escapestar","order":313,"path":"sprites/spr_escapestar/spr_escapestar.yy",},

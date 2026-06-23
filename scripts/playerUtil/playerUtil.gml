@@ -577,7 +577,7 @@ function get_characterspr(arg0)
 			        case UnknownEnum.Value_2:
             st.player.idle = spr_ernie_idle;
             st.player.taunt = spr_player_taunt;
-			st.player.mach1 = spr_ernie_runstart;
+			st.player.mach1 = spr_ernie_runkillenemy;
 			st.player.mach2 = spr_player_mach2;
             st.player.mach3 = spr_ernie_run;
             st.player.mach3hit = spr_ernie_runkillenemy;

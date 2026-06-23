@@ -380,11 +380,13 @@ if isErnie
 	{
 		sprites.idle = spr_ernie_idlespray
 	sprites.mach3 = spr_ernie_runwithspray
+	sprites.mach3hit = spr_ernie_runwithspray
 	}
 	else
 	{
 		sprites.idle = spr_ernie_idle
 	sprites.mach3 = spr_ernie_surfing
+	sprites.mach3hit = spr_ernie_surfhit
 	}
 }
 

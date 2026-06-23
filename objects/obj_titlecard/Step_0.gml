@@ -9,7 +9,7 @@ if (scene == 0 || scene == 1)
         
         if (fadeAlpha == 1)
         {
-            FMODevent_oneshot("event:/Music/W1/Monolith Mangrove/titlecard");
+            FMODevent_oneshot(titlecardMusic);
             fadeIn = false;
             scene = 1;
             alarm[0] = 120;
@@ -28,7 +28,7 @@ if (scene == 0 || scene == 1)
         if (titlecardName.alpha == 0)
         {
             titlecardName.fadeIn = false;
-            titlecardName.sprite = lang_get_asset("spr_titlecardMonolithTitle2");
+            titlecardName.sprite = titlecardName.sprite2
         }
     }
     else if (titlecardName.fadeIn == false)

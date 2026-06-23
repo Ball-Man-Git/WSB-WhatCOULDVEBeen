@@ -3,6 +3,7 @@ var _dr = "A";
 
 var _curtain_open_placeholder = spr_genericpoofeffect; 
 var _curtain = instance_place(x, y, obj_gate_curtain);
+var _curGate = instance_place(x, y, obj_levelgate);
 var _locked = (_curtain != noone && _curtain.sprite_index != _curtain_open_placeholder);
 
 if (!_locked)
@@ -48,7 +49,13 @@ with (other)
         }
         else if (!instance_exists(obj_titlecard))
         {
-            instance_create(0, 0, obj_titlecard);
+            with instance_create(0, 0, obj_titlecard)
+			{
+			titlecardSprite = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName));
+			titlecardName.sprite = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName, "Title1"));
+			titlecardName.sprite2 = lang_get_asset(string_concat("spr_titlecard", _curGate.titlecardName, "Title2"));
+			titlecardMusic = _curGate.titlecardMusic
+			}
         }
     }
 }

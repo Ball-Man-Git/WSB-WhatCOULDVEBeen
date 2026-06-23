@@ -74,7 +74,7 @@ function scr_player_machturn()
             xscale *= -1;
             movespeed = 8;
             state = UnknownEnum.Value_3;
-            sprite_index = spr_player_mach2;
+            sprite_index = sprites.mach2;
             image_index = 0;
         }
         else if (sprite_index == sprites.mach3turn)
@@ -96,13 +96,17 @@ function scr_player_machturn()
         {
             xscale *= -1;
             movespeed = 8;
+			        squashX = 1.3;
+        squashY = 0.8;
             state = UnknownEnum.Value_3;
-            sprite_index = spr_player_mach2;
+            sprite_index = sprites.mach2;
             image_index = 0;
         }
         else if (sprite_index == spr_player_mach3turnfall)
         {
             xscale *= -1;
+			        squashX = 1.3;
+        squashY = 0.8;
 			if (character == UnknownEnum.Value_2)
 			    movespeed = 14;
 			else

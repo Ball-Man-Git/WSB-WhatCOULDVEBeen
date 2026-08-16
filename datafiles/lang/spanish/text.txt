@@ -103,7 +103,6 @@
   "tip_supertaunt":"[wave][U][T] Super Vacile",
   
   "caption_main":"What's Shakin', Bacon?: WHAT COULD'VE BEEN",
-uhhh iirc this caption and other captions were made by toptf and we dont want thid diddyblud's work so if he DID make that caption or others delete them pls ball man thank you 
   
   "rank_score":"SCORE: {0}",
   "rank_time":"TIME: {0}",

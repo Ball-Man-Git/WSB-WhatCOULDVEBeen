@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_milton_groundpoundland",
   "bboxMode":0,
   "bbox_bottom":112,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b962ab9c-678c-400a-b334-171076656ab4","name":"b962ab9c-678c-400a-b334-171076656ab4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"694bba3f-097f-4899-80a2-125175e74919","name":"694bba3f-097f-4899-80a2-125175e74919","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b962ab9c-678c-400a-b334-171076656ab4","name":"b962ab9c-678c-400a-b334-171076656ab4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"694bba3f-097f-4899-80a2-125175e74919","name":"694bba3f-097f-4899-80a2-125175e74919","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,21 +74,11 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"925c5b24-7eb8-4943-9b61-dda6acb1b343","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5acd56ff-3fe2-4c02-aff2-c95b8e072f2d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b962ab9c-678c-400a-b334-171076656ab4","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"76df8a44-b7bf-45ae-acef-2da307287b2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"694bba3f-097f-4899-80a2-125175e74919","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3d2c0cbf-76f4-459e-bc5d-e0e454609b56","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af04ae24-61f2-4627-b1b3-7b3c42395468","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f6bd655-071c-4cdd-a979-33a34ec7f9db","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"925c5b24-7eb8-4943-9b61-dda6acb1b343","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"38e25614-4034-45f6-b7a7-a94a3d82dff4","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5acd56ff-3fe2-4c02-aff2-c95b8e072f2d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b962ab9c-678c-400a-b334-171076656ab4","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"76df8a44-b7bf-45ae-acef-2da307287b2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"694bba3f-097f-4899-80a2-125175e74919","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3d2c0cbf-76f4-459e-bc5d-e0e454609b56","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0329f2a0-574e-485b-86dd-ad6aed1624d3","path":"sprites/spr_milton_groundpoundland/spr_milton_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"af04ae24-61f2-4627-b1b3-7b3c42395468","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

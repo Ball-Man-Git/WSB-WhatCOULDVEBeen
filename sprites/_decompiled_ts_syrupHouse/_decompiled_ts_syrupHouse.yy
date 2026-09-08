@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"_decompiled_ts_syrupHouse",
   "bboxMode":0,
   "bbox_bottom":2048,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b8939a32-31dd-4943-9da4-cd8548139515","name":"b8939a32-31dd-4943-9da4-cd8548139515","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b8939a32-31dd-4943-9da4-cd8548139515","name":"b8939a32-31dd-4943-9da4-cd8548139515","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

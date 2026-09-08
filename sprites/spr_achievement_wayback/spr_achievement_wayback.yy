@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_wayback",
   "bboxMode":0,
   "bbox_bottom":82,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,18 +73,10 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8e6840c8-6726-4b94-abfa-f47484907e0c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4aec0743-672e-4d3f-ac98-1f6befcf4ae6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"c0246cc4-87fb-4bb9-a97b-e8c0b75c5908","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af41ad18-a570-4ddb-943c-8fefe524f2c5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"049b56a8-0374-4e85-9f24-9fca5bc616ed","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8e6840c8-6726-4b94-abfa-f47484907e0c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0ef73f5-8cca-49bd-9e81-b153cde97235","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4aec0743-672e-4d3f-ac98-1f6befcf4ae6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1cff4b83-47e4-4383-8bb6-df04fd40cf8d","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c0246cc4-87fb-4bb9-a97b-e8c0b75c5908","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa14d135-fe66-4adf-9fd8-3583df4f2ec2","path":"sprites/spr_achievement_wayback/spr_achievement_wayback.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"af41ad18-a570-4ddb-943c-8fefe524f2c5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

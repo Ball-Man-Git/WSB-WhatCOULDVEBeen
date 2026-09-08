@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"content","filters":[],"listItems":[],"multiselect":false,"name":"content","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":{"name":"obj_biggiebag","path":"objects/obj_biggiebag/obj_biggiebag.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_biggiebag","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"content","filters":[],"listItems":[],"multiselect":false,"name":"content","rangeEnabled":false,"rangeMax":0.0,"rangeMin":0.0,"resource":{"name":"obj_biggiebag","path":"objects/obj_biggiebag/obj_biggiebag.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_biggiebag","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

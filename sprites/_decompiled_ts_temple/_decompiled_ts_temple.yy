@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"_decompiled_ts_temple",
   "bboxMode":0,
   "bbox_bottom":1568,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fc8b4a45-08b6-4a5c-8bc5-3c64f7a88b95","name":"fc8b4a45-08b6-4a5c-8bc5-3c64f7a88b95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc8b4a45-08b6-4a5c-8bc5-3c64f7a88b95","name":"fc8b4a45-08b6-4a5c-8bc5-3c64f7a88b95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

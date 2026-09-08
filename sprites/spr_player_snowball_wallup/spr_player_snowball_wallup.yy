@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_snowball_wallup",
   "bboxMode":0,
   "bbox_bottom":86,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,24 +75,12 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"49e5189f-db92-4cdf-9d45-453465a805cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"120584f8-dbfa-4e32-9e6b-13551de283df","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af99ace3-1316-4fba-89d9-c318d096af8e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"866c51f3-45b6-41d8-94c7-4db08f97d57f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"273fa127-b9d6-4647-939c-b51244ae09eb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4d6e6166-ba1d-4b6a-aec7-cb3043837a4b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1590103e-f8d8-4c94-a12d-0e327b8364a5","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49e5189f-db92-4cdf-9d45-453465a805cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"89e06383-53d5-46a7-87b7-a2d3a3cd4dce","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"120584f8-dbfa-4e32-9e6b-13551de283df","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fb7a9727-e447-44d5-8eb3-0705d7f42ecc","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"af99ace3-1316-4fba-89d9-c318d096af8e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8ba7692-103c-4c88-ac54-3e1891e2caa8","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"866c51f3-45b6-41d8-94c7-4db08f97d57f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"76a5e835-9870-4cd6-986e-23c72c1cc4ae","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"273fa127-b9d6-4647-939c-b51244ae09eb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"97acd777-e1a3-43ae-8c94-32b4aba1c464","path":"sprites/spr_player_snowball_wallup/spr_player_snowball_wallup.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4d6e6166-ba1d-4b6a-aec7-cb3043837a4b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

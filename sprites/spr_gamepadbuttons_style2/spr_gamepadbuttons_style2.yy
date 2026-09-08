@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gamepadbuttons_style2",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,22 +12,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95d50128-c0f7-4584-8796-5f78cae9d136","name":"95d50128-c0f7-4584-8796-5f78cae9d136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9bb1f694-3fc9-40a2-9118-db605c649989","name":"9bb1f694-3fc9-40a2-9118-db605c649989","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"605b4b92-907c-4cf2-9fba-c524b377a608","name":"605b4b92-907c-4cf2-9fba-c524b377a608","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"62285812-c73c-4b57-8d72-bc728d9a25e0","name":"62285812-c73c-4b57-8d72-bc728d9a25e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"15553bf1-d658-4cb4-8307-450b3d0fde61","name":"15553bf1-d658-4cb4-8307-450b3d0fde61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95d50128-c0f7-4584-8796-5f78cae9d136","name":"95d50128-c0f7-4584-8796-5f78cae9d136","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9bb1f694-3fc9-40a2-9118-db605c649989","name":"9bb1f694-3fc9-40a2-9118-db605c649989","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"605b4b92-907c-4cf2-9fba-c524b377a608","name":"605b4b92-907c-4cf2-9fba-c524b377a608","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62285812-c73c-4b57-8d72-bc728d9a25e0","name":"62285812-c73c-4b57-8d72-bc728d9a25e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"15553bf1-d658-4cb4-8307-450b3d0fde61","name":"15553bf1-d658-4cb4-8307-450b3d0fde61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -85,54 +85,22 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"55e86115-7c9b-4ef9-8d16-6e80f9a000e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b9ff6cd2-6825-44c5-a9f4-13fab6bc7b96","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"395a2806-1cfa-489b-be08-c009215f5a50","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5b01bf88-6e43-44b4-99ef-6e87ce7f1ef1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95d50128-c0f7-4584-8796-5f78cae9d136","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d58c9cfc-7db7-43f7-ad26-7018d3050cdb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af8eca7d-aa36-4373-a94a-55bc283c1348","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a74c8703-c2e5-4516-aa55-cc088bbaa341","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6a8cec04-2a98-44f1-a2f1-02781817b91e","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f3c280c0-251a-42b6-ae9c-a140403608e6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"3c31e36d-ed9a-453e-b82f-78860842d4fe","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bb1f694-3fc9-40a2-9118-db605c649989","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"59db49a8-3923-40ae-a152-abe36bbf7763","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"ed2aebe8-57bb-4c86-b17f-f2f4411d6277","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"605b4b92-907c-4cf2-9fba-c524b377a608","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"249c2386-806d-4c84-b2cc-fc328b579daf","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62285812-c73c-4b57-8d72-bc728d9a25e0","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e44ac3e-d34d-4cde-b118-2a4ad5e756ff","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5511c097-474c-465c-9b6f-10f5b3eeb8e7","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15553bf1-d658-4cb4-8307-450b3d0fde61","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"96a40098-ecd9-4714-8f4e-14366c30e0ec","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a2f685f-9f63-4c84-b4d8-1a30dfed531b","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"55e86115-7c9b-4ef9-8d16-6e80f9a000e5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"47e7acce-4bb9-4c94-ba4a-d63b47304210","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b9ff6cd2-6825-44c5-a9f4-13fab6bc7b96","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b0dfabd-acf1-4fa2-9b35-05e4191ef6c3","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"395a2806-1cfa-489b-be08-c009215f5a50","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fe7a4a0f-dd70-4a74-ae8f-d7c04cbdcf05","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5b01bf88-6e43-44b4-99ef-6e87ce7f1ef1","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"95d50128-c0f7-4584-8796-5f78cae9d136","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d58c9cfc-7db7-43f7-ad26-7018d3050cdb","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"07490203-b4b6-4bbf-8a72-d9b44a825b18","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"af8eca7d-aa36-4373-a94a-55bc283c1348","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9734fb0b-8eac-47fd-a141-d1ed504c1816","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a74c8703-c2e5-4516-aa55-cc088bbaa341","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e5b90003-a1d7-4b46-933e-e07cdeb379a7","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6a8cec04-2a98-44f1-a2f1-02781817b91e","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ab9671e-ec12-43fa-b985-d4b6b97ad8e3","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f3c280c0-251a-42b6-ae9c-a140403608e6","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f6b8b503-2e5f-43c0-9f23-d50c4e47734b","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3c31e36d-ed9a-453e-b82f-78860842d4fe","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9bb1f694-3fc9-40a2-9118-db605c649989","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"59db49a8-3923-40ae-a152-abe36bbf7763","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f8f47ef3-1838-4229-a3e1-a012cc88cca8","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ed2aebe8-57bb-4c86-b17f-f2f4411d6277","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"605b4b92-907c-4cf2-9fba-c524b377a608","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"249c2386-806d-4c84-b2cc-fc328b579daf","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"62285812-c73c-4b57-8d72-bc728d9a25e0","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5e44ac3e-d34d-4cde-b118-2a4ad5e756ff","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca633445-6bdc-43ff-b576-ac5b591b3a7a","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5511c097-474c-465c-9b6f-10f5b3eeb8e7","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"15553bf1-d658-4cb4-8307-450b3d0fde61","path":"sprites/spr_gamepadbuttons_style2/spr_gamepadbuttons_style2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"96a40098-ecd9-4714-8f4e-14366c30e0ec","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,11 +1,12 @@
 {
-  "$GMNotes": "",
-  "%Name": "README",
-  "name": "README",
-  "parent": {
-    "name": "DecompilerGenerated",
-    "path": "folders/DecompilerGenerated.yy",
+  "$GMNotes":"v1",
+  "%Name":"README",
+  "name":"README",
+  "openedOnFirstLoad":true,
+  "parent":{
+    "name":"DecompilerGenerated",
+    "path":"folders/DecompilerGenerated.yy",
   },
-  "resourceType": "GMNotes",
-  "resourceVersion": "2.0",
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }

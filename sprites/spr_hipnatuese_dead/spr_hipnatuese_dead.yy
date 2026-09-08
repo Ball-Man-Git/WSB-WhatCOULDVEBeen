@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_hipnatuese_dead",
   "bboxMode":0,
   "bbox_bottom":163,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eabb270a-8d76-4e58-a7e7-915d3bcecb4b","name":"eabb270a-8d76-4e58-a7e7-915d3bcecb4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eabb270a-8d76-4e58-a7e7-915d3bcecb4b","name":"eabb270a-8d76-4e58-a7e7-915d3bcecb4b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

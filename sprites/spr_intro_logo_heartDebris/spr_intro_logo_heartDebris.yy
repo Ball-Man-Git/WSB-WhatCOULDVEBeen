@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_intro_logo_heartDebris",
   "bboxMode":0,
   "bbox_bottom":214,
@@ -12,20 +12,20 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b26eee02-f218-4926-b1a0-71a30848e77e","name":"b26eee02-f218-4926-b1a0-71a30848e77e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b296b54c-bed2-41d5-a415-75a81df764f8","name":"b296b54c-bed2-41d5-a415-75a81df764f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d724ca99-a30d-4fd1-803a-425a30def139","name":"d724ca99-a30d-4fd1-803a-425a30def139","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5f0d790c-bb14-4993-80cc-cca856a31349","name":"5f0d790c-bb14-4993-80cc-cca856a31349","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"083ab3f9-9060-4097-978e-d6a4feabc141","name":"083ab3f9-9060-4097-978e-d6a4feabc141","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b3c7c461-c725-45aa-b277-028252452579","name":"b3c7c461-c725-45aa-b277-028252452579","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b26eee02-f218-4926-b1a0-71a30848e77e","name":"b26eee02-f218-4926-b1a0-71a30848e77e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b296b54c-bed2-41d5-a415-75a81df764f8","name":"b296b54c-bed2-41d5-a415-75a81df764f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d724ca99-a30d-4fd1-803a-425a30def139","name":"d724ca99-a30d-4fd1-803a-425a30def139","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f0d790c-bb14-4993-80cc-cca856a31349","name":"5f0d790c-bb14-4993-80cc-cca856a31349","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"083ab3f9-9060-4097-978e-d6a4feabc141","name":"083ab3f9-9060-4097-978e-d6a4feabc141","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3c7c461-c725-45aa-b277-028252452579","name":"b3c7c461-c725-45aa-b277-028252452579","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -83,48 +83,20 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"a28ea778-c9fe-4ea9-b68c-7bc7604ebd81","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b26eee02-f218-4926-b1a0-71a30848e77e","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"cd75fe4a-6752-4a60-a676-007f46fa3fab","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b296b54c-bed2-41d5-a415-75a81df764f8","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"61530dca-e44c-4990-aa69-a3a12083ebaf","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d724ca99-a30d-4fd1-803a-425a30def139","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9f0a3573-6992-4331-b056-3a17cc6f10a0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f0d790c-bb14-4993-80cc-cca856a31349","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fa2d1226-c5dc-4258-8eec-9498cd654570","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"200055cb-a534-48b4-9868-2e3879cbaad8","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9a4579a0-7539-45cb-a305-466417512930","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"94153b87-1098-496f-9db5-44dc04970c5b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5d74612b-1806-4c9c-baad-60d5f70a2777","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2d3aafe4-6b69-4ad0-a378-7094773244d0","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"083ab3f9-9060-4097-978e-d6a4feabc141","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"81f8e0f3-ede7-49be-b27b-39fbd81ec420","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3c7c461-c725-45aa-b277-028252452579","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44097159-595e-4936-95b4-502033b5bb9b","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"00b51419-4812-4ddf-b14f-a14f20243af6","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e49b4333-ada1-44c8-ac03-210350c3b010","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a5b5db6-d756-466e-a3dc-2dd0c368ef5c","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a28ea778-c9fe-4ea9-b68c-7bc7604ebd81","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b26eee02-f218-4926-b1a0-71a30848e77e","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cd75fe4a-6752-4a60-a676-007f46fa3fab","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b296b54c-bed2-41d5-a415-75a81df764f8","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"61530dca-e44c-4990-aa69-a3a12083ebaf","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d724ca99-a30d-4fd1-803a-425a30def139","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9f0a3573-6992-4331-b056-3a17cc6f10a0","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f0d790c-bb14-4993-80cc-cca856a31349","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fa2d1226-c5dc-4258-8eec-9498cd654570","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e6a55a63-24d7-4d51-aa3b-e317c33d2a06","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"200055cb-a534-48b4-9868-2e3879cbaad8","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2abe6fef-0694-469d-bb4f-340c12dfaf7d","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9a4579a0-7539-45cb-a305-466417512930","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d834f27-8432-48cc-955f-aaf44bbe9b47","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"94153b87-1098-496f-9db5-44dc04970c5b","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bdbdfc3b-5400-48c6-a22f-03a9c0767861","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5d74612b-1806-4c9c-baad-60d5f70a2777","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3bfa5019-2e24-45e4-a967-9d5989318c9d","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d3aafe4-6b69-4ad0-a378-7094773244d0","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"083ab3f9-9060-4097-978e-d6a4feabc141","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"81f8e0f3-ede7-49be-b27b-39fbd81ec420","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3c7c461-c725-45aa-b277-028252452579","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"44097159-595e-4936-95b4-502033b5bb9b","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"22251a76-9ff9-4f55-912f-70f3519d0a0a","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"00b51419-4812-4ddf-b14f-a14f20243af6","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8b4aca9a-90b0-44d3-9e5e-4c7e00c4852f","path":"sprites/spr_intro_logo_heartDebris/spr_intro_logo_heartDebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e49b4333-ada1-44c8-ac03-210350c3b010","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

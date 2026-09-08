@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lover_chocolate1",
   "bboxMode":0,
   "bbox_bottom":28,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2755b486-e4d6-462d-9633-b5f2fbfc1dbd","name":"2755b486-e4d6-462d-9633-b5f2fbfc1dbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2755b486-e4d6-462d-9633-b5f2fbfc1dbd","name":"2755b486-e4d6-462d-9633-b5f2fbfc1dbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

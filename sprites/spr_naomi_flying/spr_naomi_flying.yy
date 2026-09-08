@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_naomi_flying",
   "bboxMode":0,
   "bbox_bottom":96,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,30 +77,14 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2823e478-3ec8-4c5b-86ba-675b001cd747","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d63c09f3-4339-4e42-818e-a5d202145899","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fec8e5d1-7098-407f-995c-799ea32e0d35","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fc48224b-3bfd-4bbf-b668-438f02db5fb5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"bac15cd7-fa9a-4c9d-8b16-853fcc248ed8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0cd1a594-fecc-4a10-9765-82f3d4c64a4d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"de3a0269-b16d-47f4-98f3-6df4dc7a6158","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e5a3602-dda6-4984-9fcb-7e86ae5e3f85","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b39b5653-c7d2-43c3-b807-41ddb85076a5","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2823e478-3ec8-4c5b-86ba-675b001cd747","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c3d7b61f-ea68-45db-95f4-2990b87225a6","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d63c09f3-4339-4e42-818e-a5d202145899","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb7f0f0a-8810-42aa-964d-d012376c2cda","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fec8e5d1-7098-407f-995c-799ea32e0d35","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc7ee800-cde1-450e-8a9a-e6d0a89fc3b7","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fc48224b-3bfd-4bbf-b668-438f02db5fb5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5cdd566-2601-45ce-b15d-d2f5f625abbc","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bac15cd7-fa9a-4c9d-8b16-853fcc248ed8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0d76316-ac2d-4555-bdca-ff16ef34c7b7","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0cd1a594-fecc-4a10-9765-82f3d4c64a4d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ab630ac-e1d7-4de5-9ae4-4baf8e79e021","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"de3a0269-b16d-47f4-98f3-6df4dc7a6158","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2cff6e09-38db-4bb6-8cce-2203fed805dc","path":"sprites/spr_naomi_flying/spr_naomi_flying.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9e5a3602-dda6-4984-9fcb-7e86ae5e3f85","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_dialogportraitPlaceholder1",
   "bboxMode":0,
   "bbox_bottom":121,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6f36edf2-58f4-4ddc-8a96-22ebfce949db","name":"6f36edf2-58f4-4ddc-8a96-22ebfce949db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6f36edf2-58f4-4ddc-8a96-22ebfce949db","name":"6f36edf2-58f4-4ddc-8a96-22ebfce949db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

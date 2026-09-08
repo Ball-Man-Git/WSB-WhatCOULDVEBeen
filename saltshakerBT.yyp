@@ -144,7 +144,10 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences":[],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_greyscale-1.0.0","name":"io.gamemaker.gm_filter_greyscale-1.0.0","path":"io.gamemaker.gm_filter_greyscale-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_tintfilter-1.0.0","name":"io.gamemaker.gm_filter_tintfilter-1.0.0","path":"io.gamemaker.gm_filter_tintfilter-1.0.0.yyp",},
+  ],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"fmodL.dll","CopyToMask":-1,"filePath":"datafiles","name":"fmodL.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"fmodstudioL.dll","CopyToMask":-1,"filePath":"datafiles","name":"fmodstudioL.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -244,9 +247,9 @@
     {"$GMIncludedFile":"","%Name":"Master.strings.bank","CopyToMask":-1,"filePath":"datafiles/sound/Desktop","name":"Master.strings.bank","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Music.bank","CopyToMask":-1,"filePath":"datafiles/sound/Desktop","name":"Music.bank","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Sfx.bank","CopyToMask":-1,"filePath":"datafiles/sound/Desktop","name":"Sfx.bank","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"ohthatsnoworry.mp4","CopyToMask":-1,"filePath":"datafiles/videos","name":"ohthatsnoworry.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"placeholder_intro.mp4","CopyToMask":-1,"filePath":"datafiles/videos","name":"placeholder_intro.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"YYFMOD_x64.dll","CopyToMask":-1,"filePath":"datafiles","name":"YYFMOD_x64.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"ohthatsnoworry.mp4","CopyToMask":-1,"filePath":"datafiles/videos","name":"ohthatsnoworry.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
